@@ -38,7 +38,7 @@ export default function App() {
   const [showToast, setShowToast] = useState(false);
 
   // Sorting and Pagination State
-  const [sortMode, setSortMode] = useState('alpha'); 
+  const [sortMode, setSortMode] = useState('mostElected'); 
   const [onlyElected, setOnlyElected] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 48;
