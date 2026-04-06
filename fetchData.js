@@ -2,7 +2,7 @@ import axios from 'axios';
 import ExcelJS from 'exceljs';
 import fs from 'fs';
 
-const SHEET_URL = 'https://docs.google.com/spreadsheets/d/1IjXVeLQTejRbo16q_mh7lTS7WqjDv0MhovZdFMCwhOg/export?format=xlsx&gid=0';
+const SHEET_URL = process.env.SHEET_URL || 'https://docs.google.com/spreadsheets/d/1IjXVeLQTejRbo16q_mh7lTS7WqjDv0MhovZdFMCwhOg/export?format=xlsx&gid=0';
 const OUT_FILE = './public/data.json';
 
 async function fetchAndParse() {

@@ -20,12 +20,14 @@ Una aplicación web interactiva diseñada para explorar y analizar el historial 
 ### Instalación
 
 1. Clonar el repositorio:
+
    ```bash
    git clone https://github.com/TU_USUARIO/TU_REPO.git
    cd proyecto-sl
    ```
 
 2. Instalar dependencias:
+
    ```bash
    npm install
    ```
@@ -56,7 +58,8 @@ Este comando descargará los datos del Google Sheet, los procesará y generará 
 ## 🤝 Créditos
 
 - **Data Source**: Información recopilada y actualizada por [Mariano Casla (@mariano_casla99)](https://x.com/mariano_casla99).
-- **Desarrollador**: Antigravity AI.
+- **Vibecodeado por**: [Gonzalo Suarez (@chagasalo)](https://x.com/chagasalo) Antigravity AI.
 
 ---
-*Hecho por y para los socios de San Lorenzo.*
+
+_Hecho por y para los socios de San Lorenzo._
