@@ -141,10 +141,14 @@ export default function App() {
     
     let filtered = data.filter(c => {
       if (term && !c.name.toLowerCase().includes(term)) return false;
-      const matchYear = selectedYear ? c.history.some(h => h.year === selectedYear) : true;
-      const matchList = selectedList ? c.history.some(h => h.list === selectedList && (!selectedYear || h.year === selectedYear)) : true;
-      const matchElected = onlyElected ? c.history.some(h => h.elected) : true;
-      return matchYear && matchList && matchElected;
+      // A candidate passes if at least one history entry satisfies ALL active filters simultaneously.
+      // This ensures "solo electos" + year means "elected IN that specific year", not "ever elected".
+      return c.history.some(h => {
+        if (selectedYear && h.year !== selectedYear) return false;
+        if (selectedList && h.list !== selectedList) return false;
+        if (onlyElected && !h.elected) return false;
+        return true;
+      });
     });
 
     // Custom Sorting for Candidates
