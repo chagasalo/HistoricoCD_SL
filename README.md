@@ -1,29 +1,47 @@
-# 🟦🟥 Historial de Candidatos - San Lorenzo de Almagro
+# 🟦🟥 Mapa de Candidatos - San Lorenzo de Almagro
 
-Una aplicación web interactiva diseñada para explorar y analizar el historial político de los candidatos a la Comisión Directiva de San Lorenzo. Permite visualizar trayectorias, "traspasos" entre agrupaciones y la conformación histórica de las comisiones.
+Una aplicación web interactiva diseñada para explorar y analizar el historial político completo de los candidatos del Club Atlético San Lorenzo de Almagro. Permite visualizar trayectorias en múltiples órganos, pases entre agrupaciones y la conformación histórica de las comisiones.
 
-## ✨ Características
+## ✨ Características Principales
 
-- **Explorador de Candidatos**: Filtra por nombre, agrupación o año de elección.
-- **Mapa de Pases**: Visualiza el "transfuguismo" o cambios de lista de los candidatos a lo largo de los años.
-- **Conformaciones Históricas**: Análisis de cómo quedaron compuestas las Comisiones Directivas en cada elección.
-- **Diseño Premium**: Interfaz moderna, rápida y adaptada a la identidad visual de San Lorenzo.
-- **Actualización en Tiempo Real**: Sincronización con base de datos en Google Sheets.
+- **Explorador Multicategoría**: Visualizá participaciones consolidadas en **Comisión Directiva**, **Comisión Fiscalizadora** y **Asamblea**.
+- **Ordenamiento Estratégico**: Ranking inteligente que prioriza la jerarquía política:
+  1. Cantidad de veces **Efectivamente Electo** en CD 🥇
+  2. Trayectoria total en CD.
+  3. Cantidad de veces Electo en Fiscalizadora.
+  4. ...y así sucesivamente.
+- **Mapa de Pases**: Visualiza el "transfuguismo" histórico, identificando candidatos que han participado en múltiples listas a lo largo de los años.
+- **Conformaciones Históricas**: Análisis detallado de la composición de los órganos de gobierno tras cada elección.
+- **Deep Linking**: Compartí enlaces directos a secciones específicas (Candidatos, Pases o Conformaciones) mediante rutas basadas en hash.
+- **Sincronización Automática**: El sistema se actualiza automáticamente cada 6 horas consultando el Excel oficial.
+
+## 📊 Automatización y Datos
+
+La aplicación utiliza un pipeline de datos (ETL) en Node.js que:
+
+1. Descarga el archivo oficial de Google Sheets.
+2. Procesa y normaliza nombres de candidatos y agrupaciones.
+3. Clasifica las participaciones según el órgano (CD, Asamblea, Fiscalizadora).
+4. Genera un archivo `data.json` enriquecido con metadatos de sincronización.
+
+### Automatización con GitHub Actions
+
+El proyecto incluye un flujo de trabajo (`.github/workflows/redeploy.yml`) que dispara un despliegue en Vercel cada 6 horas para garantizar la frescura de la información sin intervención manual.
 
 ## 🚀 Inicio Rápido
 
 ### Requisitos Previos
 
-- [Node.js](https://nodejs.org/) (v18 o superior recomendado)
+- [Node.js](https://nodejs.org/) (v18 o superior)
 - [Git](https://git-scm.com/)
 
-### Instalación
+### Instalación Local
 
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/TU_USUARIO/TU_REPO.git
-   cd proyecto-sl
+   git clone https://github.com/chagasalo/HistoricoCD_SL.git
+   cd HistoricoCD_SL
    ```
 
 2. Instalar dependencias:
@@ -32,34 +50,31 @@ Una aplicación web interactiva diseñada para explorar y analizar el historial 
    npm install
    ```
 
-3. Iniciar el servidor de desarrollo:
+3. Actualizar datos locales (requiere `SHEET_URL` en `.env`):
+
+   ```bash
+   npm run update-data
+   ```
+
+4. Iniciar el servidor de desarrollo:
    ```bash
    npm run dev
    ```
 
-## 📊 Actualización de Datos
-
-La aplicación utiliza un script de Node para extraer la información más reciente desde el Excel oficial:
-
-```bash
-npm run update-data
-```
-
-Este comando descargará los datos del Google Sheet, los procesará y generará un nuevo archivo `public/data.json` que la web consume automáticamente.
-
 ## 🛠️ Tecnologías
 
 - **Frontend**: React 19 + Vite
-- **Animaciones**: Framer Motion
+- **Animaciones**: Framer Motion & AnimatePresence
 - **Iconografía**: Lucide React
-- **Procesamiento de Datos**: ExcelJS + Axios (ETL en Node.js)
-- **Estilos**: Vanilla CSS con variables personalizadas
+- **Procesamiento de Datos**: ExcelJS + Axios (Node.js)
+- **Automatización**: GitHub Actions + Vercel Deploy Hooks
+- **Estilos**: Vanilla CSS (Variables & Flexbox/Grid)
 
 ## 🤝 Créditos
 
 - **Data Source**: Información recopilada y actualizada por [Mariano Casla (@mariano_casla99)](https://x.com/mariano_casla99).
-- **Vibecodeado por**: [Gonzalo Suarez (@chagasalo)](https://x.com/chagasalo) Antigravity AI.
+- **Vibecodeado por**: [Gonzalo Suarez (@chagasalo)](https://x.com/chagasalo) & Antigravity AI.
 
 ---
 
-_Hecho por y para los socios de San Lorenzo._
+_Hecho por y para los hinchas y socios de San Lorenzo. ¡Aguante el Ciclón!_ ❤️💙
