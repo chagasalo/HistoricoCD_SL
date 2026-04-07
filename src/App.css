@@ -316,31 +316,35 @@
 .candidate-lists-container {
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
+  gap: 0.65rem;
 }
 
 /* New inline row: "Boedo en Accion  2023 2022 2010" */
 .candidate-list-row {
   display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  line-height: 1.6;
+  align-items: flex-start;
+  gap: 0.4rem;
+  flex-wrap: nowrap;
+  line-height: 1.3;
+  border-left: 2px solid var(--border-light);
+  padding-left: 0.5rem;
 }
 
 .row-list-name {
-  font-size: 0.78rem;
-  font-weight: 800;
+  font-size: 0.75rem;
+  font-weight: 900;
   font-family: var(--font-heading);
   white-space: nowrap;
   flex-shrink: 0;
+  min-width: fit-content;
 }
 
 .row-years {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.3rem;
+  gap: 0.25rem 0.35rem;
   align-items: center;
+  flex: 1;
 }
 
 .row-year {
