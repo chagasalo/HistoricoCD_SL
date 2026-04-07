@@ -52,20 +52,41 @@ export default function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedList, setSelectedList] = useState('');
   const [selectedYear, setSelectedYear] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('');
   const [activeTab, setActiveTab] = useState('candidates'); 
   const [loading, setLoading] = useState(true);
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [showToast, setShowToast] = useState(false);
 
   // Sorting and Pagination State
-  const [sortMode, setSortMode] = useState('mostElected'); 
+  const [sortMode, setSortMode] = useState('mostLists'); 
   const [onlyElected, setOnlyElected] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 48;
+  const candidatesPerPage = 80;
 
-  const [sortModePases, setSortModePases] = useState('mostLists');
+  const [sortModePases, setSortModePases] = useState('importance');
   const [pasesPage, setPasesPage] = useState(1);
   const pasesPerPage = 48;
+
+  const [selectedBoardCategory, setSelectedBoardCategory] = useState('Comisión Directiva');
+
+  // Hash-based routing for Deep Linking
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.replace('#', '');
+      if (['candidates', 'transitions', 'conformaciones'].includes(hash)) {
+        setActiveTab(hash);
+      }
+    };
+
+    handleHashChange(); // Initial check
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
+  useEffect(() => {
+    window.location.hash = activeTab;
+  }, [activeTab]);
 
   useEffect(() => {
     fetch('/data.json')
@@ -98,7 +119,7 @@ export default function App() {
   // Whenever filters change, reset pagination
   useEffect(() => {
      setCurrentPage(1);
-  }, [searchTerm, selectedList, selectedYear, sortMode, onlyElected]);
+  }, [searchTerm, selectedList, selectedYear, selectedCategory, sortMode, onlyElected]);
 
   useEffect(() => {
      setPasesPage(1);
@@ -110,7 +131,12 @@ export default function App() {
     let electedCount = 0;
     const transMap = new Map(); // to track total lists per candidate for 'Mapa de Pases'
     
-    const boardMap = new Map(); // For Conformaciones de CD
+    // boardMap structure: { [category]: { [year]: { [list]: count } } }
+    const boardMap = {
+      'Comisión Directiva': new Map(),
+      'Asamblea': new Map(),
+      'Fiscalizadora': new Map()
+    };
     
     data.forEach(c => {
       const sortedHistory = [...c.history].sort((a, b) => (a.year || '').localeCompare(b.year || ''));
@@ -126,22 +152,25 @@ export default function App() {
         if (h.elected) {
             electedCount++;
             
-            // Build board configurations aggregate
-            if (!boardMap.has(h.year)) {
-                boardMap.set(h.year, new Map());
+            const catMap = boardMap[h.category || 'Comisión Directiva'];
+            if (catMap) {
+              if (!catMap.has(h.year)) {
+                  catMap.set(h.year, new Map());
+              }
+              const yearData = catMap.get(h.year);
+              yearData.set(h.list, (yearData.get(h.list) || 0) + 1);
             }
-            const yearData = boardMap.get(h.year);
-            yearData.set(h.list, (yearData.get(h.list) || 0) + 1);
         }
 
         if (prevList && prevList !== h.list) {
-            if (!transMap.has(c.name)) {
-                transMap.set(c.name, {
-                   name: c.name,
-                   totalLists: 0,
-                   moves: []
-                });
-            }
+             if (!transMap.has(c.name)) {
+                 transMap.set(c.name, {
+                    name: c.name,
+                    totalLists: 0,
+                    history: c.history,
+                    moves: []
+                 });
+             }
             transMap.get(c.name).moves.push({
                 fromYear: prevYear,
                 fromList: prevList,
@@ -165,46 +194,95 @@ export default function App() {
       }
     }); // end data.forEach
 
-    const term = searchTerm.toLowerCase();
-    
-    let filtered = data.filter(c => {
-      if (term && !c.name.toLowerCase().includes(term)) return false;
-      // A candidate passes if at least one history entry satisfies ALL active filters simultaneously.
-      // This ensures "solo electos" + year means "elected IN that specific year", not "ever elected".
-      return c.history.some(h => {
+    const filtered = data.filter(c => {
+      const matchesSearch = c.name.toLowerCase().includes(searchTerm.toLowerCase());
+      const hasHistoryMatch = c.history.some(h => {
         if (selectedYear && h.year !== selectedYear) return false;
         if (selectedList && h.list !== selectedList) return false;
         if (onlyElected && !h.elected) return false;
+        if (selectedCategory && h.category !== selectedCategory) return false;
         return true;
       });
+      return matchesSearch && hasHistoryMatch;
     });
 
-    // Custom Sorting for Candidates
-    filtered.sort((a, b) => {
-        if (sortMode === 'mostElected') {
-            const eA = a.history.filter(h => h.elected).length;
-            const eB = b.history.filter(h => h.elected).length;
-            if (eB !== eA) return eB - eA;
-        } else if (sortMode === 'mostYears') {
-            const yA = a.history.length;
-            const yB = b.history.length;
-            if (yB !== yA) return yB - yA;
-        }
+    // Custom Sorting: CD Elected > CD Part > Fiscal Elected > Fiscal Part > Asamblea Elected > Asamblea Part
+    const getCatStats = (history, cat) => {
+      const entries = history.filter(h => h.category === cat);
+      return {
+        total: entries.length,
+        elected: entries.filter(h => h.elected).length
+      };
+    };
+
+    const sorted = [...filtered].sort((a, b) => {
+      if (sortMode === 'mostLists') {
+        const statsA = {
+          cd: getCatStats(a.history, 'Comisión Directiva'),
+          f: getCatStats(a.history, 'Fiscalizadora'),
+          as: getCatStats(a.history, 'Asamblea')
+        };
+        const statsB = {
+          cd: getCatStats(b.history, 'Comisión Directiva'),
+          f: getCatStats(b.history, 'Fiscalizadora'),
+          as: getCatStats(b.history, 'Asamblea')
+        };
+
+        // 1. CD Elected
+        if (statsB.cd.elected !== statsA.cd.elected) return statsB.cd.elected - statsA.cd.elected;
+        // 2. CD Total
+        if (statsB.cd.total !== statsA.cd.total) return statsB.cd.total - statsA.cd.total;
+        // 3. Fiscal Elected
+        if (statsB.f.elected !== statsA.f.elected) return statsB.f.elected - statsA.f.elected;
+        // 4. Fiscal Total
+        if (statsB.f.total !== statsA.f.total) return statsB.f.total - statsA.f.total;
+        // 5. Asamblea Elected
+        if (statsB.as.elected !== statsA.as.elected) return statsB.as.elected - statsA.as.elected;
+        // 6. Asamblea Total
+        if (statsB.as.total !== statsA.as.total) return statsB.as.total - statsA.as.total;
+        
         return a.name.localeCompare(b.name);
+      }
+      return a.name.localeCompare(b.name);
     });
 
     const sortedYears = Array.from(years).filter(y => y).sort((a, b) => b.localeCompare(a));
 
     // Transitions sorting
     let trArray = Array.from(transMap.values());
-    if (sortModePases === 'mostLists') {
+    
+    const compareImportance = (a, b) => {
+        const sA = {
+          cd: getCatStats(a.history, 'Comisión Directiva'),
+          f: getCatStats(a.history, 'Fiscalizadora'),
+          as: getCatStats(a.history, 'Asamblea')
+        };
+        const sB = {
+          cd: getCatStats(b.history, 'Comisión Directiva'),
+          f: getCatStats(b.history, 'Fiscalizadora'),
+          as: getCatStats(b.history, 'Asamblea')
+        };
+
+        if (sB.cd.elected !== sA.cd.elected) return sB.cd.elected - sA.cd.elected;
+        if (sB.cd.total !== sA.cd.total) return sB.cd.total - sA.cd.total;
+        if (sB.f.elected !== sA.f.elected) return sB.f.elected - sA.f.elected;
+        if (sB.f.total !== sA.f.total) return sB.f.total - sA.f.total;
+        if (sB.as.elected !== sA.as.elected) return sB.as.elected - sA.as.elected;
+        if (sB.as.total !== sA.as.total) return sB.as.total - sA.as.total;
+        return a.name.localeCompare(b.name);
+    };
+
+    if (sortModePases === 'importance') {
+        trArray.sort(compareImportance);
+    } else if (sortModePases === 'mostLists') {
         trArray.sort((a, b) => b.totalLists - a.totalLists || a.name.localeCompare(b.name));
     } else {
         trArray.sort((a, b) => a.name.localeCompare(b.name));
     }
 
     // BoardConfigs (Conformaciones) aggregation format
-    const aggregatedBoards = Array.from(boardMap.entries())
+    const currentCatMap = boardMap[selectedBoardCategory] || new Map();
+    const aggregatedBoards = Array.from(currentCatMap.entries())
         .sort((a, b) => b[0].localeCompare(a[0])) // Descending years
         .map(([year, listCounts]) => {
             const listsDetails = Array.from(listCounts.entries())
@@ -218,7 +296,7 @@ export default function App() {
             };
         });
     return {
-      filteredCandidates: filtered,
+      filteredCandidates: sorted,
       uniqueLists: Array.from(lists).sort(),
       uniqueYears: sortedYears,
       totalElected: new Set(
@@ -227,31 +305,44 @@ export default function App() {
       sortedTransitions: trArray,
       boardConfigs: aggregatedBoards
     };
-  }, [data, searchTerm, selectedList, selectedYear, sortMode, sortModePases, onlyElected]);
+  }, [data, searchTerm, selectedList, selectedYear, selectedCategory, sortMode, sortModePases, onlyElected, selectedBoardCategory]);
 
   if (loading) {
     return <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', color: '#fff'}}>Cargando...</div>;
   }
 
   // Pagination Logic
-  const totalPages = Math.max(1, Math.ceil(filteredCandidates.length / itemsPerPage));
-  const currentCandidates = filteredCandidates.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+  const totalPages = Math.max(1, Math.ceil(filteredCandidates.length / candidatesPerPage));
+  const currentCandidates = filteredCandidates.slice((currentPage - 1) * candidatesPerPage, currentPage * candidatesPerPage);
 
   const totalPasesPages = Math.max(1, Math.ceil(sortedTransitions.length / pasesPerPage));
   const currentPases = sortedTransitions.slice((pasesPage - 1) * pasesPerPage, pasesPage * pasesPerPage);
 
-  // Grouping function for candidate card
-  const getCardGroups = (history) => {
-      const groupMap = new Map();
+  // Grouping function for candidate card: returns [{ category, lists: [{ list, items }] }]
+  const getCategorizedGroups = (history) => {
+      const catMap = new Map();
       const sorted = [...history].sort((a,b) => (b.year || '').localeCompare(a.year || ''));
+      
       sorted.forEach(h => {
-          if (!groupMap.has(h.list)) groupMap.set(h.list, []);
-          groupMap.get(h.list).push(h);
+          const cat = h.category || 'Comisión Directiva';
+          if (!catMap.has(cat)) catMap.set(cat, new Map());
+          const listMap = catMap.get(cat);
+          if (!listMap.has(h.list)) listMap.set(h.list, []);
+          listMap.get(h.list).push(h);
       });
-      return Array.from(groupMap.entries()).map(([listName, items]) => ({
-          list: listName,
-          items
-      }));
+      
+      return Array.from(catMap.entries()).map(([category, listMap]) => ({
+          category,
+          lists: Array.from(listMap.entries()).map(([listName, items]) => ({
+              list: listName,
+              items
+          }))
+      })).sort((a, b) => {
+          // Sort categories: CD first, then others
+          if (a.category === 'Comisión Directiva') return -1;
+          if (b.category === 'Comisión Directiva') return 1;
+          return a.category.localeCompare(b.category);
+      });
   };
 
   return (
@@ -278,9 +369,9 @@ export default function App() {
            </button>
         </div>
 
-        <h1 className="header-title">Candidatos a Comisión Directiva</h1>
+        <h1 className="header-title">Mapa de candidatos de San Lorenzo</h1>
         <p className="header-subtitle">
-          Análisis e histórico de la política en San Lorenzo
+          Análisis e histórico de participaciones políticas en el club
         </p>
 
         <AnimatePresence>
@@ -350,26 +441,43 @@ export default function App() {
                 />
               </div>
 
-              <div className="filters-wrapper">
-                <select className="dropdown-filter" value={selectedYear} onChange={e => setSelectedYear(e.target.value)}>
+              <div className="filters-container">
+                <select 
+                  className="filter-select"
+                  value={selectedYear}
+                  onChange={(e) => { setSelectedYear(e.target.value); setCurrentPage(1); }}
+                >
                   <option value="">Todos los Años</option>
                   {uniqueYears.map(y => <option key={y} value={y}>{y}</option>)}
                 </select>
-
-                <select className="dropdown-filter" value={selectedList} onChange={e => setSelectedList(e.target.value)}>
+                
+                <select 
+                  className="filter-select"
+                  value={selectedList}
+                  onChange={(e) => { setSelectedList(e.target.value); setCurrentPage(1); }}
+                >
                   <option value="">Todas las Agrupaciones</option>
                   {uniqueLists.map(l => <option key={l} value={l}>{l}</option>)}
                 </select>
 
-                <select className="dropdown-filter" value={sortMode} onChange={e => setSortMode(e.target.value)}>
-                  <option value="alpha">Orden Alfabético</option>
-                  <option value="mostElected">Más veces Electo</option>
-                  <option value="mostYears">Más años en Listas</option>
+                <select 
+                  className="filter-select"
+                  value={selectedCategory}
+                  onChange={(e) => { setSelectedCategory(e.target.value); setCurrentPage(1); }}
+                >
+                  <option value="">Todos los Cargos</option>
+                  <option value="Comisión Directiva">Comisión Directiva</option>
+                  <option value="Fiscalizadora">Fiscalizadora</option>
+                  <option value="Asamblea">Asamblea</option>
                 </select>
 
-                <label style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.95rem', fontWeight: 700, color: 'var(--azul-casla)', cursor: 'pointer', padding: '0 0.5rem' }}>
-                   <input type="checkbox" checked={onlyElected} onChange={e => setOnlyElected(e.target.checked)} style={{ width: '18px', height: '18px', accentColor: 'var(--rojo-casla)' }} />
-                   Solo Electos
+                <label className="filter-checkbox">
+                  <input 
+                    type="checkbox" 
+                    checked={onlyElected}
+                    onChange={(e) => { setOnlyElected(e.target.checked); setCurrentPage(1); }}
+                  />
+                  Solo Electos
                 </label>
               </div>
             </div>
@@ -383,8 +491,8 @@ export default function App() {
           <section className="candidates-grid">
             <AnimatePresence mode="popLayout">
               {currentCandidates.map((c, idx) => {
-                const cardGroups = getCardGroups(c.history);
-                const mainList = cardGroups[0].list;
+                const categoryGroups = getCategorizedGroups(c.history);
+                const mainList = categoryGroups[0]?.lists[0]?.list || '';
 
                 return (
                   <motion.div 
@@ -401,18 +509,23 @@ export default function App() {
                     </div>
                     
                     <div className="candidate-lists-container">
-                        {cardGroups.map((g, gIndex) => (
-                           <div key={gIndex} className="candidate-list-row">
-                               <span className="row-list-name" style={{color: getListColor(g.list)}}>
-                                 {g.list}
-                               </span>
-                               <span className="row-years">
-                                 {g.items.map((h, i) => (
-                                   <span key={i} className={`row-year ${h.elected ? 'elected' : ''}`}>
-                                     {h.year}{h.elected && <CheckCircle2 size={10} />}
-                                   </span>
-                                 ))}
-                               </span>
+                        {categoryGroups.map((cat, catIdx) => (
+                           <div key={catIdx} className="category-block">
+                              <h4 className="category-tag">{cat.category}</h4>
+                              {cat.lists.map((g, gIndex) => (
+                                <div key={gIndex} className="candidate-list-row">
+                                    <span className="row-list-name" style={{color: getListColor(g.list)}}>
+                                      {g.list}
+                                    </span>
+                                    <span className="row-years">
+                                      {g.items.map((h, i) => (
+                                        <span key={i} className={`row-year ${h.elected ? 'elected' : ''}`}>
+                                          {h.year}{h.elected && <CheckCircle2 size={10} />}
+                                        </span>
+                                      ))}
+                                    </span>
+                                </div>
+                              ))}
                            </div>
                         ))}
                     </div>
@@ -445,10 +558,11 @@ export default function App() {
                    <h2 style={{fontFamily: 'var(--font-heading)'}}>Historial de Pases (Transfuguismo)</h2>
                    <p style={{color: 'var(--text-muted)'}}>Candidatos que participaron en distintas listas.</p>
                 </div>
-                <select className="dropdown-filter" value={sortModePases} onChange={e => setSortModePases(e.target.value)}>
-                    <option value="recent">Orden Alfabético</option>
-                    <option value="mostLists">Agrupaciones Cambiadas (Mayor a Menor)</option>
-                </select>
+                 <select className="dropdown-filter" value={sortModePases} onChange={e => setSortModePases(e.target.value)}>
+                     <option value="importance">Importancia Política</option>
+                     <option value="mostLists">Agrupaciones Cambiadas</option>
+                     <option value="alpha">Orden Alfabético</option>
+                 </select>
             </div>
             
             <div className="transitions-list">
@@ -498,9 +612,22 @@ export default function App() {
 
       {activeTab === 'conformaciones' && (
           <section className="board-section">
-              <div style={{marginBottom: '2rem'}}>
-                 <h2 style={{fontFamily: 'var(--font-heading)'}}>Conformaciones Históricas</h2>
-                 <p style={{color: 'var(--text-muted)'}}>Integrantes electos a la Comisión Directiva desglosados por agrupación política en cada elección.</p>
+              <div style={{marginBottom: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '1rem'}}>
+                 <div>
+                    <h2 style={{fontFamily: 'var(--font-heading)'}}>Conformaciones Históricas</h2>
+                    <p style={{color: 'var(--text-muted)'}}>Integrantes electos desglosados por agrupación política.</p>
+                 </div>
+                 <div className="category-selector">
+                    {['Comisión Directiva', 'Asamblea', 'Fiscalizadora'].map(cat => (
+                      <button 
+                        key={cat}
+                        className={`mini-tab ${selectedBoardCategory === cat ? 'active' : ''}`}
+                        onClick={() => setSelectedBoardCategory(cat)}
+                      >
+                        {cat}
+                      </button>
+                    ))}
+                 </div>
               </div>
 
               <div className="board-years-grid">

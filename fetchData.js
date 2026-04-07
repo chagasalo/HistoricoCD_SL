@@ -20,73 +20,94 @@ async function fetchAndParse() {
   const workbook = new ExcelJS.Workbook();
   await workbook.xlsx.load(buffer);
 
-  const worksheet = workbook.worksheets[0]; // First sheet
-
   const dataMap = new Map();
-  let headers = [];
 
-  worksheet.eachRow((row, rowNumber) => {
-    // Row 2 contains headers
-    if (rowNumber === 2) {
-      row.eachCell((cell, colNumber) => {
-        headers[colNumber] = cell.value ? cell.value.toString().trim() : `Col_${colNumber}`;
-      });
-      return;
+  console.log('Sheets found:', workbook.worksheets.map(w => w.name));
+
+  // Iterate through all worksheets
+  workbook.worksheets.forEach((worksheet, sheetIndex) => {
+    const sheetName = worksheet.name.toUpperCase();
+    let category = 'Comisión Directiva'; // Default
+    
+    if (sheetName.includes('FISCALIZADORA')) {
+      category = 'Fiscalizadora';
+    } else if (sheetName.includes('ASAMBLEISTAS') || sheetName.includes('ASAMBLEA')) {
+      category = 'Asamblea';
+    } else if (sheetIndex === 0) {
+      category = 'Comisión Directiva';
+    } else {
+      // If it's another sheet and we don't recognize it, skip
+      console.log(`Skipping sheet: ${worksheet.name} (not a recognized category)`);
+      return; 
     }
 
-    if (rowNumber < 2 || !headers.length) return;
+    console.log(`Processing sheet: "${worksheet.name}" mapped to category: "${category}"`);
 
-    const rawCandidateName = row.getCell(1).value;
-    if (!rawCandidateName) return;
+    let headers = [];
+    worksheet.eachRow((row, rowNumber) => {
+      // Row 2 contains headers
+      if (rowNumber === 2) {
+        row.eachCell((cell, colNumber) => {
+          headers[colNumber] = cell.value ? cell.value.toString().trim() : `Col_${colNumber}`;
+        });
+        return;
+      }
 
-    // Normalizing name (Upper case, remove excessive spaces)
-    const candidateName = rawCandidateName.toString().trim().toUpperCase().replace(/\s+/g, ' ');
+      if (rowNumber < 2 || !headers.length) return;
 
-    if (!dataMap.has(candidateName)) {
-      dataMap.set(candidateName, {
-        name: candidateName,
-        history: []
-      });
-    }
+      const rawCandidateName = row.getCell(1).value;
+      if (!rawCandidateName) return;
 
-    const candidateRecord = dataMap.get(candidateName);
+      // Normalizing name (Upper case, remove excessive spaces)
+      const candidateName = rawCandidateName.toString().trim().toUpperCase().replace(/\s+/g, ' ');
 
-    // Iterate through columns (years), starting from col 2
-    for (let col = 2; col <= headers.length; col++) {
-      const cell = row.getCell(col);
-      const year = headers[col];
-      let listName = cell.value ? cell.value.toString().trim() : null;
-      
-      if (listName && listName !== '2004') { // Ignore 2004 as requested
+      if (!dataMap.has(candidateName)) {
+        dataMap.set(candidateName, {
+          name: candidateName,
+          history: []
+        });
+      }
+
+      const candidateRecord = dataMap.get(candidateName);
+
+      // Iterate through columns (years), starting from col 2
+      for (let col = 2; col <= headers.length; col++) {
+        const cell = row.getCell(col);
+        const year = headers[col];
+        let listName = cell.value ? cell.value.toString().trim() : null;
         
-        // Normalize list names (ETL)
-        const lowerList = listName.toLowerCase();
-        if (lowerList === 'boedo en accion') listName = 'Boedo en Accion';
-        else if (lowerList === 'cruzada x sl') listName = 'Cruzada x SL';
-        else if (lowerList === 'sl sixlo xxi' || lowerList === 'sl siglo xxi') listName = 'SL Siglo XXI';
-        else if (lowerList === 'mas sl') listName = 'MAS SL';
-        else if (lowerList === 'volver a sl') listName = 'Volver a SL';
-        else if (lowerList === 'x amor a sl') listName = 'X Amor a SL';
+        if (listName && listName !== '2004') { // Ignore 2004 as requested
+          
+          // Normalize list names (ETL)
+          const lowerList = listName.toLowerCase();
+          if (lowerList === 'boedo en accion') listName = 'Boedo en Accion';
+          else if (lowerList === 'cruzada x sl') listName = 'Cruzada x SL';
+          else if (lowerList === 'sl sixlo xxi' || lowerList === 'sl siglo xxi') listName = 'SL Siglo XXI';
+          else if (lowerList === 'mas sl') listName = 'MAS SL';
+          else if (lowerList === 'volver a sl') listName = 'Volver a SL';
+          else if (lowerList === 'x amor a sl') listName = 'X Amor a SL';
 
-        let isElected = false;
-        if (cell.fill && cell.fill.type === 'pattern' && cell.fill.fgColor) {
-           const argb = cell.fill.fgColor.argb;
-           if (argb && argb.toUpperCase() === 'FF00FF00') {
-             isElected = true;
-           }
-        }
-        
-        // Prevent duplicate history entries for same year/list within the same candidate if they had duplicate rows
-        const routeExists = candidateRecord.history.some(h => h.year === year && h.list === listName);
-        if (!routeExists) {
-            candidateRecord.history.push({
-               year,
-               list: listName,
-               elected: isElected
-            });
+          let isElected = false;
+          if (cell.fill && cell.fill.type === 'pattern' && cell.fill.fgColor) {
+             const argb = cell.fill.fgColor.argb;
+             if (argb && argb.toUpperCase() === 'FF00FF00') {
+               isElected = true;
+             }
+          }
+          
+          // Prevent duplicate history entries for same year/list/category within the same candidate
+          const routeExists = candidateRecord.history.some(h => h.year === year && h.list === listName && h.category === category);
+          if (!routeExists) {
+              candidateRecord.history.push({
+                 year,
+                 list: listName,
+                 elected: isElected,
+                 category: category
+              });
+          }
         }
       }
-    }
+    });
   });
 
   const data = Array.from(dataMap.values()).filter(c => c.history.length > 0);
