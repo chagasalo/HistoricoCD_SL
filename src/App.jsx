@@ -1,7 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Search, Users, ShieldCheck, Shield, CheckCircle2, ArrowRightLeft, ChevronLeft, ChevronRight, BarChart3, RotateCw, Twitter, Github } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import './App.css';
 
 const stringToColor = (str) => {
@@ -46,33 +45,6 @@ const KNOWN_COLORS = {
 
 const getListColor = (listName) => {
   return KNOWN_COLORS[listName] || stringToColor(listName);
-};
-
-const CustomTooltip = ({ active, payload, label }) => {
-  if (active && payload && payload.length) {
-    // Calculate total to show percentages
-    const total = payload.reduce((sum, entry) => sum + entry.value, 0);
-
-    return (
-      <div className="chart-tooltip">
-        <p className="chart-tooltip-year">Elecciones {label}</p>
-        <p className="chart-tooltip-total">{total} Electos en total</p>
-        <div className="chart-tooltip-lists">
-          {[...payload].filter(entry => entry.value > 0).sort((a,b) => b.value - a.value).map((entry, index) => (
-            <div key={index} className="chart-tooltip-item">
-              <span className="color-dot" style={{ backgroundColor: entry.color }}></span>
-              <span className="list-name">{entry.name}</span>
-              <span className="list-values">
-                <strong>{entry.value}</strong> 
-                <span className="percent">({((entry.value / total) * 100).toFixed(1)}%)</span>
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
-    );
-  }
-  return null;
 };
 
 export default function App() {
@@ -245,20 +217,6 @@ export default function App() {
                 lists: listsDetails
             };
         });
-
-    // Chart Data (Chronological for X-axis)
-    const chartData = [...aggregatedBoards].reverse().map(b => {
-        const point = { year: b.year };
-        // Initialize all known lists to 0 to prevent Recharts stackOffset="expand" from crashing
-        lists.forEach(listName => {
-            point[listName] = 0;
-        });
-        b.lists.forEach(l => {
-            point[l.listName] = l.count;
-        });
-        return point;
-    });
-
     return {
       filteredCandidates: filtered,
       uniqueLists: Array.from(lists).sort(),
@@ -267,8 +225,7 @@ export default function App() {
           data.filter(c => c.history.some(h => h.elected)).map(c => c.name)
       ).size,
       sortedTransitions: trArray,
-      boardConfigs: aggregatedBoards,
-      chartData: chartData
+      boardConfigs: aggregatedBoards
     };
   }, [data, searchTerm, selectedList, selectedYear, sortMode, sortModePases, onlyElected]);
 
@@ -545,50 +502,6 @@ export default function App() {
                  <h2 style={{fontFamily: 'var(--font-heading)'}}>Conformaciones Históricas</h2>
                  <p style={{color: 'var(--text-muted)'}}>Integrantes electos a la Comisión Directiva desglosados por agrupación política en cada elección.</p>
               </div>
-
-              {/* Stacked Area Chart */}
-              {chartData && chartData.length > 0 && (
-                <div className="chart-container-wrapper">
-                  <h3 className="chart-title">Evolución de Representatividad (100%)</h3>
-                  <div className="chart-render-area">
-                    <ResponsiveContainer width="100%" height={350}>
-                      <AreaChart
-                        data={chartData}
-                        stackOffset="expand" // This makes it 100% stacked
-                        margin={{ top: 10, right: 0, left: -20, bottom: 0 }}
-                      >
-                        <XAxis 
-                           dataKey="year" 
-                           tick={{fontSize: 12, fill: 'var(--text-muted)', fontWeight: 700}} 
-                           axisLine={false} 
-                           tickLine={false}
-                           dy={10}
-                        />
-                        <YAxis 
-                           tickFormatter={(tick) => `${(tick * 100).toFixed(0)}%`} 
-                           tick={{fontSize: 11, fill: 'var(--text-muted)'}}
-                           axisLine={false}
-                           tickLine={false}
-                        />
-                        <Tooltip content={<CustomTooltip />} />
-                        {uniqueLists.map(listName => (
-                          <Area
-                            key={listName}
-                            type="monotone"
-                            dataKey={listName}
-                            stackId="1"
-                            stroke={getListColor(listName)}
-                            fill={getListColor(listName)}
-                            fillOpacity={1}
-                            activeDot={{r: 6, strokeWidth: 0}}
-                            isAnimationActive={false}
-                          />
-                        ))}
-                      </AreaChart>
-                    </ResponsiveContainer>
-                  </div>
-                </div>
-              )}
 
               <div className="board-years-grid">
                   {boardConfigs.map((bc, idx) => (
