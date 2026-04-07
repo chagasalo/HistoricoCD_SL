@@ -58,7 +58,7 @@ const CustomTooltip = ({ active, payload, label }) => {
         <p className="chart-tooltip-year">Elecciones {label}</p>
         <p className="chart-tooltip-total">{total} Electos en total</p>
         <div className="chart-tooltip-lists">
-          {[...payload].sort((a,b) => b.value - a.value).map((entry, index) => (
+          {[...payload].filter(entry => entry.value > 0).sort((a,b) => b.value - a.value).map((entry, index) => (
             <div key={index} className="chart-tooltip-item">
               <span className="color-dot" style={{ backgroundColor: entry.color }}></span>
               <span className="list-name">{entry.name}</span>
@@ -249,6 +249,10 @@ export default function App() {
     // Chart Data (Chronological for X-axis)
     const chartData = [...aggregatedBoards].reverse().map(b => {
         const point = { year: b.year };
+        // Initialize all known lists to 0 to prevent Recharts stackOffset="expand" from crashing
+        lists.forEach(listName => {
+            point[listName] = 0;
+        });
         b.lists.forEach(l => {
             point[l.listName] = l.count;
         });
