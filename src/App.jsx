@@ -464,22 +464,25 @@ export default function App() {
                             <span className="transition-name">{t.name}</span>
                             <span className="transition-count">{t.totalLists} agrup.</span>
                          </div>
-                         <div className="t-lists-container">
-                           {(() => {
-                             const seenLists = [];
-                             const seenSet = new Set();
-                             t.moves.forEach(m => {
-                               if (!seenSet.has(m.toList)) { seenSet.add(m.toList); seenLists.push(m.toList); }
-                               if (!seenSet.has(m.fromList)) { seenSet.add(m.fromList); seenLists.push(m.fromList); }
-                             });
-                             return seenLists.map(listName => (
-                               <div key={listName} className="t-list-row">
-                                 <span className="t-list-name" style={{color: getListColor(listName)}}>{listName}</span>
-                                 <span className="t-list-count">{t.listCounts?.[listName] || 1} elec.</span>
-                               </div>
-                             ));
-                           })()}
-                         </div>
+                         {[...t.moves].reverse().map((m, mIdx) => (
+                            <div key={mIdx} className="transition-flow">
+                                <div className="t-from">
+                                    <span className="t-year">{m.fromYear}</span>
+                                    <span className="t-list" style={{borderBottom: `2px solid ${getListColor(m.fromList)}`}}>
+                                      {m.fromList}
+                                      <span className="t-list-elec">{t.listCounts?.[m.fromList] || 1} elec.</span>
+                                    </span>
+                                </div>
+                                <ArrowRightLeft className="t-arrow" size={14} />
+                                <div className="t-to">
+                                    <span className="t-year">{m.toYear}</span>
+                                    <span className="t-list" style={{borderBottom: `2px solid ${getListColor(m.toList)}`}}>
+                                      {m.toList}
+                                      <span className="t-list-elec">{t.listCounts?.[m.toList] || 1} elec.</span>
+                                    </span>
+                                </div>
+                            </div>
+                         ))}
                     </motion.div>
                 ))}
             </div>
