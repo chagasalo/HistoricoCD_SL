@@ -112,8 +112,13 @@ async function fetchAndParse() {
 
   const data = Array.from(dataMap.values()).filter(c => c.history.length > 0);
 
+  const outputObject = {
+    updatedAt: new Date().toISOString(),
+    candidates: data
+  };
+
   console.log(`Parsed ${data.length} unique candidates. Saving to ${OUT_FILE}...`);
-  fs.writeFileSync(OUT_FILE, JSON.stringify(data, null, 2));
+  fs.writeFileSync(OUT_FILE, JSON.stringify(outputObject, null, 2));
   console.log('Done!');
 }
 

@@ -55,8 +55,7 @@ export default function App() {
   const [selectedCategory, setSelectedCategory] = useState('');
   const [activeTab, setActiveTab] = useState('candidates'); 
   const [loading, setLoading] = useState(true);
-  const [isRefreshing, setIsRefreshing] = useState(false);
-  const [showToast, setShowToast] = useState(false);
+  const [lastUpdated, setLastUpdated] = useState('');
 
   // Sorting and Pagination State
   const [sortMode, setSortMode] = useState('mostLists'); 
@@ -92,7 +91,23 @@ export default function App() {
     fetch('/data.json')
       .then(res => res.json())
       .then(json => {
-        setData(json);
+        // Robustez: soporte para formato nuevo (objeto) y viejo (array)
+        if (Array.isArray(json)) {
+          setData(json);
+        } else if (json && json.candidates) {
+          setData(json.candidates);
+          if (json.updatedAt) {
+            const date = new Date(json.updatedAt);
+            const formatted = date.toLocaleString('es-AR', {
+              day: 'numeric',
+              month: 'short',
+              year: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit'
+            });
+            setLastUpdated(formatted);
+          }
+        }
         setLoading(false);
       })
       .catch(err => {
@@ -101,20 +116,7 @@ export default function App() {
       });
   }, []);
 
-  const handleRefresh = async () => {
-    setIsRefreshing(true);
-    try {
-      const res = await fetch('/data.json?t=' + Date.now());
-      const json = await res.json();
-      setData(json);
-      setShowToast(true);
-      setTimeout(() => setShowToast(false), 3000);
-    } catch (err) {
-      console.error('Failed to refresh data:', err);
-    } finally {
-      setIsRefreshing(false);
-    }
-  };
+
 
   // Whenever filters change, reset pagination
   useEffect(() => {
@@ -359,33 +361,23 @@ export default function App() {
              <Twitter size={18} />
              <span>@mariano_casla99</span>
            </a>
-           <button 
-             className={`action-button refresh-button ${isRefreshing ? 'spinning' : ''}`}
-             onClick={handleRefresh}
-             disabled={isRefreshing}
-           >
-             <RotateCw size={18} />
-             <span>{isRefreshing ? 'Actualizando...' : 'Actualizar Información'}</span>
-           </button>
+           {lastUpdated && (
+             <div className="last-updated-tag">
+               <RotateCw size={14} />
+               <span>Sincronizado: {lastUpdated}</span>
+             </div>
+           )}
         </div>
 
-        <h1 className="header-title">Mapa de candidatos de San Lorenzo</h1>
+        <h1 className="header-title">
+          MAPA DE CANDIDATOS
+          <small className="header-title-org">CLUB ATLETICO SAN LORENZO DE ALMAGRO</small>
+        </h1>
         <p className="header-subtitle">
           Análisis e histórico de participaciones políticas en el club
         </p>
 
-        <AnimatePresence>
-          {showToast && (
-            <motion.div 
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              className="refresh-toast"
-            >
-              ¡Información actualizada con éxito!
-            </motion.div>
-          )}
-        </AnimatePresence>
+
       </header>
 
       <section className="stats-grid">
