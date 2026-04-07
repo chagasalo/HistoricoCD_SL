@@ -319,15 +319,13 @@
   gap: 0.65rem;
 }
 
-/* New inline row: "Boedo en Accion  2023 2022 2010" */
+/* New inline row: pill + years on same line */
 .candidate-list-row {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.4rem;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   line-height: 1.3;
-  border-left: 2px solid var(--border-light);
-  padding-left: 0.5rem;
 }
 
 .row-list-name {
@@ -336,7 +334,6 @@
   font-family: var(--font-heading);
   white-space: nowrap;
   flex-shrink: 0;
-  min-width: fit-content;
 }
 
 .row-years {
@@ -446,10 +443,10 @@
   font-weight: 800;
 }
 
-.t-list {
+.t-list-name {
   font-size: 0.78rem;
-  font-weight: 700;
-  padding-bottom: 2px;
+  font-weight: 800;
+  font-family: var(--font-heading);
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
@@ -533,8 +530,10 @@
 
 .board-card-header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.25rem;
   border-bottom: 2px solid var(--azul-casla);
   padding-bottom: 0.8rem;
 }
@@ -584,6 +583,96 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Conformaciones Chart Styles */
+.chart-container-wrapper {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.chart-title {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--azul-casla);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.chart-render-area {
+  margin: 0 -10px; /* offset the margin set inside recharts component for better alignment */
+}
+
+.chart-tooltip {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--border-light);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  min-width: 250px;
+}
+
+.chart-tooltip-year {
+  font-weight: 900;
+  font-size: 1.1rem;
+  color: var(--azul-casla);
+  margin-bottom: 0.2rem;
+}
+
+.chart-tooltip-total {
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.chart-tooltip-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.chart-tooltip-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.chart-tooltip-item .color-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.chart-tooltip-item .list-name {
+  font-weight: 700;
+  color: var(--text-main);
+  flex: 1;
+}
+
+.chart-tooltip-item .list-values {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.chart-tooltip-item .list-values strong {
+  color: var(--azul-casla);
+  font-weight: 900;
+}
+
+.chart-tooltip-item .list-values .percent {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
 }
 
 /* Footer */
