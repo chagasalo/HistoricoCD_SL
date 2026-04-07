@@ -375,18 +375,17 @@ export default function App() {
                     
                     <div className="candidate-lists-container">
                         {cardGroups.map((g, gIndex) => (
-                           <div key={gIndex} className="candidate-group-block">
-                               <div className="group-title" style={{color: getListColor(g.list)}}>
-                                  {g.list} {gIndex === 0 && <span className="current-badge">Más Reciente</span>}
-                               </div>
-                               <div className="candidate-history">
-                                  {g.items.map((h, i) => (
-                                    <div key={i} className={`history-badge ${h.elected ? 'elected' : ''}`}>
-                                      <span className="badge-year">{h.year}</span>
-                                      {h.elected && <CheckCircle2 size={12} />}
-                                    </div>
-                                  ))}
-                               </div>
+                           <div key={gIndex} className="candidate-list-row">
+                               <span className="row-list-name" style={{color: getListColor(g.list)}}>
+                                 {g.list}
+                               </span>
+                               <span className="row-years">
+                                 {g.items.map((h, i) => (
+                                   <span key={i} className={`row-year ${h.elected ? 'elected' : ''}`}>
+                                     {h.year}{h.elected && <CheckCircle2 size={10} />}
+                                   </span>
+                                 ))}
+                               </span>
                            </div>
                         ))}
                     </div>

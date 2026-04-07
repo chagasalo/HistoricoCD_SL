@@ -316,63 +316,47 @@
 .candidate-lists-container {
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
-}
-
-.candidate-group-block {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
-
-.group-title {
-  font-size: 0.9rem;
-  font-weight: 700;
-  font-family: var(--font-heading);
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-}
-
-.current-badge {
-  background: var(--bg-main);
-  color: var(--text-muted);
-  font-size: 0.7rem;
-  padding: 0.2rem 0.6rem;
-  border-radius: 100px;
-  font-weight: 800;
-  text-transform: uppercase;
-  border: 1px solid var(--border-light);
-}
-
-.candidate-history {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.history-badge {
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 0.2rem 0.6rem;
-  border-radius: 100px;
-  background: var(--bg-main);
-  color: var(--text-main);
-  border: 1px solid var(--border-light);
-  display: flex;
-  align-items: center;
   gap: 0.3rem;
 }
 
-.history-badge.elected {
-  background: var(--rojo-casla);
-  border-color: var(--rojo-casla);
-  color: var(--text-inverse);
+/* New inline row: "Boedo en Accion  2023 2022 2010" */
+.candidate-list-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  line-height: 1.6;
 }
 
-.badge-year {
+.row-list-name {
+  font-size: 0.78rem;
   font-weight: 800;
+  font-family: var(--font-heading);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
+
+.row-years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.row-year {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.row-year.elected {
+  color: var(--rojo-casla);
+  font-weight: 900;
+}
+
 
 /* Transitions View */
 .transitions-section {
