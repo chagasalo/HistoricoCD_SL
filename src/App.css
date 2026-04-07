@@ -400,44 +400,49 @@
 .transition-name {
   font-weight: 900;
   font-family: var(--font-heading);
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--azul-casla);
 }
 
 .transition-count {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  color: var(--rojo-casla);
+  color: var(--text-muted);
   background: transparent;
   padding: 0;
   border-radius: 0;
 }
 
-.transition-flow {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
-  background: var(--bg-main);
-  padding: 1rem;
-  border-radius: 8px;
-}
-
-.t-from, .t-to {
+/* New compact list layout */
+.t-lists-container {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+}
+
+.t-list-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-left: 2px solid var(--border-light);
+  padding-left: 0.5rem;
+  line-height: 1.3;
+}
+
+.t-list-name {
+  font-size: 0.78rem;
+  font-weight: 900;
+  font-family: var(--font-heading);
   flex: 1;
 }
 
-.t-from {
-  align-items: flex-start;
+.t-list-count {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  white-space: nowrap;
 }
 
-.t-to {
-  align-items: flex-end;
-  text-align: right;
-}
 
 .t-year {
   font-size: 0.8rem;

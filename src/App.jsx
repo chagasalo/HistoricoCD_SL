@@ -152,10 +152,18 @@ export default function App() {
         prevList = h.list;
         prevYear = h.year;
       });
+      // Build per-list election count
+      const listCountMap = new Map();
+      sortedHistory.forEach(h => listCountMap.set(h.list, (listCountMap.get(h.list) || 0) + 1));
+
       if (transMap.has(c.name)) {
-         transMap.get(c.name).totalLists = userLists.size;
+         const entry = transMap.get(c.name);
+         entry.totalLists = userLists.size;
+         entry.listCounts = Object.fromEntries(listCountMap);
+         // Sort moves: most recent first
+         entry.moves.sort((a, b) => b.toYear.localeCompare(a.toYear));
       }
-    });
+    }); // end data.forEach
 
     const term = searchTerm.toLowerCase();
     
@@ -452,23 +460,26 @@ export default function App() {
                        initial={{ opacity: 0, x: -10 }}
                        animate={{ opacity: 1, x: 0 }}
                     >
-                        <div className="transition-name-row">
-                           <span className="transition-name">{t.name}</span>
-                           <span className="transition-count">{t.totalLists} Agrupaciones Disp.</span>
-                        </div>
-                        {t.moves.map((m, mIdx) => (
-                           <div key={mIdx} className="transition-flow">
-                               <div className="t-from">
-                                   <span className="t-year">{m.fromYear}</span>
-                                   <span className="t-list" style={{borderBottom: `2px solid ${getListColor(m.fromList)}`}}>{m.fromList}</span>
+                         <div className="transition-name-row">
+                            <span className="transition-name">{t.name}</span>
+                            <span className="transition-count">{t.totalLists} agrup.</span>
+                         </div>
+                         <div className="t-lists-container">
+                           {(() => {
+                             const seenLists = [];
+                             const seenSet = new Set();
+                             t.moves.forEach(m => {
+                               if (!seenSet.has(m.toList)) { seenSet.add(m.toList); seenLists.push(m.toList); }
+                               if (!seenSet.has(m.fromList)) { seenSet.add(m.fromList); seenLists.push(m.fromList); }
+                             });
+                             return seenLists.map(listName => (
+                               <div key={listName} className="t-list-row">
+                                 <span className="t-list-name" style={{color: getListColor(listName)}}>{listName}</span>
+                                 <span className="t-list-count">{t.listCounts?.[listName] || 1} elec.</span>
                                </div>
-                               <ArrowRightLeft className="t-arrow" size={16} />
-                               <div className="t-to">
-                                   <span className="t-year">{m.toYear}</span>
-                                   <span className="t-list" style={{borderBottom: `2px solid ${getListColor(m.toList)}`}}>{m.toList}</span>
-                               </div>
-                           </div>
-                        ))}
+                             ));
+                           })()}
+                         </div>
                     </motion.div>
                 ))}
             </div>
