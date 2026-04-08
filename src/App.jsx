@@ -68,6 +68,7 @@ export default function App() {
   const pasesPerPage = 48;
 
   const [selectedBoardCategory, setSelectedBoardCategory] = useState('Comisión Directiva');
+  const [selectedBoardYear, setSelectedBoardYear] = useState(null);
 
   // Hash-based routing for Deep Linking
   useEffect(() => {
@@ -127,7 +128,7 @@ export default function App() {
      setPasesPage(1);
   }, [sortModePases]);
 
-  const { filteredCandidates, uniqueLists, uniqueYears, totalElected, sortedTransitions, boardConfigs } = useMemo(() => {
+  const { filteredCandidates, uniqueLists, uniqueYears, globalListsCount, globalElectedCount, sortedTransitions, boardConfigs } = useMemo(() => {
     const lists = new Set();
     const years = new Set();
     let electedCount = 0;
@@ -140,8 +141,18 @@ export default function App() {
       'Fiscalizadora': new Map()
     };
     
+    // boardMembersMap structure: { [category]: { [year]: [{ name, list }] } }
+    const boardMembersMap = {
+      'Comisión Directiva': new Map(),
+      'Asamblea': new Map(),
+      'Fiscalizadora': new Map()
+    };
+    
+    const listsByYear = new Map();
+    const yearsByList = new Map();
+    
     data.forEach(c => {
-      const sortedHistory = [...c.history].sort((a, b) => (a.year || '').localeCompare(b.year || ''));
+      const sortedHistory = [...(c.history || [])].sort((a, b) => (a.year || '').localeCompare(b.year || ''));
       let prevList = null;
       let prevYear = null;
       const userLists = new Set();
@@ -150,17 +161,28 @@ export default function App() {
         lists.add(h.list);
         years.add(h.year);
         userLists.add(h.list);
+
+        if (!listsByYear.has(h.year)) listsByYear.set(h.year, new Set());
+        listsByYear.get(h.year).add(h.list);
+        
+        if (!yearsByList.has(h.list)) yearsByList.set(h.list, new Set());
+        yearsByList.get(h.list).add(h.year);
         
         if (h.elected) {
             electedCount++;
             
-            const catMap = boardMap[h.category || 'Comisión Directiva'];
+            const catKey = h.category || 'Comisión Directiva';
+            const catMap = boardMap[catKey];
             if (catMap) {
-              if (!catMap.has(h.year)) {
-                  catMap.set(h.year, new Map());
-              }
+              if (!catMap.has(h.year)) catMap.set(h.year, new Map());
               const yearData = catMap.get(h.year);
               yearData.set(h.list, (yearData.get(h.list) || 0) + 1);
+            }
+
+            const catMembersMap = boardMembersMap[catKey];
+            if (catMembersMap) {
+              if (!catMembersMap.has(h.year)) catMembersMap.set(h.year, []);
+              catMembersMap.get(h.year).push({ name: c.name, list: h.list, history: c.history });
             }
         }
 
@@ -250,10 +272,23 @@ export default function App() {
 
     const sortedYears = Array.from(years).filter(y => y).sort((a, b) => b.localeCompare(a));
 
+    const finalAvailableLists = selectedYear 
+        ? Array.from(listsByYear.get(selectedYear) || []).sort()
+        : Array.from(lists).sort();
+
+    const finalAvailableYears = selectedList
+        ? Array.from(yearsByList.get(selectedList) || []).sort((a, b) => b.localeCompare(a))
+        : sortedYears;
+
     // Transitions sorting
     let trArray = Array.from(transMap.values());
     
-    const compareImportance = (a, b) => {
+    const compareElectedCounts = (a, b) => {
+        const electedA = a.history.filter(h => h.elected).length;
+        const electedB = b.history.filter(h => h.elected).length;
+        if (electedB !== electedA) return electedB - electedA;
+        
+        // Tie-breaker: Importance of categories (CD > Fiscal > Asamblea)
         const sA = {
           cd: getCatStats(a.history, 'Comisión Directiva'),
           f: getCatStats(a.history, 'Fiscalizadora'),
@@ -264,18 +299,14 @@ export default function App() {
           f: getCatStats(b.history, 'Fiscalizadora'),
           as: getCatStats(b.history, 'Asamblea')
         };
-
         if (sB.cd.elected !== sA.cd.elected) return sB.cd.elected - sA.cd.elected;
         if (sB.cd.total !== sA.cd.total) return sB.cd.total - sA.cd.total;
         if (sB.f.elected !== sA.f.elected) return sB.f.elected - sA.f.elected;
-        if (sB.f.total !== sA.f.total) return sB.f.total - sA.f.total;
-        if (sB.as.elected !== sA.as.elected) return sB.as.elected - sA.as.elected;
-        if (sB.as.total !== sA.as.total) return sB.as.total - sA.as.total;
         return a.name.localeCompare(b.name);
     };
 
     if (sortModePases === 'importance') {
-        trArray.sort(compareImportance);
+        trArray.sort(compareElectedCounts);
     } else if (sortModePases === 'mostLists') {
         trArray.sort((a, b) => b.totalLists - a.totalLists || a.name.localeCompare(b.name));
     } else {
@@ -284,6 +315,8 @@ export default function App() {
 
     // BoardConfigs (Conformaciones) aggregation format
     const currentCatMap = boardMap[selectedBoardCategory] || new Map();
+    const currentMembersMap = boardMembersMap[selectedBoardCategory] || new Map();
+
     const aggregatedBoards = Array.from(currentCatMap.entries())
         .sort((a, b) => b[0].localeCompare(a[0])) // Descending years
         .map(([year, listCounts]) => {
@@ -294,20 +327,26 @@ export default function App() {
             return {
                 year,
                 totalMembers: listsDetails.reduce((sum, item) => sum + item.count, 0),
-                lists: listsDetails
+                lists: listsDetails,
+                members: (currentMembersMap.get(year) || []).sort((a, b) => a.name.localeCompare(b.name))
             };
         });
     return {
       filteredCandidates: sorted,
-      uniqueLists: Array.from(lists).sort(),
-      uniqueYears: sortedYears,
-      totalElected: new Set(
+      uniqueLists: finalAvailableLists,
+      uniqueYears: finalAvailableYears,
+      globalListsCount: lists.size,
+      globalElectedCount: new Set(
           data.filter(c => c.history.some(h => h.elected)).map(c => c.name)
       ).size,
       sortedTransitions: trArray,
       boardConfigs: aggregatedBoards
     };
   }, [data, searchTerm, selectedList, selectedYear, selectedCategory, sortMode, sortModePases, onlyElected, selectedBoardCategory]);
+
+  useEffect(() => {
+    setSelectedBoardYear(null);
+  }, [activeTab, selectedBoardCategory]);
 
   if (loading) {
     return <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', color: '#fff'}}>Cargando...</div>;
@@ -392,7 +431,7 @@ export default function App() {
           <div className="stat-icon" style={{backgroundColor: 'rgba(168, 0, 10, 0.4)'}}><Shield size={28} /></div>
           <div className="stat-info">
             <h3>Agrupaciones</h3>
-            <p>{uniqueLists.length}</p>
+            <p>{globalListsCount}</p>
           </div>
         </div>
         <div className="stat-card">
@@ -401,7 +440,7 @@ export default function App() {
           </div>
           <div className="stat-info">
             <h3>Personas Electas</h3>
-            <p>{totalElected}</p>
+            <p>{globalElectedCount}</p>
           </div>
         </div>
       </section>
@@ -414,69 +453,85 @@ export default function App() {
           Mapa de Pases Históricos
         </button>
         <button className={`tab-button ${activeTab === 'conformaciones' ? 'active' : ''}`} onClick={() => setActiveTab('conformaciones')}>
-          Conformación de Comisiones
+          Conformación de Órganos de Gob.
         </button>
       </div>
 
       {activeTab === 'candidates' && (
         <>
           <section className="search-section">
-            <div className="search-container">
-              <div className="search-input-wrapper">
-                <Search className="search-icon" size={20} />
-                <input 
-                  type="text" 
-                  className="search-input" 
-                  placeholder="Buscar candidato..." 
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                />
+            <div className="filters-main-layout">
+              <div className="search-input-group">
+                <div className="search-input-wrapper">
+                  <Search className="search-icon" size={24} />
+                  <input 
+                    type="text" 
+                    className="search-input" 
+                    placeholder="Buscar por nombre de candidato..." 
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                  />
+                </div>
               </div>
 
-              <div className="filters-container">
-                <select 
-                  className="filter-select"
-                  value={selectedYear}
-                  onChange={(e) => { setSelectedYear(e.target.value); setCurrentPage(1); }}
-                >
-                  <option value="">Todos los Años</option>
-                  {uniqueYears.map(y => <option key={y} value={y}>{y}</option>)}
-                </select>
+              <div className="filters-grid">
+                <div className="filter-control">
+                  <span className="filter-label">Año Electoral</span>
+                  <select 
+                    className="dropdown-filter"
+                    value={selectedYear}
+                    onChange={(e) => { setSelectedYear(e.target.value); setCurrentPage(1); }}
+                  >
+                    <option value="">Todos los Años</option>
+                    {uniqueYears.map(y => <option key={y} value={y}>{y}</option>)}
+                  </select>
+                </div>
                 
-                <select 
-                  className="filter-select"
-                  value={selectedList}
-                  onChange={(e) => { setSelectedList(e.target.value); setCurrentPage(1); }}
-                >
-                  <option value="">Todas las Agrupaciones</option>
-                  {uniqueLists.map(l => <option key={l} value={l}>{l}</option>)}
-                </select>
+                <div className="filter-control">
+                  <span className="filter-label">Agrupación Política</span>
+                  <select 
+                    className="dropdown-filter"
+                    value={selectedList}
+                    onChange={(e) => { setSelectedList(e.target.value); setCurrentPage(1); }}
+                  >
+                    <option value="">Todas las Agrupaciones</option>
+                    {uniqueLists.map(l => <option key={l} value={l}>{l}</option>)}
+                  </select>
+                </div>
 
-                <select 
-                  className="filter-select"
-                  value={selectedCategory}
-                  onChange={(e) => { setSelectedCategory(e.target.value); setCurrentPage(1); }}
-                >
-                  <option value="">Todos los Cargos</option>
-                  <option value="Comisión Directiva">Comisión Directiva</option>
-                  <option value="Fiscalizadora">Fiscalizadora</option>
-                  <option value="Asamblea">Asamblea</option>
-                </select>
+                <div className="filter-control">
+                  <span className="filter-label">Cargo / Órgano</span>
+                  <select 
+                    className="dropdown-filter"
+                    value={selectedCategory}
+                    onChange={(e) => { setSelectedCategory(e.target.value); setCurrentPage(1); }}
+                  >
+                    <option value="">Todos los Cargos</option>
+                    <option value="Comisión Directiva">Comisión Directiva</option>
+                    <option value="Fiscalizadora">Fiscalizadora</option>
+                    <option value="Asamblea">Asamblea</option>
+                  </select>
+                </div>
 
-                <label className="filter-checkbox">
-                  <input 
-                    type="checkbox" 
-                    checked={onlyElected}
-                    onChange={(e) => { setOnlyElected(e.target.checked); setCurrentPage(1); }}
-                  />
-                  Solo Electos
-                </label>
+                <div className="filter-control checkbox-control">
+                  <label className="filter-checkbox-styled">
+                    <input 
+                      type="checkbox" 
+                      checked={onlyElected}
+                      onChange={(e) => { setOnlyElected(e.target.checked); setCurrentPage(1); }}
+                    />
+                    <div className="checkbox-box">
+                      {onlyElected && <CheckCircle2 size={14} />}
+                    </div>
+                    <span>Solo Electos</span>
+                  </label>
+                </div>
               </div>
             </div>
             
-            <div style={{marginTop: '1.2rem', display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-muted)', fontSize: '0.85rem', fontWeight: 700, textTransform: 'uppercase'}}>
-                <span style={{display: 'inline-block', width: '10px', height: '10px', backgroundColor: 'var(--rojo-casla)', borderRadius: '50%'}}></span>
-                Años en rojo: El candidato resultó electo a la Comisión Directiva.
+            <div className="legend-strip">
+                <span className="legend-dot"></span>
+                Años en rojo: El candidato resultó electo
             </div>
           </section>
 
@@ -551,7 +606,7 @@ export default function App() {
                    <p style={{color: 'var(--text-muted)'}}>Candidatos que participaron en distintas listas.</p>
                 </div>
                  <select className="dropdown-filter" value={sortModePases} onChange={e => setSortModePases(e.target.value)}>
-                     <option value="importance">Importancia Política</option>
+                     <option value="importance">Más veces electo</option>
                      <option value="mostLists">Agrupaciones Cambiadas</option>
                      <option value="alpha">Orden Alfabético</option>
                  </select>
@@ -606,49 +661,129 @@ export default function App() {
           <section className="board-section">
               <div style={{marginBottom: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '1rem'}}>
                  <div>
-                    <h2 style={{fontFamily: 'var(--font-heading)'}}>Conformaciones Históricas</h2>
-                    <p style={{color: 'var(--text-muted)'}}>Integrantes electos desglosados por agrupación política.</p>
+                    <div style={{display: 'flex', alignItems: 'center', gap: '1rem'}}>
+                      {selectedBoardYear && (
+                        <button className="back-button" onClick={() => setSelectedBoardYear(null)}>
+                          <ChevronLeft size={20} />
+                          Volver
+                        </button>
+                      )}
+                      <h2 style={{fontFamily: 'var(--font-heading)'}}>
+                        {selectedBoardYear ? `Elecciones ${selectedBoardYear}` : 'Conformación de Órganos de Gob.'}
+                      </h2>
+                    </div>
+                    <p style={{color: 'var(--text-muted)'}}>
+                      {selectedBoardYear 
+                        ? `${selectedBoardCategory} - Integrantes electos` 
+                        : 'Integrantes electos desglosados por agrupación política.'}
+                    </p>
                  </div>
-                 <div className="category-selector">
-                    {['Comisión Directiva', 'Asamblea', 'Fiscalizadora'].map(cat => (
-                      <button 
-                        key={cat}
-                        className={`mini-tab ${selectedBoardCategory === cat ? 'active' : ''}`}
-                        onClick={() => setSelectedBoardCategory(cat)}
-                      >
-                        {cat}
-                      </button>
-                    ))}
-                 </div>
+                 {!selectedBoardYear && (
+                   <div className="category-selector">
+                      {['Comisión Directiva', 'Asamblea', 'Fiscalizadora'].map(cat => (
+                        <button 
+                          key={cat}
+                          className={`mini-tab ${selectedBoardCategory === cat ? 'active' : ''}`}
+                          onClick={() => setSelectedBoardCategory(cat)}
+                        >
+                          {cat}
+                        </button>
+                      ))}
+                   </div>
+                 )}
               </div>
 
-              <div className="board-years-grid">
-                  {boardConfigs.map((bc, idx) => (
-                      <motion.div 
-                         key={bc.year}
-                         className="board-card"
-                         initial={{ opacity: 0, scale: 0.95 }}
-                         animate={{ opacity: 1, scale: 1 }}
-                         transition={{ delay: idx * 0.05 }}
-                      >
-                         <div className="board-card-header">
-                            <h3 className="board-year">Elecciones {bc.year}</h3>
-                            <span className="board-total"><BarChart3 size={16} /> {bc.totalMembers} Electos</span>
-                         </div>
-                         <div className="board-lists">
-                            {bc.lists.map((l, lIdx) => (
-                               <div key={lIdx} className="board-list-item">
-                                   <div className="board-list-name">
-                                      <span className="color-dot" style={{ backgroundColor: getListColor(l.listName), display: 'inline-block', width: '10px', height: '10px', borderRadius: '50%', marginRight: '8px' }}></span>
-                                      {l.listName}
-                                   </div>
-                                   <div className="board-list-count">{l.count}</div>
-                               </div>
-                            ))}
-                         </div>
-                      </motion.div>
-                  ))}
-              </div>
+              {!selectedBoardYear ? (
+                <div className="board-years-grid">
+                    {boardConfigs.map((bc, idx) => (
+                        <motion.div 
+                           key={bc.year}
+                           className="board-card clickable"
+                           initial={{ opacity: 0, scale: 0.95 }}
+                           animate={{ opacity: 1, scale: 1 }}
+                           transition={{ delay: idx * 0.05 }}
+                           onClick={() => setSelectedBoardYear(bc.year)}
+                        >
+                           <div className="board-card-header">
+                              <h3 className="board-year">Elecciones {bc.year}</h3>
+                              <span className="board-total"><BarChart3 size={16} /> {bc.totalMembers} Electos</span>
+                           </div>
+                           <div className="board-lists">
+                              {bc.lists.map((l, lIdx) => (
+                                 <div key={lIdx} className="board-list-item">
+                                     <div className="board-list-name">
+                                        <span className="color-dot" style={{ backgroundColor: getListColor(l.listName), display: 'inline-block', width: '10px', height: '10px', borderRadius: '50%', marginRight: '8px' }}></span>
+                                        {l.listName}
+                                     </div>
+                                     <div className="board-list-count">{l.count}</div>
+                                 </div>
+                              ))}
+                           </div>
+                           <div className="board-card-footer">
+                              <span>Ver integrantes <ArrowRightLeft size={12} style={{transform: 'rotate(90deg)'}} /></span>
+                           </div>
+                        </motion.div>
+                    ))}
+                </div>
+              ) : (
+                <div className="board-detail-view">
+                   {(() => {
+                     const board = boardConfigs.find(b => b.year === selectedBoardYear);
+                     if (!board) return null;
+                     
+                     // Get counts per list for sorting
+                     const listImportance = {};
+                     board.members.forEach(m => {
+                       listImportance[m.list] = (listImportance[m.list] || 0) + 1;
+                     });
+                     
+                     const sortedMembers = [...board.members].sort((a, b) => {
+                       if (listImportance[b.list] !== listImportance[a.list]) {
+                         return listImportance[b.list] - listImportance[a.list];
+                       }
+                       return a.name.localeCompare(b.name);
+                     });
+
+                     return sortedMembers.map((member, idx) => (
+                       <motion.div 
+                          key={member.name}
+                          className="member-item"
+                          initial={{ opacity: 0, y: 10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ delay: idx * 0.01 }}
+                       >
+                          <div className="member-info">
+                            <span className="member-name">{member.name}</span>
+                            <span className="member-list" style={{color: getListColor(member.list)}}>{member.list}</span>
+                          </div>
+                          
+                          <div className="member-tooltip">
+                            <div className="tooltip-header">Resumen Político</div>
+                            <div className="tooltip-content">
+                              <div className="tooltip-stat">
+                                <span>Participaciones:</span>
+                                <strong>{member.history.length}</strong>
+                              </div>
+                              <div className="tooltip-stat">
+                                <span>Elecciones electo:</span>
+                                <strong style={{color: 'var(--rojo-casla)'}}>{member.history.filter(h => h.elected).length}</strong>
+                              </div>
+                              <div className="tooltip-section-title">Trayectoria:</div>
+                              <div className="tooltip-history-list">
+                                {member.history.map((h, i) => (
+                                  <div key={i} className={`tooltip-history-item ${h.elected ? 'elected' : ''}`}>
+                                    <span>{h.year}</span>
+                                    <span>{h.list}</span>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          </div>
+                       </motion.div>
+                     ));
+                   })()}
+                </div>
+              )}
           </section>
       )}
 
