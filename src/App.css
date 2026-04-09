@@ -790,14 +790,48 @@
   z-index: 10;
 }
 
+.member-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  text-align: left;
+}
+
 .member-name {
   font-weight: 900;
   font-family: var(--font-heading);
-  font-size: 0.9rem;
+  font-size: 1.05rem;
   color: var(--azul-casla);
+  line-height: 1.2;
 }
 
 .member-list {
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.2rem;
+}
+
+.member-cargo-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  padding-top: 0.4rem;
+  border-top: 1px dashed var(--border-light);
+  flex-wrap: wrap;
+}
+
+.member-cargo-prefix {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.member-cargo-val {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--rojo-casla);
+  font-family: var(--font-heading);
+}
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;

@@ -47,6 +47,31 @@ const getListColor = (listName) => {
   return KNOWN_COLORS[listName] || stringToColor(listName);
 };
 
+const getCargoRank = (pos) => {
+  if (!pos) return 999;
+  const p = pos.toLowerCase().trim();
+  
+  // Direct match for major CD roles
+  if (p === 'presidente') return 0;
+  if (p.includes('vice-presidente') || p.includes('vicepresidente') || p === 'vice presidente') return 1;
+  if (p.includes('secretario')) return 2;
+  if (p.includes('tesorero')) return 3;
+  
+  // Handle numeric positions (used in Asamblea and Fiscal Commission)
+  const numMatch = p.match(/^(\d+)$/);
+  if (numMatch) {
+    return 100 + parseInt(numMatch[1]); // Offset to keep them below Vocales (10-27) or separate?
+  }
+
+  // Handle "Vocal X"
+  if (p.includes('vocal')) {
+    const match = p.match(/\d+/);
+    return 10 + (match ? parseInt(match[0]) : 99);
+  }
+  
+  return 500;
+};
+
 export default function App() {
   const [data, setData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -579,11 +604,18 @@ export default function App() {
                                       {g.list}
                                     </span>
                                     <span className="row-years">
-                                      {g.items.map((h, i) => (
-                                        <span key={i} className={`row-year ${h.elected ? 'elected' : ''}`}>
-                                          {h.year}{h.elected && <CheckCircle2 size={10} />}
-                                        </span>
-                                      ))}
+                                      {g.items.map((h, i) => {
+                                        const isPresi = h.position?.toLowerCase().includes('presidente') && !h.position?.toLowerCase().includes('vice');
+                                        const isVice = h.position?.toLowerCase().includes('vice-presidente') || h.position?.toLowerCase().includes('vicepresidente');
+                                        return (
+                                          <span key={i} className={`row-year ${h.elected ? 'elected' : ''}`}>
+                                            {h.year}
+                                            {isPresi && ' 🥇'}
+                                            {isVice && ' 🥈'}
+                                            {h.elected && <CheckCircle2 size={10} />}
+                                          </span>
+                                        );
+                                      })}
                                     </span>
                                 </div>
                               ))}
@@ -752,9 +784,25 @@ export default function App() {
                      });
                      
                      const sortedMembers = [...board.members].sort((a, b) => {
+                       // 1. Prioridad por tamaño/importancia de la agrupación
                        if (listImportance[b.list] !== listImportance[a.list]) {
                          return listImportance[b.list] - listImportance[a.list];
                        }
+                       
+                       // 2. Mantener miembros de la misma lista juntos (por nombre de lista)
+                       if (a.list !== b.list) {
+                         return a.list.localeCompare(b.list);
+                       }
+                       
+                       // 3. Orden jerárquico dentro de la lista (Lugar en la lista)
+                       const posA = a.history.find(h => h.year === selectedBoardYear && h.category === selectedBoardCategory)?.position;
+                       const posB = b.history.find(h => h.year === selectedBoardYear && h.category === selectedBoardCategory)?.position;
+                       const rankA = getCargoRank(posA);
+                       const rankB = getCargoRank(posB);
+                       
+                       if (rankA !== rankB) return rankA - rankB;
+                       
+                       // 4. Alfabético por nombre si todo lo demás falla
                        return a.name.localeCompare(b.name);
                      });
 
@@ -766,10 +814,25 @@ export default function App() {
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ delay: idx * 0.01 }}
                        >
-                          <div className="member-info">
-                            <span className="member-name">{member.name}</span>
-                            <span className="member-list" style={{color: getListColor(member.list)}}>{member.list}</span>
-                          </div>
+                           <div className="member-info">
+                             <span className="member-name">{member.name}</span>
+                             <span className="member-list" style={{color: getListColor(member.list)}}>{member.list}</span>
+                             {(() => {
+                               const cargo = member.history.find(h => h.year === selectedBoardYear && h.category === selectedBoardCategory)?.position;
+                               const isPresi = cargo?.toLowerCase().includes('presidente') && !cargo?.toLowerCase().includes('vice');
+                               const isVice = cargo?.toLowerCase().includes('vice-presidente') || cargo?.toLowerCase().includes('vicepresidente');
+                               return cargo ? (
+                                 <div className="member-cargo-row">
+                                   <span className="member-cargo-prefix">Lugar en la lista: </span>
+                                   <span className="member-cargo-val">
+                                     {isPresi && '🥇 '}
+                                     {isVice && '🥈 '}
+                                     {cargo}
+                                   </span>
+                                 </div>
+                               ) : null;
+                             })()}
+                           </div>
                           
                           <div className="member-tooltip">
                             <div className="tooltip-header">Resumen Político</div>

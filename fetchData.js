@@ -11,6 +11,19 @@ if (!SHEET_URL) {
 
 const OUT_FILE = './public/data.json';
 
+function smartNormalize(name) {
+  if (!name) return '';
+  return name.toString()
+    .toUpperCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/,/g, '')
+    .replace(/\./g, '')
+    .split(/\s+/)
+    .filter(w => w.length > 0)
+    .sort()
+    .join(' ');
+}
+
 async function fetchAndParse() {
   console.log('Downloading Excel file...');
   const response = await axios.get(SHEET_URL, { responseType: 'arraybuffer' });
@@ -19,6 +32,60 @@ async function fetchAndParse() {
   console.log('Parsing Excel file...');
   const workbook = new ExcelJS.Workbook();
   await workbook.xlsx.load(buffer);
+
+  const electionPositions = {}; // { [year]: [ { normalized: string, position: string } ] }
+
+  console.log('Scanning for election sheets (EO/EE)...');
+  workbook.worksheets.forEach(worksheet => {
+    const sheetName = worksheet.name.toUpperCase();
+    if (sheetName.includes('E.O') || sheetName.includes('E.E') || sheetName.includes('E.C') || 
+        sheetName.includes('EO') || sheetName.includes('EE') || sheetName.includes('ASAMBLEA 2025')) {
+      const yearMatch = sheetName.match(/\d{4}/);
+      if (!yearMatch) return;
+      const year = yearMatch[0];
+      
+      if (!electionPositions[year]) electionPositions[year] = [];
+
+      worksheet.eachRow((row, rowNumber) => {
+        if (rowNumber < 2) return;
+        
+        for (let col = 2; col <= worksheet.columnCount; col += 3) {
+           const positionCell = row.getCell(col);
+           const nameCell = row.getCell(col + 1);
+           
+           if (positionCell.value && nameCell.value) {
+             const position = positionCell.value.toString().trim();
+             const rawName = nameCell.value.toString();
+             const normName = smartNormalize(rawName);
+             
+             electionPositions[year].push({ normalized: normName, position });
+           }
+        }
+      });
+    }
+  });
+
+  function findCargo(year, rawName) {
+    if (!year || !rawName) return null;
+    const cleanYear = year.match(/\d{4}/)?.[0];
+    if (!cleanYear || !electionPositions[cleanYear]) return null;
+    
+    const targetWords = smartNormalize(rawName).split(' ').filter(w => w.length > 0);
+    if (targetWords.length === 0) return null;
+
+    for (const entry of electionPositions[cleanYear]) {
+      const entryWords = entry.normalized.split(' ');
+      
+      // Subset matching: all words of one are in the other
+      const isTargetInEntry = targetWords.every(w => entryWords.includes(w));
+      const isEntryInTarget = entryWords.every(w => targetWords.includes(w));
+      
+      if (isTargetInEntry || isEntryInTarget) {
+        return entry.position;
+      }
+    }
+    return null;
+  }
 
   const dataMap = new Map();
 
@@ -101,11 +168,14 @@ async function fetchAndParse() {
           // Prevent duplicate history entries for same year/list/category within the same candidate
           const routeExists = candidateRecord.history.some(h => h.year === year && h.list === listName && h.category === category);
           if (!routeExists) {
+              const position = findCargo(year, candidateName);
+              
               candidateRecord.history.push({
                  year,
                  list: listName,
                  elected: isElected,
-                 category: category
+                 category: category,
+                 position: position
               });
           }
         }
