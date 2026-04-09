@@ -240,33 +240,35 @@ export default function App() {
     };
 
     const sorted = [...filtered].sort((a, b) => {
-      if (sortMode === 'mostLists') {
-        const statsA = {
-          cd: getCatStats(a.history, 'Comisión Directiva'),
-          f: getCatStats(a.history, 'Fiscalizadora'),
-          as: getCatStats(a.history, 'Asamblea')
-        };
-        const statsB = {
-          cd: getCatStats(b.history, 'Comisión Directiva'),
-          f: getCatStats(b.history, 'Fiscalizadora'),
-          as: getCatStats(b.history, 'Asamblea')
-        };
-
-        // 1. CD Elected
-        if (statsB.cd.elected !== statsA.cd.elected) return statsB.cd.elected - statsA.cd.elected;
-        // 2. CD Total
-        if (statsB.cd.total !== statsA.cd.total) return statsB.cd.total - statsA.cd.total;
-        // 3. Fiscal Elected
-        if (statsB.f.elected !== statsA.f.elected) return statsB.f.elected - statsA.f.elected;
-        // 4. Fiscal Total
-        if (statsB.f.total !== statsA.f.total) return statsB.f.total - statsA.f.total;
-        // 5. Asamblea Elected
-        if (statsB.as.elected !== statsA.as.elected) return statsB.as.elected - statsA.as.elected;
-        // 6. Asamblea Total
-        if (statsB.as.total !== statsA.as.total) return statsB.as.total - statsA.as.total;
-        
+      if (sortMode === 'alpha') {
         return a.name.localeCompare(b.name);
       }
+      
+      // Default / 'mostLists' (Political Importance)
+      const statsA = {
+        cd: getCatStats(a.history, 'Comisión Directiva'),
+        f: getCatStats(a.history, 'Fiscalizadora'),
+        as: getCatStats(a.history, 'Asamblea')
+      };
+      const statsB = {
+        cd: getCatStats(b.history, 'Comisión Directiva'),
+        f: getCatStats(b.history, 'Fiscalizadora'),
+        as: getCatStats(b.history, 'Asamblea')
+      };
+
+      // 1. CD Elected
+      if (statsB.cd.elected !== statsA.cd.elected) return statsB.cd.elected - statsA.cd.elected;
+      // 2. CD Total
+      if (statsB.cd.total !== statsA.cd.total) return statsB.cd.total - statsA.cd.total;
+      // 3. Fiscal Elected
+      if (statsB.f.elected !== statsA.f.elected) return statsB.f.elected - statsA.f.elected;
+      // 4. Fiscal Total
+      if (statsB.f.total !== statsA.f.total) return statsB.f.total - statsA.f.total;
+      // 5. Asamblea Elected
+      if (statsB.as.elected !== statsA.as.elected) return statsB.as.elected - statsA.as.elected;
+      // 6. Asamblea Total
+      if (statsB.as.total !== statsA.as.total) return statsB.as.total - statsA.as.total;
+      
       return a.name.localeCompare(b.name);
     });
 
@@ -510,6 +512,18 @@ export default function App() {
                     <option value="Comisión Directiva">Comisión Directiva</option>
                     <option value="Fiscalizadora">Fiscalizadora</option>
                     <option value="Asamblea">Asamblea</option>
+                  </select>
+                </div>
+
+                <div className="filter-control">
+                  <span className="filter-label">Ordenar por</span>
+                  <select 
+                    className="dropdown-filter"
+                    value={sortMode}
+                    onChange={(e) => { setSortMode(e.target.value); setCurrentPage(1); }}
+                  >
+                    <option value="mostLists">Importancia Política</option>
+                    <option value="alpha">Nombre (A-Z)</option>
                   </select>
                 </div>
 
