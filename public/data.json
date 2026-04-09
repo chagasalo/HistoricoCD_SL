@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-09T15:12:16.031Z",
+  "updatedAt": "2026-04-09T15:15:07.837Z",
   "candidates": [
     {
       "name": "ABADIE, JAVIER",
@@ -3392,6 +3392,12 @@
           "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva"
+        },
+        {
+          "year": "2022",
+          "list": "Renovacion SL",
+          "elected": false,
+          "category": "Fiscalizadora"
         }
       ]
     },
@@ -9320,6 +9326,12 @@
           "list": "Orden y Progreso",
           "elected": false,
           "category": "Fiscalizadora"
+        },
+        {
+          "year": "2022",
+          "list": "Renovacion SL",
+          "elected": false,
+          "category": "Fiscalizadora"
         }
       ]
     },
@@ -9624,6 +9636,62 @@
         {
           "year": "2022",
           "list": "SL Querido",
+          "elected": false,
+          "category": "Fiscalizadora"
+        }
+      ]
+    },
+    {
+      "name": "NUÑEZ, JORGE ALEJANDRO",
+      "history": [
+        {
+          "year": "2022",
+          "list": "Renovacion SL",
+          "elected": false,
+          "category": "Fiscalizadora"
+        }
+      ]
+    },
+    {
+      "name": "VIDAL, LEANDRO EZEQUIEL",
+      "history": [
+        {
+          "year": "2022",
+          "list": "Renovacion SL",
+          "elected": false,
+          "category": "Fiscalizadora"
+        }
+      ]
+    },
+    {
+      "name": "MAIORANO, MARINA",
+      "history": [
+        {
+          "year": "2022",
+          "list": "Renovacion SL",
+          "elected": false,
+          "category": "Fiscalizadora"
+        },
+        {
+          "year": "2023",
+          "list": "Volver a SL",
+          "elected": false,
+          "category": "Asamblea"
+        },
+        {
+          "year": "2019",
+          "list": "Volver a SL",
+          "elected": false,
+          "category": "Asamblea"
+        }
+      ]
+    },
+    {
+      "name": "MARMERSCHTEIN MIYAR, GUSTAVO MARCELO",
+      "history": [
+        {
+          "year": "2022",
+          "list": "Renovacion SL",
           "elected": false,
           "category": "Fiscalizadora"
         }
@@ -17708,23 +17776,6 @@
         {
           "year": "2016",
           "list": "Cruzada x SL",
-          "elected": false,
-          "category": "Asamblea"
-        }
-      ]
-    },
-    {
-      "name": "MAIORANO, MARINA",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Volver a SL",
-          "elected": false,
-          "category": "Asamblea"
-        },
-        {
-          "year": "2019",
-          "list": "Volver a SL",
           "elected": false,
           "category": "Asamblea"
         }

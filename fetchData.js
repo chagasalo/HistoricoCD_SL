@@ -33,7 +33,10 @@ async function fetchAndParse() {
       category = 'Fiscalizadora';
     } else if (sheetName.includes('ASAMBLEISTAS') || sheetName.includes('ASAMBLEA')) {
       category = 'Asamblea';
+    } else if (sheetName.includes('CANDIDATOS A CD') || sheetName === 'CD') {
+      category = 'Comisión Directiva';
     } else if (sheetIndex === 0) {
+      // Fallback for the first sheet if it doesn't match the names above
       category = 'Comisión Directiva';
     } else {
       // If it's another sheet and we don't recognize it, skip
