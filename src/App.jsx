@@ -522,7 +522,7 @@ export default function App() {
                     value={sortMode}
                     onChange={(e) => { setSortMode(e.target.value); setCurrentPage(1); }}
                   >
-                    <option value="mostLists">Importancia Política</option>
+                    <option value="mostLists">Participación Política</option>
                     <option value="alpha">Nombre (A-Z)</option>
                   </select>
                 </div>
