@@ -42,8 +42,9 @@ function smartNormalize(name) {
 }
 
 function normalizeListName(list) {
-  if (!list) return 'Independiente';
+  if (!list) return '';
   let name = list.toString().trim();
+  if (name.toLowerCase() === 'independiente') return '';
   
   // Normalización base: minúsculas, cambio de 'x' por 'por', expandir SL e ignorar espacios dobles
   let clean = name.toLowerCase()
@@ -186,6 +187,7 @@ async function fetchAndParse() {
 
       let currentSection = "Comisión Directiva";
       let listHeaders = [];
+      const columnLayouts = []; // Array of { colIndex, listName }
 
       worksheet.eachRow((row, rowNumber) => {
         if (rowNumber === 1) {
@@ -195,26 +197,43 @@ async function fetchAndParse() {
           return;
         }
 
+        // En la fila 2 detectamos el layout de columnas
+        if (rowNumber === 2) {
+           for (let col = 2; col <= worksheet.columnCount; col++) {
+              const cellVal = row.getCell(col).value?.toString().toUpperCase() || '';
+              // Si la celda es un cargo (no un nombre), marcamos el inicio de un bloque
+              if (cellVal.includes('PRESIDENTE') || cellVal.includes('VOCAL') || cellVal.includes('SECRETARIO') || cellVal.includes('TESORERO')) {
+                 const listName = normalizeListName(listHeaders[col] || listHeaders[col-1] || listHeaders[col+1]);
+                 if (listName) {
+                    columnLayouts.push({ col, list: listName });
+                 }
+              }
+           }
+           return;
+        }
+
         const firstCell = row.getCell(2).value?.toString().toUpperCase() || '';
         if (firstCell.includes('ASAMBLEA')) { currentSection = "Asamblea"; return; }
         if (firstCell.includes('FISCALIZADORA')) { currentSection = "Fiscalizadora"; return; }
 
-        for (let col = 2; col <= worksheet.columnCount; col += 3) {
-           const listNameRaw = listHeaders[col] || listHeaders[col-1] || '';
-           if (listNameRaw.toUpperCase() === 'COMISION DIRECTIVA') continue; // Ignorar tabla resumen de la derecha
-           
+        columnLayouts.forEach(layout => {
+           const col = layout.col;
            const positionCell = row.getCell(col);
            const nameCell = row.getCell(col + 1);
            
            if (positionCell.value && nameCell.value) {
              const position = positionCell.value.toString().trim();
              const rawName = normalizeAlias(nameCell.value.toString().trim());
-             if (!rawName) continue;
+             if (!rawName) return;
+             
+             // Evitar nombres de cargos que se filtran como nombres de personas
+             if (position.toUpperCase() === rawName.toUpperCase()) return;
+
              const normName = smartNormalize(rawName);
              
              // Ignorar headers estructurales incrustados
-             if (normName === 'ASAMBLEA DE REPRESENTANTES' || normName === 'COMISION FISCALIZADORA' || rawName.includes('*RENUNCIARON')) continue;
-             if (smartNormalize(position) === normName) continue;
+             if (normName === 'ASAMBLEA DE REPRESENTANTES' || normName === 'COMISION FISCALIZADORA' || rawName.includes('*RENUNCIARON')) return;
+             if (smartNormalize(position) === normName) return;
              
              if (currentSection === "Comisión Directiva" && /^\d+$/.test(position) && rowNumber > 20) {
                currentSection = "Asamblea";
@@ -226,14 +245,14 @@ async function fetchAndParse() {
              if (!dataMap.has(candidateKey)) dataMap.set(candidateKey, { name: rawName, history: [] });
              const record = dataMap.get(candidateKey);
              
-             const listName = normalizeListName(listNameRaw) || 'Independiente';
+             const listName = layout.list;
              if (!record.history.some(h => h.year === year && h.category === currentSection)) {
                 record.history.push({
                    year, list: listName, elected: false, category: currentSection, position
                 });
              }
            }
-        }
+        });
       });
     }
   });
@@ -289,7 +308,7 @@ async function fetchAndParse() {
 
       let listCol = headers.indexOf('AGRUPACION');
       if (listCol === -1) listCol = headers.indexOf('LISTA');
-      const globalListName = normalizeListName(listCol > 0 ? row.getCell(listCol).value : 'Independiente');
+      const globalListName = normalizeListName(listCol > 0 ? row.getCell(listCol).value : '');
 
       headers.forEach((headerValue, colNumber) => {
         if (colNumber === nameCol) return;
@@ -306,13 +325,15 @@ async function fetchAndParse() {
            const rawList = (val.length > 3 && !['si', 'no', 'x'].includes(val.toLowerCase())) ? val : globalListName;
            const listName = normalizeListName(rawList);
            
+           if (!listName) return; // Si no hay agrupación, no lo procesamos según requerimiento (evita 'Independiente')
+
            let hist = record.history.find(h => h.year === year && h.category === category);
            if (!hist) {
              hist = { year, list: listName, elected: isElected, category, position: findCargo(year, candidateName, category) };
              record.history.push(hist);
            } else {
              hist.elected = isElected;
-             if (listName && listName !== 'Independiente') hist.list = listName;
+             if (listName) hist.list = listName;
              if (!hist.position) hist.position = findCargo(year, candidateName, category);
            }
         }
