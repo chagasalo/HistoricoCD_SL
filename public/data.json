@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-10T18:01:44.841Z",
+  "updatedAt": "2026-04-10T18:06:47.219Z",
   "candidates": [
     {
       "name": "COSTANTINO, SERGIO",
@@ -678,6 +678,13 @@
           "position": "Vocal 2"
         },
         {
+          "year": "2023",
+          "list": "Volver a San Lorenzo",
+          "elected": true,
+          "category": "Fiscalizadora",
+          "position": "1"
+        },
+        {
           "year": "2016",
           "list": "Volver a San Lorenzo",
           "elected": false,
@@ -697,14 +704,6 @@
           "elected": true,
           "category": "Asamblea",
           "position": "3"
-        },
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": true,
-          "category": "Fiscalizadora",
-          "position": "1",
-          "originalPos": "1"
         },
         {
           "year": "2019",
@@ -1009,8 +1008,8 @@
       }
     },
     {
-      "name": "CARUSO, JONATHAN",
-      "id": "CARUSO JONATHAN",
+      "name": "CARUSO, JONATHAN DANIEL",
+      "id": "CARUSO DANIEL JONATHAN",
       "history": [
         {
           "year": "2026",
@@ -1020,32 +1019,43 @@
           "position": "Vocal 4"
         },
         {
+          "year": "2016",
+          "list": "Volver a San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "3"
+        },
+        {
           "year": "2025",
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": "Vocal 8"
+          "position": "Vocal 8",
+          "originalPos": "Vocal 8"
         },
         {
           "year": "2023",
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": "Vocal 10"
+          "position": "Vocal 10",
+          "originalPos": "Vocal 10"
         },
         {
           "year": "2019",
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": "Vocal 7"
+          "position": "Vocal 7",
+          "originalPos": "Vocal 7"
         },
         {
-          "year": "2016",
+          "year": "2023",
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "3"
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -2690,8 +2700,8 @@
       }
     },
     {
-      "name": "CARESTIA, ERNESTO",
-      "id": "CARESTIA ERNESTO",
+      "name": "CARESTIA, ESTEBAN AMILCAR",
+      "id": "AMILCAR CARESTIA ESTEBAN",
       "history": [
         {
           "year": "2026",
@@ -2701,11 +2711,32 @@
           "position": "Vocal 16"
         },
         {
+          "year": "2023",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "28"
+        },
+        {
+          "year": "2022",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "27"
+        },
+        {
           "year": "2019",
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "36"
+        },
+        {
+          "year": "2010",
+          "list": "Mas San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "26"
         }
       ],
       "biography": null,
@@ -3084,6 +3115,14 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vice-Presidente"
+        },
+        {
+          "year": "2007",
+          "list": "Proyecto Azulgrana",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -3131,48 +3170,9 @@
         {
           "year": "2025",
           "list": "X Amor a San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 1"
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "1"
-        },
-        {
-          "year": "2012 (EXTRAORDINARIA)",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2012 (ASAMBLEA)",
-          "list": "Transitoria",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2007",
-          "list": "Proyecto Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "1",
-          "originalPos": "1"
+          "position": "Vocal 1"
         }
       ],
       "biography": null,
@@ -3242,55 +3242,23 @@
         {
           "year": "2019",
           "list": "San Lorenzo Siglo XXI",
-          "elected": true,
+          "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 3"
         },
         {
           "year": "2016",
           "list": "San Lorenzo Siglo XXI",
-          "elected": true,
+          "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 2"
         },
         {
           "year": "2013",
           "list": "San Lorenzo Siglo XXI",
-          "elected": true,
+          "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 2"
-        },
-        {
-          "year": "2023",
-          "list": "San Lorenzo Querido",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vice-Presidente",
-          "originalPos": "Vice-Presidente"
-        },
-        {
-          "year": "2012 (EXTRAORDINARIA)",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2012 (ASAMBLEA)",
-          "list": "Transitoria",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "36",
-          "originalPos": "36"
         }
       ],
       "biography": null,
@@ -3753,6 +3721,38 @@
           "category": "Comisión Directiva",
           "position": "Vocal 14",
           "originalPos": "Vocal 14"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "CARUSO, JONATHAN",
+      "id": "CARUSO JONATHAN",
+      "history": [
+        {
+          "year": "2025",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 8"
+        },
+        {
+          "year": "2023",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 10"
+        },
+        {
+          "year": "2019",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 7"
         }
       ],
       "biography": null,
@@ -4359,6 +4359,13 @@
           "position": "Vocal 17"
         },
         {
+          "year": "2023",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Fiscalizadora",
+          "position": "2"
+        },
+        {
           "year": "2026",
           "list": "Volver a San Lorenzo",
           "elected": false,
@@ -4373,14 +4380,6 @@
           "category": "Comisión Directiva",
           "position": "Vocal 16",
           "originalPos": "Vocal 16"
-        },
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": "2",
-          "originalPos": "2"
         }
       ],
       "biography": null,
@@ -4460,6 +4459,27 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 18"
+        },
+        {
+          "year": "2019",
+          "list": "Volver a San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "1"
+        },
+        {
+          "year": "2016",
+          "list": "Volver a San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "1"
+        },
+        {
+          "year": "2013",
+          "list": "Volver a San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "1"
         },
         {
           "year": "2010",
@@ -5066,35 +5086,6 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 2"
-        },
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "1"
-        },
-        {
-          "year": "2016",
-          "list": "Volver a San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "1"
-        },
-        {
-          "year": "2013",
-          "list": "Volver a San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "1"
-        },
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "10",
-          "originalPos": "10"
         }
       ],
       "biography": null,
@@ -5110,32 +5101,9 @@
         {
           "year": "2023",
           "list": "Boedo en Accion",
-          "elected": true,
+          "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 6"
-        },
-        {
-          "year": "2004",
-          "list": "De Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 9"
-        },
-        {
-          "year": "2010",
-          "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2007",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "28",
-          "originalPos": "28"
         }
       ],
       "biography": null,
@@ -6160,8 +6128,8 @@
       }
     },
     {
-      "name": "BUZZO, GUILLERMO",
-      "id": "BUZZO GUILLERMO",
+      "name": "BUZZO, GUILLERMO DANIEL",
+      "id": "BUZZO DANIEL GUILLERMO",
       "history": [
         {
           "year": "2023",
@@ -6185,11 +6153,25 @@
           "position": "12"
         },
         {
+          "year": "2016",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "26"
+        },
+        {
           "year": "2013",
           "list": "San Lorenzo Siglo XXI",
           "elected": true,
           "category": "Asamblea",
           "position": "10"
+        },
+        {
+          "year": "2010",
+          "list": "Mas San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "1"
         },
         {
           "year": "2007",
@@ -6198,22 +6180,6 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
-        },
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "26",
-          "originalPos": "26"
-        },
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "1",
-          "originalPos": "1"
         }
       ],
       "biography": null,
@@ -6223,8 +6189,8 @@
       }
     },
     {
-      "name": "ROMANO, JORGE",
-      "id": "JORGE ROMANO",
+      "name": "ROMANO, JORGE ANTONIO",
+      "id": "ANTONIO JORGE ROMANO",
       "history": [
         {
           "year": "2023",
@@ -6259,8 +6225,8 @@
       }
     },
     {
-      "name": "IGLESIAS, RUBEN",
-      "id": "IGLESIAS RUBEN",
+      "name": "IGLESIAS, RUBEN DARIO",
+      "id": "DARIO IGLESIAS RUBEN",
       "history": [
         {
           "year": "2023",
@@ -6270,18 +6236,18 @@
           "position": "3"
         },
         {
-          "year": "2022",
-          "list": "Siempre San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 4"
+          "year": "2019",
+          "list": "Cruzada por San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "3"
         },
         {
-          "year": "2013",
+          "year": "2016",
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": "Vocal 11"
+          "position": "Vocal 2"
         },
         {
           "year": "2023",
@@ -6292,12 +6258,12 @@
           "originalPos": "Vocal 4"
         },
         {
-          "year": "2016",
+          "year": "2013",
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": "Vocal 2",
-          "originalPos": "Vocal 2"
+          "position": "Vocal 11",
+          "originalPos": "Vocal 11"
         },
         {
           "year": "2012 (EXTRAORDINARIA)",
@@ -6306,14 +6272,6 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
-        },
-        {
-          "year": "2019",
-          "list": "Cruzada por San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "3",
-          "originalPos": "3"
         }
       ],
       "biography": null,
@@ -6502,12 +6460,18 @@
           "position": "5"
         },
         {
+          "year": "2022",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "5"
+        },
+        {
           "year": "2019",
           "list": "Volver a San Lorenzo",
           "elected": true,
           "category": "Asamblea",
-          "position": null,
-          "originalPos": null
+          "position": "7"
         }
       ],
       "biography": null,
@@ -6606,8 +6570,8 @@
       }
     },
     {
-      "name": "ADANZA, ROBERTO",
-      "id": "ADANZA ROBERTO",
+      "name": "ADANZA, DIEGO ROBERTO",
+      "id": "ADANZA FABIAN ROBERTO",
       "history": [
         {
           "year": "2023",
@@ -6626,7 +6590,7 @@
         {
           "year": "2019",
           "list": "Volver a San Lorenzo",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "5"
         }
@@ -7530,8 +7494,8 @@
       }
     },
     {
-      "name": "BERDIÑAS, MARTIN",
-      "id": "BERDINAS MARTIN",
+      "name": "BERDIÑAS, MARTIN MARCELO",
+      "id": "BERDINAS MARCELO MARTIN",
       "history": [
         {
           "year": "2023",
@@ -7545,8 +7509,7 @@
           "list": "Vamos San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "39",
-          "originalPos": "39"
+          "position": "39"
         },
         {
           "year": "2007",
@@ -7708,8 +7671,8 @@
       }
     },
     {
-      "name": "CARRILLO, ANGEL",
-      "id": "ANGEL CARRILLO",
+      "name": "CARRILLO, ANGEL ENRIQUE",
+      "id": "ANGEL CARRILLO ENRIQUE",
       "history": [
         {
           "year": "2023",
@@ -7717,6 +7680,20 @@
           "elected": false,
           "category": "Asamblea",
           "position": "18"
+        },
+        {
+          "year": "2019",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "54"
+        },
+        {
+          "year": "2016",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "42"
         }
       ],
       "biography": null,
@@ -8228,8 +8205,8 @@
       }
     },
     {
-      "name": "CATAPANO, MARIA",
-      "id": "CATAPANO MARIA",
+      "name": "CATAPANO, MARIA CRISTINA",
+      "id": "CATAPANO CRISTINA MARIA",
       "history": [
         {
           "year": "2023",
@@ -8246,20 +8223,19 @@
           "position": "70"
         },
         {
+          "year": "2010",
+          "list": "Mas San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "56"
+        },
+        {
           "year": "2019",
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Fiscalizadora",
           "position": null,
           "originalPos": null
-        },
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "56",
-          "originalPos": "56"
         }
       ],
       "biography": null,
@@ -8474,55 +8450,6 @@
       }
     },
     {
-      "name": "CARESTIA, ESTEBAN",
-      "id": "CARESTIA ESTEBAN",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "28"
-        },
-        {
-          "year": "2022",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "27"
-        },
-        {
-          "year": "2026",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "26",
-          "originalPos": "26"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "FRANCO, NICOLAS",
       "id": "FRANCO NICOLAS",
       "history": [
@@ -8605,8 +8532,8 @@
       }
     },
     {
-      "name": "BARENGO, ANIBAL",
-      "id": "ANIBAL BARENGO",
+      "name": "BARENGO, ANIBAL ENRIQUE",
+      "id": "ANIBAL BARENGO ENRIQUE",
       "history": [
         {
           "year": "2023",
@@ -8634,8 +8561,7 @@
           "list": "Mas San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "31",
-          "originalPos": "31"
+          "position": "31"
         }
       ],
       "biography": null,
@@ -9072,8 +8998,8 @@
       }
     },
     {
-      "name": "BRUN, CARLOS",
-      "id": "BRUN CARLOS",
+      "name": "BRUN, CARLOS MARIA",
+      "id": "BRUN CARLOS MARIA",
       "history": [
         {
           "year": "2023",
@@ -9101,8 +9027,7 @@
           "list": "Nuevo San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "13",
-          "originalPos": "13"
+          "position": "13"
         }
       ],
       "biography": null,
@@ -9292,24 +9217,6 @@
       }
     },
     {
-      "name": "ROMANO, JORGE ANTONIO",
-      "id": "ANTONIO JORGE ROMANO",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Boedo en Accion",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "3"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "FITO VALLS, MARIA MACARENA",
       "id": "FITO MACARENA MARIA VALLS",
       "history": [
@@ -9357,20 +9264,26 @@
           "position": "37"
         },
         {
-          "year": "2013",
+          "year": "2022",
           "list": "Volver a San Lorenzo",
           "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 5",
-          "originalPos": "Vocal 5"
+          "category": "Asamblea",
+          "position": "35"
         },
         {
           "year": "2004",
           "list": "Dignidad por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "10",
-          "originalPos": "10"
+          "position": "10"
+        },
+        {
+          "year": "2013",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 5",
+          "originalPos": "Vocal 5"
         }
       ],
       "biography": null,
@@ -10202,6 +10115,20 @@
           "elected": false,
           "category": "Asamblea",
           "position": "47"
+        },
+        {
+          "year": "2022",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "45"
+        },
+        {
+          "year": "2019",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "59"
         }
       ],
       "biography": null,
@@ -10462,8 +10389,8 @@
       }
     },
     {
-      "name": "IBAÑEZ, FACUNDO",
-      "id": "FACUNDO IBANEZ",
+      "name": "IBAÑEZ, FACUNDO ANDRES",
+      "id": "ANDRES FACUNDO IBANEZ",
       "history": [
         {
           "year": "2023",
@@ -10480,11 +10407,19 @@
           "position": "56"
         },
         {
+          "year": "2019",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "70"
+        },
+        {
           "year": "2013",
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": "Vocal 4"
+          "position": "Vocal 4",
+          "originalPos": "Vocal 4"
         }
       ],
       "biography": null,
@@ -10939,8 +10874,8 @@
       }
     },
     {
-      "name": "MICELI, PABLO",
-      "id": "MICELI PABLO",
+      "name": "MICELI, LUCAS PABLO",
+      "id": "LUCAS MICELI PABLO",
       "history": [
         {
           "year": "2023",
@@ -10953,8 +10888,16 @@
           "year": "2019",
           "list": "Frente Pasion Azulgrana",
           "elected": false,
+          "category": "Asamblea",
+          "position": "64"
+        },
+        {
+          "year": "2019",
+          "list": "Frente Pasion Azulgrana",
+          "elected": false,
           "category": "Comisión Directiva",
-          "position": "Vocal 4"
+          "position": "Vocal 4",
+          "originalPos": "Vocal 4"
         },
         {
           "year": "2004",
@@ -11497,8 +11440,8 @@
       }
     },
     {
-      "name": "IBAÑEZ, MATIAS",
-      "id": "IBANEZ MATIAS",
+      "name": "IBAÑEZ, MATIAS EMANUEL",
+      "id": "EMANUEL IBANEZ MATIAS",
       "history": [
         {
           "year": "2023",
@@ -11506,6 +11449,13 @@
           "elected": false,
           "category": "Asamblea",
           "position": "63"
+        },
+        {
+          "year": "2019",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "87"
         }
       ],
       "biography": null,
@@ -11590,12 +11540,12 @@
       }
     },
     {
-      "name": "PARRA, MARCELO",
-      "id": "MARCELO PARRA",
+      "name": "PARRA, MARCELO ADRIAN",
+      "id": "ADRIAN MARCELO PARRA",
       "history": [
         {
           "year": "2023",
-          "list": "X Amor a San Lorenzo",
+          "list": "Siempre San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "64"
@@ -11608,11 +11558,19 @@
           "position": "28"
         },
         {
+          "year": "2019",
+          "list": "Cruzada por San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "8"
+        },
+        {
           "year": "2016",
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": "Vocal 15"
+          "position": "Vocal 15",
+          "originalPos": "Vocal 15"
         }
       ],
       "biography": null,
@@ -12924,8 +12882,8 @@
       }
     },
     {
-      "name": "FLORIO, CLAUDIO",
-      "id": "CLAUDIO FLORIO",
+      "name": "FLORIO, CLAUDIO ALEJANDRO",
+      "id": "ALEJANDRO CLAUDIO FLORIO",
       "history": [
         {
           "year": "2023",
@@ -12942,27 +12900,42 @@
           "position": "57"
         },
         {
-          "year": "2013",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 17"
-        },
-        {
           "year": "2019",
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "13",
-          "originalPos": "13"
+          "position": "13"
         },
         {
           "year": "2016",
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "10",
-          "originalPos": "10"
+          "position": "10"
+        },
+        {
+          "year": "2013",
+          "list": "Cruzada por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 17",
+          "originalPos": "Vocal 17"
+        },
+        {
+          "year": "2012 (EXTRAORDINARIA)",
+          "list": "Cruzada por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2010",
+          "list": "Cruzada por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -13598,8 +13571,7 @@
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": null,
-          "originalPos": null
+          "position": "31"
         }
       ],
       "biography": null,
@@ -14013,24 +13985,6 @@
       }
     },
     {
-      "name": "MEIS, MARCELO",
-      "id": "MARCELO MEIS",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": "1"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "ANGRIMAN, BRUNO",
       "id": "ANGRIMAN BRUNO",
       "history": [
@@ -14091,38 +14045,6 @@
           "category": "Asamblea",
           "position": "58",
           "originalPos": "58"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "RASCOVAN, PABLO",
-      "id": "PABLO RASCOVAN",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": "2"
-        },
-        {
-          "year": "2022",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 16"
-        },
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 11"
         }
       ],
       "biography": null,
@@ -14592,53 +14514,6 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Presidente"
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "8"
-        },
-        {
-          "year": "2023",
-          "list": "Siempre San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vice-Presidente",
-          "originalPos": "Vice-Presidente"
-        },
-        {
-          "year": "2012 (EXTRAORDINARIA)",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2012 (ASAMBLEA)",
-          "list": "Transitoria",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2004",
-          "list": "San Lorenzo para Todos",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "7",
-          "originalPos": "7"
         }
       ],
       "biography": null,
@@ -14727,6 +14602,31 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 3"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "IGLESIAS, RUBEN",
+      "id": "IGLESIAS RUBEN",
+      "history": [
+        {
+          "year": "2022",
+          "list": "Siempre San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 4"
+        },
+        {
+          "year": "2013",
+          "list": "Cruzada por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 11"
         }
       ],
       "biography": null,
@@ -15599,36 +15499,31 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 16"
-        },
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "RASCOVAN, PABLO",
+      "id": "PABLO RASCOVAN",
+      "history": [
         {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "2"
-        },
-        {
-          "year": "2004",
-          "list": "Dignidad por San Lorenzo",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": "1"
-        },
-        {
-          "year": "2023",
-          "list": "San Lorenzo Querido",
+          "year": "2022",
+          "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": "Vocal 16",
-          "originalPos": "Vocal 16"
+          "position": "Vocal 16"
         },
         {
-          "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "year": "2019",
+          "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
+          "position": "Vocal 11"
         }
       ],
       "biography": null,
@@ -16118,31 +16013,6 @@
       }
     },
     {
-      "name": "GAUDIO, RUBEN OMAR",
-      "id": "GAUDIO OMAR RUBEN",
-      "history": [
-        {
-          "year": "2022",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "5"
-        },
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "7"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "VALLE, PEDRO DOMINGO",
       "id": "DOMINGO PEDRO VALLE",
       "history": [
@@ -16291,8 +16161,8 @@
       }
     },
     {
-      "name": "MACEDONIA, RICARDO",
-      "id": "MACEDONIA RICARDO",
+      "name": "MACEDONIA, RICARDO MARIO",
+      "id": "MACEDONIA MARIO RICARDO",
       "history": [
         {
           "year": "2022",
@@ -16302,9 +16172,16 @@
           "position": "8"
         },
         {
+          "year": "2007",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "1"
+        },
+        {
           "year": "2004",
           "list": "Unidos por San Lorenzo",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "12"
         },
@@ -16324,8 +16201,8 @@
       }
     },
     {
-      "name": "ZAYAT, FERNANDO",
-      "id": "FERNANDO ZAYAT",
+      "name": "ZAYAT, FERNANDO JAVIER",
+      "id": "FERNANDO JAVIER ZAYAT",
       "history": [
         {
           "year": "2022",
@@ -16342,20 +16219,19 @@
           "position": "34"
         },
         {
+          "year": "2010",
+          "list": "Boedo en Accion",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "23"
+        },
+        {
           "year": "2023",
           "list": "San Lorenzo Querido",
           "elected": false,
           "category": "Asamblea",
           "position": "8",
           "originalPos": "8"
-        },
-        {
-          "year": "2010",
-          "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "23",
-          "originalPos": "23"
         }
       ],
       "biography": null,
@@ -17446,8 +17322,8 @@
       }
     },
     {
-      "name": "VILLANO, PABLO",
-      "id": "PABLO VILLANO",
+      "name": "VILLANO, PABLO ALFREDO",
+      "id": "ALFREDO PABLO VILLANO",
       "history": [
         {
           "year": "2022",
@@ -17455,6 +17331,13 @@
           "elected": false,
           "category": "Asamblea",
           "position": "22"
+        },
+        {
+          "year": "2007",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "33"
         },
         {
           "year": "2010",
@@ -17471,14 +17354,6 @@
           "category": "Asamblea",
           "position": "22",
           "originalPos": "22"
-        },
-        {
-          "year": "2007",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "33",
-          "originalPos": "33"
         }
       ],
       "biography": null,
@@ -17768,8 +17643,8 @@
       }
     },
     {
-      "name": "MILANO, ANDREA",
-      "id": "ANDREA MILANO",
+      "name": "MILANO, ANDREA KARINA",
+      "id": "ANDREA KARINA MILANO",
       "history": [
         {
           "year": "2022",
@@ -17800,20 +17675,19 @@
           "position": "39"
         },
         {
+          "year": "2010",
+          "list": "Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "25"
+        },
+        {
           "year": "2023",
           "list": "San Lorenzo Querido",
           "elected": false,
           "category": "Asamblea",
           "position": "24",
           "originalPos": "24"
-        },
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "25",
-          "originalPos": "25"
         }
       ],
       "biography": null,
@@ -17967,8 +17841,8 @@
       }
     },
     {
-      "name": "SAIZ, DAMIAN",
-      "id": "DAMIAN SAIZ",
+      "name": "SAIZ, DAMIAN ESTEBAN",
+      "id": "DAMIAN ESTEBAN SAIZ",
       "history": [
         {
           "year": "2022",
@@ -17978,20 +17852,19 @@
           "position": "26"
         },
         {
+          "year": "2010",
+          "list": "Vamos San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "55"
+        },
+        {
           "year": "2023",
           "list": "Boedo en Accion",
           "elected": false,
           "category": "Asamblea",
           "position": "26",
           "originalPos": "26"
-        },
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "55",
-          "originalPos": "55"
         }
       ],
       "biography": null,
@@ -18001,8 +17874,8 @@
       }
     },
     {
-      "name": "BERTERO, LUIS",
-      "id": "BERTERO LUIS",
+      "name": "BERTERO, LUIS ALBERTO",
+      "id": "ALBERTO BERTERO LUIS",
       "history": [
         {
           "year": "2022",
@@ -18010,6 +17883,13 @@
           "elected": false,
           "category": "Asamblea",
           "position": "26"
+        },
+        {
+          "year": "2010",
+          "list": "Vamos San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "8"
         },
         {
           "year": "2004",
@@ -18033,14 +17913,6 @@
           "category": "Asamblea",
           "position": "26",
           "originalPos": "26"
-        },
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "8",
-          "originalPos": "8"
         }
       ],
       "biography": null,
@@ -18120,6 +17992,13 @@
           "position": "27"
         },
         {
+          "year": "2019",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "53"
+        },
+        {
           "year": "2016",
           "list": "San Lorenzo Siglo XXI",
           "elected": true,
@@ -18133,14 +18012,6 @@
           "category": "Asamblea",
           "position": "27",
           "originalPos": "27"
-        },
-        {
-          "year": "2019",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "53",
-          "originalPos": "53"
         }
       ],
       "biography": null,
@@ -18539,20 +18410,19 @@
           "position": "31"
         },
         {
+          "year": "2004",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "19"
+        },
+        {
           "year": "2023",
           "list": "Siempre San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "31",
           "originalPos": "31"
-        },
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "19",
-          "originalPos": "19"
         }
       ],
       "biography": null,
@@ -18839,6 +18709,20 @@
           "position": "35"
         },
         {
+          "year": "2016",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "15"
+        },
+        {
+          "year": "2013",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "24"
+        },
+        {
           "year": "2010",
           "list": "Mas San Lorenzo",
           "elected": true,
@@ -18852,22 +18736,6 @@
           "category": "Asamblea",
           "position": "34",
           "originalPos": "34"
-        },
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "15",
-          "originalPos": "15"
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "24",
-          "originalPos": "24"
         }
       ],
       "biography": null,
@@ -18943,38 +18811,6 @@
       }
     },
     {
-      "name": "REIMS, HORACIO",
-      "id": "HORACIO REIMS",
-      "history": [
-        {
-          "year": "2022",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "35"
-        },
-        {
-          "year": "2013",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 5"
-        },
-        {
-          "year": "2004",
-          "list": "Dignidad por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "10"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "VIDAL, HECTOR JORGE",
       "id": "HECTOR JORGE VIDAL",
       "history": [
@@ -19001,8 +18837,8 @@
       }
     },
     {
-      "name": "ZEA, DANIEL",
-      "id": "DANIEL ZEA",
+      "name": "ZEA, DANIEL ALEJANDRO",
+      "id": "ALEJANDRO DANIEL ZEA",
       "history": [
         {
           "year": "2022",
@@ -19012,20 +18848,19 @@
           "position": "36"
         },
         {
+          "year": "2010",
+          "list": "Grandeza Azulgrana",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "32"
+        },
+        {
           "year": "2023",
           "list": "Boedo en Accion",
           "elected": false,
           "category": "Asamblea",
           "position": "36",
           "originalPos": "36"
-        },
-        {
-          "year": "2010",
-          "list": "Grandeza Azulgrana",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "32",
-          "originalPos": "32"
         }
       ],
       "biography": null,
@@ -19035,8 +18870,8 @@
       }
     },
     {
-      "name": "LIEBEHENZ, MARCELO",
-      "id": "LIEBEHENZ MARCELO",
+      "name": "LIEBEHENZ, MARCELO PABLO",
+      "id": "LIEBEHENZ MARCELO PABLO",
       "history": [
         {
           "year": "2022",
@@ -19046,20 +18881,19 @@
           "position": "36"
         },
         {
+          "year": "2010",
+          "list": "Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "11"
+        },
+        {
           "year": "2023",
           "list": "Siempre San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "36",
           "originalPos": "36"
-        },
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "11",
-          "originalPos": "11"
         }
       ],
       "biography": null,
@@ -20116,39 +19950,6 @@
       }
     },
     {
-      "name": "VIDAL, LEONARDO",
-      "id": "LEONARDO VIDAL",
-      "history": [
-        {
-          "year": "2022",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "45"
-        },
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "59"
-        },
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "47",
-          "originalPos": "47"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "MANGONE, ANDRES",
       "id": "ANDRES MANGONE",
       "history": [
@@ -20303,8 +20104,8 @@
       }
     },
     {
-      "name": "DI FRANCO, PAULO",
-      "id": "DI FRANCO PAULO",
+      "name": "DI FRANCO, PAULO ADRIAN",
+      "id": "ADRIAN DI FRANCO PAULO",
       "history": [
         {
           "year": "2022",
@@ -20321,20 +20122,19 @@
           "position": "17"
         },
         {
+          "year": "2010",
+          "list": "Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "43"
+        },
+        {
           "year": "2023",
           "list": "Siempre San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "48",
           "originalPos": "48"
-        },
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "43",
-          "originalPos": "43"
         }
       ],
       "biography": null,
@@ -21870,8 +21670,8 @@
       }
     },
     {
-      "name": "SUAREZ, ALFREDO",
-      "id": "ALFREDO SUAREZ",
+      "name": "SUAREZ, ALFREDO JUSTO",
+      "id": "ALFREDO JUSTO SUAREZ",
       "history": [
         {
           "year": "2022",
@@ -21888,20 +21688,19 @@
           "position": "79"
         },
         {
+          "year": "2010",
+          "list": "Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "20"
+        },
+        {
           "year": "2023",
           "list": "San Lorenzo Querido",
           "elected": false,
           "category": "Asamblea",
           "position": "66",
           "originalPos": "66"
-        },
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "20",
-          "originalPos": "20"
         }
       ],
       "biography": null,
@@ -22811,8 +22610,8 @@
       }
     },
     {
-      "name": "MANGONE, HECTOR",
-      "id": "HECTOR MANGONE",
+      "name": "MANGONE, HECTOR ALBERTO",
+      "id": "ALBERTO HECTOR MANGONE",
       "history": [
         {
           "year": "2022",
@@ -22822,11 +22621,26 @@
           "position": "75"
         },
         {
+          "year": "2010",
+          "list": "Grandeza Azulgrana",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "31"
+        },
+        {
           "year": "2004",
           "list": "Grandeza Azulgrana",
           "elected": false,
           "category": "Asamblea",
           "position": "5"
+        },
+        {
+          "year": "2023",
+          "list": "Renovacion Sanlorencista",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "75",
+          "originalPos": "75"
         }
       ],
       "biography": null,
@@ -23847,6 +23661,13 @@
           "position": "84"
         },
         {
+          "year": "2001",
+          "list": "Nuevo Rumbo San Lorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 1"
+        },
+        {
           "year": "2010",
           "list": "Grandeza Azulgrana",
           "elected": false,
@@ -23861,14 +23682,6 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
-        },
-        {
-          "year": "2001",
-          "list": "Nuevo Rumbo San Lorencista",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 1",
-          "originalPos": "Vocal 1"
         },
         {
           "year": "2023",
@@ -24405,20 +24218,19 @@
           "position": "89"
         },
         {
+          "year": "2019",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "12"
+        },
+        {
           "year": "2023",
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "89",
           "originalPos": "89"
-        },
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "12",
-          "originalPos": "12"
         }
       ],
       "biography": null,
@@ -24946,6 +24758,24 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "MICELI, PABLO",
+      "id": "MICELI PABLO",
+      "history": [
+        {
+          "year": "2019",
+          "list": "Frente Pasion Azulgrana",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 4"
         }
       ],
       "biography": null,
@@ -25828,11 +25658,41 @@
           "position": "2"
         },
         {
+          "year": "2013",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "2"
+        },
+        {
           "year": "2010",
           "list": "Vamos San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "3"
+        },
+        {
+          "year": "2004",
+          "list": "Dignidad por San Lorenzo",
+          "elected": false,
+          "category": "Fiscalizadora",
+          "position": "1"
+        },
+        {
+          "year": "2023",
+          "list": "San Lorenzo Querido",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 16",
+          "originalPos": "Vocal 16"
+        },
+        {
+          "year": "2007",
+          "list": "Proyecto Azulgrana",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         },
         {
           "year": "2010",
@@ -25841,22 +25701,6 @@
           "category": "Fiscalizadora",
           "position": null,
           "originalPos": null
-        },
-        {
-          "year": "2004",
-          "list": "Dignidad por San Lorenzo",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": "1",
-          "originalPos": "1"
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "2",
-          "originalPos": "2"
         }
       ],
       "biography": null,
@@ -25909,8 +25753,8 @@
       }
     },
     {
-      "name": "FERNANDEZ ARDILES, JULIO",
-      "id": "ARDILES FERNANDEZ JULIO",
+      "name": "FERNANDEZ ARDILES, JULIO RAFAEL",
+      "id": "ARDILES FERNANDEZ JULIO RAFAEL",
       "history": [
         {
           "year": "2019",
@@ -25920,36 +25764,33 @@
           "position": "2"
         },
         {
-          "year": "2004",
-          "list": "San Lorenzo para Todos",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
           "year": "2016",
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "60",
-          "originalPos": "60"
+          "position": "60"
         },
         {
           "year": "2013",
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "40",
-          "originalPos": "40"
+          "position": "40"
         },
         {
           "year": "2010",
           "list": "Vamos San Lorenzo",
           "elected": true,
           "category": "Asamblea",
-          "position": "14",
-          "originalPos": "14"
+          "position": "14"
+        },
+        {
+          "year": "2004",
+          "list": "San Lorenzo para Todos",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -26082,31 +25923,6 @@
           "elected": true,
           "category": "Asamblea",
           "position": "3"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "IGLESIAS, RUBEN DARIO",
-      "id": "DARIO IGLESIAS RUBEN",
-      "history": [
-        {
-          "year": "2019",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "3"
-        },
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 2"
         }
       ],
       "biography": null,
@@ -26310,6 +26126,13 @@
           "position": "7"
         },
         {
+          "year": "2016",
+          "list": "Cruzada por San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "4"
+        },
+        {
           "year": "2013",
           "list": "Cruzada por San Lorenzo",
           "elected": true,
@@ -26330,14 +26153,6 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
-        },
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "4",
-          "originalPos": "4"
         }
       ],
       "biography": null,
@@ -26365,20 +26180,33 @@
           "position": "11"
         },
         {
+          "year": "2013",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "9"
+        },
+        {
+          "year": "2004",
+          "list": "De Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vice-Presidente"
+        },
+        {
+          "year": "1998",
+          "list": "Nuevo Rumbo San Lorencista",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 12"
+        },
+        {
           "year": "2007",
           "list": "Unidos por San Lorenzo",
           "elected": true,
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "9",
-          "originalPos": "9"
         }
       ],
       "biography": null,
@@ -26399,6 +26227,13 @@
           "position": "8"
         },
         {
+          "year": "2010",
+          "list": "Vamos San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "2"
+        },
+        {
           "year": "2007",
           "list": "Frente San Lorenzo",
           "elected": true,
@@ -26406,46 +26241,18 @@
           "position": "9"
         },
         {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "2",
-          "originalPos": "2"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "PARRA, MARCELO ADRIAN",
-      "id": "ADRIAN MARCELO PARRA",
-      "history": [
-        {
-          "year": "2019",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "8"
-        },
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
+          "year": "2001",
+          "list": "Unidad Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": "Vocal 15",
-          "originalPos": "Vocal 15"
+          "position": "Vocal 13"
         },
         {
-          "year": "2023",
-          "list": "Siempre San Lorenzo",
+          "year": "1998",
+          "list": "San Lorenzo para Todos",
           "elected": false,
-          "category": "Asamblea",
-          "position": "64",
-          "originalPos": "64"
+          "category": "Comisión Directiva",
+          "position": "Vocal 10"
         }
       ],
       "biography": null,
@@ -26591,24 +26398,6 @@
       }
     },
     {
-      "name": "AZAMENDIA, JUAN",
-      "id": "AZAMENDIA JUAN",
-      "history": [
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "12"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "SANTORSA, SILVANA",
       "id": "SANTORSA SILVANA",
       "history": [
@@ -26636,55 +26425,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "13"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "FLORIO, CLAUDIO ALEJANDRO",
-      "id": "ALEJANDRO CLAUDIO FLORIO",
-      "history": [
-        {
-          "year": "2019",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "13"
-        },
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "10"
-        },
-        {
-          "year": "2013",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 17",
-          "originalPos": "Vocal 17"
-        },
-        {
-          "year": "2012 (EXTRAORDINARIA)",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2010",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
         }
       ],
       "biography": null,
@@ -26989,8 +26729,8 @@
       }
     },
     {
-      "name": "BONOMO, HECTOR",
-      "id": "BONOMO HECTOR",
+      "name": "BONOMO, HECTOR DIEGO",
+      "id": "BONOMO DIEGO HECTOR",
       "history": [
         {
           "year": "2019",
@@ -27000,6 +26740,13 @@
           "position": "21"
         },
         {
+          "year": "2016",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "19"
+        },
+        {
           "year": "2013",
           "list": "San Lorenzo Siglo XXI",
           "elected": true,
@@ -27007,20 +26754,11 @@
           "position": "29"
         },
         {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "19",
-          "originalPos": "19"
-        },
-        {
           "year": "2010",
           "list": "Nuevo San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "8",
-          "originalPos": "8"
+          "position": "8"
         }
       ],
       "biography": null,
@@ -27095,20 +26833,19 @@
           "position": "22"
         },
         {
+          "year": "2013",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "42"
+        },
+        {
           "year": "2016",
           "list": "San Lorenzo Siglo XXI",
           "elected": true,
           "category": "Asamblea",
           "position": null,
           "originalPos": null
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "42",
-          "originalPos": "42"
         }
       ],
       "biography": null,
@@ -27356,8 +27093,7 @@
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "32",
-          "originalPos": "32"
+          "position": "32"
         }
       ],
       "biography": null,
@@ -27614,24 +27350,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "30"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BONNANO, PABLO",
-      "id": "BONNANO PABLO",
-      "history": [
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "31"
         }
       ],
       "biography": null,
@@ -28089,8 +27807,7 @@
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "57",
-          "originalPos": "57"
+          "position": "57"
         }
       ],
       "biography": null,
@@ -28565,27 +28282,25 @@
           "position": "47"
         },
         {
-          "year": "2010",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "6"
-        },
-        {
           "year": "2016",
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "31",
-          "originalPos": "31"
+          "position": "31"
         },
         {
           "year": "2013",
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "21",
-          "originalPos": "21"
+          "position": "21"
+        },
+        {
+          "year": "2010",
+          "list": "Cruzada por San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "6"
         }
       ],
       "biography": null,
@@ -28656,19 +28371,18 @@
           "position": "48"
         },
         {
+          "year": "2016",
+          "list": "Cruzada por San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "30"
+        },
+        {
           "year": "2010",
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "59"
-        },
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "30",
-          "originalPos": "30"
         },
         {
           "year": "2013",
@@ -28834,26 +28548,7 @@
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "55",
-          "originalPos": "55"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BALBI, JULIO",
-      "id": "BALBI JULIO",
-      "history": [
-        {
-          "year": "2019",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "53"
+          "position": "55"
         }
       ],
       "biography": null,
@@ -28890,39 +28585,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "53"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "CARRILLO, ANGEL ENRIQUE",
-      "id": "ANGEL CARRILLO ENRIQUE",
-      "history": [
-        {
-          "year": "2019",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "54"
-        },
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "42"
-        },
-        {
-          "year": "2023",
-          "list": "X Amor a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "18",
-          "originalPos": "18"
         }
       ],
       "biography": null,
@@ -29514,8 +29176,8 @@
       }
     },
     {
-      "name": "SACCO, OSCAR",
-      "id": "OSCAR SACCO",
+      "name": "SACCO, OSCAR ORLANDO",
+      "id": "ORLANDO OSCAR SACCO",
       "history": [
         {
           "year": "2019",
@@ -29536,8 +29198,7 @@
           "list": "Nuevo San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "40",
-          "originalPos": "40"
+          "position": "40"
         }
       ],
       "biography": null,
@@ -29628,32 +29289,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "64"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "MICELI, LUCAS PABLO",
-      "id": "LUCAS MICELI PABLO",
-      "history": [
-        {
-          "year": "2019",
-          "list": "Frente Pasion Azulgrana",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "64"
-        },
-        {
-          "year": "2023",
-          "list": "Siempre San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "57",
-          "originalPos": "57"
         }
       ],
       "biography": null,
@@ -29942,32 +29577,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "69"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "IBAÑEZ, FACUNDO ANDRES",
-      "id": "ANDRES FACUNDO IBANEZ",
-      "history": [
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "70"
-        },
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "51",
-          "originalPos": "51"
         }
       ],
       "biography": null,
@@ -30439,8 +30048,8 @@
       }
     },
     {
-      "name": "BONGIORNO, MARIANO",
-      "id": "BONGIORNO MARIANO",
+      "name": "BONGIORNO, MARIANO ERNESTO",
+      "id": "BONGIORNO ERNESTO MARIANO",
       "history": [
         {
           "year": "2019",
@@ -30450,19 +30059,18 @@
           "position": "77"
         },
         {
+          "year": "2010",
+          "list": "Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "33"
+        },
+        {
           "year": "2004",
           "list": "San Lorenzo para Todos",
           "elected": true,
           "category": "Asamblea",
           "position": "9"
-        },
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "33",
-          "originalPos": "33"
         }
       ],
       "biography": null,
@@ -30517,24 +30125,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "77"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "ADANZA, DIEGO ROBERTO",
-      "id": "ADANZA DIEGO ROBERTO",
-      "history": [
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "5"
         }
       ],
       "biography": null,
@@ -31074,32 +30664,6 @@
       }
     },
     {
-      "name": "IBAÑEZ, MATIAS EMANUEL",
-      "id": "EMANUEL IBANEZ MATIAS",
-      "history": [
-        {
-          "year": "2019",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "87"
-        },
-        {
-          "year": "2023",
-          "list": "X Amor a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "63",
-          "originalPos": "63"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "RASO, ADOLFO HORACIO",
       "id": "ADOLFO HORACIO RASO",
       "history": [
@@ -31298,8 +30862,7 @@
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "45",
-          "originalPos": "45"
+          "position": "45"
         }
       ],
       "biography": null,
@@ -31688,13 +31251,6 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 5"
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "12"
         }
       ],
       "biography": null,
@@ -31917,6 +31473,24 @@
       }
     },
     {
+      "name": "PARRA, MARCELO",
+      "id": "MARCELO PARRA",
+      "history": [
+        {
+          "year": "2016",
+          "list": "Cruzada por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 15"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
       "name": "VOGLIOTTI, LEANDRO",
       "id": "LEANDRO VOGLIOTTI",
       "history": [
@@ -31996,24 +31570,6 @@
       }
     },
     {
-      "name": "VERDALLE, FEDERICO",
-      "id": "FEDERICO VERDALLE",
-      "history": [
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "4"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "VELAZQUEZ, LUIS ALBERTO",
       "id": "ALBERTO LUIS VELAZQUEZ",
       "history": [
@@ -32075,8 +31631,8 @@
       }
     },
     {
-      "name": "CASTAÑO, MARCELO",
-      "id": "CASTANO MARCELO",
+      "name": "CASTAÑO, MARCELO ALEJANDRO",
+      "id": "ALEJANDRO CASTANO MARCELO",
       "history": [
         {
           "year": "2016",
@@ -32090,8 +31646,7 @@
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "11",
-          "originalPos": "11"
+          "position": "11"
         }
       ],
       "biography": null,
@@ -32202,31 +31757,6 @@
       }
     },
     {
-      "name": "GOMEZ, ALEJANDRO",
-      "id": "ALEJANDRO GOMEZ",
-      "history": [
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "15"
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "24"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "LAVALLE, GUSTAVO",
       "id": "GUSTAVO LAVALLE",
       "history": [
@@ -32252,8 +31782,8 @@
       }
     },
     {
-      "name": "CASTRO, ALBERTO",
-      "id": "ALBERTO CASTRO",
+      "name": "CASTRO, MATIAS ALBERTO",
+      "id": "ALBERTO CASTRO MATIAS",
       "history": [
         {
           "year": "2016",
@@ -32268,6 +31798,21 @@
           "elected": true,
           "category": "Asamblea",
           "position": "13"
+        },
+        {
+          "year": "2010",
+          "list": "Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "3"
+        },
+        {
+          "year": "2010",
+          "list": "Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -32329,31 +31874,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "18"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BONOMO, HECTOR DIEGO",
-      "id": "BONOMO DIEGO HECTOR",
-      "history": [
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "19"
-        },
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "8"
         }
       ],
       "biography": null,
@@ -32479,56 +31999,6 @@
       }
     },
     {
-      "name": "BUZZO, GUILLERMO DANIEL",
-      "id": "BUZZO DANIEL GUILLERMO",
-      "history": [
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "26"
-        },
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "1"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "CASTRO, CARLOS ALBERTO",
-      "id": "ALBERTO CARLOS CASTRO",
-      "history": [
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "16"
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "13"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "LOPEZ MOHAMED, FACUNDO",
       "id": "FACUNDO LOPEZ MOHAMED",
       "history": [
@@ -32562,84 +32032,7 @@
           "list": "San Lorenzo Siglo XXI",
           "elected": true,
           "category": "Asamblea",
-          "position": "27",
-          "originalPos": "27"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BEJAR, ALEJANDRO",
-      "id": "ALEJANDRO BEJAR",
-      "history": [
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "30"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "CASTRO, MATIAS ALBERTO",
-      "id": "ALBERTO CASTRO MATIAS",
-      "history": [
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "16"
-        },
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "3"
-        },
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "MALATESTA, MARIANO",
-      "id": "MALATESTA MARIANO",
-      "history": [
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "31"
-        },
-        {
-          "year": "2013",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "21"
+          "position": "27"
         }
       ],
       "biography": null,
@@ -32655,24 +32048,6 @@
         {
           "year": "2016",
           "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "32"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "GIOIA, CRISTINA",
-      "id": "CRISTINA GIOIA",
-      "history": [
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "32"
@@ -32981,24 +32356,6 @@
       }
     },
     {
-      "name": "COUSO, CARLOS",
-      "id": "CARLOS COUSO",
-      "history": [
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "45"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "HARDEL, ANTONIO MARTIN",
       "id": "ANTONIO HARDEL MARTIN",
       "history": [
@@ -33194,24 +32551,6 @@
       }
     },
     {
-      "name": "CARELLI, LUCIO",
-      "id": "CARELLI LUCIO",
-      "history": [
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "55"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "MAIDANA, CARLOS FRANCISCO",
       "id": "CARLOS FRANCISCO MAIDANA",
       "history": [
@@ -33236,24 +32575,6 @@
         {
           "year": "2016",
           "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "57"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "ALVAREZ, LEONARDO",
-      "id": "ALVAREZ LEONARDO",
-      "history": [
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "57"
@@ -33325,38 +32646,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "51"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "FERNANDEZ ARDILES, JULIO RAFAEL",
-      "id": "ARDILES FERNANDEZ JULIO RAFAEL",
-      "history": [
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "60"
-        },
-        {
-          "year": "2013",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "40"
-        },
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "14"
         }
       ],
       "biography": null,
@@ -33496,6 +32785,24 @@
       }
     },
     {
+      "name": "IBAÑEZ, FACUNDO",
+      "id": "FACUNDO IBANEZ",
+      "history": [
+        {
+          "year": "2013",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 4"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
       "name": "ROCHEARAY, GASTON",
       "id": "GASTON ROCHEARAY",
       "history": [
@@ -33513,6 +32820,24 @@
           "category": "Asamblea",
           "position": null,
           "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "REIMS, HORACIO",
+      "id": "HORACIO REIMS",
+      "history": [
+        {
+          "year": "2013",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 5"
         }
       ],
       "biography": null,
@@ -33965,6 +33290,24 @@
       }
     },
     {
+      "name": "FLORIO, CLAUDIO",
+      "id": "CLAUDIO FLORIO",
+      "history": [
+        {
+          "year": "2013",
+          "list": "Cruzada por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 17"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
       "name": "ALBENDIN, NICOLAS",
       "id": "ALBENDIN NICOLAS",
       "history": [
@@ -34001,15 +33344,54 @@
       }
     },
     {
-      "name": "RESNIK, DIEGO",
-      "id": "DIEGO RESNIK",
+      "name": "VAZQUEZ, MARCELO PABLO",
+      "id": "MARCELO PABLO VAZQUEZ",
       "history": [
         {
           "year": "2013",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
           "category": "Asamblea",
-          "position": "2"
+          "position": "1"
+        },
+        {
+          "year": "2010",
+          "list": "Nuevo San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "1"
+        },
+        {
+          "year": "2025",
+          "list": "X Amor a San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 1",
+          "originalPos": "Vocal 1"
+        },
+        {
+          "year": "2012 (EXTRAORDINARIA)",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2012 (ASAMBLEA)",
+          "list": "Transitoria",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2007",
+          "list": "Proyecto Azulgrana",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -34019,8 +33401,33 @@
       }
     },
     {
-      "name": "SALERNO, JORGE",
-      "id": "JORGE SALERNO",
+      "name": "RESNIK, DIEGO MARTIN",
+      "id": "DIEGO MARTIN RESNIK",
+      "history": [
+        {
+          "year": "2013",
+          "list": "Cruzada por San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "2"
+        },
+        {
+          "year": "2010",
+          "list": "Cruzada por San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "3"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "SALERNO, JORGE AMADEO",
+      "id": "AMADEO JORGE SALERNO",
       "history": [
         {
           "year": "2013",
@@ -34028,6 +33435,20 @@
           "elected": false,
           "category": "Asamblea",
           "position": "3"
+        },
+        {
+          "year": "2010",
+          "list": "Mas San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "3"
+        },
+        {
+          "year": "2007",
+          "list": "Frente San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "10"
         }
       ],
       "biography": null,
@@ -34096,8 +33517,8 @@
       }
     },
     {
-      "name": "ROMERO, ALEJANDRO",
-      "id": "ALEJANDRO ROMERO",
+      "name": "ROMERO, ALEJANDRO HORACIO",
+      "id": "ALEJANDRO HORACIO ROMERO",
       "history": [
         {
           "year": "2013",
@@ -34105,6 +33526,13 @@
           "elected": false,
           "category": "Asamblea",
           "position": "5"
+        },
+        {
+          "year": "2010",
+          "list": "Mas San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "7"
         }
       ],
       "biography": null,
@@ -34150,29 +33578,62 @@
       }
     },
     {
-      "name": "FERNANDEZ, DANIEL",
-      "id": "DANIEL FERNANDEZ",
+      "name": "SAPONARE, RICARDO ALBERTO",
+      "id": "ALBERTO RICARDO SAPONARE",
       "history": [
         {
           "year": "2013",
           "list": "San Lorenzo Siglo XXI",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
-          "position": "9"
+          "position": "8"
+        },
+        {
+          "year": "2010",
+          "list": "Vamos San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "7"
+        },
+        {
+          "year": "2023",
+          "list": "Siempre San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vice-Presidente",
+          "originalPos": "Vice-Presidente"
+        },
+        {
+          "year": "2019",
+          "list": "Frente Pasion Azulgrana",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente",
+          "originalPos": "Presidente"
+        },
+        {
+          "year": "2012 (EXTRAORDINARIA)",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2012 (ASAMBLEA)",
+          "list": "Transitoria",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         },
         {
           "year": "2004",
-          "list": "De Nuevo San Lorenzo",
+          "list": "San Lorenzo para Todos",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": "Vice-Presidente"
-        },
-        {
-          "year": "1998",
-          "list": "Nuevo Rumbo San Lorencista",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 12"
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -34182,15 +33643,38 @@
       }
     },
     {
-      "name": "CASTAÑO, MARCELO ALEJANDRO",
-      "id": "ALEJANDRO CASTANO MARCELO",
+      "name": "GUASTALEGNAME, JAVIER ALEJANDRO",
+      "id": "ALEJANDRO GUASTALEGNAME JAVIER",
       "history": [
         {
           "year": "2013",
-          "list": "Cruzada por San Lorenzo",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "12"
+        },
+        {
+          "year": "2010",
+          "list": "Mas San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "11"
+          "position": "47"
+        },
+        {
+          "year": "2016",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 5",
+          "originalPos": "Vocal 5"
+        },
+        {
+          "year": "2007",
+          "list": "Proyecto Azulgrana",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -34218,8 +33702,8 @@
       }
     },
     {
-      "name": "ALIVERTI, ROBERTO",
-      "id": "ALIVERTI ROBERTO",
+      "name": "ALIVERTI, ROBERTO CARLOS",
+      "id": "ALIVERTI CARLOS ROBERTO",
       "history": [
         {
           "year": "2013",
@@ -34233,8 +33717,7 @@
           "list": "Mas San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "30",
-          "originalPos": "30"
+          "position": "30"
         }
       ],
       "biography": null,
@@ -34359,8 +33842,8 @@
       }
     },
     {
-      "name": "ALBAJARI, ALBERTO",
-      "id": "ALBAJARI ALBERTO",
+      "name": "ALBAJARI, ALBERTO NESTOR",
+      "id": "ALBAJARI ALBERTO NESTOR",
       "history": [
         {
           "year": "2013",
@@ -34374,8 +33857,7 @@
           "list": "Vamos San Lorenzo",
           "elected": true,
           "category": "Asamblea",
-          "position": "4",
-          "originalPos": "4"
+          "position": "4"
         }
       ],
       "biography": null,
@@ -34544,24 +34026,6 @@
       }
     },
     {
-      "name": "GALE, JAVIER",
-      "id": "GALE JAVIER",
-      "history": [
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "27"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "LOPEZ, SERGIO ANIBAL",
       "id": "ANIBAL LOPEZ SERGIO",
       "history": [
@@ -34681,8 +34145,7 @@
           "list": "Vamos San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": null,
-          "originalPos": null
+          "position": "38"
         }
       ],
       "biography": null,
@@ -34789,8 +34252,8 @@
       }
     },
     {
-      "name": "RIZZO, CARLOS",
-      "id": "CARLOS RIZZO",
+      "name": "RIZZO, CARLOS ALBERTO",
+      "id": "ALBERTO CARLOS RIZZO",
       "history": [
         {
           "year": "2013",
@@ -34800,9 +34263,16 @@
           "position": "37"
         },
         {
+          "year": "2010",
+          "list": "Vamos San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "17"
+        },
+        {
           "year": "2004",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "5"
         }
@@ -34876,8 +34346,8 @@
       }
     },
     {
-      "name": "SCHIAVONE, CARLOS ALBERTO",
-      "id": "ALBERTO CARLOS SCHIAVONE",
+      "name": "SCHIAVONE, CARLOS MARCELO",
+      "id": "CARLOS MARCELO SCHIAVONE",
       "history": [
         {
           "year": "2013",
@@ -34891,26 +34361,7 @@
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "43",
-          "originalPos": "43"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "VOLONTE, FEDERICO",
-      "id": "FEDERICO VOLONTE",
-      "history": [
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "42"
+          "position": "43"
         }
       ],
       "biography": null,
@@ -34963,8 +34414,8 @@
       }
     },
     {
-      "name": "JALED, NORBERTO",
-      "id": "JALED NORBERTO",
+      "name": "JALED, NORBERTO MANUEL",
+      "id": "JALED MANUEL NORBERTO",
       "history": [
         {
           "year": "2013",
@@ -34978,8 +34429,7 @@
           "list": "Nuevo San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "58",
-          "originalPos": "58"
+          "position": "58"
         }
       ],
       "biography": null,
@@ -35043,8 +34493,8 @@
       }
     },
     {
-      "name": "BUSSO, HAYDEE",
-      "id": "BUSSO HAYDEE",
+      "name": "BUSSO, HAYDEE 8927",
+      "id": "8927 BUSSO HAYDEE",
       "history": [
         {
           "year": "2013",
@@ -35058,8 +34508,7 @@
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "58",
-          "originalPos": "58"
+          "position": "58"
         }
       ],
       "biography": null,
@@ -35119,8 +34568,8 @@
       }
     },
     {
-      "name": "GONTIÑAS, ALBERTO",
-      "id": "ALBERTO GONTINAS",
+      "name": "GONTIÑAS, ALBERTO MANUEL",
+      "id": "ALBERTO GONTINAS MANUEL",
       "history": [
         {
           "year": "2013",
@@ -35128,6 +34577,20 @@
           "elected": false,
           "category": "Asamblea",
           "position": "47"
+        },
+        {
+          "year": "2010",
+          "list": "Grandeza Azulgrana",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "13"
+        },
+        {
+          "year": "2001",
+          "list": "La Casa del Vitalicio",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 5"
         }
       ],
       "biography": null,
@@ -35469,56 +34932,6 @@
       }
     },
     {
-      "name": "VAZQUEZ, MARCELO PABLO",
-      "id": "MARCELO PABLO VAZQUEZ",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "1"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "LOTITO, HORACIO",
-      "id": "HORACIO LOTITO",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "2"
-        },
-        {
-          "year": "2001",
-          "list": "Unidad Azulgrana",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 13"
-        },
-        {
-          "year": "1998",
-          "list": "San Lorenzo para Todos",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 10"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "ARIÑO, ADRIAN GONZALO",
       "id": "ADRIAN ARINO GONZALO",
       "history": [
@@ -35617,32 +35030,6 @@
       }
     },
     {
-      "name": "RESNIK, DIEGO MARTIN",
-      "id": "DIEGO MARTIN RESNIK",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Cruzada por San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "3"
-        },
-        {
-          "year": "2013",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "2",
-          "originalPos": "2"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "SOÑORA, JOSE",
       "id": "JOSE SONORA",
       "history": [
@@ -35692,57 +35079,6 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "SALERNO, JORGE AMADEO",
-      "id": "AMADEO JORGE SALERNO",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "3"
-        },
-        {
-          "year": "2007",
-          "list": "Frente San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "10"
-        },
-        {
-          "year": "2013",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "3",
-          "originalPos": "3"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "ALBAJARI, ALBERTO NESTOR",
-      "id": "ALBAJARI ALBERTO NESTOR",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "4"
         }
       ],
       "biography": null,
@@ -35851,6 +35187,22 @@
           "elected": false,
           "category": "Asamblea",
           "position": "5"
+        },
+        {
+          "year": "2007",
+          "list": "Frente San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2004",
+          "list": "San Lorenzo para Todos",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -35947,24 +35299,6 @@
       }
     },
     {
-      "name": "SAPONARE, RICARDO ALBERTO",
-      "id": "ALBERTO RICARDO SAPONARE",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "7"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "MARCONE, GABRIEL OSVALDO",
       "id": "GABRIEL MARCONE OSVALDO",
       "history": [
@@ -36010,50 +35344,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "7"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "ROMERO, ALEJANDRO HORACIO",
-      "id": "ALEJANDRO HORACIO ROMERO",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "7"
-        },
-        {
-          "year": "2013",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "5",
-          "originalPos": "5"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BERTERO, LUIS ALBERTO",
-      "id": "ALBERTO BERTERO LUIS",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "8"
         }
       ],
       "biography": null,
@@ -36279,8 +35569,7 @@
           "list": "Unidos por San Lorenzo",
           "elected": true,
           "category": "Asamblea",
-          "position": "21",
-          "originalPos": "21"
+          "position": "21"
         }
       ],
       "biography": null,
@@ -36350,24 +35639,6 @@
         {
           "year": "2010",
           "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "11"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "LIEBEHENZ, MARCELO PABLO",
-      "id": "LIEBEHENZ MARCELO PABLO",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "11"
@@ -36539,57 +35810,6 @@
       }
     },
     {
-      "name": "BRUN, CARLOS MARIA",
-      "id": "BRUN CARLOS MARIA",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "13"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "GONTIÑAS, ALBERTO MANUEL",
-      "id": "ALBERTO GONTINAS MANUEL",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Grandeza Azulgrana",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "13"
-        },
-        {
-          "year": "2001",
-          "list": "La Casa del Vitalicio",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 5"
-        },
-        {
-          "year": "2013",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "47",
-          "originalPos": "47"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "CLERC ROLANDO, CARLOS FERNANDO",
       "id": "CARLOS CLERC FERNANDO ROLANDO",
       "history": [
@@ -36720,8 +35940,7 @@
           "list": "Dignidad por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "6",
-          "originalPos": "6"
+          "position": "6"
         }
       ],
       "biography": null,
@@ -36881,32 +36100,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "16"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "RIZZO, CARLOS ALBERTO",
-      "id": "ALBERTO CARLOS RIZZO",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "17"
-        },
-        {
-          "year": "2004",
-          "list": "San Lorenzo para Todos",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "5",
-          "originalPos": "5"
         }
       ],
       "biography": null,
@@ -37226,8 +36419,7 @@
           "list": "Unidos por San Lorenzo",
           "elected": true,
           "category": "Comisión Directiva",
-          "position": "Vocal 11",
-          "originalPos": "Vocal 11"
+          "position": "Vocal 11"
         }
       ],
       "biography": null,
@@ -37261,24 +36453,6 @@
         {
           "year": "2010",
           "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "20"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "SUAREZ, ALFREDO JUSTO",
-      "id": "ALFREDO JUSTO SUAREZ",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "20"
@@ -37570,24 +36744,6 @@
       }
     },
     {
-      "name": "ZAYAT, FERNANDO JAVIER",
-      "id": "FERNANDO JAVIER ZAYAT",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "23"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "DISENFELD, MARTIN DAVID",
       "id": "DAVID DISENFELD MARTIN",
       "history": [
@@ -37775,24 +36931,6 @@
       }
     },
     {
-      "name": "MILANO, ANDREA KARINA",
-      "id": "ANDREA KARINA MILANO",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "25"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "ARAVENA, ALDO FABIAN",
       "id": "ALDO ARAVENA FABIAN",
       "history": [
@@ -37904,24 +37042,6 @@
         {
           "year": "2010",
           "list": "Grandeza Azulgrana",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "26"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "CARESTIA, ESTEBAN AMILCAR",
-      "id": "AMILCAR CARESTIA ESTEBAN",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "26"
@@ -38344,24 +37464,6 @@
       }
     },
     {
-      "name": "ALIVERTI, ROBERTO CARLOS",
-      "id": "ALIVERTI CARLOS ROBERTO",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "30"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "LOPEZ, RICARDO DAMIAN",
       "id": "DAMIAN LOPEZ RICARDO",
       "history": [
@@ -38386,58 +37488,6 @@
         {
           "year": "2010",
           "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "31"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "MANGONE, HECTOR ALBERTO",
-      "id": "ALBERTO HECTOR MANGONE",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Grandeza Azulgrana",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "31"
-        },
-        {
-          "year": "2023",
-          "list": "Renovacion Sanlorencista",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "75",
-          "originalPos": "75"
-        },
-        {
-          "year": "2004",
-          "list": "Grandeza Azulgrana",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "5",
-          "originalPos": "5"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BARENGO, ANIBAL ENRIQUE",
-      "id": "ANIBAL BARENGO ENRIQUE",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "31"
@@ -38511,24 +37561,6 @@
       }
     },
     {
-      "name": "ZEA, DANIEL ALEJANDRO",
-      "id": "ALEJANDRO DANIEL ZEA",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Grandeza Azulgrana",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "32"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "PORCO, ADRIAN NORBERTO",
       "id": "ADRIAN NORBERTO PORCO",
       "history": [
@@ -38571,24 +37603,6 @@
         {
           "year": "2010",
           "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "33"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BONGIORNO, MARIANO ERNESTO",
-      "id": "BONGIORNO ERNESTO MARIANO",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "33"
@@ -38885,6 +37899,62 @@
           "elected": false,
           "category": "Asamblea",
           "position": "36"
+        },
+        {
+          "year": "2025",
+          "list": "Revolucion Azulgrana",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 2",
+          "originalPos": "Vocal 2"
+        },
+        {
+          "year": "2023",
+          "list": "San Lorenzo Querido",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vice-Presidente",
+          "originalPos": "Vice-Presidente"
+        },
+        {
+          "year": "2019",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 3",
+          "originalPos": "Vocal 3"
+        },
+        {
+          "year": "2016",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 2",
+          "originalPos": "Vocal 2"
+        },
+        {
+          "year": "2013",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 2",
+          "originalPos": "Vocal 2"
+        },
+        {
+          "year": "2012 (EXTRAORDINARIA)",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2012 (ASAMBLEA)",
+          "list": "Transitoria",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -38991,24 +38061,6 @@
       }
     },
     {
-      "name": "AMEZQUETA, MARIA DEL CAMEN",
-      "id": "AMEZQUETA CAMEN DEL MARIA",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "38"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "MARINI, DAMIAN GUSTAVO",
       "id": "DAMIAN GUSTAVO MARINI",
       "history": [
@@ -39054,24 +38106,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "38"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BERDIÑAS, MARTIN MARCELO",
-      "id": "BERDINAS MARCELO MARTIN",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "39"
         }
       ],
       "biography": null,
@@ -39203,24 +38237,6 @@
         {
           "year": "2010",
           "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "40"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "SACCO, OSCAR ORLANDO",
-      "id": "ORLANDO OSCAR SACCO",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "40"
@@ -39500,48 +38516,12 @@
       }
     },
     {
-      "name": "SCHIAVONE, CARLOS",
-      "id": "CARLOS SCHIAVONE",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "43"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "FERNANDEZ, LUIS ANTONIO",
       "id": "ANTONIO FERNANDEZ LUIS",
       "history": [
         {
           "year": "2010",
           "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "43"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "DI FRANCO, PAULO ADRIAN",
-      "id": "ADRIAN DI FRANCO PAULO",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "43"
@@ -39968,48 +38948,6 @@
       }
     },
     {
-      "name": "GUASTALEGNAME, JAVIER ALEJANDRO",
-      "id": "ALEJANDRO GUASTALEGNAME JAVIER",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "47"
-        },
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 5",
-          "originalPos": "Vocal 5"
-        },
-        {
-          "year": "2007",
-          "list": "Proyecto Azulgrana",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "12",
-          "originalPos": "12"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "GARCIA, JORGE FERNANDO",
       "id": "FERNANDO GARCIA JORGE",
       "history": [
@@ -40019,24 +38957,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "48"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "SCHIAVONE, CARLOS MARCELO",
-      "id": "CARLOS MARCELO SCHIAVONE",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "43"
         }
       ],
       "biography": null,
@@ -40719,24 +39639,6 @@
       }
     },
     {
-      "name": "SAIZ, DAMIAN ESTEBAN",
-      "id": "DAMIAN ESTEBAN SAIZ",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "55"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "ORDAX, ALEJANDRO LUIS",
       "id": "ALEJANDRO LUIS ORDAX",
       "history": [
@@ -40881,24 +39783,6 @@
       }
     },
     {
-      "name": "CATAPANO, MARIA CRISTINA",
-      "id": "CATAPANO CRISTINA MARIA",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "56"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "RODRIGUEZ, SILVIA AZUCENA",
       "id": "AZUCENA RODRIGUEZ SILVIA",
       "history": [
@@ -40977,42 +39861,6 @@
         {
           "year": "2010",
           "list": "Vamos San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "58"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BUSSO, HAYDEE 8927",
-      "id": "8927 BUSSO HAYDEE",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "58"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "JALED, NORBERTO MANUEL",
-      "id": "JALED MANUEL NORBERTO",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "58"
@@ -41221,7 +40069,7 @@
           "list": "Nuevo San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": "60"
+          "position": "26"
         }
       ],
       "biography": null,
@@ -41368,20 +40216,19 @@
           "position": "1"
         },
         {
+          "year": "2004",
+          "list": "Dignidad por San Lorenzo",
+          "elected": false,
+          "category": "Fiscalizadora",
+          "position": "3"
+        },
+        {
           "year": "2010",
           "list": "Boedo en Accion",
           "elected": true,
           "category": "Fiscalizadora",
           "position": null,
           "originalPos": null
-        },
-        {
-          "year": "2004",
-          "list": "Dignidad por San Lorenzo",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": "3",
-          "originalPos": "3"
         }
       ],
       "biography": null,
@@ -42002,32 +40849,6 @@
       }
     },
     {
-      "name": "MACEDONIA, RICARDO MARIO",
-      "id": "MACEDONIA MARIO RICARDO",
-      "history": [
-        {
-          "year": "2007",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "1"
-        },
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "12",
-          "originalPos": "12"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "GALEAZZO, VICENTE DOMINGO",
       "id": "DOMINGO GALEAZZO VICENTE",
       "history": [
@@ -42320,8 +41141,7 @@
           "list": "Unidos por San Lorenzo",
           "elected": true,
           "category": "Asamblea",
-          "position": "8",
-          "originalPos": "8"
+          "position": "8"
         }
       ],
       "biography": null,
@@ -42371,8 +41191,7 @@
           "list": "Unidos por San Lorenzo",
           "elected": true,
           "category": "Asamblea",
-          "position": "10",
-          "originalPos": "10"
+          "position": "10"
         }
       ],
       "biography": null,
@@ -42433,8 +41252,7 @@
           "list": "Unidos por San Lorenzo",
           "elected": true,
           "category": "Asamblea",
-          "position": "13",
-          "originalPos": "13"
+          "position": "13"
         }
       ],
       "biography": null,
@@ -42561,8 +41379,7 @@
           "list": "Unidos por San Lorenzo",
           "elected": true,
           "category": "Asamblea",
-          "position": "23",
-          "originalPos": "23"
+          "position": "23"
         }
       ],
       "biography": null,
@@ -42605,8 +41422,7 @@
           "list": "Unidos por San Lorenzo",
           "elected": true,
           "category": "Asamblea",
-          "position": "25",
-          "originalPos": "25"
+          "position": "25"
         }
       ],
       "biography": null,
@@ -42622,9 +41438,32 @@
         {
           "year": "2007",
           "list": "Unidos por San Lorenzo",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "28"
+        },
+        {
+          "year": "2004",
+          "list": "De Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 9"
+        },
+        {
+          "year": "2023",
+          "list": "Boedo en Accion",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 6",
+          "originalPos": "Vocal 6"
+        },
+        {
+          "year": "2010",
+          "list": "Boedo en Accion",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -42668,24 +41507,6 @@
           "elected": true,
           "category": "Asamblea",
           "position": "36"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "VILLANO, PABLO ALFREDO",
-      "id": "ALFREDO PABLO VILLANO",
-      "history": [
-        {
-          "year": "2007",
-          "list": "Unidos por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "33"
         }
       ],
       "biography": null,
@@ -43550,24 +42371,6 @@
       }
     },
     {
-      "name": "STANCATO, DANIEL",
-      "id": "DANIEL STANCATO",
-      "history": [
-        {
-          "year": "2004",
-          "list": "Dignidad por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "6"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "PRADO, DANIEL",
       "id": "DANIEL PRADO",
       "history": [
@@ -43646,24 +42449,6 @@
         {
           "year": "2004",
           "list": "De Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "8"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "MASSA, ITALO",
-      "id": "ITALO MASSA",
-      "history": [
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "8"
@@ -43820,24 +42605,6 @@
       }
     },
     {
-      "name": "VILAS, VICENTE",
-      "id": "VICENTE VILAS",
-      "history": [
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "10"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "FERNANDEZ, LEONARDO",
       "id": "FERNANDEZ LEONARDO",
       "history": [
@@ -43892,24 +42659,6 @@
       }
     },
     {
-      "name": "RODRIGUEZ, JUAN",
-      "id": "JUAN RODRIGUEZ",
-      "history": [
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "13"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "BRUZZECE, JOSE CARLOS",
       "id": "BRUZZECE CARLOS JOSE",
       "history": [
@@ -43928,60 +42677,6 @@
       }
     },
     {
-      "name": "RUIZ, HUGO",
-      "id": "HUGO RUIZ",
-      "history": [
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "19"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "GIACOMETTI, OSCAR",
-      "id": "GIACOMETTI OSCAR",
-      "history": [
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "21"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "RIERA, CARLOS",
-      "id": "CARLOS RIERA",
-      "history": [
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "23"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "MAS, MIGUEL",
       "id": "MAS MIGUEL",
       "history": [
@@ -43991,24 +42686,6 @@
           "elected": true,
           "category": "Asamblea",
           "position": "24"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "DANILOV, DANIEL",
-      "id": "DANIEL DANILOV",
-      "history": [
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "25"
         }
       ],
       "biography": null,
@@ -44248,24 +42925,6 @@
         {
           "year": "2004",
           "list": "Grandeza Azulgrana",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": "3"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "SABOR, RICARDO",
-      "id": "RICARDO SABOR",
-      "history": [
-        {
-          "year": "2004",
-          "list": "Dignidad por San Lorenzo",
           "elected": false,
           "category": "Fiscalizadora",
           "position": "3"
@@ -44542,24 +43201,6 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "MANGONE, OSCAR",
-      "id": "MANGONE OSCAR",
-      "history": [
-        {
-          "year": "2001",
-          "list": "Nuevo Rumbo San Lorencista",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 1"
         }
       ],
       "biography": null,
@@ -45084,24 +43725,6 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 10"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "SOLLA, OSVALDO",
-      "id": "OSVALDO SOLLA",
-      "history": [
-        {
-          "year": "2001",
-          "list": "Unidos por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 11"
         }
       ],
       "biography": null,
@@ -46713,41 +45336,6 @@
       }
     },
     {
-      "name": "DORSI, RUBEN",
-      "id": "DORSI RUBEN",
-      "history": [
-        {
-          "year": "2026",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 12",
-          "originalPos": "Vocal 12"
-        },
-        {
-          "year": "2025",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 10",
-          "originalPos": "Vocal 10"
-        },
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 7",
-          "originalPos": "Vocal 7"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "EDI, ROBERTO",
       "id": "EDI ROBERTO",
       "history": [
@@ -47062,25 +45650,6 @@
       }
     },
     {
-      "name": "GOMEZ, JOSE",
-      "id": "GOMEZ JOSE",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 16",
-          "originalPos": "Vocal 16"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "GOMEZ, WALTER",
       "id": "GOMEZ WALTER",
       "history": [
@@ -47272,41 +45841,6 @@
           "category": "Fiscalizadora",
           "position": null,
           "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "LADELFA, MARCELO",
-      "id": "LADELFA MARCELO",
-      "history": [
-        {
-          "year": "2007",
-          "list": "Frente San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2004",
-          "list": "San Lorenzo para Todos",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "5",
-          "originalPos": "5"
         }
       ],
       "biography": null,
@@ -47878,33 +46412,6 @@
         {
           "year": "2010",
           "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "PAREJA, SEBASTIAN",
-      "id": "PAREJA SEBASTIAN",
-      "history": [
-        {
-          "year": "2025",
-          "list": "Movete Boedo Movete",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vice-Presidente",
-          "originalPos": "Vice-Presidente"
-        },
-        {
-          "year": "2007",
-          "list": "Proyecto Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -48609,44 +47116,6 @@
       }
     },
     {
-      "name": "VAZQUEZ, JOSE HECTOR",
-      "id": "HECTOR JOSE VAZQUEZ",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "VUOTTO, MARIA",
-      "id": "MARIA VUOTTO",
-      "history": [
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 1",
-          "originalPos": "Vocal 1"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "GARCIA, CARLOS",
       "id": "CARLOS GARCIA",
       "history": [
@@ -49235,60 +47704,6 @@
       }
     },
     {
-      "name": "ADANZA, ROBERTO FABIAN",
-      "id": "ADANZA FABIAN ROBERTO",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "6",
-          "originalPos": "6"
-        },
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "5",
-          "originalPos": "5"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "CARUSO, JONATHAN DANIEL",
-      "id": "CARUSO DANIEL JONATHAN",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2016",
-          "list": "Volver a San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "3",
-          "originalPos": "3"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "COBOS, MARCELO",
       "id": "COBOS MARCELO",
       "history": [
@@ -49318,25 +47733,6 @@
           "category": "Asamblea",
           "position": "45",
           "originalPos": "45"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "MUNDO, HERNAN",
-      "id": "HERNAN MUNDO",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "60",
-          "originalPos": "60"
         }
       ],
       "biography": null,
