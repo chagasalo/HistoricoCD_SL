@@ -23,8 +23,38 @@ try {
 }
 
 function normalizeAlias(name) {
+  if (!name) return '';
   const norm = name.toUpperCase().replace(/\s+/g, ' ').trim();
-  return aliases[norm] || norm;
+  // Check both with and without comma for robustness in alias map
+  const cleanNorm = norm.replace(/,/g, '');
+  return aliases[norm] || aliases[cleanNorm] || norm;
+}
+
+function formatNameAsSurnameFirst(rawName) {
+  if (!rawName) return '';
+  let name = rawName.toString().trim();
+  if (name.includes(',')) return name; // Already has comma
+  
+  const words = name.split(/\s+/).filter(w => w.length > 0);
+  if (words.length <= 1) return name;
+  
+  // Heuristic: assume last word is surname
+  const surname = words.pop();
+  return `${surname}, ${words.join(' ')}`;
+}
+
+function getSimilarity(s1, s2) {
+  let longer = (s1 || "").toUpperCase().replace(/[^\w]/g, '');
+  let shorter = (s2 || "").toUpperCase().replace(/[^\w]/g, '');
+  if (longer.length < shorter.length) { [longer, shorter] = [shorter, longer]; }
+  let longerLength = longer.length;
+  if (longerLength === 0) return 1.0;
+  
+  // Simple word-based overlap similarity instead of full edit distance for performance
+  const words1 = (s1 || "").toUpperCase().replace(/[^\w\s]/g, '').split(/\s+/);
+  const words2 = (s2 || "").toUpperCase().replace(/[^\w\s]/g, '').split(/\s+/);
+  const intersect = words1.filter(w => words2.includes(w));
+  return (2.0 * intersect.length) / (words1.length + words2.length);
 }
 
 function smartNormalize(name) {
@@ -334,27 +364,90 @@ async function fetchAndParse() {
            if (!listName) return; // Si no hay agrupación, no lo procesamos según requerimiento (evita 'Independiente')
 
            let hist = record.history.find(h => h.year === year && h.category === category);
+           const cargoFound = findCargo(year, candidateName, category);
            if (!hist) {
-             hist = { year, list: listName, elected: isElected, category, position: findCargo(year, candidateName, category) };
+             hist = { 
+               year, 
+               list: listName, 
+               elected: isElected, 
+               category, 
+               position: cargoFound,
+               originalPos: cargoFound 
+             };
              record.history.push(hist);
            } else {
              // Merging: if any row says SI, the final record is SI
              if (isElected) hist.elected = true;
              if (listName && (!hist.list || hist.list.length < listName.length)) hist.list = listName;
-             if (!hist.position) hist.position = findCargo(year, candidateName, category);
+             if (cargoFound) hist.position = cargoFound;
            }
         }
       });
     });
   });
 
-  // Fase 5: Consolidación y Generación de Archivos
+  // Fase 6: Deduplicación Avanzada por Slot Collision
+  console.log('Running Advanced Slot Collision Deduplication...');
+  const candidates = Array.from(dataMap.entries());
+  
+  // Use a map to track slots: year|cat|list|pos -> candidateKey
+  const slotMap = new Map();
+  const redirects = new Map(); // ID_Old -> ID_New
+
+  candidates.forEach(([key, record]) => {
+     record.history.forEach(h => {
+        // En 2010 y años viejos, las posiciones a veces no están en EO/EE, pero sí en la matriz principal
+        // Preferimos posiciones que sean números (indicadores claros de asiento)
+        const pos = h.position || h.originalPos;
+        if (!h.year || !pos || pos.length > 10) return; 
+
+        const slotKey = `${h.year}|${h.category}|${h.list}|${pos}`;
+        if (slotMap.has(slotKey)) {
+           const existingKey = slotMap.get(slotKey);
+           if (existingKey === key) return;
+           
+           const existingRecord = dataMap.get(existingKey);
+           const currentRecord = dataMap.get(key);
+           
+           // Check name compatibility (at least 75% similarity or subset)
+           const sim = getSimilarity(existingRecord.name, currentRecord.name);
+           if (sim > 0.75) {
+              console.log(`  Merging ${key} into ${existingKey} (Slot: ${slotKey}, Sim: ${sim.toFixed(2)})`);
+              redirects.set(key, existingKey);
+           }
+        } else {
+           slotMap.set(slotKey, key);
+        }
+     });
+  });
+
+  // Apply redirects
+  redirects.forEach((newKey, oldKey) => {
+     if (oldKey === newKey) return;
+     const oldRec = dataMap.get(oldKey);
+     const newRec = dataMap.get(newKey);
+     if (!oldRec || !newRec) return;
+
+     // Merge history
+     oldRec.history.forEach(h => {
+        if (!newRec.history.some(nh => nh.year === h.year && nh.category === h.category)) {
+           newRec.history.push(h);
+        }
+     });
+     // Prefer longer name for display
+     if (oldRec.name.length > newRec.name.length) newRec.name = oldRec.name;
+     dataMap.delete(oldKey);
+  });
+
+  // Fase 7: Consolidación y Generación de Archivos
   const data = Array.from(dataMap.values())
      .filter(c => c.history.length > 0)
      .map(c => {
+        const displayName = formatNameAsSurnameFirst(c.name);
         const bioData = biografiasData.get(smartNormalize(c.name));
         return {
-           name: c.name,
+           name: displayName,
+           id: smartNormalize(c.name),
            history: c.history,
            biography: bioData ? bioData.text : null,
            status: bioData ? bioData.meta : { hasResigned: false, remarks: [] }
@@ -369,7 +462,7 @@ async function fetchAndParse() {
   // CSV de Candidatos
   const candidatesCSVHeaders = ["ID_Candidato", "Nombre", "Biografia", "Tiene_Renuncia", "Observaciones"];
   const candidatesCSVRows = data.map(c => [
-     smartNormalize(c.name), c.name, c.biography || '', c.status.hasResigned ? 'SI' : 'NO', c.status.remarks.join(' - ')
+     c.id, c.name, c.biography || '', c.status.hasResigned ? 'SI' : 'NO', c.status.remarks.join(' - ')
   ]);
   writeCSV(OUT_CSV_CANDIDATES, candidatesCSVHeaders, candidatesCSVRows);
 
@@ -377,10 +470,9 @@ async function fetchAndParse() {
   const historyCSVHeaders = ["ID_Candidato", "Nombre", "Año", "Agrupacion", "Categoria", "Cargo", "Electo"];
   const historyCSVRows = [];
   data.forEach(c => {
-     const id = smartNormalize(c.name);
      c.history.forEach(h => {
         historyCSVRows.push([
-           id, c.name, h.year, h.list, h.category, h.position || '', h.elected ? 'SI' : 'NO'
+           c.id, c.name, h.year, h.list, h.category, h.position || h.originalPos || '', h.elected ? 'SI' : 'NO'
         ]);
      });
   });
