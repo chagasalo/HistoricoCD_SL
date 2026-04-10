@@ -85,9 +85,7 @@
     "BONGIORNO MARIANO": "BONGIORNO, MARIANO ERNESTO",
     "JALED NORBERTO": "JALED, NORBERTO MANUEL",
     "LADELFA MARCELO": "LADELFA, MARCELO PEDRO",
-    "MUNDO HERNAN": "MUNDO, HERNAN ANTONIO",
     "BOUFFLET SOLEDAD": "BOUFFLET, MARIA SOLEDAD",
-    "ROMANO JORGE": "ROMANO, JORGE ANTONIO",
     "ALLIEVI JAVIER": "ALLIEVI, JAVIER IGNACIO",
     "VILLANO PABLO": "VILLANO, PABLO ALFREDO",
     "MACEDONIA RICARDO": "MACEDONIA, RICARDO MARIO",
@@ -117,7 +115,11 @@
     "N. GENERACION": "Nueva Generacion",
     "NUEVA GENERACIÓN": "Nueva Generacion",
     "RENOVACION SAN LORENZO": "Renovacion Sanlorencista",
-    "RENOVACION SL": "Renovacion Sanlorencista",
-    "RENOVACION SAN LORENCISTA": "Renovacion Sanlorencista"
+    "Renovacion SL": "Renovacion Sanlorencista",
+    "Renovacion San Lorencista": "Renovacion Sanlorencista",
+    "SL Siglo XXI": "San Lorenzo Siglo XXI",
+    "Volver a SL": "Volver a San Lorenzo",
+    "Cruzada x SL": "Cruzada por San Lorenzo",
+    "FPA": "Frente Pasion Azulgrana"
   }
 }

@@ -233,6 +233,7 @@ async function fetchAndParse() {
         "Comisión Directiva": [], "Asamblea": [], "Fiscalizadora": []
       };
 
+      const isElectedSheet = sheetName.includes('E.O') || sheetName.includes('E.E') || sheetName.includes('A.E') || sheetName.includes('ASAMBLEA 2025');
       let currentSection = "Comisión Directiva";
       let listHeaders = [];
       const columnLayouts = []; // Array of { colIndex, listName }
@@ -286,9 +287,9 @@ async function fetchAndParse() {
              if (normName === 'ASAMBLEA DE REPRESENTANTES' || normName === 'COMISION FISCALIZADORA' || rawName.includes('*RENUNCIARON')) return;
              if (smartNormalize(position) === normName) return;
              
-             if (currentSection === "Comisión Directiva" && /^\d+$/.test(position) && rowNumber > 20) {
-               currentSection = "Asamblea";
-             }
+             if (currentSection === "Comisión Directiva" && !isNaN(parseInt(position)) && rowNumber > 19) {
+                currentSection = "Asamblea";
+              }
 
              electionPositions[year][currentSection].push({ normalized: normName, position });
 
@@ -324,12 +325,28 @@ async function fetchAndParse() {
     for (const y of yearsToSearch) {
       if (!electionPositions[y]) continue;
       const sectionsToSearch = electionPositions[y][category] ? [category] : Object.keys(electionPositions[y]);
+      
+      let bestMatch = null;
+      let maxScore = -1;
+
       for (const section of sectionsToSearch) {
         for (const entry of electionPositions[y][section]) {
           const entryWords = entry.normalized.split(' ');
-          if (entryWords.every(w => targetWords.includes(w)) || targetWords.every(w => entryWords.includes(w))) return entry.position;
+          
+          // Case 1: Exact match (highest priority)
+          if (entry.normalized === smartNormalize(rawName)) return entry.position;
+
+          // Case 2: Partial overlap
+          const matchCount = entryWords.filter(w => targetWords.includes(w)).length;
+          const score = matchCount / Math.max(entryWords.length, targetWords.length);
+          
+          if (score > 0.8 && score > maxScore) {
+              maxScore = score;
+              bestMatch = entry.position;
+          }
         }
       }
+      if (bestMatch) return bestMatch;
     }
     return null;
   }
@@ -381,7 +398,13 @@ async function fetchAndParse() {
          const fill = cell.fill;
          const isGreen = fill?.fgColor?.argb === 'FF00FF00' || fill?.fgColor?.theme === 6;
          
-         const isElected = val.toLowerCase() === 'x' || val.toLowerCase() === 'si' || isGreen;
+         let isElected = false;
+         if (category === 'Asamblea') {
+            // Strict for assembly matrix sheets: only trust green coloring to avoid counting all candidates
+            isElected = isGreen;
+         } else {
+            isElected = val.toLowerCase() === 'x' || val.toLowerCase() === 'si' || isGreen;
+         }
 
          if (isElected || val.length >= 3) {
            // Aceptamos nombres de 3 letras (como FPA) pero excluimos SI/NO explicitly
@@ -448,11 +471,15 @@ async function fetchAndParse() {
   candidates.forEach(([key, record]) => {
      record.history.forEach(h => {
         const pos = h.position || h.originalPos;
-        // RESTRICTION: We do not use generic positions like 'Vocal' or 'Miembro' for slot deduplication
-        // because many distinct people share those titles, especially in the assembly.
         if (!h.year || !pos || pos.length > 10) return;
-        if (['Vocal', 'Miembro', 'Asambleista'].includes(pos)) return;
-        if (h.category === 'Asamblea') return; // Assembly is too large and positions are redundant
+        
+        // ASSEMBLY DEDUPLICATION: We allow it if they have a numeric position,
+        // which strongly indicates they are occupying the same slot among the 90 available.
+        if (h.category === 'Asamblea') {
+           if (isNaN(parseInt(pos))) return;
+        } else {
+           if (['Vocal', 'Miembro', 'Asambleista'].includes(pos)) return;
+        }
 
         const slotKey = `${h.year}|${h.category}|${h.list}|${pos}`;
         if (slotMap.has(slotKey)) {
