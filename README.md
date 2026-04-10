@@ -15,18 +15,25 @@ Una aplicación web interactiva diseñada para explorar y analizar el historial 
 - **Deep Linking**: Compartí enlaces directos a secciones específicas (Candidatos, Pases o Conformaciones) mediante rutas basadas en hash.
 - **Sincronización Automática**: El sistema se actualiza automáticamente cada 6 horas consultando el Excel oficial.
 
-## 📊 Automatización y Datos
+## 📊 Arquitectura de Datos y ETL
 
-La aplicación utiliza un pipeline de datos (ETL) en Node.js que:
+La aplicación utiliza un motor de datos (ETL) avanzado en Node.js que consolida la información institucional y genera múltiples salidas:
 
-1. Descarga el archivo oficial de Google Sheets.
-2. Procesa y normaliza nombres de candidatos y agrupaciones.
-3. Clasifica las participaciones según el órgano (CD, Asamblea, Fiscalizadora).
-4. Genera un archivo `data.json` enriquecido con metadatos de sincronización.
+1. **Unificación de Identidades**: Utiliza un sistema de `aliases.json` para resolver discrepancias de nombres (ej. "Juan Perez" vs "Perez J.") y fusionar trayectorias.
+2. **Normalización Institucional**:
+   - Expansión automática de "SL" a "**San Lorenzo**".
+   - Estandarización de conectores (ej. "x" → "por") y mayúsculas.
+3. **Captura de Metadatos**:
+   - **Biografías**: Extracción automática de reseñas desde el Excel.
+   - **Detección de Bajas**: Análisis de texto (NLP) para identificar flags de **renuncia, fallecimiento o fin de mandato anticipado**.
+4. **Bases de Datos Paralelas**: Además del `data.json` para la web, genera tres archivos CSV en `/public/` para auditoría y análisis en Excel/Tableau:
+   - `candidates.csv`: Listado único de actores políticos con sus biografías.
+   - `history.csv`: Base relacional de todas las participaciones electorales.
+   - `agrupaciones.csv`: Catálogo de partidos con sus reseñas históricas.
 
-### Automatización con GitHub Actions
+### Automatización y Despliegue
 
-El proyecto incluye un flujo de trabajo (`.github/workflows/redeploy.yml`) que dispara un despliegue en Vercel cada 6 horas para garantizar la frescura de la información sin intervención manual.
+El proyecto incluye un flujo de trabajo (`.github/workflows/redeploy.yml`) que dispara un despliegue en Vercel cada 6 horas. Durante la compilación, el script `fetchData.js` se sincroniza con el Google Sheet oficial, regenerando todas las bases mencionadas.
 
 ## 🚀 Inicio Rápido
 
