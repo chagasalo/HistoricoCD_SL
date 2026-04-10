@@ -1,13 +1,22 @@
 {
-  "_comment": "Usa este archivo para unificar nombres de candidatos que aparecen distintos en el Excel. El formato es 'Nombre Viejo': 'Nombre Nuevo (Oficial)'.",
-  "TERZANO ANDRES OSCAR": "TERZANO ANDRES OSCAR",
-  "TERZANO ANDRES": "TERZANO ANDRES OSCAR",
-  "BARROS, URIEL ALEJANDRO": "URIEL ALEJANDRO BARROS",
-  "BARROS URIEL ALEJANDRO": "URIEL ALEJANDRO BARROS",
-  "URIEL BARROS": "URIEL ALEJANDRO BARROS",
-  "BARROS, URIEL": "URIEL ALEJANDRO BARROS",
-  "BARROS URIEL": "URIEL ALEJANDRO BARROS",
-  "LEFREVRE, KARINA": "KARINA LEFEVRE",
-  "KARINA LEFREVRE": "KARINA LEFEVRE",
-  "LEFREVRE KARINA": "KARINA LEFEVRE"
+  "_comment": "Usa este archivo para unificar nombres de candidatos y agrupaciones que aparecen distintos en el Excel.",
+  "candidates": {
+    "TERZANO ANDRES OSCAR": "TERZANO ANDRES OSCAR",
+    "TERZANO ANDRES": "TERZANO ANDRES OSCAR",
+    "BARROS, URIEL ALEJANDRO": "URIEL ALEJANDRO BARROS",
+    "BARROS URIEL ALEJANDRO": "URIEL ALEJANDRO BARROS",
+    "URIEL BARROS": "URIEL ALEJANDRO BARROS",
+    "BARROS, URIEL": "URIEL ALEJANDRO BARROS",
+    "BARROS URIEL": "URIEL ALEJANDRO BARROS",
+    "LEFREVRE, KARINA": "KARINA LEFEVRE",
+    "KARINA LEFREVRE": "KARINA LEFEVRE",
+    "LEFREVRE KARINA": "KARINA LEFEVRE"
+  },
+  "lists": {
+    "MBM": "Movete Boedo Movete",
+    "N. GENERACION": "Nueva Generacion",
+    "NUEVA GENERACIÓN": "Nueva Generacion",
+    "RENOVACION SAN LORENZO": "Renovacion Sanlorencista",
+    "RENOVACION SL": "Renovacion Sanlorencista"
+  }
 }

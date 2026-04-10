@@ -14,10 +14,19 @@ const OUT_CSV_HISTORY = './public/history.csv';
 const OUT_CSV_AGRUPACIONES = './public/agrupaciones.csv';
 
 // Load aliases
-let aliases = {};
+let aliases = { candidates: {}, lists: {} };
 try {
   const aliasData = fs.readFileSync('./aliases.json', 'utf8');
-  aliases = JSON.parse(aliasData);
+  const parsed = JSON.parse(aliasData);
+  if (parsed.candidates || parsed.lists) {
+    aliases = {
+      candidates: parsed.candidates || {},
+      lists: parsed.lists || {}
+    };
+  } else {
+    // Backward compatibility for flat file
+    aliases = { candidates: parsed, lists: {} };
+  }
 } catch (e) {
   console.warn('No se encontró aliases.json o no es válido, se asumirá vacío.');
 }
@@ -27,7 +36,7 @@ function normalizeAlias(name) {
   const norm = name.toUpperCase().replace(/\s+/g, ' ').trim();
   // Check both with and without comma for robustness in alias map
   const cleanNorm = norm.replace(/,/g, '');
-  return aliases[norm] || aliases[cleanNorm] || norm;
+  return aliases.candidates[norm] || aliases.candidates[cleanNorm] || norm;
 }
 
 function formatNameAsSurnameFirst(rawName) {
@@ -73,6 +82,14 @@ function smartNormalize(name) {
 function normalizeListName(list) {
   if (!list) return '';
   let name = list.toString().trim();
+  
+  // 1. Check aliases.json first
+  const norm = name.toUpperCase();
+  const cleanNorm = norm.replace(/,/g, '');
+  if (aliases.lists?.[norm] || aliases.lists?.[cleanNorm]) {
+    return aliases.lists[norm] || aliases.lists[cleanNorm];
+  }
+
   const lowerName = name.toLowerCase();
   
   // Excluir si es "Independiente" o "Comisión Directiva"

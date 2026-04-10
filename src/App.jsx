@@ -577,7 +577,14 @@ export default function App() {
           <section className="candidates-grid">
             <AnimatePresence mode="popLayout">
               {currentCandidates.map((c, idx) => {
-                const categoryGroups = getCategorizedGroups(c.history);
+                const displayHistory = c.history.filter(h => {
+                  if (selectedYear && h.year !== selectedYear) return false;
+                  if (selectedList && h.list !== selectedList) return false;
+                  if (selectedCategory && (h.category || 'Comisión Directiva') !== selectedCategory) return false;
+                  if (onlyElected && !h.elected) return false;
+                  return true;
+                });
+                const categoryGroups = getCategorizedGroups(displayHistory);
                 const mainList = categoryGroups[0]?.lists[0]?.list || '';
 
                 return (
