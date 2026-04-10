@@ -88,15 +88,13 @@ function normalizeListName(list) {
   // Mapeos definitivos (fuente de verdad)
   if (clean.includes('boedo en accion') || clean.includes('boedo accion')) return 'Boedo en Accion';
   if (clean.includes('cruzada')) return 'Cruzada por San Lorenzo';
-  if (clean.includes('siglo xxi') || clean.includes('sixlo xxi')) return 'San Lorenzo Siglo XXI';
-  if (clean.includes('mas san lorenzo')) return 'Mas San Lorenzo';
-  if (clean.includes('volver a san lorenzo')) return 'Volver a San Lorenzo';
-  if (clean.includes('x amor a san lorenzo') || clean.includes('amor a san lorenzo')) return 'X Amor a San Lorenzo';
-  if (clean.includes('nuevo san lorenzo')) return 'Nuevo San Lorenzo';
   if (clean.includes('vamos san lorenzo')) return 'Vamos San Lorenzo';
   if (clean.includes('grandeza azulgrana')) return 'Grandeza Azulgrana';
   if (clean.includes('orden y progreso')) return 'Orden y Progreso';
   if (clean.includes('somos san lorenzo')) return 'Somos San Lorenzo';
+  if (clean.includes('pasion azulgrana') || lowerName.includes('fpa')) return 'Frente Pasion Azulgrana';
+  if (clean.includes('siglo xxi') || clean.includes('sixlo xxi')) return 'San Lorenzo Siglo XXI';
+  if (clean.includes('volver a san lorenzo')) return 'Volver a San Lorenzo';
   if (clean.includes('rumbo san lorenzo') || clean.includes('rumbo san lorencista')) return 'Nuevo Rumbo San Lorencista';
   if (clean.includes('dignidad por san lorenzo')) return 'Dignidad por San Lorenzo';
   if (clean.includes('san lorenzo para todos')) return 'San Lorenzo para Todos';
@@ -296,14 +294,24 @@ async function fetchAndParse() {
   function findCargo(year, rawName, category = "Comisión Directiva") {
     if (!year || !rawName) return null;
     const cleanYear = year.toString().match(/\d{4}(\s*\([^)]+\))?/)?.[0];
-    if (!cleanYear || !electionPositions[cleanYear]) return null;
-    const sectionsToSearch = electionPositions[cleanYear][category] ? [category] : Object.keys(electionPositions[cleanYear]);
+    if (!cleanYear) return null;
+    
+    // Check both the requested year and its alias (2022 <-> 2023)
+    const yearsToSearch = [cleanYear];
+    if (cleanYear === '2023') yearsToSearch.push('2022');
+    if (cleanYear === '2022') yearsToSearch.push('2023');
+
     const targetWords = smartNormalize(rawName).split(' ').filter(w => w.length > 0);
     if (targetWords.length === 0) return null;
-    for (const section of sectionsToSearch) {
-      for (const entry of electionPositions[cleanYear][section]) {
-        const entryWords = entry.normalized.split(' ');
-        if (entryWords.every(w => targetWords.includes(w)) || targetWords.every(w => entryWords.includes(w))) return entry.position;
+
+    for (const y of yearsToSearch) {
+      if (!electionPositions[y]) continue;
+      const sectionsToSearch = electionPositions[y][category] ? [category] : Object.keys(electionPositions[y]);
+      for (const section of sectionsToSearch) {
+        for (const entry of electionPositions[y][section]) {
+          const entryWords = entry.normalized.split(' ');
+          if (entryWords.every(w => targetWords.includes(w)) || targetWords.every(w => entryWords.includes(w))) return entry.position;
+        }
       }
     }
     return null;
@@ -342,32 +350,45 @@ async function fetchAndParse() {
       if (!dataMap.has(candidateKey)) dataMap.set(candidateKey, { name: candidateName, history: [] });
       const record = dataMap.get(candidateKey);
 
-      let listCol = headers.indexOf('AGRUPACION');
-      if (listCol === -1) listCol = headers.indexOf('LISTA');
-      const globalListName = normalizeListName(listCol > 0 ? row.getCell(listCol).value : '');
-
       headers.forEach((headerValue, colNumber) => {
         if (colNumber === nameCol) return;
         const yearMatch = headerValue?.toString().match(/\d{4}(\s*\([^)]+\))?/);
         if (!yearMatch) return;
         const year = yearMatch[0].trim();
 
-        const cell = row.getCell(colNumber);
-        const val = cell.value?.toString().trim() || '';
-        const isGreen = cell.fill?.fgColor?.argb === 'FF00FF00' || cell.fill?.fgColor?.theme === 6;
-        const isElected = val.toLowerCase() === 'x' || val.toLowerCase() === 'si' || isGreen;
+         const cell = row.getCell(colNumber);
+         const val = cell.value?.toString().trim() || '';
+         
+         // STRICT GREEN DETECTION: As requested, must be green.
+         // argb: FF00FF00 is standard green used in the sheet. theme: 6 is Green theme.
+         const fill = cell.fill;
+         const isGreen = fill?.fgColor?.argb === 'FF00FF00' || fill?.fgColor?.theme === 6;
+         
+         const isElected = val.toLowerCase() === 'x' || val.toLowerCase() === 'si' || isGreen;
 
-        if (isElected || val.length > 2) {
-           const rawList = (val.length > 3 && !['si', 'no', 'x'].includes(val.toLowerCase())) ? val : globalListName;
-           const listName = normalizeListName(rawList);
+         if (isElected || val.length >= 3) {
+           // Aceptamos nombres de 3 letras (como FPA) pero excluimos SI/NO explicitly
+           const isGenericMarker = ['si', 'no'].includes(val.toLowerCase());
+           let listName = (val.length >= 3 && !isGenericMarker) ? normalizeListName(val) : null;
            
-           if (!listName) return; // Si no hay agrupación, no lo procesamos según requerimiento (evita 'Independiente')
+           // Si no hay agrupación y es verde, usamos un placeholder.
+           if (!listName && isElected) {
+              listName = "(Sin datos)";
+           }
 
-           let hist = record.history.find(h => h.year === year && h.category === category);
-           const cargoFound = findCargo(year, candidateName, category);
+           if (!listName) return; 
+
+           let yearToMatch = year;
+           // YEAR MAPPING: 2022 and 2023 are part of the same election cycle.
+           // We unify them under 2023 for consistent history.
+           if (year === '2022') yearToMatch = '2023';
+
+           let hist = record.history.find(h => h.year === yearToMatch && h.category === category);
+           const cargoFound = findCargo(yearToMatch, candidateName, category);
+           
            if (!hist) {
              hist = { 
-               year, 
+               year: yearToMatch, 
                list: listName, 
                elected: isElected, 
                category, 
@@ -375,12 +396,25 @@ async function fetchAndParse() {
                originalPos: cargoFound 
              };
              record.history.push(hist);
-           } else {
-             // Merging: if any row says SI, the final record is SI
-             if (isElected) hist.elected = true;
-             if (listName && (!hist.list || hist.list.length < listName.length)) hist.list = listName;
-             if (cargoFound) hist.position = cargoFound;
-           }
+            } else {
+              if (isElected) {
+                hist.elected = true;
+                // Si la matriz tiene un nombre de lista explícito y NO es el placeholder, manda.
+                if (listName && listName !== "(Sin datos)") {
+                   hist.list = listName;
+                } else if (!hist.list) {
+                   // Si no teníamos lista previa (fase 3), usamos el placeholder
+                   hist.list = listName || "(Sin datos)";
+                }
+              } else if (!hist.elected) {
+                if (listName && listName !== "(Sin datos)") hist.list = listName;
+              }
+              
+              if (cargoFound) hist.position = cargoFound;
+              else if (hist.elected && !hist.position) {
+                hist.position = category === 'Comisión Directiva' ? 'Vocal' : 'Miembro';
+              }
+            }
         }
       });
     });
@@ -396,10 +430,12 @@ async function fetchAndParse() {
 
   candidates.forEach(([key, record]) => {
      record.history.forEach(h => {
-        // En 2010 y años viejos, las posiciones a veces no están en EO/EE, pero sí en la matriz principal
-        // Preferimos posiciones que sean números (indicadores claros de asiento)
         const pos = h.position || h.originalPos;
-        if (!h.year || !pos || pos.length > 10) return; 
+        // RESTRICTION: We do not use generic positions like 'Vocal' or 'Miembro' for slot deduplication
+        // because many distinct people share those titles, especially in the assembly.
+        if (!h.year || !pos || pos.length > 10) return;
+        if (['Vocal', 'Miembro', 'Asambleista'].includes(pos)) return;
+        if (h.category === 'Asamblea') return; // Assembly is too large and positions are redundant
 
         const slotKey = `${h.year}|${h.category}|${h.list}|${pos}`;
         if (slotMap.has(slotKey)) {
@@ -409,9 +445,14 @@ async function fetchAndParse() {
            const existingRecord = dataMap.get(existingKey);
            const currentRecord = dataMap.get(key);
            
-           // Check name compatibility (at least 75% similarity or subset)
+           // MEMBER SHIELD: If both are elected (SI) in the same year, do NOT merge them
+           // unless the names are identical, as they are likely two distinct officials.
+           const bothElected = h.elected && existingRecord.history.some(eh => eh.year === h.year && eh.category === h.category && eh.elected);
+           if (bothElected) return;
+
+           // Check name compatibility (at least 85% similarity for slot merge)
            const sim = getSimilarity(existingRecord.name, currentRecord.name);
-           if (sim > 0.75) {
+           if (sim > 0.85) {
               console.log(`  Merging ${key} into ${existingKey} (Slot: ${slotKey}, Sim: ${sim.toFixed(2)})`);
               redirects.set(key, existingKey);
            }
