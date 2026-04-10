@@ -33,8 +33,7 @@ function smartNormalize(name) {
   return aliasResolved.toString()
     .toUpperCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .replace(/,/g, '')
-    .replace(/\./g, '')
+    .replace(/[^\w\s]/g, ' ') // Strip punctuation (incl. * and ,) and replace with spaces
     .split(/\s+/)
     .filter(w => w.length > 0)
     .sort()
@@ -44,7 +43,10 @@ function smartNormalize(name) {
 function normalizeListName(list) {
   if (!list) return '';
   let name = list.toString().trim();
-  if (name.toLowerCase() === 'independiente') return '';
+  const lowerName = name.toLowerCase();
+  
+  // Excluir si es "Independiente" o "Comisión Directiva"
+  if (lowerName === 'independiente' || lowerName.includes('comision directiva') || lowerName.includes('comision directi')) return '';
   
   // Normalización base: minúsculas, cambio de 'x' por 'por', expandir SL e ignorar espacios dobles
   let clean = name.toLowerCase()
@@ -71,6 +73,7 @@ function normalizeListName(list) {
   if (clean.includes('unidos por san lorenzo')) return 'Unidos por San Lorenzo';
   if (clean.includes('revolucion azulgrana') || clean.includes('rev. azulgrana')) return 'Revolucion Azulgrana';
   if (clean.includes('prog. azulgrana') || clean.includes('proyecto azulgrana')) return 'Proyecto Azulgrana';
+  if (clean.includes('movete boedo movete') || clean.includes('boedo movete')) return 'Movete Boedo Movete';
 
   // Si no hay mapeo, aplicar Capitalización de Título genérica
   return clean.split(' ').map((word, index) => {
@@ -209,12 +212,15 @@ async function fetchAndParse() {
                  }
               }
            }
-           return;
+           // No retornamos, procesamos esta fila también como data
         }
 
         const firstCell = row.getCell(2).value?.toString().toUpperCase() || '';
         if (firstCell.includes('ASAMBLEA')) { currentSection = "Asamblea"; return; }
         if (firstCell.includes('FISCALIZADORA')) { currentSection = "Fiscalizadora"; return; }
+
+        if (columnLayouts.length === 0) return; // Si aún no hay layout, no procesamos data
+
 
         columnLayouts.forEach(layout => {
            const col = layout.col;
@@ -332,8 +338,9 @@ async function fetchAndParse() {
              hist = { year, list: listName, elected: isElected, category, position: findCargo(year, candidateName, category) };
              record.history.push(hist);
            } else {
-             hist.elected = isElected;
-             if (listName) hist.list = listName;
+             // Merging: if any row says SI, the final record is SI
+             if (isElected) hist.elected = true;
+             if (listName && (!hist.list || hist.list.length < listName.length)) hist.list = listName;
              if (!hist.position) hist.position = findCargo(year, candidateName, category);
            }
         }

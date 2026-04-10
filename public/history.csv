@@ -1,14 +1,40 @@
 ID_Candidato,Nombre,Año,Agrupacion,Categoria,Cargo,Electo
+COSTANTINO SERGIO,"COSTANTINO, SERGIO",2026,San Lorenzo en Marcha,Comisión Directiva,Presidente,NO
+COSTANTINO SERGIO,"COSTANTINO, SERGIO",2025,X Amor a San Lorenzo,Comisión Directiva,Presidente,SI
+COSTANTINO SERGIO,"COSTANTINO, SERGIO",2023,X Amor a San Lorenzo,Comisión Directiva,Presidente,SI
+COSTANTINO SERGIO,"COSTANTINO, SERGIO",2019,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 2,SI
+COSTANTINO SERGIO,"COSTANTINO, SERGIO",2022,San Lorenzo Querido,Comisión Directiva,Presidente,NO
+COSTANTINO SERGIO,"COSTANTINO, SERGIO",2016,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 6,SI
+COSTANTINO SERGIO,"COSTANTINO, SERGIO",2013,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 6,SI
+COSTANTINO SERGIO,"COSTANTINO, SERGIO",2012 (EXTRAORDINARIA),San Lorenzo Siglo XXI,Comisión Directiva,,SI
+COSTANTINO SERGIO,"COSTANTINO, SERGIO",2010,Vamos San Lorenzo,Comisión Directiva,,SI
+CULOTTA MARCELO,"CULOTTA, MARCELO",2026,Primero San Lorenzo,Comisión Directiva,Presidente,NO
+CULOTTA MARCELO,"CULOTTA, MARCELO",2023,Orden y Progreso,Comisión Directiva,Presidente,SI
+CULOTTA MARCELO,"CULOTTA, MARCELO",2016,Cruzada por San Lorenzo,Comisión Directiva,Vocal 1,SI
+CULOTTA MARCELO,"CULOTTA, MARCELO",2013,Cruzada por San Lorenzo,Comisión Directiva,Vocal 1,SI
+CULOTTA MARCELO,"CULOTTA, MARCELO",2012 (EXTRAORDINARIA),Cruzada por San Lorenzo,Comisión Directiva,,SI
+CULOTTA MARCELO,"CULOTTA, MARCELO",2010,Cruzada por San Lorenzo,Comisión Directiva,,NO
+AGOTE MANUEL,"AGOTE, MANUEL",2026,Movete Boedo Movete,Comisión Directiva,Presidente,NO
+AGOTE MANUEL,"AGOTE, MANUEL",2025,Movete Boedo Movete,Comisión Directiva,Presidente,NO
+CESAR FRANCIS,"FRANCIS, CESAR",2026,Volver a San Lorenzo,Comisión Directiva,Presidente,NO
+CESAR FRANCIS,"FRANCIS, CESAR",2025,Volver a San Lorenzo,Comisión Directiva,Presidente,NO
+CESAR FRANCIS,"FRANCIS, CESAR",2023,Volver a San Lorenzo,Comisión Directiva,Presidente,NO
+CESAR FRANCIS,"FRANCIS, CESAR",2019,Volver a San Lorenzo,Comisión Directiva,Presidente,SI
+CESAR FRANCIS,"FRANCIS, CESAR",2022,Volver a San Lorenzo,Comisión Directiva,Presidente,NO
+CESAR FRANCIS,"FRANCIS, CESAR",2013,Volver a San Lorenzo,Comisión Directiva,Presidente,SI
+CESAR FRANCIS,"FRANCIS, CESAR",2016,Volver a San Lorenzo,Comisión Directiva,,SI
+NICOLAS PAPASSO,NICOLAS PAPASSO,2026,Nueva Generacion,Comisión Directiva,Presidente,NO
+NICOLAS PAPASSO,NICOLAS PAPASSO,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 10,NO
 CIPRIANO POMMIES,"POMMIES, CIPRIANO",2026,San Lorenzo en Marcha,Comisión Directiva,Vice,NO
 CIPRIANO POMMIES,"POMMIES, CIPRIANO",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 11,SI
-CIPRIANO POMMIES,"POMMIES, CIPRIANO",2022,Siempre San Lorenzo,Comisión Directiva,,NO
+CIPRIANO POMMIES,"POMMIES, CIPRIANO",2022,Siempre San Lorenzo,Comisión Directiva,Presidente,NO
 CAMPOS JUAN MANUEL,"CAMPOS, JUAN MANUEL",2026,Primero San Lorenzo,Comisión Directiva,Vice-Presidente,NO
 BITTA DELLA LEONARDO,"DELLA BITTA, LEONARDO",2026,Movete Boedo Movete,Comisión Directiva,Vice-Presidente,NO
 BITTA DELLA LEONARDO,"DELLA BITTA, LEONARDO",2025,Movete Boedo Movete,Comisión Directiva,Vocal 1,NO
 DANIEL DE FLORIAN,"DE FLORIAN, DANIEL",2026,Volver a San Lorenzo,Comisión Directiva,Vice-Presidente,NO
 DANIEL DE FLORIAN,"DE FLORIAN, DANIEL",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 9,NO
 ANGEL GRAS,ANGEL GRAS,2026,Nueva Generacion,Comisión Directiva,Vice-Presidente,NO
-ANGEL GRAS,ANGEL GRAS,2022,Renovacion San Lorenzo,Asamblea,3,NO
+ANGEL GRAS,ANGEL GRAS,2022,Renovacion San Lorencista,Asamblea,3,NO
 EZEQUIEL SABOR,"SABOR, EZEQUIEL",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 1,NO
 EZEQUIEL SABOR,"SABOR, EZEQUIEL",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 10,SI
 EZEQUIEL SABOR,"SABOR, EZEQUIEL",2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 4,NO
@@ -25,8 +51,8 @@ FERRERA JORGE OMAR,"FERRERA, JORGE OMAR",2019,Volver a San Lorenzo,Asamblea,8,NO
 FERRERA JORGE OMAR,"FERRERA, JORGE OMAR",2022,Volver a San Lorenzo,Comisión Directiva,Vocal 7,NO
 FERRERA JORGE OMAR,"FERRERA, JORGE OMAR",2025,Volver a San Lorenzo,Comisión Directiva,,NO
 FERRERA JORGE OMAR,"FERRERA, JORGE OMAR",2023,Volver a San Lorenzo,Comisión Directiva,,NO
-MATIAS NOVAL,MATIAS NOVAL,2026,N. Generacion,Comisión Directiva,Vocal 1,NO
-MATIAS NOVAL,MATIAS NOVAL,2022,Renovacion San Lorenzo,Comisión Directiva,Vice-Presidente,NO
+MATIAS NOVAL,MATIAS NOVAL,2026,Nueva Generacion,Comisión Directiva,Vocal 1,NO
+MATIAS NOVAL,MATIAS NOVAL,2022,Renovacion San Lorencista,Comisión Directiva,Vice-Presidente,NO
 DIEGO MEJUTO,"MEJUTO, DIEGO",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 2,NO
 DIEGO MEJUTO,"MEJUTO, DIEGO",2022,Siempre San Lorenzo,Comisión Directiva,Vocal 2,NO
 ARIEL DEAN,"DEAN, ARIEL",2026,Primero San Lorenzo,Comisión Directiva,Vocal 2,NO
@@ -36,16 +62,16 @@ WALTER WEIMANN,"WEIMANN, WALTER",2025,Movete Boedo Movete,Comisión Directiva,Vo
 FERNANDO MARCELO MEIS,"MEIS, MARCELO FERNANDO",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 2,NO
 FERNANDO MARCELO MEIS,"MEIS, MARCELO FERNANDO",2016,Volver a San Lorenzo,Asamblea,4,NO
 FERNANDO MARCELO MEIS,"MEIS, MARCELO FERNANDO",2010,Nuevo San Lorenzo,Asamblea,12,NO
-FERNANDO MARCELO MEIS,"MEIS, MARCELO FERNANDO",2007,Frente San Lorenzo,Asamblea,3,SI
+FERNANDO MARCELO MEIS,"MEIS, MARCELO FERNANDO",2007,Frente Sanlorencista,Asamblea,3,SI
 FERNANDO MARCELO MEIS,"MEIS, MARCELO FERNANDO",2023,Volver a San Lorenzo,Fiscalizadora,1,SI
 FERNANDO MARCELO MEIS,"MEIS, MARCELO FERNANDO",2022,Volver a San Lorenzo,Fiscalizadora,,NO
 FERNANDO MARCELO MEIS,"MEIS, MARCELO FERNANDO",2019,Volver a San Lorenzo,Fiscalizadora,,NO
 FERNANDO MARCELO MEIS,"MEIS, MARCELO FERNANDO",2016,Volver a San Lorenzo,Fiscalizadora,,NO
-FARINA GONZALO,GONZALO FARIÑA,2026,N. Generacion,Comisión Directiva,Vocal 2,NO
+FARINA GONZALO,GONZALO FARIÑA,2026,Nueva Generacion,Comisión Directiva,Vocal 2,NO
 CARTA MOGLIETTA VALERIA,"CARTA MOGLIETTA, VALERIA",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 3,NO
 CARTA MOGLIETTA VALERIA,"CARTA MOGLIETTA, VALERIA",2025,X Amor a San Lorenzo,Comisión Directiva,Vice-Presidente,SI
-CARTA MOGLIETTA VALERIA,"CARTA MOGLIETTA, VALERIA",2023,Boedo en Accion,Asamblea,,SI
-CARTA MOGLIETTA VALERIA,"CARTA MOGLIETTA, VALERIA",2022,Boedo en Accion,Asamblea,,NO
+CARTA MOGLIETTA VALERIA,"CARTA MOGLIETTA, VALERIA",2023,Boedo en Accion,Asamblea,15,SI
+CARTA MOGLIETTA VALERIA,"CARTA MOGLIETTA, VALERIA",2022,Boedo en Accion,Asamblea,20,NO
 ANA BOZZANO,"BOZZANO, ANA",2026,Primero San Lorenzo,Comisión Directiva,Vocal 3,NO
 ALFREDO ALONSO,"ALONSO, ALFREDO",2026,Movete Boedo Movete,Comisión Directiva,Vocal 3,NO
 ALFREDO ALONSO,"ALONSO, ALFREDO",2025,Movete Boedo Movete,Comisión Directiva,Vocal 7,NO
@@ -53,8 +79,8 @@ AGUSTINA NORDENSTROM,"NORDENSTROM, AGUSTINA",2026,Volver a San Lorenzo,Comisión
 AGUSTINA NORDENSTROM,"NORDENSTROM, AGUSTINA",2023,Volver a San Lorenzo,Comisión Directiva,Vocal 3,SI
 AGUSTINA NORDENSTROM,"NORDENSTROM, AGUSTINA",2019,Volver a San Lorenzo,Asamblea,6,SI
 AGUSTINA NORDENSTROM,"NORDENSTROM, AGUSTINA",2022,Volver a San Lorenzo,Comisión Directiva,Vocal 3,NO
-DAVID VIVIANA,VIVIANA DAVID,2026,N. Generacion,Comisión Directiva,Vocal 3,NO
-DAVID VIVIANA,VIVIANA DAVID,2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 2,NO
+DAVID VIVIANA,VIVIANA DAVID,2026,Nueva Generacion,Comisión Directiva,Vocal 3,NO
+DAVID VIVIANA,VIVIANA DAVID,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 2,NO
 MARTIN SAIZ,"SAIZ, MARTIN",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 4,NO
 MARTIN SAIZ,"SAIZ, MARTIN",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 2,NO
 MARTIN SAIZ,"SAIZ, MARTIN",2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 7,NO
@@ -65,7 +91,7 @@ CARUSO JONATHAN,"CARUSO, JONATHAN",2025,Volver a San Lorenzo,Comisión Directiva
 CARUSO JONATHAN,"CARUSO, JONATHAN",2023,Volver a San Lorenzo,Comisión Directiva,Vocal 10,NO
 CARUSO JONATHAN,"CARUSO, JONATHAN",2019,Volver a San Lorenzo,Comisión Directiva,Vocal 7,NO
 CARUSO JONATHAN,"CARUSO, JONATHAN",2016,Volver a San Lorenzo,Asamblea,3,NO
-ANCAROLA GONZALO,GONZALO ANCAROLA,2026,N. Generacion,Comisión Directiva,Vocal 4,NO
+ANCAROLA GONZALO,GONZALO ANCAROLA,2026,Nueva Generacion,Comisión Directiva,Vocal 4,NO
 BOUZAS RODRIGO,RODRIGO BOUZAS,2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 5,NO
 BOUZAS RODRIGO,RODRIGO BOUZAS,2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 8,SI
 BOUZAS RODRIGO,RODRIGO BOUZAS,2023,X Amor a San Lorenzo,Asamblea,51,NO
@@ -76,7 +102,7 @@ BLANCO FERNANDO MUINO,"BLANCO MUIÑO, FERNANDO",2026,Volver a San Lorenzo,Comisi
 BLANCO FERNANDO MUINO,"BLANCO MUIÑO, FERNANDO",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 5,NO
 BLANCO FERNANDO MUINO,"BLANCO MUIÑO, FERNANDO",2023,Volver a San Lorenzo,Comisión Directiva,Vocal 6,NO
 BLANCO FERNANDO MUINO,"BLANCO MUIÑO, FERNANDO",2022,Volver a San Lorenzo,Comisión Directiva,Vocal 5,NO
-ALESSANDRIA CLAUDIA,CLAUDIA ALESSANDRIA,2026,N. Generacion,Comisión Directiva,Vocal 5,NO
+ALESSANDRIA CLAUDIA,CLAUDIA ALESSANDRIA,2026,Nueva Generacion,Comisión Directiva,Vocal 5,NO
 ARIEL SCHALE,"SCHALE, ARIEL",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 6,NO
 ARIEL SCHALE,"SCHALE, ARIEL",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 7,SI
 CRISCOLO PEDRO,"CRÍSCOLO, PEDRO",2026,Primero San Lorenzo,Comisión Directiva,Vocal 6,NO
@@ -86,7 +112,7 @@ FERNANDO FISCHER,"FISCHER, FERNANDO",2025,Movete Boedo Movete,Comisión Directiv
 ALVAREZ JONATHAN,"ALVAREZ, JONATHAN",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 6,NO
 ALVAREZ JONATHAN,"ALVAREZ, JONATHAN",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 2,NO
 ALVAREZ JONATHAN,"ALVAREZ, JONATHAN",2023,Volver a San Lorenzo,Asamblea,16,NO
-ANGEL MIGUEL SAVINO,MIGUEL ANGEL SAVINO,2026,N. Generacion,Comisión Directiva,Vocal 6,NO
+ANGEL MIGUEL SAVINO,MIGUEL ANGEL SAVINO,2026,Nueva Generacion,Comisión Directiva,Vocal 6,NO
 ANGEL MIGUEL SAVINO,MIGUEL ANGEL SAVINO,2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 6,NO
 ANGEL MIGUEL SAVINO,MIGUEL ANGEL SAVINO,2022,San Lorenzo Querido,Asamblea,61,NO
 CAPRIA JOSE,"CAPRIA, JOSE",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 7,NO
@@ -96,10 +122,11 @@ CAPRIA JOSE,"CAPRIA, JOSE",2004,Unidos por San Lorenzo,Comisión Directiva,,SI
 ALEJANDRO MORERIA OSCAR,"MORERIA, OSCAR ALEJANDRO",2026,Primero San Lorenzo,Comisión Directiva,Vocal 7,NO
 FRANCO ZUCCOLO,"ZUCCOLO, FRANCO",2026,Movete Boedo Movete,Comisión Directiva,Vocal 7,NO
 CHAVARRIA PABLO,"CHAVARRIA, PABLO",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 7,NO
-CARLOS PERASSI,CARLOS PERASSI,2026,N. Generacion,Comisión Directiva,Vocal 7,NO
-KARINA LEFREVRE,"LEFREVRE, KARINA",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 8,NO
-KARINA LEFREVRE,"LEFREVRE, KARINA",2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 3,NO
-KARINA LEFREVRE,"LEFREVRE, KARINA",2019,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 9,NO
+CARLOS PERASSI,CARLOS PERASSI,2026,Nueva Generacion,Comisión Directiva,Vocal 7,NO
+KARINA LEFEVRE,KARINA LEFEVRE,2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 8,NO
+KARINA LEFEVRE,KARINA LEFEVRE,2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 3,NO
+KARINA LEFEVRE,KARINA LEFEVRE,2019,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 9,SI
+KARINA LEFEVRE,KARINA LEFEVRE,2022,San Lorenzo Querido,Comisión Directiva,Vocal 3,NO
 CLAUDIA COSTA DA DIAZ,"DA COSTA DIAZ, CLAUDIA",2026,Primero San Lorenzo,Comisión Directiva,Vocal 8,NO
 CLAUDIA COSTA DA DIAZ,"DA COSTA DIAZ, CLAUDIA",2019,Cruzada por San Lorenzo,Comisión Directiva,Vocal 6,NO
 CLAUDIA COSTA DA DIAZ,"DA COSTA DIAZ, CLAUDIA",2022,Siempre San Lorenzo,Asamblea,20,NO
@@ -109,7 +136,7 @@ MONICA NARVAEZ,"NARVAEZ, MONICA",2026,Volver a San Lorenzo,Comisión Directiva,V
 MONICA NARVAEZ,"NARVAEZ, MONICA",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 15,NO
 MONICA NARVAEZ,"NARVAEZ, MONICA",2023,Volver a San Lorenzo,Asamblea,10,NO
 MONICA NARVAEZ,"NARVAEZ, MONICA",2022,Volver a San Lorenzo,Asamblea,19,NO
-BURGIN MARIELA,MARIELA BURGIN,2026,N. Generacion,Comisión Directiva,Vocal 8,NO
+BURGIN MARIELA,MARIELA BURGIN,2026,Nueva Generacion,Comisión Directiva,Vocal 8,NO
 ARMANDO MUZOGLU,"MUZOGLU, ARMANDO",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 9,NO
 ARMANDO MUZOGLU,"MUZOGLU, ARMANDO",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 16,SI
 ARMANDO MUZOGLU,"MUZOGLU, ARMANDO",2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 10,NO
@@ -117,7 +144,7 @@ ARMANDO MUZOGLU,"MUZOGLU, ARMANDO",2019,San Lorenzo Siglo XXI,Asamblea,80,NO
 ARMANDO MUZOGLU,"MUZOGLU, ARMANDO",2022,San Lorenzo Querido,Asamblea,14,NO
 DANIEL ROTELLA,"ROTELLA, DANIEL",2026,Primero San Lorenzo,Comisión Directiva,Vocal 9,NO
 DANIEL ROTELLA,"ROTELLA, DANIEL",2023,Orden y Progreso,Comisión Directiva,Vocal 4,NO
-DANIEL ROTELLA,"ROTELLA, DANIEL",2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 7,NO
+DANIEL ROTELLA,"ROTELLA, DANIEL",2022,Renovacion San Lorencista,Comisión Directiva,Vocal 7,NO
 DANIEL ROTELLA,"ROTELLA, DANIEL",2001,Unidad Azulgrana,Comisión Directiva,Vocal 14,NO
 DANIEL ROTELLA,"ROTELLA, DANIEL",2007,Frente San Lorenzo,Comisión Directiva,,NO
 EDUARDO RODRIGUEZ,"RODRIGUEZ, EDUARDO",2026,Movete Boedo Movete,Comisión Directiva,Vocal 9,NO
@@ -125,7 +152,7 @@ EDUARDO RODRIGUEZ,"RODRIGUEZ, EDUARDO",2025,Movete Boedo Movete,Comisión Direct
 EDUARDO RODRIGUEZ,"RODRIGUEZ, EDUARDO",2012 (EXTRAORDINARIA),Por San Lorenzo,Comisión Directiva,,NO
 FELIPE LOZANO,"LOZANO, FELIPE",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 9,NO
 FELIPE LOZANO,"LOZANO, FELIPE",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 14,NO
-AGOSTINO DANIEL,DANIEL AGOSTINO,2026,N. Generacion,Comisión Directiva,Vocal 9,NO
+AGOSTINO DANIEL,DANIEL AGOSTINO,2026,Nueva Generacion,Comisión Directiva,Vocal 9,NO
 AGOSTINO DANIEL,DANIEL AGOSTINO,2010,Boedo en Accion,Comisión Directiva,,NO
 ENRIQUE RONRONI,"RONRONI, ENRIQUE",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 10,NO
 FERREIRA MAXMILIANO,"FERREIRA, MAXMILIANO",2026,Primero San Lorenzo,Comisión Directiva,Vocal 10,NO
@@ -134,13 +161,13 @@ ERTOLA PATRICIO,"ERTOLA, PATRICIO",2026,Volver a San Lorenzo,Comisión Directiva
 ERTOLA PATRICIO,"ERTOLA, PATRICIO",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 11,NO
 ERTOLA PATRICIO,"ERTOLA, PATRICIO",2023,Volver a San Lorenzo,Comisión Directiva,Vocal 11,NO
 ERTOLA PATRICIO,"ERTOLA, PATRICIO",2022,Volver a San Lorenzo,Comisión Directiva,Vocal 11,NO
-LEANDRO VIDAL,LEANDRO VIDAL,2026,N. Generacion,Comisión Directiva,Vocal 10,NO
+LEANDRO VIDAL,LEANDRO VIDAL,2026,Nueva Generacion,Comisión Directiva,Vocal 10,NO
 GARAY GERMAN,"GARAY, GERMAN",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 11,NO
 MAIDANA SILVANA,"MAIDANA, SILVANA",2026,Primero San Lorenzo,Comisión Directiva,Vocal 11,NO
 PABLO RODRIGUEZ,"RODRIGUEZ, PABLO",2026,Movete Boedo Movete,Comisión Directiva,Vocal 11,NO
 BARROS LEONARDO,"BARROS, LEONARDO",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 11,NO
 BARROS LEONARDO,"BARROS, LEONARDO",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 3,NO
-DANIEL REIMUNDES,DANIEL REIMUNDES,2026,N. Generacion,Comisión Directiva,Vocal 11,NO
+DANIEL REIMUNDES,DANIEL REIMUNDES,2026,Nueva Generacion,Comisión Directiva,Vocal 11,NO
 FRAIMAN NICOLAS SERGIO,"FRAIMAN, SERGIO NICOLAS",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 12,NO
 FRAIMAN NICOLAS SERGIO,"FRAIMAN, SERGIO NICOLAS",2019,San Lorenzo Siglo XXI,Fiscalizadora,1,SI
 FRAIMAN NICOLAS SERGIO,"FRAIMAN, SERGIO NICOLAS",2001,Unidad Azulgrana,Comisión Directiva,Vocal 15,NO
@@ -151,8 +178,8 @@ LUCAS RAJOY,"RAJOY, LUCAS",2026,Primero San Lorenzo,Comisión Directiva,Vocal 12
 LORENZO NATALICCHIO,"NATALICCHIO, LORENZO",2026,Movete Boedo Movete,Comisión Directiva,Vocal 12,NO
 DARIO DORSI RUBEN,"DORSI, RUBEN DARIO",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 12,NO
 DARIO DORSI RUBEN,"DORSI, RUBEN DARIO",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 10,NO
-LEONARDO PRESTINI,LEONARDO PRESTINI,2026,N. Generacion,Comisión Directiva,Vocal 12,NO
-LEONARDO PRESTINI,LEONARDO PRESTINI,2022,Renovacion San Lorenzo,Asamblea,29,NO
+LEONARDO PRESTINI,LEONARDO PRESTINI,2026,Nueva Generacion,Comisión Directiva,Vocal 12,NO
+LEONARDO PRESTINI,LEONARDO PRESTINI,2022,Renovacion San Lorencista,Asamblea,29,NO
 HERMIDA SANCHEZ VANESA,"SANCHEZ HERMIDA, VANESA",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 13,NO
 HERMIDA SANCHEZ VANESA,"SANCHEZ HERMIDA, VANESA",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 6,SI
 HERMIDA SANCHEZ VANESA,"SANCHEZ HERMIDA, VANESA",2023,Boedo en Accion,Asamblea,45,SI
@@ -160,14 +187,14 @@ HERMIDA SANCHEZ VANESA,"SANCHEZ HERMIDA, VANESA",2022,Boedo en Accion,Asamblea,5
 GUILLERMO MANGONE,"MANGONE, GUILLERMO",2026,Primero San Lorenzo,Comisión Directiva,Vocal 13,NO
 GUILLERMO MANGONE,"MANGONE, GUILLERMO",2025,Revolucion Azulgrana,Comisión Directiva,Vocal 1,NO
 GUILLERMO MANGONE,"MANGONE, GUILLERMO",2023,Orden y Progreso,Comisión Directiva,Vocal 1,NO
-GUILLERMO MANGONE,"MANGONE, GUILLERMO",2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 1,NO
+GUILLERMO MANGONE,"MANGONE, GUILLERMO",2022,Renovacion San Lorencista,Comisión Directiva,Vocal 1,NO
 GUILLERMO MANGONE,"MANGONE, GUILLERMO",2004,Grandeza Azulgrana,Comisión Directiva,,NO
 ALEJANDRO GIONGO,"GIONGO, ALEJANDRO",2026,Movete Boedo Movete,Comisión Directiva,Vocal 13,NO
 ALEJANDRO GIONGO,"GIONGO, ALEJANDRO",2025,Movete Boedo Movete,Comisión Directiva,Vocal 17,NO
 MARIEL RASCOVAN,"RASCOVAN, MARIEL",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 13,NO
 MARIEL RASCOVAN,"RASCOVAN, MARIEL",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 16,NO
 MARIEL RASCOVAN,"RASCOVAN, MARIEL",2022,Volver a San Lorenzo,Comisión Directiva,Vocal 13,NO
-FRANCISCO SAVOINI,FRANCISCO SAVOINI,2026,N. Generacion,Comisión Directiva,Vocal 13,NO
+FRANCISCO SAVOINI,FRANCISCO SAVOINI,2026,Nueva Generacion,Comisión Directiva,Vocal 13,NO
 BOUZAS MARCELO,"BOUZAS, MARCELO",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 14,NO
 BOUZAS MARCELO,"BOUZAS, MARCELO",2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 11,NO
 BOUZAS MARCELO,"BOUZAS, MARCELO",2010,Vamos San Lorenzo,Comisión Directiva,,NO
@@ -178,12 +205,12 @@ ARAUJO NELSON OMAR,"ARAUJO, NELSON OMAR",2026,Volver a San Lorenzo,Comisión Dir
 ARAUJO NELSON OMAR,"ARAUJO, NELSON OMAR",2023,Volver a San Lorenzo,Asamblea,21,NO
 POUSTIS RUBEN,RUBEN POUSTIS,2026,Nueva Generacion,Comisión Directiva,Vocal 14,NO
 CASOLA FERNANDO,CASOLA FERNANDO,2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 15,NO
-CASOLA FERNANDO,CASOLA FERNANDO,2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 9,NO
+CASOLA FERNANDO,CASOLA FERNANDO,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 9,NO
 DIEGO ESPINOSA GODOY,"ESPINOSA GODOY, DIEGO",2026,Primero San Lorenzo,Comisión Directiva,Vocal 15,NO
 DIEGO ESPINOSA GODOY,"ESPINOSA GODOY, DIEGO",2023,Orden y Progreso,Asamblea,20,NO
 CASTILLO MARCELO,"CASTILLO, MARCELO",2026,Movete Boedo Movete,Comisión Directiva,Vocal 15,NO
 BARBARA DEL RIO,"DEL RIO, BARBARA",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 15,NO
-ANGEL CALELLO MIGUEL,MIGUEL ANGEL CALELLO,2026,N. Generacion,Comisión Directiva,Vocal 15,NO
+ANGEL CALELLO MIGUEL,MIGUEL ANGEL CALELLO,2026,Nueva Generacion,Comisión Directiva,Vocal 15,NO
 ANGEL CALELLO MIGUEL,MIGUEL ANGEL CALELLO,2010,Grandeza Azulgrana,Comisión Directiva,,NO
 GONZALO PERALTA,"PERALTA, GONZALO",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 16,NO
 ACHILLE MARIANO,"ACHILLE, MARIANO",2026,Primero San Lorenzo,Comisión Directiva,Vocal 16,NO
@@ -192,7 +219,7 @@ NATALY NOVILLO,"NOVILLO, NATALY",2026,Movete Boedo Movete,Comisión Directiva,Vo
 NATALY NOVILLO,"NOVILLO, NATALY",2025,Movete Boedo Movete,Comisión Directiva,Vocal 11,NO
 CARESTIA ERNESTO,"CARESTIA, ERNESTO",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 16,NO
 CARESTIA ERNESTO,"CARESTIA, ERNESTO",2019,Volver a San Lorenzo,Asamblea,36,NO
-FEDERICO SCIGLIANO,FEDERICO SCIGLIANO,2026,N. Generacion,Comisión Directiva,Vocal 16,NO
+FEDERICO SCIGLIANO,FEDERICO SCIGLIANO,2026,Nueva Generacion,Comisión Directiva,Vocal 16,NO
 MANSILLA MARLENE,"MANSILLA, MARLENE",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 17,NO
 MANSILLA MARLENE,"MANSILLA, MARLENE",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 17,SI
 MANSILLA MARLENE,"MANSILLA, MARLENE",2023,Boedo en Accion,Asamblea,60,SI
@@ -200,7 +227,7 @@ MANSILLA MARLENE,"MANSILLA, MARLENE",2022,Boedo en Accion,Fiscalizadora,,NO
 MARIANA VILASECO,"VILASECO, MARIANA",2026,Primero San Lorenzo,Comisión Directiva,Vocal 17,NO
 ACIERNO JUAN PABLO,"ACIERNO, JUAN PABLO",2026,Movete Boedo Movete,Comisión Directiva,Vocal 17,NO
 ALEJANDRO PAGLIA,"PAGLIA, ALEJANDRO",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 17,NO
-GISELA RIOS,GISELA RIOS,2026,N. Generacion,Comisión Directiva,Vocal 17,NO
+GISELA RIOS,GISELA RIOS,2026,Nueva Generacion,Comisión Directiva,Vocal 17,NO
 DAFNE KWIST,"KWIST, DAFNE",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 18,NO
 DAFNE KWIST,"KWIST, DAFNE",2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 8,NO
 DAFNE KWIST,"KWIST, DAFNE",2019,San Lorenzo Siglo XXI,Asamblea,14,SI
@@ -211,7 +238,14 @@ FERNANDEZ GUSTAVO QUIROZ,"FERNANDEZ QUIROZ, GUSTAVO",2023,Orden y Progreso,Comis
 DELAMER JULIAN,"DELAMER, JULIAN",2026,Movete Boedo Movete,Comisión Directiva,Vocal 18,NO
 DELAMER JULIAN,"DELAMER, JULIAN",2025,Movete Boedo Movete,Comisión Directiva,Vocal 8,NO
 FULCO GUSTAVO RAMOS,"FULCO RAMOS, GUSTAVO",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 18,NO
-JUAN MANUEL VIDAL,JUAN MANUEL VIDAL,2026,N. Generacion,Comisión Directiva,Vocal 18,NO
+JUAN MANUEL VIDAL,JUAN MANUEL VIDAL,2026,Nueva Generacion,Comisión Directiva,Vocal 18,NO
+LAMMENS MATIAS,MATIAS LAMMENS,2025,Revolucion Azulgrana,Comisión Directiva,Presidente,NO
+LAMMENS MATIAS,MATIAS LAMMENS,2019,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 1,SI
+LAMMENS MATIAS,MATIAS LAMMENS,2016,San Lorenzo Siglo XXI,Comisión Directiva,Presidente,SI
+LAMMENS MATIAS,MATIAS LAMMENS,2013,San Lorenzo Siglo XXI,Comisión Directiva,Presidente,SI
+LAMMENS MATIAS,MATIAS LAMMENS,2012 (EXTRAORDINARIA),San Lorenzo Siglo XXI,Comisión Directiva,,SI
+LAMMENS MATIAS,MATIAS LAMMENS,2012 (ASAMBLEA),Transitoria,Comisión Directiva,,SI
+LAMMENS MATIAS,MATIAS LAMMENS,2010,Nuevo San Lorenzo,Comisión Directiva,,NO
 ALEJANDRO CAMBAS,ALEJANDRO CAMBAS,2025,Revolucion Azulgrana,Comisión Directiva,Vice-Presidente,NO
 ALEJANDRO CAMBAS,ALEJANDRO CAMBAS,2023,Boedo en Accion,Asamblea,16,SI
 ALEJANDRO CAMBAS,ALEJANDRO CAMBAS,2022,Siempre San Lorenzo,Asamblea,3,NO
@@ -239,8 +273,8 @@ MASTROSIMONE MIGUEL,MIGUEL MASTROSIMONE,2012 (ASAMBLEA),Transitoria,Comisión Di
 MASTROSIMONE MIGUEL,MIGUEL MASTROSIMONE,2010,Nuevo San Lorenzo,Asamblea,36,NO
 CURUTCHET JUAN,JUAN CURUTCHET,2025,Movete Boedo Movete,Comisión Directiva,Vocal 2,NO
 ENRIQUE RONZONI,ENRIQUE RONZONI,2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 3,SI
+ENRIQUE RONZONI,ENRIQUE RONZONI,2022,Renovacion San Lorencista,Comisión Directiva,Presidente,NO
 ENRIQUE RONZONI,ENRIQUE RONZONI,2026,San Lorenzo en Marcha,Comisión Directiva,,NO
-ENRIQUE RONZONI,ENRIQUE RONZONI,2022,Renovacion San Lorenzo,Comisión Directiva,,NO
 CLAUDIO LANTARON,CLAUDIO LANTARON,2025,Revolucion Azulgrana,Comisión Directiva,Vocal 3,NO
 CLAUDIO LANTARON,CLAUDIO LANTARON,2019,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 17,SI
 CLAUDIO LANTARON,CLAUDIO LANTARON,2022,San Lorenzo Querido,Comisión Directiva,Vocal 2,NO
@@ -337,6 +371,14 @@ ACHUCARRO JAKELINE,JAKELINE ACHUCARRO,2025,Revolucion Azulgrana,Comisión Direct
 EDUARDO MASTANTUONO,EDUARDO MASTANTUONO,2025,Movete Boedo Movete,Comisión Directiva,Vocal 18,NO
 JOSE RAMON VINAS,JOSE RAMON VIÑAS,2025,Volver a San Lorenzo,Comisión Directiva,Vocal 18,NO
 JOSE RAMON VINAS,JOSE RAMON VIÑAS,2010,Mas San Lorenzo,Asamblea,10,NO
+MARCELO MORETTI,MARCELO MORETTI,2023,Boedo en Accion,Comisión Directiva,Presidente,SI
+MARCELO MORETTI,MARCELO MORETTI,2019,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 7,SI
+MARCELO MORETTI,MARCELO MORETTI,2022,Boedo en Accion,Comisión Directiva,Presidente,NO
+MARCELO MORETTI,MARCELO MORETTI,2016,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 12,SI
+MARCELO MORETTI,MARCELO MORETTI,2013,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 11,SI
+MARCELO MORETTI,MARCELO MORETTI,2004,Nuevo San Lorenzo,Comisión Directiva,Vocal 12,NO
+MARCELO MORETTI,MARCELO MORETTI,2012 (EXTRAORDINARIA),San Lorenzo Siglo XXI,Comisión Directiva,,SI
+MARCELO MORETTI,MARCELO MORETTI,2010,Boedo en Accion,Comisión Directiva,,SI
 NAVARRO NESTOR,NESTOR NAVARRO,2023,Boedo en Accion,Comisión Directiva,Vice-Presidente,SI
 NAVARRO NESTOR,NESTOR NAVARRO,2022,Boedo en Accion,Comisión Directiva,Vocal 1,NO
 ALEJANDRO TAMER,ALEJANDRO TAMER,2023,Orden y Progreso,Comisión Directiva,Vice-Presidente,SI
@@ -345,7 +387,6 @@ FEDERICO TIRELLI,FEDERICO TIRELLI,2023,X Amor a San Lorenzo,Comisión Directiva,
 CHRISTIAN MERA,CHRISTIAN MERA,2023,Volver a San Lorenzo,Comisión Directiva,Vice-Presidente,NO
 CHRISTIAN MERA,CHRISTIAN MERA,2022,Volver a San Lorenzo,Comisión Directiva,,NO
 CHRISTIAN MERA,CHRISTIAN MERA,2012 (ASAMBLEA),Transitoria,Comisión Directiva,,SI
-NAVARRO* NESTOR,NESTOR NAVARRO*,2023,Comision Directiva,Comisión Directiva,Vice-Presidente,NO
 NESTOR ORTIGOZA,NESTOR ORTIGOZA,2023,Boedo en Accion,Comisión Directiva,Vocal 1,SI
 SEBASTIAN TORRICO,SEBASTIAN TORRICO,2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 1,NO
 SEBASTIAN TORRICO,SEBASTIAN TORRICO,2022,San Lorenzo Querido,Comisión Directiva,Vocal 1,NO
@@ -363,9 +404,12 @@ MATIAS PLESCIA,MATIAS PLESCIA,2013,Volver a San Lorenzo,Comisión Directiva,Voca
 MATIAS PLESCIA,MATIAS PLESCIA,2016,Volver a San Lorenzo,Fiscalizadora,,NO
 DANIELA MENDEZ RIGHI,DANIELA MENDEZ RIGHI,2023,Boedo en Accion,Comisión Directiva,Vocal 3,SI
 DANIELA MENDEZ RIGHI,DANIELA MENDEZ RIGHI,2022,Boedo en Accion,Comisión Directiva,Vocal 3,NO
-DANIELA MENDEZ RIGHI*,DANIELA MENDEZ RIGHI*,2023,Comision Directiva,Comisión Directiva,Vocal 3,NO
-BARROS URIEL,URIEL BARROS,2023,Boedo en Accion,Comisión Directiva,Vocal 4,NO
-BARROS URIEL,URIEL BARROS,2022,Boedo en Accion,Comisión Directiva,Vocal 2,NO
+ALEJANDRO BARROS URIEL,URIEL ALEJANDRO BARROS,2023,Boedo en Accion,Comisión Directiva,Vocal 4,SI
+ALEJANDRO BARROS URIEL,URIEL ALEJANDRO BARROS,2019,San Lorenzo Siglo XXI,Asamblea,70,NO
+ALEJANDRO BARROS URIEL,URIEL ALEJANDRO BARROS,2022,Boedo en Accion,Comisión Directiva,Vocal 2,NO
+ALEJANDRO BARROS URIEL,URIEL ALEJANDRO BARROS,2012 (ASAMBLEA),Transitoria,Comisión Directiva,,SI
+ALEJANDRO BARROS URIEL,URIEL ALEJANDRO BARROS,2010,Boedo en Accion,Comisión Directiva,,NO
+ALEJANDRO BARROS URIEL,URIEL ALEJANDRO BARROS,2007,Frente San Lorenzo,Fiscalizadora,,SI
 EMILIANO LEONE RODRIGUEZ,EMILIANO RODRIGUEZ LEONE,2023,Volver a San Lorenzo,Comisión Directiva,Vocal 4,NO
 EMILIANO LEONE RODRIGUEZ,EMILIANO RODRIGUEZ LEONE,2022,Volver a San Lorenzo,Comisión Directiva,Vocal 4,NO
 GOROYESKY LEANDRO,LEANDRO GOROYESKY,2023,Boedo en Accion,Comisión Directiva,Vocal 5,SI
@@ -392,7 +436,7 @@ ALLIEVI JAVIER,JAVIER ALLIEVI,2004,Nuevo San Lorenzo,Comisión Directiva,Vocal 9
 ALLIEVI JAVIER,JAVIER ALLIEVI,2010,Boedo en Accion,Comisión Directiva,,NO
 ALLIEVI JAVIER,JAVIER ALLIEVI,2007,Unidos por San Lorenzo,Asamblea,28,SI
 OSVALDO VAICIULIS,OSVALDO VAICIULIS,2023,Orden y Progreso,Comisión Directiva,Vocal 6,NO
-OSVALDO VAICIULIS,OSVALDO VAICIULIS,2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 5,NO
+OSVALDO VAICIULIS,OSVALDO VAICIULIS,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 5,NO
 OSVALDO VAICIULIS,OSVALDO VAICIULIS,1998,San Lorenzo para Todos,Comisión Directiva,Vocal 1,NO
 OSVALDO VAICIULIS,OSVALDO VAICIULIS,2007,Frente San Lorenzo,Comisión Directiva,,NO
 OSVALDO VAICIULIS,OSVALDO VAICIULIS,2004,Unidos por San Lorenzo,Comisión Directiva,,SI
@@ -422,7 +466,6 @@ MATEO SAGARDOY,MATEO SAGARDOY,2023,Boedo en Accion,Comisión Directiva,Vocal 10,
 LEVALLE PABLO,PABLO LEVALLE,2023,Boedo en Accion,Comisión Directiva,Vocal 11,SI
 LEVALLE PABLO,PABLO LEVALLE,2022,Boedo en Accion,Asamblea,63,NO
 AGUSTINA LENZI,AGUSTINA LENZI,2023,Orden y Progreso,Comisión Directiva,Vocal 11,NO
-LEVALLE* PABLO,PABLO LEVALLE*,2023,Comision Directiva,Comisión Directiva,Vocal 11,NO
 GARCIA LAGO PABLO,PABLO GARCIA LAGO,2023,Boedo en Accion,Comisión Directiva,Vocal 12,SI
 GARCIA LAGO PABLO,PABLO GARCIA LAGO,2022,Boedo en Accion,Comisión Directiva,Vocal 12,NO
 GARCIA LAGO PABLO,PABLO GARCIA LAGO,2010,Grandeza Azulgrana,Asamblea,11,NO
@@ -443,17 +486,10 @@ MARIANO MARINO,MARIANO MARINO,2023,Boedo en Accion,Comisión Directiva,Vocal 14,
 MARIANO MARINO,MARIANO MARINO,2022,Boedo en Accion,Comisión Directiva,Vocal 16,NO
 MANUEL QUINTANA,MANUEL QUINTANA,2023,Orden y Progreso,Comisión Directiva,Vocal 14,NO
 GONZALO MARTINEZ SALUM,GONZALO MARTINEZ SALUM,2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 14,NO
-CULOTTA MARCELO,MARCELO CULOTTA,2023,Orden y Progreso,Comisión Directiva,Vocal 14,SI
-CULOTTA MARCELO,MARCELO CULOTTA,2016,Cruzada por San Lorenzo,Comisión Directiva,Vocal 1,SI
-CULOTTA MARCELO,MARCELO CULOTTA,2013,Cruzada por San Lorenzo,Comisión Directiva,Vocal 1,SI
-CULOTTA MARCELO,MARCELO CULOTTA,2026,Primero San Lorenzo,Comisión Directiva,,NO
-CULOTTA MARCELO,MARCELO CULOTTA,2012 (EXTRAORDINARIA),Cruzada por San Lorenzo,Comisión Directiva,,SI
-CULOTTA MARCELO,MARCELO CULOTTA,2010,Cruzada por San Lorenzo,Comisión Directiva,,NO
 LEONARDO VIRARDI,LEONARDO VIRARDI,2023,Boedo en Accion,Comisión Directiva,Vocal 15,NO
-LEONARDO VIRARDI,LEONARDO VIRARDI,2023,Comision Directiva,Asamblea,Suplente,NO
 LEONARDO VIRARDI,LEONARDO VIRARDI,2010,Boedo en Accion,Comisión Directiva,,NO
 GRIGERA JUAN MARTIN,JUAN MARTIN GRIGERA,2023,Orden y Progreso,Comisión Directiva,Vocal 15,NO
-GRIGERA JUAN MARTIN,JUAN MARTIN GRIGERA,2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 12,NO
+GRIGERA JUAN MARTIN,JUAN MARTIN GRIGERA,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 12,NO
 DAMIAN GREMONE,DAMIAN GREMONE,2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 15,NO
 DAMIAN GREMONE,DAMIAN GREMONE,2019,Frente Pasion Azulgrana,Asamblea,42,NO
 DIEGO RIVAS,DIEGO RIVAS,2023,Volver a San Lorenzo,Comisión Directiva,Vocal 15,NO
@@ -462,15 +498,6 @@ ALAN NAVARRO,ALAN NAVARRO,2023,Boedo en Accion,Comisión Directiva,Vocal 16,NO
 FLORENCIA GIANCHETTA,FLORENCIA GIANCHETTA,2023,Orden y Progreso,Comisión Directiva,Vocal 16,NO
 CHIARELLO LEANDRO,LEANDRO CHIARELLO,2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 16,NO
 ANTONIO GOMEZ JOSE,JOSE ANTONIO GOMEZ,2023,Volver a San Lorenzo,Comisión Directiva,Vocal 16,NO
-COSTANTINO SERGIO,SERGIO COSTANTINO,2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 16,SI
-COSTANTINO SERGIO,SERGIO COSTANTINO,2019,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 2,SI
-COSTANTINO SERGIO,SERGIO COSTANTINO,2016,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 6,SI
-COSTANTINO SERGIO,SERGIO COSTANTINO,2013,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 6,SI
-COSTANTINO SERGIO,SERGIO COSTANTINO,2026,San Lorenzo en Marcha,Comisión Directiva,,NO
-COSTANTINO SERGIO,SERGIO COSTANTINO,2025,X Amor a San Lorenzo,Comisión Directiva,,SI
-COSTANTINO SERGIO,SERGIO COSTANTINO,2022,San Lorenzo Querido,Comisión Directiva,,NO
-COSTANTINO SERGIO,SERGIO COSTANTINO,2012 (EXTRAORDINARIA),San Lorenzo Siglo XXI,Comisión Directiva,,SI
-COSTANTINO SERGIO,SERGIO COSTANTINO,2010,Vamos San Lorenzo,Comisión Directiva,,SI
 EMILIANO RODRIGUEZ,EMILIANO RODRIGUEZ,2023,Boedo en Accion,Comisión Directiva,Vocal 17,NO
 EMILIANO RODRIGUEZ,EMILIANO RODRIGUEZ,2022,Boedo en Accion,Fiscalizadora,,NO
 COGUZZA FEDERICO,FEDERICO COGUZZA,2023,Orden y Progreso,Comisión Directiva,Vocal 17,NO
@@ -516,19 +543,16 @@ BERMUDEZ HECTOR,"BERMUDEZ, HECTOR",2022,Volver a San Lorenzo,Asamblea,17,NO
 ALFREDO SOLOA,"SOLOA, ALFREDO",2023,Boedo en Accion,Asamblea,4,SI
 LEON PATRICIO,"LEON, PATRICIO",2023,Orden y Progreso,Asamblea,4,SI
 LORENA MASSARA,"MASSARA, LORENA",2023,Volver a San Lorenzo,Asamblea,4,SI
-LORENA MASSARA,"MASSARA, LORENA",2023,Comision Directiva,Fiscalizadora,89,NO
 LORENA MASSARA,"MASSARA, LORENA",2022,Volver a San Lorenzo,Asamblea,4,NO
 ANGELES DE LOS MARIA PEREYRA,"PEREYRA, MARIA DE LOS ANGELES",2023,Boedo en Accion,Asamblea,5,SI
 ANGELES DE LOS MARIA PEREYRA,"PEREYRA, MARIA DE LOS ANGELES",2022,Boedo en Accion,Asamblea,5,NO
 BALDASSARE SANTOS,"BALDASSARE, SANTOS",2023,Orden y Progreso,Asamblea,5,SI
-BALDASSARE SANTOS,"BALDASSARE, SANTOS",2022,Renovacion San Lorenzo,Asamblea,11,NO
+BALDASSARE SANTOS,"BALDASSARE, SANTOS",2022,Renovacion San Lorencista,Asamblea,11,NO
 BALDASSARE SANTOS,"BALDASSARE, SANTOS",2004,Unidos por San Lorenzo,Asamblea,14,SI
 CARLOS KASE RAMIREZ,"KASE RAMIREZ, CARLOS",2023,X Amor a San Lorenzo,Asamblea,5,SI
 GAUDIO OSMAR RUBEN,"GAUDIO, RUBEN OSMAR",2023,Volver a San Lorenzo,Asamblea,5,SI
-GAUDIO OSMAR RUBEN,"GAUDIO, RUBEN OSMAR",2023,Comision Directiva,Fiscalizadora,90,NO
 GAUDIO OSMAR RUBEN,"GAUDIO, RUBEN OSMAR",2022,Volver a San Lorenzo,Asamblea,,NO
 GAUDIO OSMAR RUBEN,"GAUDIO, RUBEN OSMAR",2019,Volver a San Lorenzo,Asamblea,,SI
-MORALES ULISES**,"MORALES, ULISES**",2023,Comision Directiva,Asamblea,2,NO
 SANTOS ZUBERBUHLER,"ZUBERBUHLER, SANTOS",2023,Boedo en Accion,Asamblea,6,SI
 SANTOS ZUBERBUHLER,"ZUBERBUHLER, SANTOS",2022,Boedo en Accion,Asamblea,3,NO
 FERNANDO SANFILIPPO,"SANFILIPPO, FERNANDO",2023,Orden y Progreso,Asamblea,6,SI
@@ -550,7 +574,6 @@ ERNESTO LOUGHLIN,"LOUGHLIN, ERNESTO",2019,Volver a San Lorenzo,Asamblea,4,SI
 ERNESTO LOUGHLIN,"LOUGHLIN, ERNESTO",2022,Volver a San Lorenzo,Asamblea,9,NO
 ERNESTO LOUGHLIN,"LOUGHLIN, ERNESTO",2013,Volver a San Lorenzo,Asamblea,2,SI
 ERNESTO LOUGHLIN,"LOUGHLIN, ERNESTO",2010,Vamos San Lorenzo,Asamblea,25,SI
-ALFREDO* SOLOA,"SOLOA, ALFREDO*",2023,Comision Directiva,Asamblea,4,NO
 ALEJANDRO PACIFICO,"PACIFICO, ALEJANDRO",2023,Orden y Progreso,Asamblea,8,SI
 DANIEL EDUARDO MARTINEZ,"MARTINEZ, DANIEL EDUARDO",2023,X Amor a San Lorenzo,Asamblea,8,SI
 FEDERICO RUIZ SEBASTIAN,"RUIZ, FEDERICO SEBASTIAN",2023,Volver a San Lorenzo,Asamblea,8,NO
@@ -559,11 +582,10 @@ FEDERICO RUIZ SEBASTIAN,"RUIZ, FEDERICO SEBASTIAN",2022,Volver a San Lorenzo,Asa
 CORTI MARCELO,"CORTI, MARCELO",2023,Boedo en Accion,Asamblea,9,SI
 CORTI MARCELO,"CORTI, MARCELO",2022,Boedo en Accion,Comisión Directiva,Vocal 6,NO
 CHRISTIAN PRADO,"PRADO, CHRISTIAN",2023,Orden y Progreso,Asamblea,9,SI
-CHRISTIAN PRADO,"PRADO, CHRISTIAN",2022,Renovacion San Lorenzo,Asamblea,25,NO
+CHRISTIAN PRADO,"PRADO, CHRISTIAN",2022,Renovacion San Lorencista,Asamblea,25,NO
 COELLO MARTIN,"COELLO, MARTIN",2023,X Amor a San Lorenzo,Asamblea,9,SI
 COELLO MARTIN,"COELLO, MARTIN",2022,Siempre San Lorenzo,Asamblea,1,NO
 COVELLI MATIAS,"COVELLI, MATIAS",2023,Volver a San Lorenzo,Asamblea,9,NO
-SANTOS* ZUBERBUHLER,"ZUBERBUHLER, SANTOS*",2023,Comision Directiva,Asamblea,6,NO
 MAURA TUBIO,"TUBIO, MAURA",2023,Boedo en Accion,Asamblea,10,NO
 NICOLAS PELLEGRINI,"PELLEGRINI, NICOLAS",2023,Orden y Progreso,Asamblea,10,SI
 ARDETTI MAGALI VAZQUEZ,"VAZQUEZ ARDETTI, MAGALI",2023,X Amor a San Lorenzo,Asamblea,10,SI
@@ -612,16 +634,12 @@ CLAUDIO COLOMBO,"COLOMBO, CLAUDIO",2012 (ASAMBLEA),Transitoria,Comisión Directi
 CLAUDIO COLOMBO,"COLOMBO, CLAUDIO",2010,Mas San Lorenzo,Comisión Directiva,,NO
 LINARES ROBERTO,"LIÑARES, ROBERTO",2023,Volver a San Lorenzo,Asamblea,14,NO
 LINARES ROBERTO,"LIÑARES, ROBERTO",2022,Volver a San Lorenzo,Asamblea,12,NO
-CARTA-MOGLIETTA VALERIA,"CARTA-MOGLIETTA, VALERIA",2023,Boedo en Accion,Asamblea,15,NO
-CARTA-MOGLIETTA VALERIA,"CARTA-MOGLIETTA, VALERIA",2022,Boedo en Accion,Asamblea,20,NO
 FURCI JORGE OSVALDO,"FURCI, JORGE OSVALDO",2023,Orden y Progreso,Asamblea,15,NO
-FURCI JORGE OSVALDO,"FURCI, JORGE OSVALDO",2022,Renovacion San Lorenzo,Asamblea,34,NO
+FURCI JORGE OSVALDO,"FURCI, JORGE OSVALDO",2022,Renovacion San Lorencista,Asamblea,34,NO
 CAROLINA TRUZZI,"TRUZZI, CAROLINA",2023,X Amor a San Lorenzo,Asamblea,15,NO
-CAROLINA TRUZZI,"TRUZZI, CAROLINA",2023,Comision Directiva,Fiscalizadora,Suplente,NO
 CAROLINA TRUZZI,"TRUZZI, CAROLINA",2022,Siempre San Lorenzo,Asamblea,5,NO
 MARTINA YAZALDE,"YAZALDE, MARTINA",2023,Volver a San Lorenzo,Asamblea,15,NO
 MARTINA YAZALDE,"YAZALDE, MARTINA",2022,Volver a San Lorenzo,Asamblea,33,NO
-DANTE GUTIERREZ** MONACO,"MONACO, DANTE GUTIERREZ**",2023,Comision Directiva,Asamblea,12,NO
 DORSA GUIDO,"DORSA, GUIDO",2023,Orden y Progreso,Asamblea,16,NO
 BERDINAS MARTIN,"BERDIÑAS, MARTIN",2023,X Amor a San Lorenzo,Asamblea,16,NO
 BERDINAS MARTIN,"BERDIÑAS, MARTIN",2010,Vamos San Lorenzo,Asamblea,39,NO
@@ -640,7 +658,6 @@ HECTOR SALCEDO,"SALCEDO, HECTOR",2023,Orden y Progreso,Asamblea,18,NO
 ANGEL CARRILLO,"CARRILLO, ANGEL",2023,X Amor a San Lorenzo,Asamblea,18,NO
 BELLANI ESTEBAN,"BELLANI, ESTEBAN",2023,Volver a San Lorenzo,Asamblea,18,NO
 BELLANI ESTEBAN,"BELLANI, ESTEBAN",2022,Volver a San Lorenzo,Asamblea,26,NO
-CARTA MOGLIETTA VALERIA**,"CARTA MOGLIETTA, VALERIA**",2023,Comision Directiva,Asamblea,15,NO
 CARUSO SOFIA,"CARUSO, SOFIA",2023,Orden y Progreso,Asamblea,19,NO
 DE GIOVANNI SEBASTIAN,"DE GIOVANNI, SEBASTIAN",2023,X Amor a San Lorenzo,Asamblea,19,NO
 BIONDO MARCO,"BIONDO, MARCO",2023,Volver a San Lorenzo,Asamblea,19,NO
@@ -682,7 +699,7 @@ CATAPANO MARIA,"CATAPANO, MARIA",2022,Volver a San Lorenzo,Asamblea,70,NO
 CATAPANO MARIA,"CATAPANO, MARIA",2019,Volver a San Lorenzo,Fiscalizadora,,NO
 CATAPANO MARIA,"CATAPANO, MARIA",2010,Mas San Lorenzo,Asamblea,56,NO
 BREA SEBASTIAN,"BREA, SEBASTIAN",2023,Orden y Progreso,Asamblea,26,NO
-BREA SEBASTIAN,"BREA, SEBASTIAN",2022,Renovacion San Lorenzo,Asamblea,49,NO
+BREA SEBASTIAN,"BREA, SEBASTIAN",2022,Renovacion San Lorencista,Asamblea,49,NO
 MANSILLA PABLO,"MANSILLA, PABLO",2023,X Amor a San Lorenzo,Asamblea,26,NO
 MANSILLA PABLO,"MANSILLA, PABLO",2022,Boedo en Accion,Asamblea,4,NO
 GUSTAVO LUCCHINI,"LUCCHINI, GUSTAVO",2023,Volver a San Lorenzo,Asamblea,26,NO
@@ -712,14 +729,13 @@ ANIBAL BARENGO,"BARENGO, ANIBAL",2023,Volver a San Lorenzo,Asamblea,29,NO
 ANIBAL BARENGO,"BARENGO, ANIBAL",2019,Volver a San Lorenzo,Asamblea,51,NO
 ANIBAL BARENGO,"BARENGO, ANIBAL",2022,Volver a San Lorenzo,Asamblea,63,NO
 ANIBAL BARENGO,"BARENGO, ANIBAL",2010,Mas San Lorenzo,Asamblea,31,NO
-AXEL** SCHALE,"SCHALE, AXEL**",2023,Comision Directiva,Asamblea,26,NO
 CARLA LITRENTA,"LITRENTA, CARLA",2023,Boedo en Accion,Asamblea,30,SI
 LEONARDO PAYASLIAN,"PAYASLIAN, LEONARDO",2023,Orden y Progreso,Asamblea,30,NO
 LEONARDO PAYASLIAN,"PAYASLIAN, LEONARDO",2016,Cruzada por San Lorenzo,Asamblea,37,NO
 LEONARDO PAYASLIAN,"PAYASLIAN, LEONARDO",2013,Cruzada por San Lorenzo,Asamblea,18,NO
 CIANCIO DE KARINA,"DE CIANCIO, KARINA",2023,X Amor a San Lorenzo,Asamblea,30,NO
 BALBASTRO LAURA,"BALBASTRO, LAURA",2023,Volver a San Lorenzo,Asamblea,30,NO
-BALBASTRO LAURA,"BALBASTRO, LAURA",2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 4,NO
+BALBASTRO LAURA,"BALBASTRO, LAURA",2022,Renovacion San Lorencista,Comisión Directiva,Vocal 4,NO
 MAZZARA MIGUEL,"MAZZARA, MIGUEL",2023,Boedo en Accion,Asamblea,31,NO
 MAZZARA MIGUEL,"MAZZARA, MIGUEL",2022,Siempre San Lorenzo,Asamblea,53,NO
 MAZZARA MIGUEL,"MAZZARA, MIGUEL",2004,San Lorenzo para Todos,Asamblea,11,NO
@@ -748,7 +764,7 @@ BRUN CARLOS,"BRUN, CARLOS",2022,Volver a San Lorenzo,Asamblea,21,NO
 BRUN CARLOS,"BRUN, CARLOS",2010,Nuevo San Lorenzo,Asamblea,13,NO
 ALMIRON AYELEN,"ALMIRON, AYELEN",2023,Boedo en Accion,Asamblea,35,SI
 BUZZANO RUBEN,"BUZZANO, RUBEN",2023,Orden y Progreso,Asamblea,35,NO
-BUZZANO RUBEN,"BUZZANO, RUBEN",2022,Renovacion San Lorenzo,Asamblea,1,NO
+BUZZANO RUBEN,"BUZZANO, RUBEN",2022,Renovacion San Lorencista,Asamblea,1,NO
 ANDREA GHIRIMOLDI,"GHIRIMOLDI, ANDREA",2023,X Amor a San Lorenzo,Asamblea,35,NO
 GERALDINE SEYSSEL,"SEYSSEL, GERALDINE",2023,Volver a San Lorenzo,Asamblea,35,NO
 DIEGO MARTONI PEREZ,"PEREZ MARTONI, DIEGO",2023,Boedo en Accion,Asamblea,36,SI
@@ -778,7 +794,7 @@ HECTOR SPINA,"SPINA, HECTOR",2023,Boedo en Accion,Asamblea,39,SI
 HECTOR SPINA,"SPINA, HECTOR",2022,Boedo en Accion,Asamblea,39,NO
 HECTOR SPINA,"SPINA, HECTOR",2004,Nuevo San Lorenzo,Asamblea,2,SI
 ALVAREZ BERGAGLIO MARCELO,"BERGAGLIO ALVAREZ, MARCELO",2023,Orden y Progreso,Asamblea,39,NO
-D'ALESSANDRO GILDA,"D'ALESSANDRO, GILDA",2023,X Amor a San Lorenzo,Asamblea,39,NO
+ALESSANDRO D GILDA,"D'ALESSANDRO, GILDA",2023,X Amor a San Lorenzo,Asamblea,39,NO
 BELUCCI FEDERICO,"BELUCCI, FEDERICO",2023,Volver a San Lorenzo,Asamblea,39,NO
 BELUCCI FEDERICO,"BELUCCI, FEDERICO",2022,Volver a San Lorenzo,Asamblea,20,NO
 LAFUENTE NORMA,"LAFUENTE, NORMA",2023,Boedo en Accion,Asamblea,40,SI
@@ -789,7 +805,7 @@ EINHORN YAEL,"EINHORN, YAEL",2022,Siempre San Lorenzo,Asamblea,15,NO
 ARAUJO CLAUDIA,"ARAUJO, CLAUDIA",2023,Volver a San Lorenzo,Asamblea,40,NO
 MATEO SCHALE,"SCHALE, MATEO",2023,Boedo en Accion,Asamblea,41,SI
 CESAR FURCI,"FURCI, CESAR",2023,Orden y Progreso,Asamblea,41,NO
-CESAR FURCI,"FURCI, CESAR",2022,Renovacion San Lorenzo,Asamblea,71,NO
+CESAR FURCI,"FURCI, CESAR",2022,Renovacion San Lorencista,Asamblea,71,NO
 CEJAS FERNANDO,"CEJAS, FERNANDO",2023,X Amor a San Lorenzo,Asamblea,41,NO
 CEJAS FERNANDO,"CEJAS, FERNANDO",2010,Vamos San Lorenzo,Asamblea,16,SI
 CARLOS GUSTAVO TALLON,"TALLON, CARLOS GUSTAVO",2023,Volver a San Lorenzo,Asamblea,41,NO
@@ -806,7 +822,7 @@ HUGO LOVEY NESTOR,"LOVEY, NESTOR HUGO",2023,Volver a San Lorenzo,Asamblea,42,NO
 HUGO LOVEY NESTOR,"LOVEY, NESTOR HUGO",2022,Volver a San Lorenzo,Asamblea,28,NO
 ALFONSO RAMIRO RIOFRIO,"RIOFRIO ALFONSO, RAMIRO",2023,Boedo en Accion,Asamblea,43,SI
 GALEAZZO JORGE,"GALEAZZO, JORGE",2023,Orden y Progreso,Asamblea,43,NO
-GALEAZZO JORGE,"GALEAZZO, JORGE",2022,Renovacion San Lorenzo,Asamblea,21,NO
+GALEAZZO JORGE,"GALEAZZO, JORGE",2022,Renovacion San Lorencista,Asamblea,21,NO
 BINDA MARCELO,"BINDA, MARCELO",2023,X Amor a San Lorenzo,Asamblea,43,NO
 BINDA MARCELO,"BINDA, MARCELO",2022,San Lorenzo Querido,Asamblea,47,NO
 ASSADOURIAN AUGUSTO PAULO,"ASSADOURIAN, AUGUSTO PAULO",2023,Volver a San Lorenzo,Asamblea,43,NO
@@ -836,20 +852,19 @@ GONZALEZ GUSTAVO IGLESIAS,"GONZALEZ IGLESIAS, GUSTAVO",2023,Orden y Progreso,Asa
 ALLO DIEGO,"ALLO, DIEGO",2023,X Amor a San Lorenzo,Asamblea,48,NO
 ALLO DIEGO,"ALLO, DIEGO",2022,Boedo en Accion,Asamblea,34,NO
 FEDERICO LOURA,"LOURA, FEDERICO",2023,Volver a San Lorenzo,Asamblea,48,NO
-HERMIDA SANCHEZ VANESA**,"SANCHEZ HERMIDA, VANESA**",2023,Comision Directiva,Asamblea,45,NO
 LUIS PUIG RAMOS,"RAMOS PUIG, LUIS",2023,Orden y Progreso,Asamblea,49,NO
 HERNAN PABLO VERO,"VERO, PABLO HERNAN",2023,X Amor a San Lorenzo,Asamblea,49,NO
 CINGOLANI CORONEL DANIEL,"CORONEL, CINGOLANI DANIEL",2023,Volver a San Lorenzo,Asamblea,49,NO
 LOPEZ MONICA,"LOPEZ, MONICA",2023,Boedo en Accion,Asamblea,50,SI
 LOPEZ MONICA,"LOPEZ, MONICA",2022,Boedo en Accion,Asamblea,55,NO
 MAURICIO SGUT,"SGUT, MAURICIO",2023,Orden y Progreso,Asamblea,50,NO
-MAURICIO SGUT,"SGUT, MAURICIO",2022,Renovacion San Lorenzo,Asamblea,22,NO
+MAURICIO SGUT,"SGUT, MAURICIO",2022,Renovacion San Lorencista,Asamblea,22,NO
 GIORDANO ROMINA,"GIORDANO, ROMINA",2023,X Amor a San Lorenzo,Asamblea,50,NO
 LAURA MARIA TRIPODI,"TRIPODI, MARIA LAURA",2023,Volver a San Lorenzo,Asamblea,50,NO
 LAURA MARIA TRIPODI,"TRIPODI, MARIA LAURA",2022,Volver a San Lorenzo,Asamblea,84,NO
 GUIN MARTIN,"GUIN, MARTIN",2023,Boedo en Accion,Asamblea,51,SI
 PALOMA PIOVANI,"PIOVANI, PALOMA",2023,Orden y Progreso,Asamblea,51,NO
-PALOMA PIOVANI,"PIOVANI, PALOMA",2022,Renovacion San Lorenzo,Asamblea,37,NO
+PALOMA PIOVANI,"PIOVANI, PALOMA",2022,Renovacion San Lorencista,Asamblea,37,NO
 FACUNDO IBANEZ,"IBAÑEZ, FACUNDO",2023,Volver a San Lorenzo,Asamblea,51,NO
 FACUNDO IBANEZ,"IBAÑEZ, FACUNDO",2022,Volver a San Lorenzo,Asamblea,56,NO
 FACUNDO IBANEZ,"IBAÑEZ, FACUNDO",2013,Volver a San Lorenzo,Comisión Directiva,Vocal 4,NO
@@ -859,7 +874,6 @@ BUSTOS GASTON MARIANO,"BUSTOS, MARIANO GASTON",2022,Siempre San Lorenzo,Asamblea
 FABIAN GUSTAVO SANCHEZ,"SANCHEZ, GUSTAVO FABIAN",2023,Volver a San Lorenzo,Asamblea,52,NO
 FABIAN GUSTAVO SANCHEZ,"SANCHEZ, GUSTAVO FABIAN",2019,Volver a San Lorenzo,Asamblea,47,NO
 FABIAN GUSTAVO SANCHEZ,"SANCHEZ, GUSTAVO FABIAN",2022,Volver a San Lorenzo,Asamblea,58,NO
-JONATHAN** LIROSI,"LIROSI, JONATHAN**",2023,Comision Directiva,Asamblea,49,NO
 FABIO SANTACROCE,"SANTACROCE, FABIO",2023,Boedo en Accion,Asamblea,53,SI
 CARLOS JUAN RUIZ,"RUIZ, JUAN CARLOS",2023,Orden y Progreso,Asamblea,53,NO
 ALONSO DANIEL MARCELO,"ALONSO, MARCELO DANIEL",2023,X Amor a San Lorenzo,Asamblea,53,NO
@@ -876,7 +890,7 @@ ESTELA ZAPATA,"ZAPATA, ESTELA",2023,X Amor a San Lorenzo,Asamblea,55,NO
 MICAELA TEVES,"TEVES, MICAELA",2023,Volver a San Lorenzo,Asamblea,55,NO
 GARIBOTTO JUAN PABLO,"GARIBOTTO, JUAN PABLO",2023,Boedo en Accion,Asamblea,56,SI
 BUZZANO LUCIA,"BUZZANO, LUCIA",2023,Orden y Progreso,Asamblea,56,NO
-BUZZANO LUCIA,"BUZZANO, LUCIA",2022,Renovacion San Lorenzo,Asamblea,44,NO
+BUZZANO LUCIA,"BUZZANO, LUCIA",2022,Renovacion San Lorencista,Asamblea,44,NO
 HECTOR MASSENA,"MASSENA, HECTOR",2023,X Amor a San Lorenzo,Asamblea,56,NO
 HECTOR MASSENA,"MASSENA, HECTOR",2022,Siempre San Lorenzo,Asamblea,11,NO
 HECTOR MASSENA,"MASSENA, HECTOR",2016,Cruzada por San Lorenzo,Comisión Directiva,Vocal 14,NO
@@ -932,14 +946,14 @@ EDUARDO RITACCO,"RITACCO, EDUARDO",2022,Boedo en Accion,Asamblea,52,NO
 EDUARDO RITACCO,"RITACCO, EDUARDO",2016,Volver a San Lorenzo,Asamblea,5,NO
 EDUARDO RITACCO,"RITACCO, EDUARDO",2013,Volver a San Lorenzo,Asamblea,10,NO
 FACUNDO MENENDEZ,"MENENDEZ, FACUNDO",2023,Orden y Progreso,Asamblea,63,NO
-FACUNDO MENENDEZ,"MENENDEZ, FACUNDO",2022,Renovacion San Lorenzo,Asamblea,55,NO
+FACUNDO MENENDEZ,"MENENDEZ, FACUNDO",2022,Renovacion San Lorencista,Asamblea,55,NO
 IBANEZ MATIAS,"IBAÑEZ, MATIAS",2023,X Amor a San Lorenzo,Asamblea,63,NO
 JULIAN SAYAGO SUEIRO,"SUEIRO SAYAGO, JULIAN",2023,Volver a San Lorenzo,Asamblea,63,NO
 JULIAN SAYAGO SUEIRO,"SUEIRO SAYAGO, JULIAN",2022,Volver a San Lorenzo,Asamblea,53,NO
 FACUNDO KAPROW LANCIONI,"LANCIONI KAPROW, FACUNDO",2023,Boedo en Accion,Asamblea,64,NO
 FACUNDO KAPROW LANCIONI,"LANCIONI KAPROW, FACUNDO",2022,Boedo en Accion,Asamblea,23,NO
 ANTONIO JOSE PRADO,"PRADO, JOSE ANTONIO",2023,Orden y Progreso,Asamblea,64,NO
-ANTONIO JOSE PRADO,"PRADO, JOSE ANTONIO",2022,Renovacion San Lorenzo,Asamblea,16,NO
+ANTONIO JOSE PRADO,"PRADO, JOSE ANTONIO",2022,Renovacion San Lorencista,Asamblea,16,NO
 MARCELO PARRA,"PARRA, MARCELO",2023,X Amor a San Lorenzo,Asamblea,64,NO
 MARCELO PARRA,"PARRA, MARCELO",2022,Siempre San Lorenzo,Asamblea,28,NO
 MARCELO PARRA,"PARRA, MARCELO",2016,Cruzada por San Lorenzo,Comisión Directiva,Vocal 15,NO
@@ -990,14 +1004,14 @@ ALBERTO DIAZ JOSE,"DIAZ, JOSE ALBERTO",2023,Boedo en Accion,Asamblea,72,NO
 ALBERTO DIAZ JOSE,"DIAZ, JOSE ALBERTO",2022,Boedo en Accion,Asamblea,17,NO
 ALBERTO DIAZ JOSE,"DIAZ, JOSE ALBERTO",2010,Boedo en Accion,Comisión Directiva,,NO
 ESTELA FURCI MARIA,"FURCI, MARIA ESTELA",2023,Orden y Progreso,Asamblea,72,NO
-ESTELA FURCI MARIA,"FURCI, MARIA ESTELA",2022,Renovacion San Lorenzo,Asamblea,72,NO
+ESTELA FURCI MARIA,"FURCI, MARIA ESTELA",2022,Renovacion San Lorencista,Asamblea,72,NO
 DI JUAN MANUEL PAOLA,"DI PAOLA, JUAN MANUEL",2023,X Amor a San Lorenzo,Asamblea,72,NO
 HECTOR STORTINI,"STORTINI, HECTOR",2023,Volver a San Lorenzo,Asamblea,72,NO
 HECTOR STORTINI,"STORTINI, HECTOR",2022,Volver a San Lorenzo,Asamblea,31,NO
 ORCIOULI TOBIAS,"ORCIOULI, TOBIAS",2023,Boedo en Accion,Asamblea,73,NO
 ORCIOULI TOBIAS,"ORCIOULI, TOBIAS",2022,Volver a San Lorenzo,Asamblea,,NO
 FRANCISCO NAVARRO,"NAVARRO, FRANCISCO",2023,Orden y Progreso,Asamblea,73,NO
-FRANCISCO NAVARRO,"NAVARRO, FRANCISCO",2022,Renovacion San Lorenzo,Asamblea,12,NO
+FRANCISCO NAVARRO,"NAVARRO, FRANCISCO",2022,Renovacion San Lorencista,Asamblea,12,NO
 ELIAS GUSTAVO,"ELIAS, GUSTAVO",2023,X Amor a San Lorenzo,Asamblea,73,NO
 ELIAS GUSTAVO,"ELIAS, GUSTAVO",2022,Siempre San Lorenzo,Asamblea,46,NO
 IGNACIO RATTO,"RATTO, IGNACIO",2023,Volver a San Lorenzo,Asamblea,73,NO
@@ -1038,7 +1052,7 @@ ENRIQUE RAVAZANO,"RAVAZANO, ENRIQUE",2013,Volver a San Lorenzo,Comisión Directi
 DIZ FERNANDO,"DIZ, FERNANDO",2023,Boedo en Accion,Asamblea,79,NO
 DIZ FERNANDO,"DIZ, FERNANDO",2022,Boedo en Accion,Asamblea,9,NO
 JOAQUIN MENENDEZ,"MENENDEZ, JOAQUIN",2023,Orden y Progreso,Asamblea,79,NO
-JOAQUIN MENENDEZ,"MENENDEZ, JOAQUIN",2022,Renovacion San Lorenzo,Asamblea,79,NO
+JOAQUIN MENENDEZ,"MENENDEZ, JOAQUIN",2022,Renovacion San Lorencista,Asamblea,79,NO
 CLAUDIO FLORIO,"FLORIO, CLAUDIO",2023,X Amor a San Lorenzo,Asamblea,79,NO
 CLAUDIO FLORIO,"FLORIO, CLAUDIO",2022,Siempre San Lorenzo,Asamblea,57,NO
 CLAUDIO FLORIO,"FLORIO, CLAUDIO",2013,Cruzada por San Lorenzo,Comisión Directiva,Vocal 17,NO
@@ -1050,21 +1064,19 @@ JOAQUIN LOPEZ SANTIAGO,"LOPEZ, JOAQUIN SANTIAGO",2023,Volver a San Lorenzo,Asamb
 JOAQUIN LOPEZ SANTIAGO,"LOPEZ, JOAQUIN SANTIAGO",2022,Volver a San Lorenzo,Asamblea,74,NO
 JOAQUIN LOPEZ SANTIAGO,"LOPEZ, JOAQUIN SANTIAGO",2013,Volver a San Lorenzo,Comisión Directiva,Vocal 12,NO
 JOAQUIN LOPEZ SANTIAGO,"LOPEZ, JOAQUIN SANTIAGO",2019,Volver a San Lorenzo,Fiscalizadora,,NO
-BUZZO GUILLERMO*,"BUZZO, GUILLERMO*",2023,Comision Directiva,Asamblea,76,NO
 MAGALI SPINA,"SPINA, MAGALI",2023,Boedo en Accion,Asamblea,80,NO
 MAGALI SPINA,"SPINA, MAGALI",2022,Boedo en Accion,Asamblea,80,NO
 CLAUDIO DE FUENTE LA,"DE LA FUENTE, CLAUDIO",2023,Orden y Progreso,Asamblea,80,NO
-CLAUDIO DE FUENTE LA,"DE LA FUENTE, CLAUDIO",2022,Renovacion San Lorenzo,Asamblea,7,NO
+CLAUDIO DE FUENTE LA,"DE LA FUENTE, CLAUDIO",2022,Renovacion San Lorencista,Asamblea,7,NO
 GUDINO SOLEDAD,"GUDIÑO, SOLEDAD",2023,X Amor a San Lorenzo,Asamblea,80,NO
 CASTRO MARIA,"CASTRO, MARIA",2023,Volver a San Lorenzo,Asamblea,80,NO
 HECTOR SALGADO,"SALGADO, HECTOR",2023,Boedo en Accion,Asamblea,81,NO
 HECTOR SALGADO,"SALGADO, HECTOR",2022,Boedo en Accion,Asamblea,43,NO
 BUZZANO CAMILA,"BUZZANO, CAMILA",2023,Orden y Progreso,Asamblea,81,NO
-BUZZANO CAMILA,"BUZZANO, CAMILA",2022,Renovacion San Lorenzo,Asamblea,57,NO
+BUZZANO CAMILA,"BUZZANO, CAMILA",2022,Renovacion San Lorencista,Asamblea,57,NO
 HORACIO MUNOZ,"MUÑOZ, HORACIO",2023,X Amor a San Lorenzo,Asamblea,81,NO
 GUSTAVO PIROLO,"PIROLO, GUSTAVO",2023,Volver a San Lorenzo,Asamblea,81,NO
 GUSTAVO PIROLO,"PIROLO, GUSTAVO",2022,Volver a San Lorenzo,Asamblea,77,NO
-FLORENCIA GABRIEL VICTORIA**,"GABRIEL, FLORENCIA VICTORIA**",2023,Comision Directiva,Asamblea,78,NO
 BATTIPAGLIA LEANDRO,"BATTIPAGLIA, LEANDRO",2023,Boedo en Accion,Asamblea,82,NO
 BATTIPAGLIA LEANDRO,"BATTIPAGLIA, LEANDRO",2022,Boedo en Accion,Asamblea,,NO
 FIGUEROA PATRICIA,"FIGUEROA, PATRICIA",2023,Orden y Progreso,Asamblea,82,NO
@@ -1098,7 +1110,7 @@ BONANNO PABLO,"BONANNO, PABLO",2023,Volver a San Lorenzo,Asamblea,86,NO
 BONANNO PABLO,"BONANNO, PABLO",2019,Volver a San Lorenzo,Asamblea,,NO
 DRAGONETTI RICARDO,"DRAGONETTI, RICARDO",2023,Boedo en Accion,Asamblea,87,NO
 DOMINGUEZ GONZALO,"DOMINGUEZ, GONZALO",2023,Orden y Progreso,Asamblea,87,NO
-DOMINGUEZ GONZALO,"DOMINGUEZ, GONZALO",2022,Renovacion San Lorenzo,Asamblea,17,NO
+DOMINGUEZ GONZALO,"DOMINGUEZ, GONZALO",2022,Renovacion San Lorencista,Asamblea,17,NO
 MARIANO ROMERO,"ROMERO, MARIANO",2023,X Amor a San Lorenzo,Asamblea,87,NO
 OSUNA RAFAEL,"OSUNA, RAFAEL",2023,Volver a San Lorenzo,Asamblea,87,NO
 OSUNA RAFAEL,"OSUNA, RAFAEL",2019,Volver a San Lorenzo,Asamblea,17,NO
@@ -1111,13 +1123,13 @@ PAPACENA RUBEN,"PAPACENA, RUBEN",2022,Volver a San Lorenzo,Fiscalizadora,,NO
 MARTIN PIPARUOLO,"PIPARUOLO, MARTIN",2023,Boedo en Accion,Asamblea,89,NO
 MARTIN PIPARUOLO,"PIPARUOLO, MARTIN",2022,Boedo en Accion,Asamblea,29,NO
 MARTIN PIPARUOLO,"PIPARUOLO, MARTIN",2019,San Lorenzo Siglo XXI,Asamblea,,NO
-ALVAREZSANTIAGO LEONEL,"ALVAREZ,SANTIAGO LEONEL",2023,Orden y Progreso,Asamblea,89,NO
+ALVAREZ LEONEL SANTIAGO,"ALVAREZ,SANTIAGO LEONEL",2023,Orden y Progreso,Asamblea,89,NO
 ADRIANA NOVAIS,"NOVAIS, ADRIANA",2023,X Amor a San Lorenzo,Asamblea,89,NO
 ADRIANA NOVAIS,"NOVAIS, ADRIANA",2022,Siempre San Lorenzo,Asamblea,35,NO
 ALEJANDRO JOSE MIDDONO,"MIDDONO, JOSE ALEJANDRO",2023,Volver a San Lorenzo,Asamblea,89,NO
 LILIA VILLARINO,"VILLARINO, LILIA",2023,Boedo en Accion,Asamblea,90,NO
 NORMA RONDINELLA,"RONDINELLA, NORMA",2023,Orden y Progreso,Asamblea,90,NO
-NORMA RONDINELLA,"RONDINELLA, NORMA",2022,Renovacion San Lorenzo,Asamblea,86,NO
+NORMA RONDINELLA,"RONDINELLA, NORMA",2022,Renovacion San Lorencista,Asamblea,86,NO
 ALBERTO JORGE RODIGUEZ,"RODIGUEZ, JORGE ALBERTO",2023,X Amor a San Lorenzo,Asamblea,90,NO
 ANGELICA DOMINGUEZ,"DOMINGUEZ, ANGELICA",2023,Volver a San Lorenzo,Asamblea,90,NO
 DENTE LUCAS,"DENTE, LUCAS",2023,Boedo en Accion,Fiscalizadora,1,SI
@@ -1141,14 +1153,12 @@ ANDREA MIRIAM PERAL,"PERAL, MIRIAM ANDREA",2023,X Amor a San Lorenzo,Fiscalizado
 FRANCISCO PANDULLO,"PANDULLO, FRANCISCO",2023,Volver a San Lorenzo,Fiscalizadora,3,NO
 FRANCISCO PANDULLO,"PANDULLO, FRANCISCO",2019,Volver a San Lorenzo,Comisión Directiva,Vocal 18,NO
 FRANCISCO PANDULLO,"PANDULLO, FRANCISCO",2022,Volver a San Lorenzo,Fiscalizadora,,NO
-GRANUCCI LUCAS*,"GRANUCCI, LUCAS*",2023,Comision Directiva,Fiscalizadora,Suplente,NO
 ADRIANA GASTALDI,"GASTALDI, ADRIANA",2023,Boedo en Accion,Fiscalizadora,4,NO
 ADRIANA GASTALDI,"GASTALDI, ADRIANA",2019,San Lorenzo Siglo XXI,Asamblea,24,SI
 DURE GISELE JAQUELINE,"DURE, JAQUELINE GISELE",2023,Orden y Progreso,Fiscalizadora,4,NO
 RAPOSO RICARDO,"RAPOSO, RICARDO",2023,X Amor a San Lorenzo,Fiscalizadora,4,NO
 RAPOSO RICARDO,"RAPOSO, RICARDO",2022,Siempre San Lorenzo,Asamblea,21,NO
 HERNAN VAZQUEZ,"VAZQUEZ, HERNAN",2023,Volver a San Lorenzo,Fiscalizadora,4,NO
-DIEGO* TORREGROSA,"TORREGROSA, DIEGO*",2023,Comision Directiva,Fiscalizadora,Suplente,NO
 APOLONIO CLAUDIO TABOADA,"APOLONIO TABOADA, CLAUDIO",2023,Boedo en Accion,Fiscalizadora,5,NO
 APOLONIO CLAUDIO TABOADA,"APOLONIO TABOADA, CLAUDIO",2022,Boedo en Accion,Fiscalizadora,,NO
 ANTONELLA GRAPPI LANDRO,"GRAPPI LANDRO, ANTONELLA",2023,Orden y Progreso,Fiscalizadora,5,NO
@@ -1169,8 +1179,23 @@ GRANDIO LUIS OSVALDO,"GRANDIO, LUIS OSVALDO",2023,X Amor a San Lorenzo,Fiscaliza
 GRANDIO LUIS OSVALDO,"GRANDIO, LUIS OSVALDO",2022,Siempre San Lorenzo,Asamblea,14,NO
 BOLLA SANTIAGO,"BOLLA, SANTIAGO",2023,Volver a San Lorenzo,Fiscalizadora,7,NO
 BOLLA SANTIAGO,"BOLLA, SANTIAGO",2022,Volver a San Lorenzo,Fiscalizadora,,NO
-DENTE LUCAS*,"DENTE, LUCAS*",2023,Comision Directiva,Fiscalizadora,1,NO
-ANGRIMAN BRUNO*,"ANGRIMAN, BRUNO*",2023,Comision Directiva,Fiscalizadora,2,NO
+MARCELO TINELLI,MARCELO TINELLI,2019,San Lorenzo Siglo XXI,Comisión Directiva,Presidente,SI
+MARCELO TINELLI,MARCELO TINELLI,2016,San Lorenzo Siglo XXI,Comisión Directiva,Vice-Presidente,SI
+MARCELO TINELLI,MARCELO TINELLI,2013,San Lorenzo Siglo XXI,Comisión Directiva,Vice-Presidente,SI
+MARCELO TINELLI,MARCELO TINELLI,2012 (EXTRAORDINARIA),San Lorenzo Siglo XXI,Comisión Directiva,,SI
+MARCELO TINELLI,MARCELO TINELLI,2012 (ASAMBLEA),Transitoria,Comisión Directiva,,SI
+RICARDO SAPONARE,RICARDO SAPONARE,2019,Frente Pasion Azulgrana,Comisión Directiva,Presidente,NO
+RICARDO SAPONARE,RICARDO SAPONARE,2022,Siempre San Lorenzo,Comisión Directiva,Vice-Presidente,NO
+RICARDO SAPONARE,RICARDO SAPONARE,2013,San Lorenzo Siglo XXI,Asamblea,8,SI
+RICARDO SAPONARE,RICARDO SAPONARE,2012 (EXTRAORDINARIA),San Lorenzo Siglo XXI,Comisión Directiva,,SI
+RICARDO SAPONARE,RICARDO SAPONARE,2012 (ASAMBLEA),Transitoria,Comisión Directiva,,SI
+RICARDO SAPONARE,RICARDO SAPONARE,2004,San Lorenzo para Todos,Comisión Directiva,,NO
+RICARDO SAPONARE,RICARDO SAPONARE,2010,Vamos San Lorenzo,Asamblea,7,SI
+CLAUDIO DE SIMONE,CLAUDIO DE SIMONE,2019,Cruzada por San Lorenzo,Comisión Directiva,Presidente,NO
+CLAUDIO DE SIMONE,CLAUDIO DE SIMONE,2016,Cruzada por San Lorenzo,Comisión Directiva,Presidente,SI
+CLAUDIO DE SIMONE,CLAUDIO DE SIMONE,2013,Cruzada por San Lorenzo,Comisión Directiva,Presidente,SI
+CLAUDIO DE SIMONE,CLAUDIO DE SIMONE,2012 (EXTRAORDINARIA),Cruzada por San Lorenzo,Comisión Directiva,,SI
+CLAUDIO DE SIMONE,CLAUDIO DE SIMONE,2010,Cruzada por San Lorenzo,Comisión Directiva,,SI
 ARRECEYGOR CARLOS HORACIO,CARLOS HORACIO ARRECEYGOR,2019,San Lorenzo Siglo XXI,Comisión Directiva,Vice-Presidente,NO
 ARRECEYGOR CARLOS HORACIO,CARLOS HORACIO ARRECEYGOR,2016,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 9,NO
 MARIA OMAECHEA,MARIA OMAECHEA,2019,Frente Pasion Azulgrana,Comisión Directiva,Vice-Presidente,NO
@@ -1181,13 +1206,6 @@ PELJHAN SERGIO,SERGIO PELJHAN,2013,Cruzada por San Lorenzo,Asamblea,10,SI
 PELJHAN SERGIO,SERGIO PELJHAN,2010,Cruzada por San Lorenzo,Asamblea,8,NO
 PELJHAN SERGIO,SERGIO PELJHAN,2016,Cruzada por San Lorenzo,Comisión Directiva,,NO
 PELJHAN SERGIO,SERGIO PELJHAN,2012 (EXTRAORDINARIA),Cruzada por San Lorenzo,Comisión Directiva,,NO
-LAMMENS MATIAS,MATIAS LAMMENS,2019,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 1,SI
-LAMMENS MATIAS,MATIAS LAMMENS,2025,Revolucion Azulgrana,Comisión Directiva,,NO
-LAMMENS MATIAS,MATIAS LAMMENS,2016,San Lorenzo Siglo XXI,Comisión Directiva,,SI
-LAMMENS MATIAS,MATIAS LAMMENS,2013,San Lorenzo Siglo XXI,Comisión Directiva,,SI
-LAMMENS MATIAS,MATIAS LAMMENS,2012 (EXTRAORDINARIA),San Lorenzo Siglo XXI,Comisión Directiva,,SI
-LAMMENS MATIAS,MATIAS LAMMENS,2012 (ASAMBLEA),Transitoria,Comisión Directiva,,SI
-LAMMENS MATIAS,MATIAS LAMMENS,2010,Nuevo San Lorenzo,Comisión Directiva,,NO
 ISABEL MARIA VUOTTO,MARIA ISABEL VUOTTO,2019,Volver a San Lorenzo,Comisión Directiva,Vocal 1,NO
 JORGE PALADINO,JORGE PALADINO,2019,Frente Pasion Azulgrana,Comisión Directiva,Vocal 1,NO
 JORGE PALADINO,JORGE PALADINO,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 9,NO
@@ -1229,14 +1247,6 @@ BUSSO DARIO RODRIGUEZ,DARIO RODRIGUEZ BUSSO,2013,Cruzada por San Lorenzo,Comisi�
 BUSSO DARIO RODRIGUEZ,DARIO RODRIGUEZ BUSSO,2012 (EXTRAORDINARIA),Cruzada por San Lorenzo,Comisión Directiva,,NO
 FERNANDO TERUEL,FERNANDO TERUEL,2019,Frente Pasion Azulgrana,Comisión Directiva,Vocal 6,NO
 FERNANDO TERUEL,FERNANDO TERUEL,2022,Siempre San Lorenzo,Asamblea,38,NO
-MARCELO MORETTI,MARCELO MORETTI,2019,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 7,SI
-MARCELO MORETTI,MARCELO MORETTI,2016,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 12,SI
-MARCELO MORETTI,MARCELO MORETTI,2013,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 11,SI
-MARCELO MORETTI,MARCELO MORETTI,2004,Nuevo San Lorenzo,Comisión Directiva,Vocal 12,NO
-MARCELO MORETTI,MARCELO MORETTI,2023,Boedo en Accion,Comisión Directiva,,SI
-MARCELO MORETTI,MARCELO MORETTI,2022,Boedo en Accion,Comisión Directiva,,NO
-MARCELO MORETTI,MARCELO MORETTI,2012 (EXTRAORDINARIA),San Lorenzo Siglo XXI,Comisión Directiva,,SI
-MARCELO MORETTI,MARCELO MORETTI,2010,Boedo en Accion,Comisión Directiva,,SI
 MORELLO OSCAR,OSCAR MORELLO,2019,Frente Pasion Azulgrana,Comisión Directiva,Vocal 7,NO
 GUTIERREZ JORGE OMAR,JORGE OMAR GUTIERREZ,2019,Cruzada por San Lorenzo,Comisión Directiva,Vocal 7,NO
 GUTIERREZ JORGE OMAR,JORGE OMAR GUTIERREZ,2016,Cruzada por San Lorenzo,Comisión Directiva,Vocal 11,NO
@@ -1526,7 +1536,7 @@ LEANDRO MARTIN VOGLIOTTI,"VOGLIOTTI, LEANDRO MARTIN",2016,Cruzada por San Lorenz
 BRIENZA JOSE MARTIN,"BRIENZA, JOSE MARTIN",2019,San Lorenzo Siglo XXI,Asamblea,33,SI
 BRIENZA JOSE MARTIN,"BRIENZA, JOSE MARTIN",2016,San Lorenzo Siglo XXI,Asamblea,24,SI
 MELLA SERGIO,"MELLA, SERGIO",2019,Volver a San Lorenzo,Asamblea,33,NO
-D'ANGELO IGNACIO,"D'ANGELO, IGNACIO",2019,Frente Pasion Azulgrana,Asamblea,33,NO
+ANGELO D IGNACIO,"D'ANGELO, IGNACIO",2019,Frente Pasion Azulgrana,Asamblea,33,NO
 AGUSTIN DAMIAN PUGLIESE,"PUGLIESE, AGUSTIN DAMIAN",2019,Cruzada por San Lorenzo,Asamblea,33,NO
 FERNANDO ZAYAT,"ZAYAT, FERNANDO",2019,San Lorenzo Siglo XXI,Asamblea,34,SI
 FERNANDO ZAYAT,"ZAYAT, FERNANDO",2022,San Lorenzo Querido,Asamblea,8,NO
@@ -1549,7 +1559,7 @@ BRUNETTI JOSE LUIS,"BRUNETTI, JOSE LUIS",2010,Nuevo San Lorenzo,Asamblea,31,NO
 BRUNETTI JOSE LUIS,"BRUNETTI, JOSE LUIS",2004,San Lorenzo para Todos,Asamblea,7,SI
 CARLOS JUAN SPERANZA,"SPERANZA, JUAN CARLOS",2019,Frente Pasion Azulgrana,Asamblea,36,NO
 CARLOS JUAN SPERANZA,"SPERANZA, JUAN CARLOS",2010,Grandeza Azulgrana,Asamblea,4,NO
-CARLOS JUAN SPERANZA,"SPERANZA, JUAN CARLOS",2007,Frente San Lorenzo,Asamblea,8,SI
+CARLOS JUAN SPERANZA,"SPERANZA, JUAN CARLOS",2007,Frente Sanlorencista,Asamblea,8,SI
 CARLOS JUAN SPERANZA,"SPERANZA, JUAN CARLOS",2004,Grandeza Azulgrana,Asamblea,,SI
 FEDERICO JOSE STASI,"STASI, FEDERICO JOSE",2019,Cruzada por San Lorenzo,Asamblea,36,NO
 BERTUA CARLOS JUAN,"BERTUA, JUAN CARLOS",2019,Volver a San Lorenzo,Asamblea,37,NO
@@ -1722,12 +1732,6 @@ CROCCO LEONARDO,"CROCCO, LEONARDO",2016,San Lorenzo Siglo XXI,Asamblea,50,SI
 MACARENA PALOMEQUE,"PALOMEQUE, MACARENA",2019,Volver a San Lorenzo,Asamblea,69,NO
 GREMONE LUCIANO,"GREMONE, LUCIANO",2019,Frente Pasion Azulgrana,Asamblea,69,NO
 CASTELPOGGI CLAUDIO GUSTAVO,"CASTELPOGGI, GUSTAVO CLAUDIO",2019,Cruzada por San Lorenzo,Asamblea,69,NO
-ALEJANDRO BARROS URIEL,"BARROS, URIEL ALEJANDRO",2019,San Lorenzo Siglo XXI,Asamblea,70,NO
-ALEJANDRO BARROS URIEL,"BARROS, URIEL ALEJANDRO",2023,Boedo en Accion,Comisión Directiva,Vocal 4,SI
-ALEJANDRO BARROS URIEL,"BARROS, URIEL ALEJANDRO",2022,Boedo en Accion,Comisión Directiva,Vocal 2,NO
-ALEJANDRO BARROS URIEL,"BARROS, URIEL ALEJANDRO",2012 (ASAMBLEA),Transitoria,Comisión Directiva,,SI
-ALEJANDRO BARROS URIEL,"BARROS, URIEL ALEJANDRO",2010,Boedo en Accion,Comisión Directiva,,NO
-ALEJANDRO BARROS URIEL,"BARROS, URIEL ALEJANDRO",2007,Frente San Lorenzo,Fiscalizadora,,SI
 ANDRES FACUNDO IBANEZ,"IBAÑEZ, FACUNDO ANDRES",2019,Volver a San Lorenzo,Asamblea,70,NO
 ANDRES FACUNDO IBANEZ,"IBAÑEZ, FACUNDO ANDRES",2023,Volver a San Lorenzo,Asamblea,51,NO
 ANDRES FACUNDO IBANEZ,"IBAÑEZ, FACUNDO ANDRES",2022,Volver a San Lorenzo,Asamblea,56,NO
@@ -1742,7 +1746,7 @@ BUONFRATE OSVALDO,"BUONFRATE, OSVALDO",2019,Frente Pasion Azulgrana,Asamblea,72,
 DE HOMERO ROCCHI,"DE ROCCHI, HOMERO",2019,Cruzada por San Lorenzo,Asamblea,72,NO
 HAYDEE SCAGLIONE,"SCAGLIONE, HAYDEE",2019,San Lorenzo Siglo XXI,Asamblea,73,SI
 FERNANDEZ JOSE LUIS,"FERNANDEZ, JOSE LUIS",2019,Frente Pasion Azulgrana,Asamblea,73,NO
-FERNANDEZ JOSE LUIS,"FERNANDEZ, JOSE LUIS",2022,Renovacion San Lorenzo,Asamblea,42,NO
+FERNANDEZ JOSE LUIS,"FERNANDEZ, JOSE LUIS",2022,Renovacion San Lorencista,Asamblea,42,NO
 FERNANDEZ JOSE LUIS,"FERNANDEZ, JOSE LUIS",2016,Cruzada por San Lorenzo,Comisión Directiva,Vocal 8,NO
 FERNANDEZ JOSE LUIS,"FERNANDEZ, JOSE LUIS",2001,Unidad Azulgrana,Comisión Directiva,Vocal 11,NO
 FERNANDEZ JOSE LUIS,"FERNANDEZ, JOSE LUIS",1998,San Lorenzo para Todos,Comisión Directiva,Vocal 11,NO
@@ -1764,8 +1768,8 @@ BASTARDO DARIO HERNAN,"BASTARDO, HERNAN DARIO",2022,Volver a San Lorenzo,Asamble
 DAVENIA SABRINA,"DAVENIA, SABRINA",2019,Frente Pasion Azulgrana,Asamblea,75,NO
 ANA GLADYS ONETTO,"ONETTO, GLADYS ANA",2019,Cruzada por San Lorenzo,Asamblea,75,NO
 ANGEL MIGUEL ORQUERA,"ORQUERA, MIGUEL ANGEL",2019,San Lorenzo Siglo XXI,Asamblea,76,NO
-ANGEL MIGUEL ORQUERA,"ORQUERA, MIGUEL ANGEL",2010,Mas San Lorenzo,Asamblea,35,NO
-ANGEL MIGUEL ORQUERA,"ORQUERA, MIGUEL ANGEL",2007,Frente San Lorenzo,Asamblea,11,SI
+ANGEL MIGUEL ORQUERA,"ORQUERA, MIGUEL ANGEL",2010,Nuevo San Lorenzo,Asamblea,35,NO
+ANGEL MIGUEL ORQUERA,"ORQUERA, MIGUEL ANGEL",2007,Frente Sanlorencista,Asamblea,11,SI
 ANGEL MIGUEL ORQUERA,"ORQUERA, MIGUEL ANGEL",2022,San Lorenzo Querido,Asamblea,65,NO
 BERTUA MARIANO,"BERTUA, MARIANO",2019,Volver a San Lorenzo,Asamblea,76,NO
 EZEQUIEL IGNACIO ORTELLI,"ORTELLI, EZEQUIEL IGNACIO",2019,Cruzada por San Lorenzo,Asamblea,76,NO
@@ -1860,49 +1864,37 @@ MARCELO XAMENA,"XAMENA, MARCELO",2019,San Lorenzo Siglo XXI,Fiscalizadora,7,NO
 MARCELO XAMENA,"XAMENA, MARCELO",2010,Nuevo San Lorenzo,Comisión Directiva,,NO
 MARCELO XAMENA,"XAMENA, MARCELO",2007,Proyecto Azulgrana,Comisión Directiva,,NO
 CORONEL DARIO,DARIO CORONEL,2022,Boedo en Accion,Comisión Directiva,Vice-Presidente,NO
-RICARDO SAPONARE,RICARDO SAPONARE,2022,Siempre San Lorenzo,Comisión Directiva,Vice-Presidente,NO
-RICARDO SAPONARE,RICARDO SAPONARE,2013,San Lorenzo Siglo XXI,Asamblea,8,SI
-RICARDO SAPONARE,RICARDO SAPONARE,2012 (EXTRAORDINARIA),San Lorenzo Siglo XXI,Comisión Directiva,,SI
-RICARDO SAPONARE,RICARDO SAPONARE,2012 (ASAMBLEA),Transitoria,Comisión Directiva,,SI
-RICARDO SAPONARE,RICARDO SAPONARE,2004,San Lorenzo para Todos,Comisión Directiva,,NO
-RICARDO SAPONARE,RICARDO SAPONARE,2010,Vamos San Lorenzo,Asamblea,7,SI
 CRISTIAN MERA,CRISTIAN MERA,2022,Volver a San Lorenzo,Comisión Directiva,Vice-Presidente,NO
 IGNACIO JIMENEZ,IGNACIO JIMENEZ,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 1,NO
-D'AMBROSIO SOL,SOL D'AMBROSIO,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 3,NO
-KARINA LEFEVRE,KARINA LEFEVRE,2022,San Lorenzo Querido,Comisión Directiva,Vocal 3,NO
-KARINA LEFEVRE,KARINA LEFEVRE,2026,San Lorenzo en Marcha,Comisión Directiva,,NO
-KARINA LEFEVRE,KARINA LEFEVRE,2023,X Amor a San Lorenzo,Comisión Directiva,,NO
-KARINA LEFEVRE,KARINA LEFEVRE,2019,San Lorenzo Siglo XXI,Comisión Directiva,,SI
+AMBROSIO D SOL,SOL D'AMBROSIO,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 3,NO
 DIP DOMIGUEZ SEBASTIAN,SEBASTIAN DOMIGUEZ DIP,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 3,NO
 GABRIEL MARTINO,GABRIEL MARTINO,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 6,NO
 GABRIEL MARTINO,GABRIEL MARTINO,2016,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 8,SI
-ANDREA LO VOTRICO,ANDREA LO VOTRICO,2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 6,NO
+ANDREA LO VOTRICO,ANDREA LO VOTRICO,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 6,NO
 DARIO LASCHERA,DARIO LASCHERA,2022,Boedo en Accion,Comisión Directiva,Vocal 8,NO
 MARIA ORMAECHEA,MARIA ORMAECHEA,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 8,NO
 BRUNO CALABRIA,BRUNO CALABRIA,2022,San Lorenzo Querido,Comisión Directiva,Vocal 8,NO
-CASTEX FRANCISCO,FRANCISCO CASTEX,2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 8,NO
+CASTEX FRANCISCO,FRANCISCO CASTEX,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 8,NO
 ALBAMONTE FRANCISCO VOZZA,FRANCISCO VOZZA ALBAMONTE,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 10,NO
 ALBAMONTE FRANCISCO VOZZA,FRANCISCO VOZZA ALBAMONTE,2010,Vamos San Lorenzo,Comisión Directiva,,SI
 ALBAMONTE FRANCISCO VOZZA,FRANCISCO VOZZA ALBAMONTE,2007,Proyecto Azulgrana,Comisión Directiva,,NO
-NICOLAS PAPASSO,NICOLAS PAPASSO,2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 10,NO
-NICOLAS PAPASSO,NICOLAS PAPASSO,2026,N. Generacion,Comisión Directiva,,NO
 BELEN LUGONES NOELIA,NOELIA BELEN LUGONES,2022,Boedo en Accion,Comisión Directiva,Vocal 11,NO
 BELEN LUGONES NOELIA,NOELIA BELEN LUGONES,2023,Boedo en Accion,Comisión Directiva,Vocal 18,NO
 ANTONIO CAPRIA JOSE,JOSE ANTONIO CAPRIA,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 11,NO
 GUSTAVO SUAREZ,GUSTAVO SUAREZ,2022,San Lorenzo Querido,Comisión Directiva,Vocal 11,NO
-AMESPIL PATRICIO,PATRICIO AMESPIL,2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 11,NO
+AMESPIL PATRICIO,PATRICIO AMESPIL,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 11,NO
 BELATTI FABIO,FABIO BELATTI,2022,San Lorenzo Querido,Comisión Directiva,Vocal 12,NO
 GABRIEL MOLINA,GABRIEL MOLINA,2022,Boedo en Accion,Comisión Directiva,Vocal 13,NO
 GABRIEL MOLINA,GABRIEL MOLINA,2010,Vamos San Lorenzo,Comisión Directiva,,SI
 GABRIEL MOLINA,GABRIEL MOLINA,2004,San Lorenzo para Todos,Comisión Directiva,,NO
 CAMBAS PATRICIA,PATRICIA CAMBAS,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 13,NO
-CHIAPETTA MARIANO,MARIANO CHIAPETTA,2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 13,NO
+CHIAPETTA MARIANO,MARIANO CHIAPETTA,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 13,NO
 BAGLIERO HERNAN,HERNAN BAGLIERO,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 14,NO
 ARIEL LUIS MARTINEZ,LUIS ARIEL MARTINEZ,2022,San Lorenzo Querido,Comisión Directiva,Vocal 14,NO
-ESTEFANIA LAVIERI,ESTEFANIA LAVIERI,2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 14,NO
+ESTEFANIA LAVIERI,ESTEFANIA LAVIERI,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 14,NO
 FABIAN KRUNFLI,FABIAN KRUNFLI,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 15,NO
 FERNANDEZ MENTASTI PABLO,PABLO FERNANDEZ MENTASTI,2022,Volver a San Lorenzo,Comisión Directiva,Vocal 15,NO
-GUSTAVO RODRIGUEZ,GUSTAVO RODRIGUEZ,2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 15,NO
+GUSTAVO RODRIGUEZ,GUSTAVO RODRIGUEZ,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 15,NO
 GUSTAVO RODRIGUEZ,GUSTAVO RODRIGUEZ,2010,Nuevo San Lorenzo,Comisión Directiva,,NO
 DI GUSTAVO LORENZO,GUSTAVO DI LORENZO,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 16,NO
 GUSTAVO MARTINEZ,GUSTAVO MARTINEZ,2022,San Lorenzo Querido,Comisión Directiva,Vocal 16,NO
@@ -1912,7 +1904,7 @@ GUSTAVO MARTINEZ,GUSTAVO MARTINEZ,2007,Proyecto Azulgrana,Comisión Directiva,,N
 FERNANDO RIVA ZUCCHELLI,FERNANDO RIVA ZUCCHELLI,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 16,NO
 DI GIOVANNI SEBASTIAN,SEBASTIAN DI GIOVANNI,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 17,NO
 CABRERA LILIANA,LILIANA CABRERA,2022,Volver a San Lorenzo,Comisión Directiva,Vocal 17,NO
-EUGENIO RAMADE,EUGENIO RAMADE,2022,Renovacion San Lorenzo,Comisión Directiva,Vocal 17,NO
+EUGENIO RAMADE,EUGENIO RAMADE,2022,Renovacion San Lorencista,Comisión Directiva,Vocal 17,NO
 ALLICIA RILO,ALLICIA RILO,2022,Boedo en Accion,Comisión Directiva,Vocal 18,NO
 COELLO KARINA,KARINA COELLO,2022,Siempre San Lorenzo,Comisión Directiva,Vocal 18,NO
 GIACOVINO MARIANO,MARIANO GIACOVINO,2022,San Lorenzo Querido,Comisión Directiva,Vocal 18,NO
@@ -1923,35 +1915,35 @@ HECTOR PABLO RIOS,"RIOS, PABLO HECTOR",2016,San Lorenzo Siglo XXI,Asamblea,25,SI
 HECTOR PABLO RIOS,"RIOS, PABLO HECTOR",2013,San Lorenzo Siglo XXI,Asamblea,47,SI
 HECTOR PABLO RIOS,"RIOS, PABLO HECTOR",2019,San Lorenzo Siglo XXI,Asamblea,41,SI
 IVAN NORDENSTROM,"NORDENSTROM, IVAN",2022,Volver a San Lorenzo,Asamblea,2,NO
-COLOMBO NANCY,"COLOMBO, NANCY",2022,Renovacion San Lorenzo,Asamblea,2,NO
+COLOMBO NANCY,"COLOMBO, NANCY",2022,Renovacion San Lorencista,Asamblea,2,NO
 NICOLAS PAZ POLITO,"PAZ POLITO, NICOLAS",2022,Siempre San Lorenzo,Asamblea,4,NO
 BALDASSARE DE GUZMAN MONICA,"GUZMAN DE BALDASSARE, MONICA",2022,Renovacion San Lorencista,Asamblea,4,NO
-DOMINGO PEDRO VALLE,"VALLE, PEDRO DOMINGO",2022,Renovacion San Lorenzo,Asamblea,5,NO
+DOMINGO PEDRO VALLE,"VALLE, PEDRO DOMINGO",2022,Renovacion San Lorencista,Asamblea,5,NO
 ANTONIO FLIPPETTI JORGE,"FLIPPETTI, JORGE ANTONIO",2022,Boedo en Accion,Asamblea,6,NO
 ALEJANDRO FERNANDO LUIS,"FERNANDO, ALEJANDRO LUIS",2022,Siempre San Lorenzo,Asamblea,6,NO
 CLAUDIO PANDO ROBERTO,"PANDO, CLAUDIO ROBERTO",2022,San Lorenzo Querido,Asamblea,6,NO
-CLAUDIA FIGUEROA,"FIGUEROA, CLAUDIA",2022,Renovacion San Lorenzo,Asamblea,6,NO
+CLAUDIA FIGUEROA,"FIGUEROA, CLAUDIA",2022,Renovacion San Lorencista,Asamblea,6,NO
 ADRIAN DOMINGUEZ SERGIO,"DOMINGUEZ, SERGIO ADRIAN",2022,Siempre San Lorenzo,Asamblea,7,NO
 MACEDONIA RICARDO,"MACEDONIA, RICARDO",2022,Siempre San Lorenzo,Asamblea,8,NO
 MACEDONIA RICARDO,"MACEDONIA, RICARDO",2004,Unidos por San Lorenzo,Asamblea,12,NO
 FEDERICO RUIZ,"RUIZ, FEDERICO",2022,Volver a San Lorenzo,Asamblea,8,NO
-NANTON SUSANA,"NANTON, SUSANA",2022,Renovacion San Lorenzo,Asamblea,8,NO
+NANTON SUSANA,"NANTON, SUSANA",2022,Renovacion San Lorencista,Asamblea,8,NO
 PALADINO PASCUAL,"PALADINO, PASCUAL",2022,Siempre San Lorenzo,Asamblea,9,NO
 PALADINO PASCUAL,"PALADINO, PASCUAL",2001,Unidos por San Lorenzo,Comisión Directiva,Vocal 3,SI
 PALADINO PASCUAL,"PALADINO, PASCUAL",2004,Unidos por San Lorenzo,Comisión Directiva,,SI
 DANIEL SANCHEZ,"SANCHEZ, DANIEL",2022,San Lorenzo Querido,Asamblea,9,NO
-FERNANDO GIANNONI,"GIANNONI, FERNANDO",2022,Renovacion San Lorenzo,Asamblea,9,NO
+FERNANDO GIANNONI,"GIANNONI, FERNANDO",2022,Renovacion San Lorencista,Asamblea,9,NO
 CIANI LUCIANA,"CIANI, LUCIANA",2022,Boedo en Accion,Asamblea,10,NO
-EDUARDO LOIS,"LOIS, EDUARDO",2022,Renovacion San Lorenzo,Asamblea,10,NO
+EDUARDO LOIS,"LOIS, EDUARDO",2022,Renovacion San Lorencista,Asamblea,10,NO
 BERGERO PABLO,"BERGERO, PABLO",2022,San Lorenzo Querido,Asamblea,11,NO
 MARIANO ROVATTI,"ROVATTI, MARIANO",2022,Boedo en Accion,Asamblea,12,NO
 LUCAS MICELI,"MICELI, LUCAS",2022,Siempre San Lorenzo,Asamblea,13,NO
-MARINA RODOGNO,"RODOGNO, MARINA",2022,Renovacion San Lorenzo,Asamblea,13,NO
+MARINA RODOGNO,"RODOGNO, MARINA",2022,Renovacion San Lorencista,Asamblea,13,NO
 GRANDIO LUIS,"GRANDIO, LUIS",2022,Siempre San Lorenzo,Asamblea,14,NO
 ORCIUOLI TOBIAS,"ORCIUOLI, TOBIAS",2022,Volver a San Lorenzo,Asamblea,14,NO
-CARLOS GENOESE OSVALDO,"GENOESE, CARLOS OSVALDO",2022,Renovacion San Lorenzo,Asamblea,14,NO
+CARLOS GENOESE OSVALDO,"GENOESE, CARLOS OSVALDO",2022,Renovacion San Lorencista,Asamblea,14,NO
 BUSTOS GLADYS,"BUSTOS, GLADYS",2022,Boedo en Accion,Asamblea,15,NO
-AYUDE KARINA,"AYUDE, KARINA",2022,Renovacion San Lorenzo,Asamblea,15,NO
+AYUDE KARINA,"AYUDE, KARINA",2022,Renovacion San Lorencista,Asamblea,15,NO
 JORGE RODRIGUEZ,"RODRIGUEZ, JORGE",2022,Boedo en Accion,Asamblea,16,NO
 JORGE RODRIGUEZ,"RODRIGUEZ, JORGE",2004,Nuevo San Lorenzo,Fiscalizadora,2,NO
 COLONNO GONZALO,"COLONNO, GONZALO",2022,Siempre San Lorenzo,Asamblea,16,NO
@@ -1966,8 +1958,8 @@ MANUEL NUNEZ,"NUÑEZ, MANUEL",2022,Siempre San Lorenzo,Asamblea,17,NO
 GUSTAVO LANZIANO,"LANZIANO, GUSTAVO",2022,Boedo en Accion,Asamblea,18,NO
 COLMAN DARIO,"COLMAN, DARIO",2022,Siempre San Lorenzo,Asamblea,18,NO
 AMOR SERGIO,"AMOR, SERGIO",2022,Volver a San Lorenzo,Asamblea,18,NO
-DOMINGO HORACIO MARTIN,"MARTIN, HORACIO DOMINGO",2022,Renovacion San Lorenzo,Asamblea,18,NO
-GAZZA SEBASTIAN,"GAZZA, SEBASTIAN",2022,Renovacion San Lorenzo,Asamblea,19,NO
+DOMINGO HORACIO MARTIN,"MARTIN, HORACIO DOMINGO",2022,Renovacion San Lorencista,Asamblea,18,NO
+GAZZA SEBASTIAN,"GAZZA, SEBASTIAN",2022,Renovacion San Lorencista,Asamblea,19,NO
 ALBERTO BALDASSARE CARLOS,"BALDASSARE, CARLOS ALBERTO",2022,Renovacion San Lorencista,Asamblea,20,NO
 ALBERTO BALDASSARE CARLOS,"BALDASSARE, CARLOS ALBERTO",2010,Vamos San Lorenzo,Asamblea,10,SI
 CLAUS GUIDO PALADINO,"PALADINO CLAUS, GUIDO",2022,Boedo en Accion,Asamblea,21,NO
@@ -1980,13 +1972,13 @@ RODRIGO VILLAVEIRAN,"VILLAVEIRAN, RODRIGO",2022,San Lorenzo Querido,Asamblea,22,
 RODRIGO VILLAVEIRAN,"VILLAVEIRAN, RODRIGO",2013,Cruzada por San Lorenzo,Asamblea,16,NO
 OSCAR VERZINO,"VERZINO, OSCAR",2022,Volver a San Lorenzo,Asamblea,22,NO
 OSCAR VERZINO,"VERZINO, OSCAR",2013,Volver a San Lorenzo,Asamblea,9,NO
-OSCAR VERZINO,"VERZINO, OSCAR",2007,Frente San Lorenzo,Asamblea,2,SI
+OSCAR VERZINO,"VERZINO, OSCAR",2007,Frente Sanlorencista,Asamblea,2,SI
 OSCAR VERZINO,"VERZINO, OSCAR",2001,Unidad Azulgrana,Comisión Directiva,Vocal 4,NO
 OSCAR VERZINO,"VERZINO, OSCAR",2004,Dignidad por San Lorenzo,Comisión Directiva,,NO
-DANIEL FALABELLA,"FALABELLA, DANIEL",2022,Renovacion San Lorenzo,Asamblea,23,NO
+DANIEL FALABELLA,"FALABELLA, DANIEL",2022,Renovacion San Lorencista,Asamblea,23,NO
 GABRIEL SINGH,"SINGH, GABRIEL",2022,Boedo en Accion,Asamblea,24,NO
 CORIGLIANO DOMINGO,"CORIGLIANO, DOMINGO",2022,Siempre San Lorenzo,Asamblea,24,NO
-BORGHETTI IGNACIO,"BORGHETTI, IGNACIO",2022,Renovacion San Lorenzo,Asamblea,24,NO
+BORGHETTI IGNACIO,"BORGHETTI, IGNACIO",2022,Renovacion San Lorencista,Asamblea,24,NO
 COCO DIAZ FLORENCIA MARIA,"DIAZ COCO, MARIA FLORENCIA",2022,Boedo en Accion,Asamblea,25,NO
 CESAR ESCOBAR JULIO,"ESCOBAR, JULIO CESAR",2022,San Lorenzo Querido,Asamblea,25,NO
 EDUARDO PANDELO,"PANDELO, EDUARDO",2022,Volver a San Lorenzo,Asamblea,25,NO
@@ -1998,17 +1990,17 @@ BERTERO LUIS,"BERTERO, LUIS",2012 (ASAMBLEA),Transitoria,Comisión Directiva,,SI
 BERTERO LUIS,"BERTERO, LUIS",2010,Vamos San Lorenzo,Asamblea,8,SI
 ANTONIO DE LUCA,"DE LUCA, ANTONIO",2022,San Lorenzo Querido,Asamblea,26,NO
 ANTONIO DE LUCA,"DE LUCA, ANTONIO",2023,X Amor a San Lorenzo,Asamblea,,NO
-DARIO POUSTIS RUBEN,"POUSTIS, RUBEN DARIO",2022,Renovacion San Lorenzo,Asamblea,26,NO
+DARIO POUSTIS RUBEN,"POUSTIS, RUBEN DARIO",2022,Renovacion San Lorencista,Asamblea,26,NO
 DARIO POUSTIS RUBEN,"POUSTIS, RUBEN DARIO",2026,N. Generacion,Comisión Directiva,Vocal 14,NO
 ALBERTO CARLOS MERLO,"MERLO, CARLOS ALBERTO",2022,Siempre San Lorenzo,Asamblea,27,NO
 BALBI CESAR JULIO,"BALBI, JULIO CESAR",2022,San Lorenzo Querido,Asamblea,27,NO
 BALBI CESAR JULIO,"BALBI, JULIO CESAR",2016,San Lorenzo Siglo XXI,Asamblea,43,SI
 BALBI CESAR JULIO,"BALBI, JULIO CESAR",2019,San Lorenzo Siglo XXI,Asamblea,53,SI
-FERNANDEZ FLORENCIA MARIA,"FERNANDEZ, MARIA FLORENCIA",2022,Renovacion San Lorenzo,Asamblea,27,NO
+FERNANDEZ FLORENCIA MARIA,"FERNANDEZ, MARIA FLORENCIA",2022,Renovacion San Lorencista,Asamblea,27,NO
 GORENSTEIN MARTIN,"GORENSTEIN, MARTIN",2022,Boedo en Accion,Asamblea,28,NO
 ALEJANDRO MARCELO TEJADA,"TEJADA, MARCELO ALEJANDRO",2022,San Lorenzo Querido,Asamblea,28,NO
 LOVEY NESTOR,"LOVEY, NESTOR",2022,Volver a San Lorenzo,Asamblea,28,NO
-MERCADO RODRIGO,"MERCADO, RODRIGO",2022,Renovacion San Lorenzo,Asamblea,28,NO
+MERCADO RODRIGO,"MERCADO, RODRIGO",2022,Renovacion San Lorencista,Asamblea,28,NO
 OSCAR ROMERO,"ROMERO, OSCAR",2022,Siempre San Lorenzo,Asamblea,29,NO
 OSCAR ROMERO,"ROMERO, OSCAR",2010,Boedo en Accion,Comisión Directiva,,NO
 OSCAR ROMERO,"ROMERO, OSCAR",2007,Frente San Lorenzo,Comisión Directiva,,NO
@@ -2016,18 +2008,18 @@ BELEN CONTE MARIA,"CONTE, MARIA BELEN",2022,Volver a San Lorenzo,Asamblea,29,NO
 AGOSTINA FERRANTE,"FERRANTE, AGOSTINA",2022,Boedo en Accion,Asamblea,30,NO
 GAMALLO GONZALO,"GAMALLO, GONZALO",2022,San Lorenzo Querido,Asamblea,30,NO
 FEDERICO LIVORA,"LIVORA, FEDERICO",2022,Volver a San Lorenzo,Asamblea,30,NO
-CERVETTO GRACIELA,"CERVETTO, GRACIELA",2022,Renovacion San Lorenzo,Asamblea,30,NO
+CERVETTO GRACIELA,"CERVETTO, GRACIELA",2022,Renovacion San Lorencista,Asamblea,30,NO
 CASERTA GARCIA JUAN PABLO,"GARCIA CASERTA, JUAN PABLO",2022,Boedo en Accion,Asamblea,31,NO
 EDGARDO HUGO RUIZ,"RUIZ, HUGO EDGARDO",2022,Siempre San Lorenzo,Asamblea,31,NO
 EDGARDO HUGO RUIZ,"RUIZ, HUGO EDGARDO",2004,Unidos por San Lorenzo,Asamblea,19,SI
 MATIAS RAMIREZ,"RAMIREZ, MATIAS",2022,San Lorenzo Querido,Asamblea,31,NO
-DI LORENZO SILVESTRO,"DI SILVESTRO, LORENZO",2022,Renovacion San Lorenzo,Asamblea,31,NO
+DI LORENZO SILVESTRO,"DI SILVESTRO, LORENZO",2022,Renovacion San Lorencista,Asamblea,31,NO
 MARTIN VARAS,"VARAS, MARTIN",2022,Boedo en Accion,Asamblea,32,NO
-ISNARDI MAURO,"ISNARDI, MAURO",2022,Renovacion San Lorenzo,Asamblea,32,NO
+ISNARDI MAURO,"ISNARDI, MAURO",2022,Renovacion San Lorencista,Asamblea,32,NO
 DANIELE MARTIN,"DANIELE, MARTIN",2022,Boedo en Accion,Asamblea,33,NO
 EZEQUIEL MARCELO SCIGLIANO,"SCIGLIANO, MARCELO EZEQUIEL",2022,Siempre San Lorenzo,Asamblea,33,NO
 IBANEZ MARTINA YAZALDE,"YAZALDE IBAÑEZ, MARTINA",2022,Volver a San Lorenzo,Asamblea,33,NO
-JAVIER POUSTIS RUBEN,"POUSTIS, RUBEN JAVIER",2022,Renovacion San Lorenzo,Asamblea,33,NO
+JAVIER POUSTIS RUBEN,"POUSTIS, RUBEN JAVIER",2022,Renovacion San Lorencista,Asamblea,33,NO
 GRISOLIA SEBASTIAN,"GRISOLIA, SEBASTIAN",2022,Siempre San Lorenzo,Asamblea,34,NO
 BRAVO VALENTIN,"BRAVO, VALENTIN",2022,Boedo en Accion,Asamblea,35,NO
 ALEJANDRO ANDRES ELISSECHE,"ELISSECHE, ANDRES ALEJANDRO",2022,San Lorenzo Querido,Asamblea,35,NO
@@ -2035,7 +2027,7 @@ ALEJANDRO ANDRES ELISSECHE,"ELISSECHE, ANDRES ALEJANDRO",2019,San Lorenzo Siglo 
 HORACIO REIMS,"REIMS, HORACIO",2022,Volver a San Lorenzo,Asamblea,35,NO
 HORACIO REIMS,"REIMS, HORACIO",2013,Volver a San Lorenzo,Comisión Directiva,Vocal 5,NO
 HORACIO REIMS,"REIMS, HORACIO",2004,Dignidad por San Lorenzo,Asamblea,10,NO
-HECTOR JORGE VIDAL,"VIDAL, HECTOR JORGE",2022,Renovacion San Lorenzo,Asamblea,35,NO
+HECTOR JORGE VIDAL,"VIDAL, HECTOR JORGE",2022,Renovacion San Lorencista,Asamblea,35,NO
 DANIEL ZEA,"ZEA, DANIEL",2022,Boedo en Accion,Asamblea,36,NO
 DANIEL ZEA,"ZEA, DANIEL",2010,Grandeza Azulgrana,Asamblea,32,NO
 LIEBEHENZ MARCELO,"LIEBEHENZ, MARCELO",2022,Siempre San Lorenzo,Asamblea,36,NO
@@ -2044,7 +2036,7 @@ EMILIO FALBO,"FALBO, EMILIO",2022,Volver a San Lorenzo,Asamblea,36,NO
 EMILIO FALBO,"FALBO, EMILIO",2016,Volver a San Lorenzo,Asamblea,2,NO
 EMILIO FALBO,"FALBO, EMILIO",2019,Volver a San Lorenzo,Fiscalizadora,,NO
 EMILIO FALBO,"FALBO, EMILIO",2016,Volver a San Lorenzo,Fiscalizadora,,NO
-ARCOGLIANO NICOLAS,"ARCOGLIANO, NICOLAS",2022,Renovacion San Lorenzo,Asamblea,36,NO
+ARCOGLIANO NICOLAS,"ARCOGLIANO, NICOLAS",2022,Renovacion San Lorencista,Asamblea,36,NO
 JUAN PERRONE,"PERRONE, JUAN",2022,Boedo en Accion,Asamblea,37,NO
 OSCAR RIZZO,"RIZZO, OSCAR",2022,Siempre San Lorenzo,Asamblea,37,NO
 OSCAR RIZZO,"RIZZO, OSCAR",2004,Unidos por San Lorenzo,Asamblea,5,SI
@@ -2056,7 +2048,7 @@ DANIEL MANZANO,"MANZANO, DANIEL",2022,Volver a San Lorenzo,Asamblea,37,NO
 DANIEL MANZANO,"MANZANO, DANIEL",2019,Volver a San Lorenzo,Asamblea,,NO
 LUCAS MOLA SALVADOR,"MOLA, LUCAS SALVADOR",2022,San Lorenzo Querido,Asamblea,38,NO
 DE MARCO MICAELA,"DE MARCO, MICAELA",2022,Volver a San Lorenzo,Asamblea,38,NO
-BRIAN MULET,"MULET, BRIAN",2022,Renovacion San Lorenzo,Asamblea,38,NO
+BRIAN MULET,"MULET, BRIAN",2022,Renovacion San Lorencista,Asamblea,38,NO
 DE DIEGO SAENZ TEJADA,"SAENZ DE TEJADA, DIEGO",2022,Siempre San Lorenzo,Asamblea,39,NO
 BARBARA CARELLI,"CARELLI, BARBARA",2022,San Lorenzo Querido,Asamblea,39,NO
 BARBARA CARELLI,"CARELLI, BARBARA",2016,Cruzada por San Lorenzo,Asamblea,28,NO
@@ -2065,16 +2057,16 @@ CARLOS TALLON,"TALLON, CARLOS",2022,Volver a San Lorenzo,Asamblea,39,NO
 BENITEZ FABRICIO MIEREZ,"MIEREZ BENITEZ, FABRICIO",2022,Renovacion San Lorencista,Asamblea,39,NO
 CLAUT NATALI,"CLAUT, NATALI",2022,Boedo en Accion,Asamblea,40,NO
 CARBALLO ERIKA PALOU,"PALOU CARBALLO, ERIKA",2022,Siempre San Lorenzo,Asamblea,40,NO
-ALBERTO CARLOS RODOGNO,"RODOGNO, CARLOS ALBERTO",2022,Renovacion San Lorenzo,Asamblea,40,NO
+ALBERTO CARLOS RODOGNO,"RODOGNO, CARLOS ALBERTO",2022,Renovacion San Lorencista,Asamblea,40,NO
 DANIEL GALLEGO,"GALLEGO, DANIEL",2022,Siempre San Lorenzo,Asamblea,41,NO
-ERNESTO VERA,"VERA, ERNESTO",2022,Renovacion San Lorenzo,Asamblea,41,NO
+ERNESTO VERA,"VERA, ERNESTO",2022,Renovacion San Lorencista,Asamblea,41,NO
 ARIEL COUSO,"COUSO, ARIEL",2022,Boedo en Accion,Asamblea,42,NO
 ARTURO GARCIA ORESTE,"GARCIA, ARTURO ORESTE",2022,San Lorenzo Querido,Asamblea,42,NO
 ASSDOURIAN AUGUSTO,"ASSDOURIAN, AUGUSTO",2022,Volver a San Lorenzo,Asamblea,42,NO
 FIURATTI LUIS,"FIURATTI, LUIS",2022,Siempre San Lorenzo,Asamblea,43,NO
 BELKIS MACIEL NELIDA,"MACIEL, BELKIS NELIDA",2022,San Lorenzo Querido,Asamblea,43,NO
 BOUZON NATALIA,"BOUZON, NATALIA",2022,Volver a San Lorenzo,Asamblea,43,NO
-EMILIANO LANDESMAN,"LANDESMAN, EMILIANO",2022,Renovacion San Lorenzo,Asamblea,43,NO
+EMILIANO LANDESMAN,"LANDESMAN, EMILIANO",2022,Renovacion San Lorencista,Asamblea,43,NO
 HERNAN MARRO,"MARRO, HERNAN",2022,Siempre San Lorenzo,Asamblea,44,NO
 FIORELLA FULLE,"FULLE, FIORELLA",2022,San Lorenzo Querido,Asamblea,44,NO
 FONTANELLA VANESA,"FONTANELLA, VANESA",2022,Boedo en Accion,Asamblea,45,NO
@@ -2084,78 +2076,78 @@ NESTOR TORADELLI,"TORADELLI, NESTOR",2022,Boedo en Accion,Asamblea,46,NO
 NESTOR TORADELLI,"TORADELLI, NESTOR",2023,Boedo en Accion,Asamblea,,NO
 PABLO PERGOLANI,"PERGOLANI, PABLO",2022,Boedo en Accion,Asamblea,47,NO
 OSVALDO SEPULVEDA,"SEPULVEDA, OSVALDO",2022,Siempre San Lorenzo,Asamblea,47,NO
-CRISTIAN SGUT,"SGUT, CRISTIAN",2022,Renovacion San Lorenzo,Asamblea,47,NO
+CRISTIAN SGUT,"SGUT, CRISTIAN",2022,Renovacion San Lorencista,Asamblea,47,NO
 ALEJANDRO VALLONE,"VALLONE, ALEJANDRO",2022,Boedo en Accion,Asamblea,48,NO
 ANGELES DE LOS MARIA SUAREZ,"SUAREZ, MARIA DE LOS ANGELES",2022,San Lorenzo Querido,Asamblea,48,NO
 ANDREA SOSA,"SOSA, ANDREA",2022,Volver a San Lorenzo,Asamblea,48,NO
-JAVIER MILBERG,"MILBERG, JAVIER",2022,Renovacion San Lorenzo,Asamblea,48,NO
+JAVIER MILBERG,"MILBERG, JAVIER",2022,Renovacion San Lorencista,Asamblea,48,NO
 ALEJANDRO RASCOVAN,"RASCOVAN, ALEJANDRO",2022,Volver a San Lorenzo,Asamblea,49,NO
 ACEVEDO MABEL,"ACEVEDO, MABEL",2022,Siempre San Lorenzo,Asamblea,50,NO
 GARCIA GASTON,"GARCIA, GASTON",2022,San Lorenzo Querido,Asamblea,50,NO
-CARLOS MILBERG,"MILBERG, CARLOS",2022,Renovacion San Lorenzo,Asamblea,50,NO
+CARLOS MILBERG,"MILBERG, CARLOS",2022,Renovacion San Lorencista,Asamblea,50,NO
 ARMANDO DARAKDJIAN,DARAKDJIAN. ARMANDO,2022,Siempre San Lorenzo,Asamblea,51,NO
 CISNEROS WALTER,"CISNEROS, WALTER",2022,San Lorenzo Querido,Asamblea,51,NO
-BRIAN JORGE PEDRA,"PEDRA, JORGE BRIAN",2022,Renovacion San Lorenzo,Asamblea,51,NO
+BRIAN JORGE PEDRA,"PEDRA, JORGE BRIAN",2022,Renovacion San Lorencista,Asamblea,51,NO
 GARCIA MATIAS MIGUEL,"GARCIA, MATIAS MIGUEL",2022,Siempre San Lorenzo,Asamblea,52,NO
 GAMALLO LEANDRO,"GAMALLO, LEANDRO",2022,San Lorenzo Querido,Asamblea,52,NO
-MATIAS MERCADAL,"MERCADAL, MATIAS",2022,Renovacion San Lorenzo,Asamblea,52,NO
-ALEJANDRO MIGUEL RODRIGUEZ,"RODRIGUEZ, ALEJANDRO MIGUEL",2022,Renovacion San Lorenzo,Asamblea,53,NO
+MATIAS MERCADAL,"MERCADAL, MATIAS",2022,Renovacion San Lorencista,Asamblea,52,NO
+ALEJANDRO MIGUEL RODRIGUEZ,"RODRIGUEZ, ALEJANDRO MIGUEL",2022,Renovacion San Lorencista,Asamblea,53,NO
 PARENGO SERGIO,"PARENGO, SERGIO",2022,Boedo en Accion,Asamblea,54,NO
 CALEGARI ENRIQUE,"CALEGARI, ENRIQUE",2022,Siempre San Lorenzo,Asamblea,54,NO
-AGUSTIN MATIAS PEREYRA,"PEREYRA, AGUSTIN MATIAS",2022,Renovacion San Lorenzo,Asamblea,54,NO
+AGUSTIN MATIAS PEREYRA,"PEREYRA, AGUSTIN MATIAS",2022,Renovacion San Lorencista,Asamblea,54,NO
 ALICIA GIGENA,"GIGENA, ALICIA",2022,Siempre San Lorenzo,Asamblea,55,NO
 BOMBEN ROMINA,"BOMBEN, ROMINA",2022,San Lorenzo Querido,Asamblea,55,NO
 BOMBEN ROMINA,"BOMBEN, ROMINA",2013,Volver a San Lorenzo,Comisión Directiva,Vocal 17,NO
 GANDARA GONZALEZ HORACIO,"GONZALEZ GANDARA, HORACIO",2022,Siempre San Lorenzo,Asamblea,56,NO
 GANDARA GONZALEZ HORACIO,"GONZALEZ GANDARA, HORACIO",2016,Cruzada por San Lorenzo,Asamblea,14,NO
 CRISTIAN SGRO,"SGRO, CRISTIAN",2022,San Lorenzo Querido,Asamblea,56,NO
-BRITOS DIEGO EZEQUIEL,"BRITOS, DIEGO EZEQUIEL",2022,Renovacion San Lorenzo,Asamblea,56,NO
+BRITOS DIEGO EZEQUIEL,"BRITOS, DIEGO EZEQUIEL",2022,Renovacion San Lorencista,Asamblea,56,NO
 GASTON MANOLI,"MANOLI, GASTON",2022,San Lorenzo Querido,Asamblea,57,NO
 IRACHETA JUAN,"IRACHETA, JUAN",2022,Boedo en Accion,Asamblea,58,NO
 GUSTAVO SANCHEZ,"SANCHEZ, GUSTAVO",2022,Volver a San Lorenzo,Asamblea,58,NO
 GUSTAVO SANCHEZ,"SANCHEZ, GUSTAVO",2013,Volver a San Lorenzo,Comisión Directiva,Vocal 14,NO
 GUSTAVO SANCHEZ,"SANCHEZ, GUSTAVO",2007,Frente San Lorenzo,Fiscalizadora,,SI
-GONZALEZ MARIELA RUIZ,"RUIZ GONZALEZ, MARIELA",2022,Renovacion San Lorenzo,Asamblea,58,NO
+GONZALEZ MARIELA RUIZ,"RUIZ GONZALEZ, MARIELA",2022,Renovacion San Lorencista,Asamblea,58,NO
 BUSTOS MARIANO,"BUSTOS, MARIANO",2022,Siempre San Lorenzo,Asamblea,59,NO
-GUILLERMO VISCARDI,"VISCARDI, GUILLERMO",2022,Renovacion San Lorenzo,Asamblea,59,NO
+GUILLERMO VISCARDI,"VISCARDI, GUILLERMO",2022,Renovacion San Lorencista,Asamblea,59,NO
 ALEJANDRA DELGADO MARIA,"DELGADO, MARIA ALEJANDRA",2022,Boedo en Accion,Asamblea,60,NO
 GRACIANO LOPEZ MARIA,"LOPEZ GRACIANO, MARIA",2022,Siempre San Lorenzo,Asamblea,60,NO
 CIBIERA JAVIER,"CIBIERA, JAVIER",2022,San Lorenzo Querido,Asamblea,60,NO
-DE JOSE LEONARDO SAMPEDRO,"DE SAMPEDRO, LEONARDO JOSE",2022,Renovacion San Lorenzo,Asamblea,60,NO
+DE JOSE LEONARDO SAMPEDRO,"DE SAMPEDRO, LEONARDO JOSE",2022,Renovacion San Lorencista,Asamblea,60,NO
 BARROS NICOLAS,"BARROS, NICOLAS",2022,Boedo en Accion,Asamblea,61,NO
-DE LEONARDO MANUEL SAMPEDRO,"DE SAMPEDRO, MANUEL LEONARDO",2022,Renovacion San Lorenzo,Asamblea,61,NO
+DE LEONARDO MANUEL SAMPEDRO,"DE SAMPEDRO, MANUEL LEONARDO",2022,Renovacion San Lorencista,Asamblea,61,NO
 MARTIN RODRIGUEZ,"RODRIGUEZ, MARTIN",2022,Boedo en Accion,Asamblea,62,NO
 MARTIN RODRIGUEZ,"RODRIGUEZ, MARTIN",2023,X Amor a San Lorenzo,Asamblea,27,NO
 FRANCISCO GEBHARDT,"GEBHARDT, FRANCISCO",2022,Siempre San Lorenzo,Asamblea,62,NO
-DIEGO ELBIO FERNANDEZ,"FERNANDEZ, DIEGO ELBIO",2022,Renovacion San Lorenzo,Asamblea,62,NO
+DIEGO ELBIO FERNANDEZ,"FERNANDEZ, DIEGO ELBIO",2022,Renovacion San Lorencista,Asamblea,62,NO
 GIULIANO MICELI,"MICELI, GIULIANO",2022,Siempre San Lorenzo,Asamblea,63,NO
-ALFANO DAMIAN,"ALFANO, DAMIAN",2022,Renovacion San Lorenzo,Asamblea,63,NO
+ALFANO DAMIAN,"ALFANO, DAMIAN",2022,Renovacion San Lorencista,Asamblea,63,NO
 ALAN LIROSI,"LIROSI, ALAN",2022,Boedo en Accion,Asamblea,64,NO
 BOCCHI DULIO,"BOCCHI, DULIO",2022,Siempre San Lorenzo,Asamblea,64,NO
 ALONSO MARCELO,"ALONSO, MARCELO",2022,San Lorenzo Querido,Asamblea,64,NO
 ALONSO MARCELO,"ALONSO, MARCELO",2007,Proyecto Azulgrana,Comisión Directiva,,NO
-MARCELO SHOKIDA,"SHOKIDA, MARCELO",2022,Renovacion San Lorenzo,Asamblea,64,NO
+MARCELO SHOKIDA,"SHOKIDA, MARCELO",2022,Renovacion San Lorencista,Asamblea,64,NO
 JULIA NORIEGA,"NORIEGA, JULIA",2022,Boedo en Accion,Asamblea,65,NO
 MIGUEL ORQUERA,"ORQUERA, MIGUEL",2022,San Lorenzo Querido,Asamblea,65,NO
 MIGUEL ORQUERA,"ORQUERA, MIGUEL",2004,San Lorenzo para Todos,Asamblea,3,NO
 CAMILA CARESTIA COLQUE,"CARESTIA COLQUE, CAMILA",2022,Volver a San Lorenzo,Asamblea,65,NO
-ABDALA HECTOR,"ABDALA, HECTOR",2022,Renovacion San Lorenzo,Asamblea,65,NO
+ABDALA HECTOR,"ABDALA, HECTOR",2022,Renovacion San Lorencista,Asamblea,65,NO
 ALDO ARAVENA,"ARAVENA, ALDO",2022,Boedo en Accion,Asamblea,66,NO
 GUILLERMO LAVEGLIA,"LAVEGLIA, GUILLERMO",2022,Siempre San Lorenzo,Asamblea,66,NO
-FERNANDO ZARAUZA,"ZARAUZA, FERNANDO",2022,Renovacion San Lorenzo,Asamblea,66,NO
+FERNANDO ZARAUZA,"ZARAUZA, FERNANDO",2022,Renovacion San Lorencista,Asamblea,66,NO
 CARLOS MAYOCHI,"MAYOCHI, CARLOS",2022,San Lorenzo Querido,Asamblea,67,NO
-ALLARIA GERARDO,"ALLARIA, GERARDO",2022,Renovacion San Lorenzo,Asamblea,67,NO
+ALLARIA GERARDO,"ALLARIA, GERARDO",2022,Renovacion San Lorencista,Asamblea,67,NO
 ARRIETA MARCOS,"ARRIETA, MARCOS",2022,Boedo en Accion,Asamblea,68,NO
-D'AMBROSIO MARCELO,"D'AMBROSIO, MARCELO",2022,Siempre San Lorenzo,Asamblea,68,NO
+AMBROSIO D MARCELO,"D'AMBROSIO, MARCELO",2022,Siempre San Lorenzo,Asamblea,68,NO
 HECTOR PUJOL,"PUJOL, HECTOR",2022,Volver a San Lorenzo,Asamblea,68,NO
-ERNESTO LAVIERI,"LAVIERI, ERNESTO",2022,Renovacion San Lorenzo,Asamblea,68,NO
+ERNESTO LAVIERI,"LAVIERI, ERNESTO",2022,Renovacion San Lorencista,Asamblea,68,NO
 EXEQUIEL PALLARES,"PALLARES, EXEQUIEL",2022,Boedo en Accion,Asamblea,69,NO
 HORACIO PEREZ RUBINO,"PEREZ RUBINO, HORACIO",2022,Siempre San Lorenzo,Asamblea,69,NO
-DAMIAN MARIANO RODRIGUEZ,"RODRIGUEZ, MARIANO DAMIAN",2022,Renovacion San Lorenzo,Asamblea,69,NO
+DAMIAN MARIANO RODRIGUEZ,"RODRIGUEZ, MARIANO DAMIAN",2022,Renovacion San Lorencista,Asamblea,69,NO
 CARDOZO ROSANA,"CARDOZO, ROSANA",2022,Boedo en Accion,Asamblea,70,NO
 LATTANZI SILVIA,"LATTANZI, SILVIA",2022,Siempre San Lorenzo,Asamblea,70,NO
 CORIA FEDERICO LUIS,"CORIA, LUIS FEDERICO",2022,San Lorenzo Querido,Asamblea,70,NO
-ERNESTO PIERRO,"PIERRO, ERNESTO",2022,Renovacion San Lorenzo,Asamblea,70,NO
+ERNESTO PIERRO,"PIERRO, ERNESTO",2022,Renovacion San Lorencista,Asamblea,70,NO
 ERNESTO PIERRO,"PIERRO, ERNESTO",2016,Cruzada por San Lorenzo,Asamblea,54,NO
 ERNESTO PIERRO,"PIERRO, ERNESTO",2013,Cruzada por San Lorenzo,Asamblea,17,NO
 ERNESTO PIERRO,"PIERRO, ERNESTO",2010,Cruzada por San Lorenzo,Asamblea,19,NO
@@ -2168,11 +2160,11 @@ BASTARDO HERNAN,"BASTARDO, HERNAN",2022,Volver a San Lorenzo,Asamblea,72,NO
 GUTIERREZ SEBASTIAN,"GUTIERREZ, SEBASTIAN",2022,Boedo en Accion,Asamblea,73,NO
 HORACIO ZARZA,"ZARZA, HORACIO",2022,Siempre San Lorenzo,Asamblea,73,NO
 AGUSTIN ANTES MARTINEZ,"MARTINEZ ANTES, AGUSTIN",2022,San Lorenzo Querido,Asamblea,73,NO
-CANDI DANIEL,"CANDI, DANIEL",2022,Renovacion San Lorenzo,Asamblea,73,NO
+CANDI DANIEL,"CANDI, DANIEL",2022,Renovacion San Lorencista,Asamblea,73,NO
 DANIEL PISTOIA,"PISTOIA, DANIEL",2022,Boedo en Accion,Asamblea,74,NO
 ROCCHIA ROQUE,"ROCCHIA, ROQUE",2022,Siempre San Lorenzo,Asamblea,74,NO
 MONFORTE PATRICIA,"MONFORTE, PATRICIA",2022,San Lorenzo Querido,Asamblea,74,NO
-ANGEL SCHIAFFINO,"SCHIAFFINO, ANGEL",2022,Renovacion San Lorenzo,Asamblea,74,NO
+ANGEL SCHIAFFINO,"SCHIAFFINO, ANGEL",2022,Renovacion San Lorencista,Asamblea,74,NO
 BALASINI LEANDRO,"BALASINI, LEANDRO",2022,San Lorenzo Querido,Asamblea,75,NO
 ALICIA SIMONELLI,"SIMONELLI, ALICIA",2022,Volver a San Lorenzo,Asamblea,75,NO
 HECTOR MANGONE,"MANGONE, HECTOR",2022,Renovacion San Lorencista,Asamblea,75,NO
@@ -2180,7 +2172,7 @@ HECTOR MANGONE,"MANGONE, HECTOR",2004,Grandeza Azulgrana,Asamblea,5,NO
 EMMANUEL FARINA,"FARINA, EMMANUEL",2022,Siempre San Lorenzo,Asamblea,76,NO
 CUBERLI DIEGO,"CUBERLI, DIEGO",2022,San Lorenzo Querido,Asamblea,76,NO
 NORBERTO PALISI,"PALISI, NORBERTO",2022,Volver a San Lorenzo,Asamblea,76,NO
-BARBALACE BRIAN,"BARBALACE, BRIAN",2022,Renovacion San Lorenzo,Asamblea,76,NO
+BARBALACE BRIAN,"BARBALACE, BRIAN",2022,Renovacion San Lorencista,Asamblea,76,NO
 DE FERNANDO VITO,"DE VITO, FERNANDO",2022,Boedo en Accion,Asamblea,77,NO
 FRANCO ZARZA,"ZARZA, FRANCO",2022,Siempre San Lorenzo,Asamblea,77,NO
 ARIEL GASTON ROMERO,"ROMERO, GASTON ARIEL",2022,San Lorenzo Querido,Asamblea,77,NO
@@ -2198,11 +2190,11 @@ APUZZO VALERIA,"APUZZO, VALERIA",2022,San Lorenzo Querido,Asamblea,79,NO
 AZUL DIAZ MARIA,"DIAZ, MARIA AZUL",2022,Siempre San Lorenzo,Asamblea,80,NO
 HERMO WALTER,"HERMO, WALTER",2022,San Lorenzo Querido,Asamblea,80,NO
 HERRERO MARIA,"HERRERO, MARIA",2022,Volver a San Lorenzo,Asamblea,80,NO
-FIGUEIRA PATRICIA,"FIGUEIRA, PATRICIA",2022,Renovacion San Lorenzo,Asamblea,80,NO
+FIGUEIRA PATRICIA,"FIGUEIRA, PATRICIA",2022,Renovacion San Lorencista,Asamblea,80,NO
 FARRE JUAN PABLO,"FARRE, JUAN PABLO",2022,Boedo en Accion,Asamblea,81,NO
 CENTURION LEANDRO LEZCANO,"CENTURION LEZCANO, LEANDRO",2022,Siempre San Lorenzo,Asamblea,81,NO
 BERTULIO CESAR JULIO,"BERTULIO, JULIO CESAR",2022,Volver a San Lorenzo,Asamblea,81,NO
-ALBERTO CARLOS SILVA,"SILVA, CARLOS ALBERTO",2022,Renovacion San Lorenzo,Asamblea,81,NO
+ALBERTO CARLOS SILVA,"SILVA, CARLOS ALBERTO",2022,Renovacion San Lorencista,Asamblea,81,NO
 BATTIPAGLIA LEONARDO,"BATTIPAGLIA, LEONARDO",2022,Boedo en Accion,Asamblea,82,NO
 ESTRUCH GUILLERMO,"ESTRUCH, GUILLERMO",2022,Siempre San Lorenzo,Asamblea,82,NO
 RAMON VIDAL,"VIDAL, RAMON",2022,San Lorenzo Querido,Asamblea,82,NO
@@ -2212,44 +2204,39 @@ FLORENCIA PEREYRA,"PEREYRA, FLORENCIA",2022,Boedo en Accion,Asamblea,83,NO
 LUCA MOREL,"MOREL, LUCA",2022,Siempre San Lorenzo,Asamblea,83,NO
 SABRINA SUAREZ,"SUAREZ, SABRINA",2022,San Lorenzo Querido,Asamblea,83,NO
 DAMIAN IERACI LEONARDO,"IERACI, DAMIAN LEONARDO",2022,Volver a San Lorenzo,Asamblea,83,NO
-FIONDA ROMINA,"FIONDA, ROMINA",2022,Renovacion San Lorenzo,Asamblea,83,NO
+FIONDA ROMINA,"FIONDA, ROMINA",2022,Renovacion San Lorencista,Asamblea,83,NO
 EDUARDO OVIEDO,"OVIEDO, EDUARDO",2022,Boedo en Accion,Asamblea,84,NO
 CATERA DANIEL,"CATERA, DANIEL",2022,Siempre San Lorenzo,Asamblea,84,NO
 VERONICA VIGIL,"VIGIL, VERONICA",2022,San Lorenzo Querido,Asamblea,84,NO
-HORACIO MANGONE OSCAR,"MANGONE, OSCAR HORACIO",2022,Renovacion San Lorenzo,Asamblea,84,NO
+HORACIO MANGONE OSCAR,"MANGONE, OSCAR HORACIO",2022,Renovacion San Lorencista,Asamblea,84,NO
 HORACIO MANGONE OSCAR,"MANGONE, OSCAR HORACIO",2010,Grandeza Azulgrana,Comisión Directiva,,NO
 HORACIO MANGONE OSCAR,"MANGONE, OSCAR HORACIO",2004,Grandeza Azulgrana,Comisión Directiva,,NO
 HORACIO MANGONE OSCAR,"MANGONE, OSCAR HORACIO",2001,Nuevo Rumbo San Lorencista,Comisión Directiva,Vocal 1,SI
 SEOANE SILVIA,"SEOANE, SILVIA",2022,Boedo en Accion,Asamblea,85,NO
 BELEN CENTURION LEZCANO M,"CENTURION LEZCANO, M BELEN",2022,Siempre San Lorenzo,Asamblea,85,NO
 EDUARDO FORNERO,"FORNERO, EDUARDO",2022,San Lorenzo Querido,Asamblea,85,NO
-GUILLERMO RIAL,"RIAL, GUILLERMO",2022,Renovacion San Lorenzo,Asamblea,85,NO
+GUILLERMO RIAL,"RIAL, GUILLERMO",2022,Renovacion San Lorencista,Asamblea,85,NO
 CERMINARA RODOLFO,"CERMINARA, RODOLFO",2022,Boedo en Accion,Asamblea,86,NO
 CAMBAS LUCAS,"CAMBAS, LUCAS",2022,Siempre San Lorenzo,Asamblea,86,NO
 DANISA MARINOVICH,"MARINOVICH, DANISA",2022,San Lorenzo Querido,Asamblea,86,NO
 GRONDONA JULIETA,"GRONDONA, JULIETA",2022,Volver a San Lorenzo,Asamblea,86,NO
 MARCHESE NESTOR,"MARCHESE, NESTOR",2022,Boedo en Accion,Asamblea,87,NO
 FONTANELLA MABEL,"FONTANELLA, MABEL",2022,San Lorenzo Querido,Asamblea,87,NO
-IMAZ MARIANI ULISES,"MARIANI IMAZ, ULISES",2022,Renovacion San Lorenzo,Asamblea,87,NO
+IMAZ MARIANI ULISES,"MARIANI IMAZ, ULISES",2022,Renovacion San Lorencista,Asamblea,87,NO
 ENRIQUE MICELI,"MICELI, ENRIQUE",2022,Siempre San Lorenzo,Asamblea,88,NO
 PATRICIO WALSH,"WALSH, PATRICIO",2022,San Lorenzo Querido,Asamblea,88,NO
 ALBERTO JOSE MIDDONO,"MIDDONO, JOSE ALBERTO",2022,Volver a San Lorenzo,Asamblea,88,NO
 ALBERTO JOSE MIDDONO,"MIDDONO, JOSE ALBERTO",2019,Volver a San Lorenzo,Asamblea,,NO
-ALBERTO FERNANDO HERNANDEZ,"HERNANDEZ, FERNANDO ALBERTO",2022,Renovacion San Lorenzo,Asamblea,88,NO
+ALBERTO FERNANDO HERNANDEZ,"HERNANDEZ, FERNANDO ALBERTO",2022,Renovacion San Lorencista,Asamblea,88,NO
 DEL GABRIEL GROSSO,"DEL GROSSO, GABRIEL",2022,Boedo en Accion,Asamblea,89,NO
 GUILLERMO OSHIRO,"OSHIRO, GUILLERMO",2022,Siempre San Lorenzo,Asamblea,89,NO
 FEDERICO PISTOIA,"PISTOIA, FEDERICO",2022,San Lorenzo Querido,Asamblea,89,NO
 AZAMENDIA JUAN RAMON,"AZAMENDIA, JUAN RAMON",2022,Volver a San Lorenzo,Asamblea,89,NO
 AZAMENDIA JUAN RAMON,"AZAMENDIA, JUAN RAMON",2019,Volver a San Lorenzo,Asamblea,12,NO
-CIVIT MARTIN,"CIVIT, MARTIN",2022,Renovacion San Lorenzo,Asamblea,89,NO
+CIVIT MARTIN,"CIVIT, MARTIN",2022,Renovacion San Lorencista,Asamblea,89,NO
 CAMPOS ROMINA,"CAMPOS, ROMINA",2022,Boedo en Accion,Asamblea,90,NO
 VICTORIA ZARZA,"ZARZA, VICTORIA",2022,Siempre San Lorenzo,Asamblea,90,NO
-LUCIANA MICELI,"MICELI, LUCIANA",2022,Renovacion San Lorenzo,Asamblea,90,NO
-MARCELO TINELLI,MARCELO TINELLI,2016,San Lorenzo Siglo XXI,Comisión Directiva,Vice-Presidente,SI
-MARCELO TINELLI,MARCELO TINELLI,2013,San Lorenzo Siglo XXI,Comisión Directiva,Vice-Presidente,SI
-MARCELO TINELLI,MARCELO TINELLI,2019,San Lorenzo Siglo XXI,Comisión Directiva,,SI
-MARCELO TINELLI,MARCELO TINELLI,2012 (EXTRAORDINARIA),San Lorenzo Siglo XXI,Comisión Directiva,,SI
-MARCELO TINELLI,MARCELO TINELLI,2012 (ASAMBLEA),Transitoria,Comisión Directiva,,SI
+LUCIANA MICELI,"MICELI, LUCIANA",2022,Renovacion San Lorencista,Asamblea,90,NO
 FRANCISCO MENOYO,FRANCISCO MENOYO,2016,Cruzada por San Lorenzo,Comisión Directiva,Vocal 3,NO
 FRANCISCO MENOYO,FRANCISCO MENOYO,2013,Cruzada por San Lorenzo,Comisión Directiva,Vocal 4,NO
 FRANCISCO MENOYO,FRANCISCO MENOYO,2010,Cruzada por San Lorenzo,Comisión Directiva,,NO
@@ -2349,7 +2336,7 @@ ALEJANDRO FABIAN LOPES,"LOPES, FABIAN ALEJANDRO",2013,Cruzada por San Lorenzo,As
 MARIANO RAUL SPATA,"SPATA, MARIANO RAUL",2016,San Lorenzo Siglo XXI,Asamblea,41,SI
 MARCELO MARIO SANTALLA,"SANTALLA, MARIO MARCELO",2016,Cruzada por San Lorenzo,Asamblea,41,NO
 MARCELO MARIO SANTALLA,"SANTALLA, MARIO MARCELO",2013,Cruzada por San Lorenzo,Asamblea,,NO
-D'ANGELO SERGIO,"D'ANGELO, SERGIO",2016,Cruzada por San Lorenzo,Asamblea,42,NO
+ANGELO D SERGIO,"D'ANGELO, SERGIO",2016,Cruzada por San Lorenzo,Asamblea,42,NO
 FERRER HUMBERTO JUAN,"FERRER, JUAN HUMBERTO",2016,Cruzada por San Lorenzo,Asamblea,43,NO
 CARLOS COUSO,"COUSO, CARLOS",2016,Cruzada por San Lorenzo,Asamblea,45,NO
 ANTONIO HARDEL MARTIN,"HARDEL, ANTONIO MARTIN",2016,San Lorenzo Siglo XXI,Asamblea,49,SI
@@ -2538,10 +2525,10 @@ DIEGO MARTIN RESNIK,"RESNIK, DIEGO MARTIN",2013,Cruzada por San Lorenzo,Asamblea
 JOSE SONORA,"SOÑORA, JOSE",2010,Nuevo San Lorenzo,Asamblea,3,SI
 JOSE SONORA,"SOÑORA, JOSE",2007,Unidos por San Lorenzo,Asamblea,4,SI
 ANTONIO MARAGO,"MARAGO, ANTONIO",2010,Grandeza Azulgrana,Asamblea,3,SI
-ANTONIO MARAGO,"MARAGO, ANTONIO",2007,Frente San Lorenzo,Asamblea,14,SI
+ANTONIO MARAGO,"MARAGO, ANTONIO",2007,Frente Sanlorencista,Asamblea,14,SI
 ANTONIO MARAGO,"MARAGO, ANTONIO",2004,Grandeza Azulgrana,Comisión Directiva,,NO
 AMADEO JORGE SALERNO,"SALERNO, JORGE AMADEO",2010,Mas San Lorenzo,Asamblea,3,SI
-AMADEO JORGE SALERNO,"SALERNO, JORGE AMADEO",2007,Frente San Lorenzo,Asamblea,10,SI
+AMADEO JORGE SALERNO,"SALERNO, JORGE AMADEO",2007,Frente Sanlorencista,Asamblea,10,SI
 AMADEO JORGE SALERNO,"SALERNO, JORGE AMADEO",2013,Volver a San Lorenzo,Asamblea,3,NO
 ALBAJARI ALBERTO NESTOR,"ALBAJARI, ALBERTO NESTOR",2010,Vamos San Lorenzo,Asamblea,4,NO
 FLORENCIO JOSE PEREYRA,"PEREYRA, FLORENCIO JOSE",2010,Boedo en Accion,Asamblea,4,SI
@@ -2668,7 +2655,7 @@ ENRIQUE LARRANDART,"LARRANDART, ENRIQUE",2010,Vamos San Lorenzo,Asamblea,24,SI
 HERNAN JAVIER OGAS,"OGAS, JAVIER HERNAN",2010,Cruzada por San Lorenzo,Asamblea,24,NO
 FERNANDO MAZZAGLIA SALVADOR,"MAZZAGLIA, SALVADOR FERNANDO",2010,Boedo en Accion,Asamblea,24,NO
 DANIEL HECTOR TERRAGNO,"TERRAGNO, DANIEL HECTOR",2010,Nuevo San Lorenzo,Asamblea,24,NO
-DANIEL HECTOR TERRAGNO,"TERRAGNO, DANIEL HECTOR",2007,Frente San Lorenzo,Asamblea,15,SI
+DANIEL HECTOR TERRAGNO,"TERRAGNO, DANIEL HECTOR",2007,Frente Sanlorencista,Asamblea,15,SI
 DANIEL HECTOR TERRAGNO,"TERRAGNO, DANIEL HECTOR",2023,Orden y Progreso,Asamblea,57,NO
 DANIEL HECTOR TERRAGNO,"TERRAGNO, DANIEL HECTOR",2022,Renovacion San Lorenzo,Asamblea,46,NO
 ARCE CARLOS JUAN,"ARCE, JUAN CARLOS",2010,Grandeza Azulgrana,Asamblea,24,NO
@@ -2946,7 +2933,7 @@ ALBERTO CAPALBO JULIO,"CAPALBO, JULIO ALBERTO",2010,Mas San Lorenzo,Asamblea,5,N
 ALBERTO CAPALBO JULIO,"CAPALBO, JULIO ALBERTO",2010,Mas San Lorenzo,Fiscalizadora,,NO
 MACEDONIA MARIO RICARDO,"MACEDONIA, RICARDO MARIO",2007,Unidos por San Lorenzo,Asamblea,1,SI
 MACEDONIA MARIO RICARDO,"MACEDONIA, RICARDO MARIO",2004,Unidos por San Lorenzo,Asamblea,12,SI
-DOMINGO GALEAZZO VICENTE,"GALEAZZO, VICENTE DOMINGO",2007,Frente San Lorenzo,Asamblea,1,SI
+DOMINGO GALEAZZO VICENTE,"GALEAZZO, VICENTE DOMINGO",2007,Frente Sanlorencista,Asamblea,1,SI
 RIBAS ROBERTO,"RIBAS, ROBERTO",2007,Progreso Azulgrana,Asamblea,1,SI
 RIBAS ROBERTO,"RIBAS, ROBERTO",2010,Vamos San Lorenzo,Comisión Directiva,,SI
 RIBAS ROBERTO,"RIBAS, ROBERTO",2004,Dignidad por San Lorenzo,Comisión Directiva,,NO
@@ -2955,27 +2942,27 @@ JOSE LUIS TORREGROSA,"TORREGROSA, JOSE LUIS",2007,Progreso Azulgrana,Asamblea,2,
 JOSE LUIS TORREGROSA,"TORREGROSA, JOSE LUIS",2004,Unidos por San Lorenzo,Asamblea,35,SI
 CARMELO PIZARRO VICENTE,"PIZARRO, CARMELO VICENTE",2007,Unidos por San Lorenzo,Asamblea,3,SI
 FABIAN LLENERA MARCELO,"LLENERA, FABIAN MARCELO",2007,Progreso Azulgrana,Asamblea,3,SI
-HORACIO JORGE SANTISO,"SANTISO, HORACIO JORGE",2007,Frente San Lorenzo,Asamblea,4,SI
+HORACIO JORGE SANTISO,"SANTISO, HORACIO JORGE",2007,Frente Sanlorencista,Asamblea,4,SI
 ALEJANDRO CULTURANO GUSTAVO R,"R. CULTURANO, GUSTAVO ALEJANDRO",2007,Progreso Azulgrana,Asamblea,4,SI
 ANTONIO BERDINAS MARIO,"BERDIÑAS, ANTONIO MARIO",2007,Unidos por San Lorenzo,Asamblea,5,NO
-FEDERICO ZAMORA,"ZAMORA, FEDERICO",2007,Frente San Lorenzo,Asamblea,5,SI
+FEDERICO ZAMORA,"ZAMORA, FEDERICO",2007,Frente Sanlorencista,Asamblea,5,SI
 FEDERICO ZAMORA,"ZAMORA, FEDERICO",1998,San Lorenzo para Todos,Comisión Directiva,Vice-Presidente,NO
-GARCIA JORGE,"GARCIA, JORGE",2007,Frente San Lorenzo,Asamblea,6,SI
+GARCIA JORGE,"GARCIA, JORGE",2007,Frente Sanlorencista,Asamblea,6,SI
 GARCIA JORGE,"GARCIA, JORGE",2001,Unidad Azulgrana,Comisión Directiva,Vice-Presidente,NO
 GARCIA JORGE,"GARCIA, JORGE",2004,San Lorenzo para Todos,Comisión Directiva,,NO
-ANGEL ENRIQUE LOPEZ,"LOPEZ, ANGEL ENRIQUE",2007,Frente San Lorenzo,Asamblea,7,SI
+ANGEL ENRIQUE LOPEZ,"LOPEZ, ANGEL ENRIQUE",2007,Frente Sanlorencista,Asamblea,7,SI
 ANGEL ANIBAL FORTINO,"FORTIÑO, ANIBAL ANGEL",2007,Unidos por San Lorenzo,Asamblea,8,SI
 ANGEL ANIBAL FORTINO,"FORTIÑO, ANIBAL ANGEL",2004,Unidos por San Lorenzo,Asamblea,7,SI
 ITALO JOSE MASSA,"MASSA, ITALO JOSE",2007,Unidos por San Lorenzo,Asamblea,9,SI
 ITALO JOSE MASSA,"MASSA, ITALO JOSE",2004,Unidos por San Lorenzo,Asamblea,8,SI
-ANIBAL HORACIO LOTITO,"LOTITO, HORACIO ANIBAL",2007,Frente San Lorenzo,Asamblea,9,SI
+ANIBAL HORACIO LOTITO,"LOTITO, HORACIO ANIBAL",2007,Frente Sanlorencista,Asamblea,9,SI
 ANIBAL HORACIO LOTITO,"LOTITO, HORACIO ANIBAL",2010,Vamos San Lorenzo,Asamblea,2,SI
 CARLOS CAVAGNARO JUAN,"CAVAGNARO, JUAN CARLOS",2007,Progreso Azulgrana,Asamblea,9,SI
 CARLOS CAVAGNARO JUAN,"CAVAGNARO, JUAN CARLOS",2004,Unidos por San Lorenzo,Asamblea,18,NO
 JORGE VICENTE VILAS,"VILAS, VICENTE JORGE",2007,Unidos por San Lorenzo,Asamblea,11,SI
 JORGE VICENTE VILAS,"VILAS, VICENTE JORGE",2004,Unidos por San Lorenzo,Asamblea,10,SI
-LANATTA RICARDO RODOLFO,"LANATTA, RODOLFO RICARDO",2007,Frente San Lorenzo,Asamblea,12,SI
-COSTA EMILIO,"COSTA, EMILIO",2007,Frente San Lorenzo,Asamblea,13,SI
+LANATTA RICARDO RODOLFO,"LANATTA, RODOLFO RICARDO",2007,Frente Sanlorencista,Asamblea,12,SI
+COSTA EMILIO,"COSTA, EMILIO",2007,Frente Sanlorencista,Asamblea,13,SI
 BAUTISTA JUAN RODRIGUEZ,"RODRIGUEZ, JUAN BAUTISTA",2007,Unidos por San Lorenzo,Asamblea,14,SI
 BAUTISTA JUAN RODRIGUEZ,"RODRIGUEZ, JUAN BAUTISTA",2004,Unidos por San Lorenzo,Asamblea,13,SI
 BUCCINO OSVALDO,"BUCCINO, OSVALDO",2007,Unidos por San Lorenzo,Asamblea,17,SI
@@ -3005,6 +2992,8 @@ ARNOLDO DER VAN ZEE,"VAN DER ZEE, ARNOLDO",2007,Unidos por San Lorenzo,Fiscaliza
 ARNOLDO DER VAN ZEE,"VAN DER ZEE, ARNOLDO",2004,San Lorenzo para Todos,Fiscalizadora,4,NO
 BELLOTTI MARIO,"BELLOTTI, MARIO",2007,Unidos por San Lorenzo,Fiscalizadora,5,NO
 BELLOTTI MARIO,"BELLOTTI, MARIO",2004,San Lorenzo para Todos,Fiscalizadora,5,NO
+HECTOR SLUGA,"SLUGA, HECTOR",2004,Nuevo San Lorenzo,Comisión Directiva,Presidente,NO
+HECTOR SLUGA,"SLUGA, HECTOR",2007,Frente San Lorenzo,Comisión Directiva,,NO
 HERNAN MARTIN SAN,"SAN MARTIN, HERNAN",2004,Nuevo San Lorenzo,Comisión Directiva,Vocal 1,NO
 FERNANDO SANTOS,"SANTOS, FERNANDO",2004,Nuevo San Lorenzo,Comisión Directiva,Vocal 2,NO
 FERNANDO SANTOS,"SANTOS, FERNANDO",1998,Nuevo Rumbo San Lorencista,Comisión Directiva,Vocal 10,NO
@@ -3029,7 +3018,7 @@ FIORENZA LUIS,"FIORENZA, LUIS",2004,Nuevo San Lorenzo,Comisión Directiva,Vocal 
 HORACIO JOSE SANTISO,"SANTISO, HORACIO JOSE",2004,Unidos por San Lorenzo,Comisión Directiva,Vocal 18,NO
 ALEJANDRO EGLIS,"EGLIS, ALEJANDRO",2004,Nuevo San Lorenzo,Asamblea,1,SI
 ALBERTO GUIL,"GUIL, ALBERTO",2004,Unidos por San Lorenzo,Asamblea,1,SI
-ALBERTO GUIL,"GUIL, ALBERTO",2001,Unidos por San Lorenzo,Comisión Directiva,,SI
+ALBERTO GUIL,"GUIL, ALBERTO",2001,Unidos por San Lorenzo,Comisión Directiva,Presidente,SI
 JUAN PABLO SPERANZA,"SPERANZA, JUAN PABLO",2004,Grandeza Azulgrana,Asamblea,1,NO
 RICARDO ROMERO,"ROMERO, RICARDO",2004,Dignidad por San Lorenzo,Asamblea,1,SI
 KONDRATIUK PEDRO,"KONDRATIUK, PEDRO",2004,Unidos por San Lorenzo,Asamblea,2,SI
@@ -3097,6 +3086,10 @@ EDUARDO MEDINA,"MEDINA, EDUARDO",2004,Dignidad por San Lorenzo,Comisión Directi
 FRANCISCO RANIELLI,"RANIELLI, FRANCISCO",2004,Unidos por San Lorenzo,Fiscalizadora,5,NO
 JOSE MADEIRA,"MADEIRA, JOSE",2004,Grandeza Azulgrana,Fiscalizadora,5,NO
 BALDIZZONE MARCELO,"BALDIZZONE, MARCELO",2004,Dignidad por San Lorenzo,Fiscalizadora,5,NO
+FERNANDO MIELE,"MIELE, FERNANDO",2001,Nuevo Rumbo San Lorencista,Comisión Directiva,Presidente,SI
+FERNANDO MIELE,"MIELE, FERNANDO",1998,Nuevo Rumbo San Lorencista,Comisión Directiva,Presidente,NO
+ALESSANDRO CARLOS D EDUARDO,"D'ALESSANDRO, CARLOS EDUARDO",2001,Unidad Azulgrana,Comisión Directiva,Presidente,NO
+HUMBERTO MORELLO SANTOS,"MORELLO, SANTOS HUMBERTO",2001,La Casa del Vitalicio,Comisión Directiva,Presidente,NO
 RAFAEL SAVINO,"SAVINO, RAFAEL",2001,Unidos por San Lorenzo,Comisión Directiva,Vice-Presidente,SI
 RAFAEL SAVINO,"SAVINO, RAFAEL",2007,Unidos por San Lorenzo,Comisión Directiva,,SI
 RAFAEL SAVINO,"SAVINO, RAFAEL",2004,Unidos por San Lorenzo,Comisión Directiva,,SI
@@ -3163,6 +3156,8 @@ HECTOR RODRIGUEZ,"RODRIGUEZ, HECTOR",2001,La Casa del Vitalicio,Comisión Direct
 DANIEL GONZALEZ,"GONZALEZ, DANIEL",2001,Unidos por San Lorenzo,Comisión Directiva,Vocal 18,NO
 AMOR GONZALEZ HECTOR,"GONZALEZ, AMOR HECTOR",2001,Unidad Azulgrana,Comisión Directiva,Vocal 18,NO
 CAETANO MARIA TABOAS,"TABOAS CAETANO, MARIA",2001,La Casa del Vitalicio,Comisión Directiva,Vocal 18,NO
+GALEAZZO VICENTE,"GALEAZZO, VICENTE",1998,San Lorenzo para Todos,Comisión Directiva,Presidente,NO
+GALEAZZO VICENTE,"GALEAZZO, VICENTE",2004,Unidos por San Lorenzo,Comisión Directiva,,SI
 EDUARDO IGNOTO,"IGNOTO, EDUARDO",1998,Nuevo Rumbo San Lorencista,Comisión Directiva,Vice-Presidente,NO
 EDUARDO IGNOTO,"IGNOTO, EDUARDO",2010,Grandeza Azulgrana,Comisión Directiva,,NO
 ALBERTO CARRASCO,"CARRASCO, ALBERTO",1998,Nuevo Rumbo San Lorencista,Comisión Directiva,Vocal 1,NO
@@ -3225,15 +3220,10 @@ CIVILE DIEGO,"CIVILE, DIEGO",2010,Grandeza Azulgrana,Comisión Directiva,,NO
 ALEJANDRA COSOLI MARIA,"COSOLI, MARIA ALEJANDRA",2010,Nuevo San Lorenzo,Comisión Directiva,,NO
 ARIEL CROCITTA,"CROCITTA, ARIEL",2012 (EXTRAORDINARIA),Por San Lorenzo,Comisión Directiva,,NO
 CULTRARO GUSTAVO,"CULTRARO, GUSTAVO",2010,Mas San Lorenzo,Comisión Directiva,,NO
-CARLOS D'ALESSANDRO,D'ALESSANDRO CARLOS,2004,Dignidad por San Lorenzo,Comisión Directiva,,NO
-CARLOS D'ALESSANDRO,D'ALESSANDRO CARLOS,2001,Unidad Azulgrana,Comisión Directiva,,SI
-D'AMBROSIO HECTOR,"D'AMBROSIO, HECTOR",2004,Grandeza Azulgrana,Comisión Directiva,,NO
-ARIEL D'AMBROSIO LEANDRO,"D'AMBROSIO, LEANDRO ARIEL",2004,Grandeza Azulgrana,Comisión Directiva,,NO
-CLAUDIO DE SIMONE,"DE SIMONE, CLAUDIO",2019,Cruzada por San Lorenzo,Comisión Directiva,,NO
-CLAUDIO DE SIMONE,"DE SIMONE, CLAUDIO",2016,Cruzada por San Lorenzo,Comisión Directiva,,SI
-CLAUDIO DE SIMONE,"DE SIMONE, CLAUDIO",2013,Cruzada por San Lorenzo,Comisión Directiva,,SI
-CLAUDIO DE SIMONE,"DE SIMONE, CLAUDIO",2012 (EXTRAORDINARIA),Cruzada por San Lorenzo,Comisión Directiva,,SI
-CLAUDIO DE SIMONE,"DE SIMONE, CLAUDIO",2010,Cruzada por San Lorenzo,Comisión Directiva,,SI
+ALESSANDRO CARLOS D,D'ALESSANDRO CARLOS,2004,Dignidad por San Lorenzo,Comisión Directiva,,NO
+ALESSANDRO CARLOS D,D'ALESSANDRO CARLOS,2001,Unidad Azulgrana,Comisión Directiva,Presidente,SI
+AMBROSIO D HECTOR,"D'AMBROSIO, HECTOR",2004,Grandeza Azulgrana,Comisión Directiva,,NO
+AMBROSIO ARIEL D LEANDRO,"D'AMBROSIO, LEANDRO ARIEL",2004,Grandeza Azulgrana,Comisión Directiva,,NO
 DESTEFANO MARIANA,"DESTEFANO, MARIANA",2012 (EXTRAORDINARIA),Por San Lorenzo,Comisión Directiva,,NO
 CESAR DEYMONNAZ,"DEYMONNAZ, CESAR",2010,Vamos San Lorenzo,Comisión Directiva,,SI
 CLAUDIO DI MEGLIO,"DI MEGLIO, CLAUDIO",2010,Nuevo San Lorenzo,Comisión Directiva,,SI
@@ -3260,16 +3250,8 @@ FERNANDEZ JUAN MANUEL,"FERNANDEZ, JUAN MANUEL",2010,Mas San Lorenzo,Comisión Di
 FERREIRA MAXIMILIANO,"FERREIRA, MAXIMILIANO",2026,Primero San Lorenzo,Comisión Directiva,,NO
 FILIPPETTI JORGE,"FILIPPETTI, JORGE",2010,Grandeza Azulgrana,Comisión Directiva,,NO
 FILIPPETTI JORGE,"FILIPPETTI, JORGE",2004,Grandeza Azulgrana,Comisión Directiva,,NO
-CESAR FRANCIS,"FRANCIS, CESAR",2026,Volver a San Lorenzo,Comisión Directiva,,NO
-CESAR FRANCIS,"FRANCIS, CESAR",2025,Volver a San Lorenzo,Comisión Directiva,,NO
-CESAR FRANCIS,"FRANCIS, CESAR",2023,Volver a San Lorenzo,Comisión Directiva,,NO
-CESAR FRANCIS,"FRANCIS, CESAR",2022,Volver a San Lorenzo,Comisión Directiva,,NO
-CESAR FRANCIS,"FRANCIS, CESAR",2019,Volver a San Lorenzo,Comisión Directiva,,SI
-CESAR FRANCIS,"FRANCIS, CESAR",2016,Volver a San Lorenzo,Comisión Directiva,,SI
-CESAR FRANCIS,"FRANCIS, CESAR",2013,Volver a San Lorenzo,Comisión Directiva,,SI
 ALBERTO FRASCHIA JORGE,"FRASCHIA, JORGE ALBERTO",2004,San Lorenzo para Todos,Comisión Directiva,,NO
 GAGO MARCELO,"GAGO, MARCELO",2010,Grandeza Azulgrana,Comisión Directiva,,NO
-GALEAZZO VICENTE,"GALEAZZO, VICENTE",2004,Unidos por San Lorenzo,Comisión Directiva,,SI
 FERNANDO GARAY SEQUEIRA,"GARAY SEQUEIRA, FERNANDO",2012 (EXTRAORDINARIA),Por San Lorenzo,Comisión Directiva,,NO
 GARCILAZO MARTIN,"GARCILAZO, MARTIN",2010,Grandeza Azulgrana,Comisión Directiva,,NO
 GARCILAZO MARTIN,"GARCILAZO, MARTIN",2013,San Lorenzo Siglo XXI,Asamblea,,SI
@@ -3369,7 +3351,6 @@ FABIAN SCHWAN,"SCHWAN, FABIAN",2010,Mas San Lorenzo,Comisión Directiva,,SI
 DANIEL SEDE,"SEDE, DANIEL",2010,Grandeza Azulgrana,Comisión Directiva,,NO
 DAMASO SIERRA,"SIERRA, DAMASO",2010,Vamos San Lorenzo,Comisión Directiva,,SI
 DAMASO SIERRA,"SIERRA, DAMASO",2004,Dignidad por San Lorenzo,Comisión Directiva,,NO
-HECTOR SLUGA,"SLUGA, HECTOR",2007,Frente San Lorenzo,Comisión Directiva,,NO
 GABRIEL SODANO,"SODANO, GABRIEL",2010,Nuevo San Lorenzo,Comisión Directiva,,NO
 GABRIEL SODANO,"SODANO, GABRIEL",2007,Unidos por San Lorenzo,Comisión Directiva,,SI
 FABIAN SOLLA,"SOLLA, FABIAN",2010,Vamos San Lorenzo,Comisión Directiva,,NO
@@ -3385,7 +3366,6 @@ ALEJANDRA MARIA URIA,"URIA, MARIA ALEJANDRA",2013,Volver a San Lorenzo,Comisión
 ANTONIO JOSE VAZQUEZ,"VAZQUEZ, JOSE ANTONIO",2010,Boedo en Accion,Comisión Directiva,,NO
 HECTOR JOSE VAZQUEZ,"VAZQUEZ, JOSE HECTOR",2010,Boedo en Accion,Comisión Directiva,,NO
 MARIA VUOTTO,"VUOTTO, MARIA",2019,Volver a San Lorenzo,Comisión Directiva,Vocal 1,NO
-FERNANDO MIELE,"MIELE, FERNANDO",2001,Nuevo Rumbo San Lorencista,Comisión Directiva,,SI
 CARLOS GARCIA,"GARCIA, CARLOS",2001,Unidad Azulgrana,Comisión Directiva,,SI
 DIAZ GERARDO,"DIAZ, GERARDO",2022,Volver a San Lorenzo,Fiscalizadora,,NO
 GLADYS VILLANUEVA,"VILLANUEVA, GLADYS",2022,Volver a San Lorenzo,Fiscalizadora,,NO

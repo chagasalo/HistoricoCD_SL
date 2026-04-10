@@ -1,6 +1,238 @@
 {
-  "updatedAt": "2026-04-10T14:42:57.804Z",
+  "updatedAt": "2026-04-10T14:55:27.372Z",
   "candidates": [
+    {
+      "name": "COSTANTINO, SERGIO",
+      "history": [
+        {
+          "year": "2026",
+          "list": "San Lorenzo en Marcha",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2025",
+          "list": "X Amor a San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2023",
+          "list": "X Amor a San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2019",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 2"
+        },
+        {
+          "year": "2022",
+          "list": "San Lorenzo Querido",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2016",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 6"
+        },
+        {
+          "year": "2013",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 6"
+        },
+        {
+          "year": "2012 (EXTRAORDINARIA)",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        },
+        {
+          "year": "2010",
+          "list": "Vamos San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        }
+      ],
+      "biography": "EN CONSTRUCCION",
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "CULOTTA, MARCELO",
+      "history": [
+        {
+          "year": "2026",
+          "list": "Primero San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2023",
+          "list": "Orden y Progreso",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2016",
+          "list": "Cruzada por San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 1"
+        },
+        {
+          "year": "2013",
+          "list": "Cruzada por San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 1"
+        },
+        {
+          "year": "2012 (EXTRAORDINARIA)",
+          "list": "Cruzada por San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        },
+        {
+          "year": "2010",
+          "list": "Cruzada por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "AGOTE, MANUEL",
+      "history": [
+        {
+          "year": "2026",
+          "list": "Movete Boedo Movete",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2025",
+          "list": "Movete Boedo Movete",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "FRANCIS, CESAR",
+      "history": [
+        {
+          "year": "2026",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2025",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2023",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2019",
+          "list": "Volver a San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2022",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2013",
+          "list": "Volver a San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2016",
+          "list": "Volver a San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "NICOLAS PAPASSO",
+      "history": [
+        {
+          "year": "2026",
+          "list": "Nueva Generacion",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2022",
+          "list": "Renovacion San Lorencista",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 10"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
     {
       "name": "POMMIES, CIPRIANO",
       "history": [
@@ -23,7 +255,7 @@
           "list": "Siempre San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": null
+          "position": "Presidente"
         }
       ],
       "biography": null,
@@ -109,7 +341,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "3"
@@ -278,14 +510,14 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 1"
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vice-Presidente"
@@ -395,7 +627,7 @@
         },
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "3"
@@ -440,7 +672,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 2"
@@ -474,14 +706,14 @@
           "list": "Boedo en Accion",
           "elected": true,
           "category": "Asamblea",
-          "position": null
+          "position": "15"
         },
         {
           "year": "2022",
           "list": "Boedo en Accion",
           "elected": false,
           "category": "Asamblea",
-          "position": null
+          "position": "20"
         }
       ],
       "biography": null,
@@ -574,14 +806,14 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 3"
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 2"
@@ -708,7 +940,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 4"
@@ -835,7 +1067,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 5"
@@ -955,7 +1187,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 6"
@@ -1075,7 +1307,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 7"
@@ -1088,7 +1320,7 @@
       }
     },
     {
-      "name": "LEFREVRE, KARINA",
+      "name": "KARINA LEFEVRE",
       "history": [
         {
           "year": "2026",
@@ -1107,9 +1339,16 @@
         {
           "year": "2019",
           "list": "San Lorenzo Siglo XXI",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 9"
+        },
+        {
+          "year": "2022",
+          "list": "San Lorenzo Querido",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 3"
         }
       ],
       "biography": null,
@@ -1216,7 +1455,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 8"
@@ -1292,7 +1531,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 7"
@@ -1378,7 +1617,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 9"
@@ -1491,7 +1730,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 10"
@@ -1583,7 +1822,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 11"
@@ -1710,14 +1949,14 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 12"
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "29"
@@ -1793,7 +2032,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 1"
@@ -1872,7 +2111,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 13"
@@ -2009,7 +2248,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 9"
@@ -2084,7 +2323,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 15"
@@ -2197,7 +2436,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 16"
@@ -2303,7 +2542,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 17"
@@ -2430,7 +2669,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "N. Generacion",
+          "list": "Nueva Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 18"
@@ -2440,6 +2679,67 @@
       "status": {
         "hasResigned": false,
         "remarks": []
+      }
+    },
+    {
+      "name": "MATIAS LAMMENS",
+      "history": [
+        {
+          "year": "2025",
+          "list": "Revolucion Azulgrana",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2019",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 1"
+        },
+        {
+          "year": "2016",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2013",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2012 (EXTRAORDINARIA)",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        },
+        {
+          "year": "2012 (ASAMBLEA)",
+          "list": "Transitoria",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        },
+        {
+          "year": "2010",
+          "list": "Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null
+        }
+      ],
+      "biography": "Abogado. Comenzó su carrera política en 2010 en la lista de \"Nuevo San Lorenzo\" que terminó quinta en esas elecciones. Sorpresivamente fue elegido presidente transitorio en Agosto de 2012 y durando así hasta 2019. Duante sus años como presidente, se logró un torneo local y la Copa Libertadores, Sin embargo, sus últimos años estuvieron envueltos en una ausencia por motivos políticos, ademas de aumentar el pasivo, decisiones equivocadas en lo deportivo.y malas decisiones en las gestiones de la vuelta a Boedo En 2019 fue elegido Ministro de Turismo en Nación por lo que su rol en el club fue cada vez menor. En 2023 renuncia a su vocalía. Intentaría regresar al club en la asamblea transitoria en diciembre de 2025. terminando en segundo lugar",
+      "status": {
+        "hasResigned": true,
+        "remarks": [
+          "Renuncia / Fin de mandato anticipado"
+        ]
       }
     },
     {
@@ -2705,15 +3005,15 @@
           "position": "Vocal 3"
         },
         {
-          "year": "2026",
-          "list": "San Lorenzo en Marcha",
+          "year": "2022",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": null
+          "position": "Presidente"
         },
         {
-          "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "year": "2026",
+          "list": "San Lorenzo en Marcha",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null
@@ -3758,6 +4058,74 @@
       }
     },
     {
+      "name": "MARCELO MORETTI",
+      "history": [
+        {
+          "year": "2023",
+          "list": "Boedo en Accion",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2019",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 7"
+        },
+        {
+          "year": "2022",
+          "list": "Boedo en Accion",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2016",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 12"
+        },
+        {
+          "year": "2013",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 11"
+        },
+        {
+          "year": "2004",
+          "list": "Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 12"
+        },
+        {
+          "year": "2012 (EXTRAORDINARIA)",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        },
+        {
+          "year": "2010",
+          "list": "Boedo en Accion",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        }
+      ],
+      "biography": "Empezó su carrera Política en el espacio \"Grandeza Azulgrana\" de Fernando Miele, siendo vocal en esa lista. En 2010 participo con su Agrupacion, boedo en Accion, quedando tercero y consiguiendo una vocalia como segunda minoria. Renunciaria en 2012 para generar la acefalía. En las elecciones extraordinarias pasaría a ser oficialista con la agrupacion Siglo XXI de LATI. Durante ese periodo de años colaboro ocasionalmente con el basquet. Siendo encargado del Futbol Senior. Renunció en 2021 y rearmó su espacio para las elecciones canceladas de 2022. Ganó las elecciones de 2023 con su espacio. Durante su gestión, aumentó el pasivo, se rifaron jugadores y se dieron escandalos como el comprobante trucho, el contrato con la indumentaria Atomik y el video de los 25mil dólares. Su gestión terminó en diciembre de 2025 al generarse la acefalía. Al dia de hoy intenta volver por la via legal a la presidencia de San Lorenzo. Fuera del club es empresario gastronómico",
+      "status": {
+        "hasResigned": true,
+        "remarks": [
+          "Renuncia / Fin de mandato anticipado"
+        ]
+      }
+    },
+    {
       "name": "NESTOR NAVARRO",
       "history": [
         {
@@ -3845,23 +4213,6 @@
           "elected": true,
           "category": "Comisión Directiva",
           "position": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "NESTOR NAVARRO*",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vice-Presidente"
         }
       ],
       "biography": null,
@@ -4070,31 +4421,21 @@
       }
     },
     {
-      "name": "DANIELA MENDEZ RIGHI*",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 3"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "URIEL BARROS",
+      "name": "URIEL ALEJANDRO BARROS",
       "history": [
         {
           "year": "2023",
           "list": "Boedo en Accion",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 4"
+        },
+        {
+          "year": "2019",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "70"
         },
         {
           "year": "2022",
@@ -4102,6 +4443,27 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 2"
+        },
+        {
+          "year": "2012 (ASAMBLEA)",
+          "list": "Transitoria",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        },
+        {
+          "year": "2010",
+          "list": "Boedo en Accion",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null
+        },
+        {
+          "year": "2007",
+          "list": "Frente San Lorenzo",
+          "elected": true,
+          "category": "Fiscalizadora",
+          "position": null
         }
       ],
       "biography": null,
@@ -4347,7 +4709,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 5"
@@ -4683,23 +5045,6 @@
       }
     },
     {
-      "name": "PABLO LEVALLE*",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 11"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "PABLO GARCIA LAGO",
       "history": [
         {
@@ -4930,58 +5275,6 @@
       }
     },
     {
-      "name": "MARCELO CULOTTA",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Orden y Progreso",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 14"
-        },
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 1"
-        },
-        {
-          "year": "2013",
-          "list": "Cruzada por San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 1"
-        },
-        {
-          "year": "2026",
-          "list": "Primero San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2012 (EXTRAORDINARIA)",
-          "list": "Cruzada por San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2010",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "LEONARDO VIRARDI",
       "history": [
         {
@@ -4990,13 +5283,6 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 15"
-        },
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "Suplente"
         },
         {
           "year": "2010",
@@ -5024,7 +5310,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 12"
@@ -5147,79 +5433,6 @@
         }
       ],
       "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "SERGIO COSTANTINO",
-      "history": [
-        {
-          "year": "2023",
-          "list": "X Amor a San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 16"
-        },
-        {
-          "year": "2019",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 2"
-        },
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 6"
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 6"
-        },
-        {
-          "year": "2026",
-          "list": "San Lorenzo en Marcha",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2025",
-          "list": "X Amor a San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2022",
-          "list": "San Lorenzo Querido",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2012 (EXTRAORDINARIA)",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        }
-      ],
-      "biography": "EN CONSTRUCCION",
       "status": {
         "hasResigned": false,
         "remarks": []
@@ -5724,13 +5937,6 @@
           "position": "4"
         },
         {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": "89"
-        },
-        {
           "year": "2022",
           "list": "Volver a San Lorenzo",
           "elected": false,
@@ -5780,7 +5986,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "11"
@@ -5827,13 +6033,6 @@
           "position": "5"
         },
         {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": "90"
-        },
-        {
           "year": "2022",
           "list": "Volver a San Lorenzo",
           "elected": false,
@@ -5846,23 +6045,6 @@
           "elected": true,
           "category": "Asamblea",
           "position": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "MORALES, ULISES**",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "2"
         }
       ],
       "biography": null,
@@ -6099,23 +6281,6 @@
       }
     },
     {
-      "name": "SOLOA, ALFREDO*",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "4"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "PACIFICO, ALEJANDRO",
       "history": [
         {
@@ -6216,7 +6381,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "25"
@@ -6261,23 +6426,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "9"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "ZUBERBUHLER, SANTOS*",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "6"
         }
       ],
       "biography": null,
@@ -6793,30 +6941,6 @@
       }
     },
     {
-      "name": "CARTA-MOGLIETTA, VALERIA",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "15"
-        },
-        {
-          "year": "2022",
-          "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "20"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "FURCI, JORGE OSVALDO",
       "history": [
         {
@@ -6828,7 +6952,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "34"
@@ -6849,13 +6973,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "15"
-        },
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": "Suplente"
         },
         {
           "year": "2022",
@@ -6887,23 +7004,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "33"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "MONACO, DANTE GUTIERREZ**",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "12"
         }
       ],
       "biography": null,
@@ -7130,23 +7230,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "26"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "CARTA MOGLIETTA, VALERIA**",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "15"
         }
       ],
       "biography": null,
@@ -7707,7 +7790,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "49"
@@ -8053,23 +8136,6 @@
       }
     },
     {
-      "name": "SCHALE, AXEL**",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "26"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "LITRENTA, CARLA",
       "history": [
         {
@@ -8146,7 +8212,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 4"
@@ -8529,7 +8595,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "1"
@@ -9056,7 +9122,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "71"
@@ -9255,7 +9321,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "21"
@@ -9651,23 +9717,6 @@
       }
     },
     {
-      "name": "SANCHEZ HERMIDA, VANESA**",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "45"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "RAMOS PUIG, LUIS",
       "history": [
         {
@@ -9754,7 +9803,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "22"
@@ -9836,7 +9885,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "37"
@@ -9943,23 +9992,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "58"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "LIROSI, JONATHAN**",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "49"
         }
       ],
       "biography": null,
@@ -10205,7 +10237,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "44"
@@ -10857,7 +10889,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "55"
@@ -10946,7 +10978,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "16"
@@ -11623,7 +11655,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "72"
@@ -11712,7 +11744,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "12"
@@ -12239,7 +12271,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "79"
@@ -12349,23 +12381,6 @@
       }
     },
     {
-      "name": "BUZZO, GUILLERMO*",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "76"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "SPINA, MAGALI",
       "history": [
         {
@@ -12401,7 +12416,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "7"
@@ -12483,7 +12498,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "57"
@@ -12528,23 +12543,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "77"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "GABRIEL, FLORENCIA VICTORIA**",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "78"
         }
       ],
       "biography": null,
@@ -12999,7 +12997,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "17"
@@ -13252,7 +13250,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "86"
@@ -13556,23 +13554,6 @@
       }
     },
     {
-      "name": "GRANUCCI, LUCAS*",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": "Suplente"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "GASTALDI, ADRIANA",
       "history": [
         {
@@ -13646,23 +13627,6 @@
           "elected": false,
           "category": "Fiscalizadora",
           "position": "4"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "TORREGROSA, DIEGO*",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Comision Directiva",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": "Suplente"
         }
       ],
       "biography": null,
@@ -13932,14 +13896,103 @@
       }
     },
     {
-      "name": "DENTE, LUCAS*",
+      "name": "MARCELO TINELLI",
       "history": [
         {
-          "year": "2023",
-          "list": "Comision Directiva",
+          "year": "2019",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2016",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vice-Presidente"
+        },
+        {
+          "year": "2013",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vice-Presidente"
+        },
+        {
+          "year": "2012 (EXTRAORDINARIA)",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        },
+        {
+          "year": "2012 (ASAMBLEA)",
+          "list": "Transitoria",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        }
+      ],
+      "biography": "Histórico presentador y productor del programa Showmatch y empresario. Colaboro en San Lorenzo desde 1995 hasta 2022. En 2008 trajo el famoso \"Grupo Empresario\", en el cual San Lorenzo se hacia cargo de los contratos de los jugadores y apenas recibia una compensacion en caso de venta, trayendo un gran perjuicio al club. Políticamente asumiria una vocalía en el gobierno transitorio de 2012 y se afianzaria como Vice-Presidente hasta el año 2019. Donde ganaria las elecciones. Decidio renunciar en Marzo de 2022 por razones personales. Durante su gestión, se hizo cargo del futbol, voley y del baquet. Este ultimo a pesar de grandes logros, terminó dejando una deuda de mas de 500mil dolares",
+      "status": {
+        "hasResigned": true,
+        "remarks": [
+          "Renuncia / Fin de mandato anticipado"
+        ]
+      }
+    },
+    {
+      "name": "RICARDO SAPONARE",
+      "history": [
+        {
+          "year": "2019",
+          "list": "Frente Pasion Azulgrana",
           "elected": false,
-          "category": "Fiscalizadora",
-          "position": "1"
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2022",
+          "list": "Siempre San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vice-Presidente"
+        },
+        {
+          "year": "2013",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "8"
+        },
+        {
+          "year": "2012 (EXTRAORDINARIA)",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        },
+        {
+          "year": "2012 (ASAMBLEA)",
+          "list": "Transitoria",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        },
+        {
+          "year": "2004",
+          "list": "San Lorenzo para Todos",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null
+        },
+        {
+          "year": "2010",
+          "list": "Vamos San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "7"
         }
       ],
       "biography": null,
@@ -13949,14 +14002,42 @@
       }
     },
     {
-      "name": "ANGRIMAN, BRUNO*",
+      "name": "CLAUDIO DE SIMONE",
       "history": [
         {
-          "year": "2023",
-          "list": "Comision Directiva",
+          "year": "2019",
+          "list": "Cruzada por San Lorenzo",
           "elected": false,
-          "category": "Fiscalizadora",
-          "position": "2"
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2016",
+          "list": "Cruzada por San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2013",
+          "list": "Cruzada por San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2012 (EXTRAORDINARIA)",
+          "list": "Cruzada por San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
+        },
+        {
+          "year": "2010",
+          "list": "Cruzada por San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
         }
       ],
       "biography": null,
@@ -14063,67 +14144,6 @@
       "status": {
         "hasResigned": false,
         "remarks": []
-      }
-    },
-    {
-      "name": "MATIAS LAMMENS",
-      "history": [
-        {
-          "year": "2019",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 1"
-        },
-        {
-          "year": "2025",
-          "list": "Revolucion Azulgrana",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2012 (EXTRAORDINARIA)",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2012 (ASAMBLEA)",
-          "list": "Transitoria",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        }
-      ],
-      "biography": "Abogado. Comenzó su carrera política en 2010 en la lista de \"Nuevo San Lorenzo\" que terminó quinta en esas elecciones. Sorpresivamente fue elegido presidente transitorio en Agosto de 2012 y durando así hasta 2019. Duante sus años como presidente, se logró un torneo local y la Copa Libertadores, Sin embargo, sus últimos años estuvieron envueltos en una ausencia por motivos políticos, ademas de aumentar el pasivo, decisiones equivocadas en lo deportivo.y malas decisiones en las gestiones de la vuelta a Boedo En 2019 fue elegido Ministro de Turismo en Nación por lo que su rol en el club fue cada vez menor. En 2023 renuncia a su vocalía. Intentaría regresar al club en la asamblea transitoria en diciembre de 2025. terminando en segundo lugar",
-      "status": {
-        "hasResigned": true,
-        "remarks": [
-          "Renuncia / Fin de mandato anticipado"
-        ]
       }
     },
     {
@@ -14571,74 +14591,6 @@
       "status": {
         "hasResigned": false,
         "remarks": []
-      }
-    },
-    {
-      "name": "MARCELO MORETTI",
-      "history": [
-        {
-          "year": "2019",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 7"
-        },
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 12"
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 11"
-        },
-        {
-          "year": "2004",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 12"
-        },
-        {
-          "year": "2023",
-          "list": "Boedo en Accion",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2022",
-          "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2012 (EXTRAORDINARIA)",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2010",
-          "list": "Boedo en Accion",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        }
-      ],
-      "biography": "Empezó su carrera Política en el espacio \"Grandeza Azulgrana\" de Fernando Miele, siendo vocal en esa lista. En 2010 participo con su Agrupacion, boedo en Accion, quedando tercero y consiguiendo una vocalia como segunda minoria. Renunciaria en 2012 para generar la acefalía. En las elecciones extraordinarias pasaría a ser oficialista con la agrupacion Siglo XXI de LATI. Durante ese periodo de años colaboro ocasionalmente con el basquet. Siendo encargado del Futbol Senior. Renunció en 2021 y rearmó su espacio para las elecciones canceladas de 2022. Ganó las elecciones de 2023 con su espacio. Durante su gestión, aumentó el pasivo, se rifaron jugadores y se dieron escandalos como el comprobante trucho, el contrato con la indumentaria Atomik y el video de los 25mil dólares. Su gestión terminó en diciembre de 2025 al generarse la acefalía. Al dia de hoy intenta volver por la via legal a la presidencia de San Lorenzo. Fuera del club es empresario gastronómico",
-      "status": {
-        "hasResigned": true,
-        "remarks": [
-          "Renuncia / Fin de mandato anticipado"
-        ]
       }
     },
     {
@@ -18360,7 +18312,7 @@
         },
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "8"
@@ -20737,58 +20689,6 @@
       }
     },
     {
-      "name": "BARROS, URIEL ALEJANDRO",
-      "history": [
-        {
-          "year": "2019",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "70"
-        },
-        {
-          "year": "2023",
-          "list": "Boedo en Accion",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vocal 4"
-        },
-        {
-          "year": "2022",
-          "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 2"
-        },
-        {
-          "year": "2012 (ASAMBLEA)",
-          "list": "Transitoria",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2010",
-          "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2007",
-          "list": "Frente San Lorenzo",
-          "elected": true,
-          "category": "Fiscalizadora",
-          "position": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "IBAÑEZ, FACUNDO ANDRES",
       "history": [
         {
@@ -21001,7 +20901,7 @@
         },
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "42"
@@ -21255,14 +21155,14 @@
         },
         {
           "year": "2010",
-          "list": "Mas San Lorenzo",
+          "list": "Nuevo San Lorenzo",
           "elected": false,
           "category": "Asamblea",
           "position": "35"
         },
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "11"
@@ -22543,58 +22443,6 @@
       }
     },
     {
-      "name": "RICARDO SAPONARE",
-      "history": [
-        {
-          "year": "2022",
-          "list": "Siempre San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vice-Presidente"
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "8"
-        },
-        {
-          "year": "2012 (EXTRAORDINARIA)",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2012 (ASAMBLEA)",
-          "list": "Transitoria",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2004",
-          "list": "San Lorenzo para Todos",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "7"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "CRISTIAN MERA",
       "history": [
         {
@@ -22637,44 +22485,6 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 3"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "KARINA LEFEVRE",
-      "history": [
-        {
-          "year": "2022",
-          "list": "San Lorenzo Querido",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 3"
-        },
-        {
-          "year": "2026",
-          "list": "San Lorenzo en Marcha",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2023",
-          "list": "X Amor a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2019",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
         }
       ],
       "biography": null,
@@ -22729,7 +22539,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 6"
@@ -22797,7 +22607,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 8"
@@ -22829,30 +22639,6 @@
         {
           "year": "2007",
           "list": "Proyecto Azulgrana",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "NICOLAS PAPASSO",
-      "history": [
-        {
-          "year": "2022",
-          "list": "Renovacion San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 10"
-        },
-        {
-          "year": "2026",
-          "list": "N. Generacion",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null
@@ -22927,7 +22713,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 11"
@@ -23009,7 +22795,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 13"
@@ -23060,7 +22846,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 14"
@@ -23111,7 +22897,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 15"
@@ -23241,7 +23027,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 17"
@@ -23398,7 +23184,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "2"
@@ -23449,7 +23235,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "5"
@@ -23517,7 +23303,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "6"
@@ -23592,7 +23378,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "8"
@@ -23657,7 +23443,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "9"
@@ -23691,7 +23477,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "10"
@@ -23759,7 +23545,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "13"
@@ -23810,7 +23596,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "14"
@@ -23844,7 +23630,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "15"
@@ -24039,7 +23825,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "18"
@@ -24056,7 +23842,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "19"
@@ -24217,7 +24003,7 @@
         },
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "2"
@@ -24248,7 +24034,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "23"
@@ -24299,7 +24085,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "24"
@@ -24453,7 +24239,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "26"
@@ -24525,7 +24311,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "27"
@@ -24593,7 +24379,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "28"
@@ -24709,7 +24495,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "30"
@@ -24784,7 +24570,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "31"
@@ -24818,7 +24604,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "32"
@@ -24886,7 +24672,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "33"
@@ -24992,7 +24778,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "35"
@@ -25095,7 +24881,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "36"
@@ -25249,7 +25035,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "38"
@@ -25382,7 +25168,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "40"
@@ -25416,7 +25202,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "41"
@@ -25535,7 +25321,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "43"
@@ -25695,7 +25481,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "47"
@@ -25763,7 +25549,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "48"
@@ -25831,7 +25617,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "50"
@@ -25882,7 +25668,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "51"
@@ -25933,7 +25719,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "52"
@@ -25950,7 +25736,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "53"
@@ -26001,7 +25787,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "54"
@@ -26100,7 +25886,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "56"
@@ -26182,7 +25968,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "58"
@@ -26216,7 +26002,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "59"
@@ -26284,7 +26070,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "60"
@@ -26318,7 +26104,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "61"
@@ -26376,7 +26162,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "62"
@@ -26410,7 +26196,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "63"
@@ -26485,7 +26271,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "64"
@@ -26560,7 +26346,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "65"
@@ -26611,7 +26397,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "66"
@@ -26645,7 +26431,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "67"
@@ -26713,7 +26499,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "68"
@@ -26764,7 +26550,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "69"
@@ -26832,7 +26618,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "70"
@@ -27023,7 +26809,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "73"
@@ -27091,7 +26877,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "74"
@@ -27217,7 +27003,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "76"
@@ -27493,7 +27279,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "80"
@@ -27561,7 +27347,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "81"
@@ -27731,7 +27517,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "83"
@@ -27799,7 +27585,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "84"
@@ -27888,7 +27674,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "85"
@@ -28007,7 +27793,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "87"
@@ -28082,7 +27868,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "88"
@@ -28174,7 +27960,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "89"
@@ -28225,7 +28011,7 @@
       "history": [
         {
           "year": "2022",
-          "list": "Renovacion San Lorenzo",
+          "list": "Renovacion San Lorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "90"
@@ -28235,53 +28021,6 @@
       "status": {
         "hasResigned": false,
         "remarks": []
-      }
-    },
-    {
-      "name": "MARCELO TINELLI",
-      "history": [
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vice-Presidente"
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": "Vice-Presidente"
-        },
-        {
-          "year": "2019",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2012 (EXTRAORDINARIA)",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2012 (ASAMBLEA)",
-          "list": "Transitoria",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        }
-      ],
-      "biography": "Histórico presentador y productor del programa Showmatch y empresario. Colaboro en San Lorenzo desde 1995 hasta 2022. En 2008 trajo el famoso \"Grupo Empresario\", en el cual San Lorenzo se hacia cargo de los contratos de los jugadores y apenas recibia una compensacion en caso de venta, trayendo un gran perjuicio al club. Políticamente asumiria una vocalía en el gobierno transitorio de 2012 y se afianzaria como Vice-Presidente hasta el año 2019. Donde ganaria las elecciones. Decidio renunciar en Marzo de 2022 por razones personales. Durante su gestión, se hizo cargo del futbol, voley y del baquet. Este ultimo a pesar de grandes logros, terminó dejando una deuda de mas de 500mil dolares",
-      "status": {
-        "hasResigned": true,
-        "remarks": [
-          "Renuncia / Fin de mandato anticipado"
-        ]
       }
     },
     {
@@ -32127,7 +31866,7 @@
         },
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "14"
@@ -32158,7 +31897,7 @@
         },
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "10"
@@ -34047,7 +33786,7 @@
         },
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "15"
@@ -38163,7 +37902,7 @@
       "history": [
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "1"
@@ -38276,7 +38015,7 @@
       "history": [
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "4"
@@ -38327,7 +38066,7 @@
       "history": [
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "5"
@@ -38351,7 +38090,7 @@
       "history": [
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "6"
@@ -38382,7 +38121,7 @@
       "history": [
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "7"
@@ -38447,7 +38186,7 @@
       "history": [
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "9"
@@ -38519,7 +38258,7 @@
       "history": [
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "12"
@@ -38536,7 +38275,7 @@
       "history": [
         {
           "year": "2007",
-          "list": "Frente San Lorenzo",
+          "list": "Frente Sanlorencista",
           "elected": true,
           "category": "Asamblea",
           "position": "13"
@@ -38922,6 +38661,30 @@
       }
     },
     {
+      "name": "SLUGA, HECTOR",
+      "history": [
+        {
+          "year": "2004",
+          "list": "Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2007",
+          "list": "Frente San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
       "name": "SAN MARTIN, HERNAN",
       "history": [
         {
@@ -39297,7 +39060,7 @@
           "list": "Unidos por San Lorenzo",
           "elected": true,
           "category": "Comisión Directiva",
-          "position": null
+          "position": "Presidente"
         }
       ],
       "biography": null,
@@ -40406,6 +40169,64 @@
       }
     },
     {
+      "name": "MIELE, FERNANDO",
+      "history": [
+        {
+          "year": "2001",
+          "list": "Nuevo Rumbo San Lorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "1998",
+          "list": "Nuevo Rumbo San Lorencista",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "D'ALESSANDRO, CARLOS EDUARDO",
+      "history": [
+        {
+          "year": "2001",
+          "list": "Unidad Azulgrana",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "MORELLO, SANTOS HUMBERTO",
+      "history": [
+        {
+          "year": "2001",
+          "list": "La Casa del Vitalicio",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
       "name": "SAVINO, RAFAEL",
       "history": [
         {
@@ -41289,6 +41110,30 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 18"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "GALEAZZO, VICENTE",
+      "history": [
+        {
+          "year": "1998",
+          "list": "San Lorenzo para Todos",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Presidente"
+        },
+        {
+          "year": "2004",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null
         }
       ],
       "biography": null,
@@ -42266,7 +42111,7 @@
           "list": "Unidad Azulgrana",
           "elected": true,
           "category": "Comisión Directiva",
-          "position": null
+          "position": "Presidente"
         }
       ],
       "biography": null,
@@ -42299,51 +42144,6 @@
           "year": "2004",
           "list": "Grandeza Azulgrana",
           "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "DE SIMONE, CLAUDIO",
-      "history": [
-        {
-          "year": "2019",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2013",
-          "list": "Cruzada por San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2012 (EXTRAORDINARIA)",
-          "list": "Cruzada por San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2010",
-          "list": "Cruzada por San Lorenzo",
-          "elected": true,
           "category": "Comisión Directiva",
           "position": null
         }
@@ -42717,65 +42517,6 @@
       }
     },
     {
-      "name": "FRANCIS, CESAR",
-      "history": [
-        {
-          "year": "2026",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2025",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2022",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2016",
-          "list": "Volver a San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        },
-        {
-          "year": "2013",
-          "list": "Volver a San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "FRASCHIA, JORGE ALBERTO",
       "history": [
         {
@@ -42799,23 +42540,6 @@
           "year": "2010",
           "list": "Grandeza Azulgrana",
           "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "GALEAZZO, VICENTE",
-      "history": [
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
           "category": "Comisión Directiva",
           "position": null
         }
@@ -44280,23 +44004,6 @@
       }
     },
     {
-      "name": "SLUGA, HECTOR",
-      "history": [
-        {
-          "year": "2007",
-          "list": "Frente San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "SODANO, GABRIEL",
       "history": [
         {
@@ -44513,23 +44220,6 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 1"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "MIELE, FERNANDO",
-      "history": [
-        {
-          "year": "2001",
-          "list": "Nuevo Rumbo San Lorencista",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null
         }
       ],
       "biography": null,
