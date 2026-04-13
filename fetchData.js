@@ -84,8 +84,8 @@ function normalizeListName(list) {
   let name = list.toString().trim();
   
   // 1. Check aliases.json first
-  const norm = name.toUpperCase();
-  const cleanNorm = norm.replace(/,/g, '');
+  const norm = name.toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const cleanNorm = norm.replace(/,/g, '').trim();
   if (aliases.lists?.[norm] || aliases.lists?.[cleanNorm]) {
     return aliases.lists[norm] || aliases.lists[cleanNorm];
   }
@@ -112,7 +112,7 @@ function normalizeListName(list) {
   if (clean.includes('pasion azulgrana') || lowerName.includes('fpa')) return 'Frente Pasion Azulgrana';
   if (clean.includes('siglo xxi') || clean.includes('sixlo xxi')) return 'San Lorenzo Siglo XXI';
   if (clean.includes('volver a san lorenzo')) return 'Volver a San Lorenzo';
-  if (clean.includes('rumbo san lorenzo') || clean.includes('rumbo san lorencista')) return 'Nuevo Rumbo San Lorencista';
+  if (clean.includes('rumbo san lorenzo') || clean.includes('rumbo san lorencista')) return 'Nuevo Rumbo Sanlorencista';
   if (clean.includes('dignidad por san lorenzo')) return 'Dignidad por San Lorenzo';
   if (clean.includes('san lorenzo para todos')) return 'San Lorenzo para Todos';
   if (clean.includes('unidos por san lorenzo')) return 'Unidos por San Lorenzo';
@@ -316,8 +316,6 @@ async function fetchAndParse() {
     
     // Check both the requested year and its alias (2022 <-> 2023)
     const yearsToSearch = [cleanYear];
-    if (cleanYear === '2023') yearsToSearch.push('2022');
-    if (cleanYear === '2022') yearsToSearch.push('2023');
 
     const targetWords = smartNormalize(rawName).split(' ').filter(w => w.length > 0);
     if (targetWords.length === 0) return null;
@@ -419,9 +417,6 @@ async function fetchAndParse() {
            if (!listName) return; 
 
            let yearToMatch = year;
-           // YEAR MAPPING: 2022 and 2023 are part of the same election cycle.
-           // We unify them under 2023 for consistent history.
-           if (year === '2022') yearToMatch = '2023';
 
            let hist = record.history.find(h => h.year === yearToMatch && h.category === category);
            const cargoFound = findCargo(yearToMatch, candidateName, category);
