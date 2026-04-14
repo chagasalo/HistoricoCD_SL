@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-13T14:20:54.555Z",
+  "updatedAt": "2026-04-14T14:13:22.404Z",
   "candidates": [
     {
       "name": "COSTANTINO, SERGIO",
@@ -9465,7 +9465,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "16"
         },
@@ -9776,9 +9776,24 @@
           "position": "39"
         },
         {
+          "year": "1989",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "12"
+        },
+        {
           "year": "2022",
           "list": "Boedo en Accion",
           "elected": false,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "1998",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
           "category": "Asamblea",
           "position": null,
           "originalPos": null
@@ -16917,7 +16932,7 @@
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "11"
         },
@@ -17733,6 +17748,14 @@
           "elected": false,
           "category": "Asamblea",
           "position": "47"
+        },
+        {
+          "year": "1998",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -20983,6 +21006,14 @@
           "elected": false,
           "category": "Asamblea",
           "position": "57"
+        },
+        {
+          "year": "2001",
+          "list": "Unidad Azulgrana",
+          "elected": true,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -22384,7 +22415,7 @@
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "7"
         },
@@ -23738,7 +23769,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Presidente"
         }
@@ -23857,7 +23888,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 2"
         }
@@ -23874,6 +23905,13 @@
       "history": [
         {
           "year": "1998",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 3"
+        },
+        {
+          "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
           "elected": true,
           "category": "Comisión Directiva",
@@ -23917,6 +23955,13 @@
       "history": [
         {
           "year": "1998",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 4"
+        },
+        {
+          "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
           "elected": true,
           "category": "Comisión Directiva",
@@ -23997,7 +24042,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 10"
         }
@@ -24040,7 +24085,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 1"
         }
@@ -24079,6 +24124,13 @@
           "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 9"
+        },
+        {
+          "year": "2001",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 6"
         }
       ],
       "biography": null,
@@ -24108,7 +24160,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 15"
         }
@@ -24230,7 +24282,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "1"
         },
@@ -24255,7 +24307,7 @@
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "1"
         },
@@ -24287,7 +24339,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "2"
         },
@@ -24334,7 +24386,7 @@
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "2"
         }
@@ -24352,7 +24404,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "3"
         },
@@ -24366,7 +24418,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 17"
         }
@@ -24402,7 +24454,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "4"
         },
@@ -24443,7 +24495,7 @@
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "4"
         },
@@ -24475,7 +24527,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "5"
         },
@@ -24489,7 +24541,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 9"
         },
@@ -24523,7 +24575,7 @@
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "5"
         }
@@ -24541,7 +24593,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "6"
         },
@@ -24566,7 +24618,7 @@
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "6"
         },
@@ -24591,16 +24643,24 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "7"
         },
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 11"
+        },
+        {
+          "year": "2001",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -24619,13 +24679,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "8"
-        },
-        {
-          "year": "1989",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "12"
         }
       ],
       "biography": null,
@@ -24641,7 +24694,7 @@
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "8"
         }
@@ -24659,7 +24712,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "9"
         },
@@ -24691,7 +24744,7 @@
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "9"
         },
@@ -24716,7 +24769,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "10"
         },
@@ -24748,7 +24801,7 @@
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "10"
         },
@@ -24814,7 +24867,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "12"
         }
@@ -24832,7 +24885,7 @@
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "12"
         }
@@ -24882,7 +24935,7 @@
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "13"
         }
@@ -24900,7 +24953,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "14"
         },
@@ -24943,7 +24996,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "17"
         }
@@ -24961,7 +25014,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "18"
         }
@@ -24979,7 +25032,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "19"
         },
@@ -25029,7 +25082,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "21"
         },
@@ -25062,7 +25115,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "22"
         }
@@ -25080,7 +25133,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "23"
         }
@@ -25098,7 +25151,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "24"
         }
@@ -25116,7 +25169,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "25"
         },
@@ -25141,7 +25194,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "26"
         }
@@ -25159,7 +25212,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "27"
         }
@@ -25177,7 +25230,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "28"
         }
@@ -25195,7 +25248,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "29"
         }
@@ -25213,7 +25266,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "30"
         }
@@ -25231,7 +25284,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "31"
         },
@@ -25263,7 +25316,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "32"
         }
@@ -25281,7 +25334,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "33"
         }
@@ -25299,7 +25352,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "34"
         }
@@ -25317,7 +25370,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "35"
         },
@@ -25350,7 +25403,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "36"
         }
@@ -25368,7 +25421,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "37"
         }
@@ -25386,7 +25439,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "38"
         }
@@ -25404,7 +25457,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "39"
         }
@@ -25422,7 +25475,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "40"
         }
@@ -25440,7 +25493,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "41"
         }
@@ -25458,7 +25511,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "42"
         }
@@ -25476,7 +25529,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "43"
         },
@@ -25522,7 +25575,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "44"
         },
@@ -25568,7 +25621,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "45"
         }
@@ -25586,7 +25639,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "46"
         }
@@ -25604,7 +25657,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "47"
         }
@@ -34139,6 +34192,14 @@
           "elected": false,
           "category": "Asamblea",
           "position": "49"
+        },
+        {
+          "year": "1998",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -36406,7 +36467,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 8"
         }
@@ -36539,7 +36600,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 14"
         }
@@ -36831,6 +36892,14 @@
           "elected": true,
           "category": "Asamblea",
           "position": "11"
+        },
+        {
+          "year": "1998",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -37167,6 +37236,14 @@
           "year": "2004",
           "list": "Grandeza Azulgrana",
           "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "1989",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
@@ -37511,6 +37588,32 @@
           "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 4"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "DODARO, ERNESTO",
+      "id": "DODARO ERNESTO",
+      "history": [
+        {
+          "year": "2001",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 4"
+        },
+        {
+          "year": "2004",
+          "list": "De Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -38218,6 +38321,14 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
+        },
+        {
+          "year": "1998",
+          "list": "San Lorenzo para Todos",
+          "elected": true,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -38295,7 +38406,7 @@
         {
           "year": "2001",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": true,
+          "elected": false,
           "category": "Asamblea",
           "position": "7"
         }
@@ -38388,6 +38499,14 @@
           "elected": true,
           "category": "Asamblea",
           "position": "13"
+        },
+        {
+          "year": "1998",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -38580,7 +38699,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vice-Presidente"
         }
@@ -38628,42 +38747,6 @@
       }
     },
     {
-      "name": "SEGURA, CARLOS ALBERTO",
-      "id": "ALBERTO CARLOS SEGURA",
-      "history": [
-        {
-          "year": "1989",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 3"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BERNAL, EDUARDO RUBEN",
-      "id": "BERNAL EDUARDO RUBEN",
-      "history": [
-        {
-          "year": "1989",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 4"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "BREA, MARIO JORGE",
       "id": "BREA JORGE MARIO",
       "history": [
@@ -38688,7 +38771,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 5"
         }
@@ -38724,7 +38807,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 6"
         }
@@ -38760,7 +38843,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 7"
         }
@@ -38911,7 +38994,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 13"
         }
@@ -48073,6 +48156,14 @@
           "category": "Fiscalizadora",
           "position": null,
           "originalPos": null
+        },
+        {
+          "year": "2001",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -48126,25 +48217,6 @@
         {
           "year": "2019",
           "list": "Frente Pasion Azulgrana",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "DODARO, ERNESTO",
-      "id": "DODARO ERNESTO",
-      "history": [
-        {
-          "year": "2004",
-          "list": "De Nuevo San Lorenzo",
           "elected": false,
           "category": "Fiscalizadora",
           "position": null,
@@ -48740,6 +48812,14 @@
           "category": "Fiscalizadora",
           "position": null,
           "originalPos": null
+        },
+        {
+          "year": "2001",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -48962,6 +49042,44 @@
           "year": "2013",
           "list": "Volver a San Lorenzo",
           "elected": false,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "LAURINO, JORGE LUIS",
+      "id": "JORGE LAURINO LUIS",
+      "history": [
+        {
+          "year": "2001",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "NAVARRO, AMILCAR JORGE",
+      "id": "AMILCAR JORGE NAVARRO",
+      "history": [
+        {
+          "year": "2001",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
           "category": "Fiscalizadora",
           "position": null,
           "originalPos": null
