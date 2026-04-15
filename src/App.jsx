@@ -1,6 +1,7 @@
-import { useState, useEffect, useMemo } from 'react';
-import { Search, Users, ShieldCheck, Shield, CheckCircle2, ArrowRightLeft, ChevronLeft, ChevronRight, BarChart3, RotateCw, Twitter, Github } from 'lucide-react';
+import React, { useState, useEffect, useMemo } from 'react';
+import { Search, Users, ShieldCheck, Shield, CheckCircle2, ArrowRightLeft, ChevronLeft, ChevronRight, BarChart3, RotateCw, Twitter, Github, Vote } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
 import './App.css';
 
 const stringToColor = (str) => {
@@ -81,6 +82,7 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('candidates'); 
   const [loading, setLoading] = useState(true);
   const [lastUpdated, setLastUpdated] = useState('');
+  const [electionResults, setElectionResults] = useState([]);
 
   // Sorting and Pagination State
   const [sortMode, setSortMode] = useState('mostLists'); 
@@ -99,7 +101,7 @@ export default function App() {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '');
-      if (['candidates', 'transitions', 'conformaciones'].includes(hash)) {
+      if (['candidates', 'transitions', 'conformaciones', 'elecciones'].includes(hash)) {
         setActiveTab(hash);
       }
     };
@@ -140,6 +142,13 @@ export default function App() {
         console.error('Failed to load data:', err);
         setLoading(false);
       });
+  }, []);
+
+  useEffect(() => {
+    fetch('/election_results.json')
+      .then(res => res.json())
+      .then(json => setElectionResults(json))
+      .catch(err => console.error('Failed to load election results:', err));
   }, []);
 
 
@@ -373,7 +382,7 @@ export default function App() {
 
   useEffect(() => {
     setSelectedBoardYear(null);
-  }, [activeTab, selectedBoardCategory]);
+  }, [selectedBoardCategory]);
 
   if (loading) {
     return <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', color: '#fff'}}>Cargando...</div>;
@@ -478,6 +487,9 @@ export default function App() {
         </button>
         <button className={`tab-button ${activeTab === 'transitions' ? 'active' : ''}`} onClick={() => setActiveTab('transitions')}>
           Mapa de Pases Históricos
+        </button>
+        <button className={`tab-button ${activeTab === 'elecciones' ? 'active' : ''}`} onClick={() => setActiveTab('elecciones')}>
+          Resultados Históricos
         </button>
         <button className={`tab-button ${activeTab === 'conformaciones' ? 'active' : ''}`} onClick={() => setActiveTab('conformaciones')}>
           Conformación de Órganos de Gob.
@@ -707,6 +719,123 @@ export default function App() {
                 <button disabled={pasesPage === totalPasesPages} onClick={() => setPasesPage(p => p + 1)}><ChevronRight size={20}/></button>
             </div>
             )}
+        </section>
+      )}
+
+      {activeTab === 'elecciones' && (
+        <section className="elecciones-section">
+            <div className="elecciones-header">
+                <div>
+                  <h2 style={{fontFamily: 'var(--font-heading)'}}>Histórico de Resultados Electorales</h2>
+                  <p style={{color: 'var(--text-muted)'}}>Desglose de votos y participación por período.</p>
+                </div>
+            </div>
+
+            <div className="results-grid">
+                {electionResults.map((election, idx) => {
+                    const isPending = election.year === '2026';
+                    // Filter out non-party items for the chart if needed (e.g. Padron)
+                    const chartData = election.results
+                        .filter(r => r.votos > 0 && r.agrupacion !== 'Padron de Socios')
+                        .map(r => ({
+                            name: r.agrupacion,
+                            value: r.votos,
+                            color: getListColor(r.agrupacion)
+                        }));
+
+                    const participation = election.habilitados ? ((election.total / election.habilitados) * 100).toFixed(1) : null;
+
+                    return (
+                        <motion.div 
+                          key={election.title} 
+                          className="election-result-card"
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ delay: idx * 0.1 }}
+                          onClick={() => {
+                            if (!isPending) {
+                                setSelectedBoardYear(election.year);
+                                setSelectedBoardCategory('Comisión Directiva');
+                                setActiveTab('conformaciones');
+                                window.scrollTo({ top: 0, behavior: 'smooth' });
+                            }
+                          }}
+                        >
+                            <div className="election-card-header">
+                                <h3 className="election-year">{election.year === '2026' ? 'Mayo 2026' : `Diciembre ${election.year}`}</h3>
+                                <span className={`election-type-tag ${election.title.includes('EXTRAORDINARIAS') ? 'extra' : 'ord'}`}>
+                                    {election.title.includes('EXTRAORDINARIAS') ? 'Extraordinaria' : 'Ordinaria'}
+                                </span>
+                            </div>
+
+                            {isPending ? (
+                                <div className="pending-election-box" style={{ padding: '2rem 1rem' }}>
+                                    <Vote size={32} />
+                                    <p style={{ fontSize: '1rem' }}>Elección Pendiente</p>
+                                    <small>Sin resultados oficiales aún</small>
+                                </div>
+                            ) : (
+                                <div className="election-card-content">
+                                    <div className="chart-wrapper">
+                                        <ResponsiveContainer width="100%" height={180}>
+                                            <PieChart>
+                                                <Pie
+                                                  data={chartData}
+                                                  cx="50%"
+                                                  cy="50%"
+                                                  innerRadius={45}
+                                                  outerRadius={65}
+                                                  paddingAngle={5}
+                                                  dataKey="value"
+                                                  animationDuration={1500}
+                                                >
+                                                    {chartData.map((entry, index) => (
+                                                        <Cell key={`cell-${index}`} fill={entry.color} />
+                                                    ))}
+                                                </Pie>
+                                                <Tooltip 
+                                                  contentStyle={{ backgroundColor: '#1e293b', border: 'none', borderRadius: '8px', color: '#fff', fontSize: '12px' }}
+                                                  itemStyle={{ color: '#fff', padding: '2px 0' }}
+                                                />
+                                            </PieChart>
+                                        </ResponsiveContainer>
+                                        <div className="chart-center-info">
+                                            <span className="center-total" style={{ fontSize: '1.2rem' }}>{election.total.toLocaleString()}</span>
+                                            <span className="center-label" style={{ fontSize: '0.6rem' }}>Votos</span>
+                                        </div>
+                                    </div>
+
+                                    <div className="election-stats-summary">
+                                        {participation && (
+                                            <div className="participation-stat">
+                                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                                    <span className="stat-label">Participación</span>
+                                                    <span className="stat-value" style={{ fontSize: '1rem' }}>{participation}%</span>
+                                                </div>
+                                                <div className="stat-bar-bg">
+                                                    <div className="stat-bar-fill" style={{width: `${participation}%`}}></div>
+                                                </div>
+                                            </div>
+                                        )}
+                                        <div className="winner-box" style={{ borderLeft: `4px solid ${getListColor(chartData[0]?.name)}`, padding: '0.75rem' }}>
+                                            <span className="winner-label">Ganador</span>
+                                            <span className="winner-name" style={{ fontSize: '0.9rem' }}>{chartData[0]?.name}</span>
+                                            <span className="winner-candidate" style={{ fontSize: '0.75rem' }}>{election.results.find(r => r.agrupacion === chartData[0]?.name)?.presidente}</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <button 
+                                        className="view-board-btn"
+                                        style={{ padding: '0.75rem', fontSize: '0.8rem', marginTop: '1rem' }}
+                                    >
+                                        Ver Comisión Directiva <ArrowRightLeft size={12} style={{transform: 'rotate(90deg)'}} />
+                                    </button>
+                                </div>
+                            )}
+                        </motion.div>
+                    );
+                })}
+            </div>
         </section>
       )}
 

@@ -1,0 +1,399 @@
+[
+  {
+    "title": "ELECCIONES EXTRAORDINARIAS - MAYO DE 2026",
+    "year": "2026",
+    "results": [
+      {
+        "agrupacion": "Padron de Socios",
+        "presidente": "PADRON DE SOCIOS",
+        "votos": 43867,
+        "porcentaje": 0
+      },
+      {
+        "agrupacion": "X Amor a San Lorenzo",
+        "presidente": "Sergio Costantino",
+        "votos": 35,
+        "porcentaje": 0.5072463768
+      },
+      {
+        "agrupacion": "Revolucion Azulgrana",
+        "presidente": "Matias Lammens",
+        "votos": 31,
+        "porcentaje": 0.4492753623
+      },
+      {
+        "agrupacion": "Volver a San Lorenzo",
+        "presidente": "Cesar Francis",
+        "votos": 2,
+        "porcentaje": 0.02898550725
+      },
+      {
+        "agrupacion": "Movete Boedo Movete",
+        "presidente": "Manuel Agote"
+      },
+      {
+        "agrupacion": "Abstenciones",
+        "presidente": "ABSTENCIONES",
+        "votos": 1,
+        "porcentaje": 0.01449275362
+      }
+    ],
+    "total": 90,
+    "habilitados": 0
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 2023",
+    "year": "2023",
+    "results": [
+      {
+        "agrupacion": "Boedo en Accion",
+        "presidente": "Marcelo Moretti",
+        "votos": 6009,
+        "porcentaje": 0.3673656538
+      },
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Macelo Culotta",
+        "votos": 4676,
+        "porcentaje": 0.2858714923
+      },
+      {
+        "agrupacion": "X Amor a San Lorenzo",
+        "presidente": "Sergio Costantino",
+        "votos": 3863,
+        "porcentaje": 0.2361680015
+      },
+      {
+        "agrupacion": "Volver a San Lorenzo",
+        "presidente": "Cesar Francis",
+        "votos": 1786,
+        "porcentaje": 0.1091887265
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS",
+        "votos": 23,
+        "porcentaje": 0.001406125818
+      }
+    ],
+    "total": 16357,
+    "habilitados": 43867
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 2019",
+    "year": "2019",
+    "results": [
+      {
+        "agrupacion": "San Lorenzo Siglo XXI",
+        "presidente": "Marcelo Tinelli",
+        "votos": 12072,
+        "porcentaje": 0.8013275805
+      },
+      {
+        "agrupacion": "Volver a San Lorenzo",
+        "presidente": "Cesar Francis",
+        "votos": 1220,
+        "porcentaje": 0.08098240956
+      },
+      {
+        "agrupacion": "Frente Pasion Azulgrana",
+        "presidente": "Ricardo Saponare",
+        "votos": 970,
+        "porcentaje": 0.0643876535
+      },
+      {
+        "agrupacion": "Cruzada por San Lorenzo",
+        "presidente": "Claudio de Simone",
+        "votos": 757,
+        "porcentaje": 0.05024892134
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS",
+        "votos": 46,
+        "porcentaje": 0.003053435115
+      }
+    ],
+    "total": 15065,
+    "habilitados": 41000
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 2016",
+    "year": "2016",
+    "results": [
+      {
+        "agrupacion": "San Lorenzo Siglo XXI",
+        "presidente": "Matias Lammens",
+        "votos": 10717,
+        "porcentaje": 0.8811148565
+      },
+      {
+        "agrupacion": "Volver a San Lorenzo",
+        "presidente": "Cesar Francis",
+        "votos": 955,
+        "porcentaje": 0.07851681329
+      },
+      {
+        "agrupacion": "Cruzada por San Lorenzo",
+        "presidente": "Claudio de Simone",
+        "votos": 475,
+        "porcentaje": 0.03905286525
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS",
+        "votos": 16,
+        "porcentaje": 0.001315464935
+      }
+    ],
+    "total": 12163,
+    "habilitados": 33126
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 2013",
+    "year": "2013",
+    "results": [
+      {
+        "agrupacion": "San Lorenzo Siglo XXI",
+        "presidente": "Matias Lammens",
+        "votos": 5867,
+        "porcentaje": 0.8215936143
+      },
+      {
+        "agrupacion": "Cruzada por San Lorenzo",
+        "presidente": "Claudio de Simone",
+        "votos": 992,
+        "porcentaje": 0.1389161182
+      },
+      {
+        "agrupacion": "Volver a San Lorenzo",
+        "presidente": "Cesar Francis",
+        "votos": 218,
+        "porcentaje": 0.03052793726
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS",
+        "votos": 64,
+        "porcentaje": 0.008962330206
+      }
+    ],
+    "total": 7141,
+    "habilitados": 19134
+  },
+  {
+    "title": "ELECCIONES EXTRAORDINARIAS - SEPTIEMBRE 2012",
+    "year": "2012",
+    "results": [
+      {
+        "agrupacion": "San Lorenzo Siglo XXI",
+        "presidente": "Matias Lammens",
+        "votos": 6536,
+        "porcentaje": 0.8053228191
+      },
+      {
+        "agrupacion": "Cruzada por San Lorenzo",
+        "presidente": "Claudio de Simone",
+        "votos": 936,
+        "porcentaje": 0.1153277477
+      },
+      {
+        "agrupacion": "Volver a San Lorenzo",
+        "presidente": "Pablo Albanesi",
+        "votos": 612,
+        "porcentaje": 0.07540660424
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS",
+        "votos": 32,
+        "porcentaje": 0.00394282898
+      }
+    ],
+    "total": 8116,
+    "habilitados": 18060
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 2010",
+    "year": "2010",
+    "results": [
+      {
+        "agrupacion": "Vamos San Lorenzo",
+        "presidente": "Carlos Abdo",
+        "votos": 2930,
+        "porcentaje": 0.3547644993
+      },
+      {
+        "agrupacion": "Mas San Lorenzo",
+        "presidente": "Ramiro Monner Sans",
+        "votos": 2029,
+        "porcentaje": 0.2456713888
+      },
+      {
+        "agrupacion": "Boedo en Accion",
+        "presidente": "Marcelo Moretti",
+        "votos": 1322,
+        "porcentaje": 0.1600678048
+      },
+      {
+        "agrupacion": "Nuevo San Lorenzo",
+        "presidente": "Claudio Di Meglio",
+        "votos": 722,
+        "porcentaje": 0.08741978448
+      },
+      {
+        "agrupacion": "Cruzada por San Lorenzo",
+        "presidente": "Claudio de Simone",
+        "votos": 672,
+        "porcentaje": 0.08136578278
+      },
+      {
+        "agrupacion": "Grandeza Azulgrana",
+        "presidente": "Roberto Edi",
+        "votos": 577,
+        "porcentaje": 0.06986317956
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS",
+        "votos": 7,
+        "porcentaje": 0.0008475602373
+      }
+    ],
+    "total": 8259,
+    "habilitados": 15932
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 2007",
+    "year": "2007",
+    "results": [
+      {
+        "agrupacion": "Unidos por San Lorenzo",
+        "presidente": "Rafael Savino",
+        "votos": 1944,
+        "porcentaje": 0.4594658473
+      },
+      {
+        "agrupacion": "Frente Sanlorencista",
+        "presidente": "Horacio Arreceygor",
+        "votos": 1461,
+        "porcentaje": 0.3453084377
+      },
+      {
+        "agrupacion": "Progreso Azulgrana",
+        "presidente": "Juan Carlos Temez",
+        "votos": 826,
+        "porcentaje": 0.195225715
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 4231,
+    "habilitados": 14478
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 2004",
+    "year": "2004",
+    "results": [
+      {
+        "agrupacion": "Unidos por San Lorenzo",
+        "presidente": "Rafael Savino",
+        "votos": 2074,
+        "porcentaje": 0.4090729783
+      },
+      {
+        "agrupacion": "San Lorenzo para Todos",
+        "presidente": "Jorge Aldrey",
+        "votos": 1424,
+        "porcentaje": 0.2808678501
+      },
+      {
+        "agrupacion": "Dignidad por San Lorenzo",
+        "presidente": "Carlos Datria",
+        "votos": 615,
+        "porcentaje": 0.1213017751
+      },
+      {
+        "agrupacion": "Nuevo San Lorenzo",
+        "presidente": "Hector Sluga",
+        "votos": 505,
+        "porcentaje": 0.09960552268
+      },
+      {
+        "agrupacion": "Grandeza Azulgrana",
+        "presidente": "Julio Lopardo",
+        "votos": 439,
+        "porcentaje": 0.0865877712
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS",
+        "votos": 13
+      }
+    ],
+    "total": 5070,
+    "habilitados": 11610
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 2001",
+    "year": "2001",
+    "results": [
+      {
+        "agrupacion": "Unidos por San Lorenzo",
+        "presidente": "Alberto Guil",
+        "votos": 2148,
+        "porcentaje": 0.4841108857
+      },
+      {
+        "agrupacion": "Nuevo Rumbo Sanlorencista",
+        "presidente": "Fernando Miele",
+        "votos": 1168,
+        "porcentaje": 0.2632409286
+      },
+      {
+        "agrupacion": "Unidad Azulgrana",
+        "presidente": "Carlos D'alessandro",
+        "votos": 1078,
+        "porcentaje": 0.2429569529
+      },
+      {
+        "agrupacion": "La Casa del Vitalicio",
+        "presidente": "Santos Morello",
+        "votos": 43,
+        "porcentaje": 0.009691232815
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 4437,
+    "habilitados": 10462
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 1998",
+    "year": "1998",
+    "results": [
+      {
+        "agrupacion": "Nuevo Rumbo Sanlorencista",
+        "presidente": "Fernando Miele",
+        "votos": 2611,
+        "porcentaje": 0.768167108
+      },
+      {
+        "agrupacion": "San Lorenzo para Todos",
+        "presidente": "Vicente Galeazzo",
+        "votos": 788,
+        "porcentaje": 0.231832892
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 3399,
+    "habilitados": 10565
+  }
+]

@@ -1038,3 +1038,233 @@
   box-shadow: 0 5px 15px rgba(227, 6, 19, 0.1);
 }
 
+/* Elecciones Section */
+.elecciones-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.elecciones-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.election-result-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.election-result-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-color: var(--azul-casla);
+}
+
+.election-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--border-light);
+  padding-bottom: 1rem;
+}
+
+.election-year {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: var(--azul-casla);
+}
+
+.election-type-tag {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0.4rem 0.8rem;
+  border-radius: 100px;
+  letter-spacing: 0.05em;
+}
+
+.election-type-tag.ord {
+  background: rgba(0, 45, 98, 0.1);
+  color: var(--azul-casla);
+}
+
+.election-type-tag.extra {
+  background: rgba(168, 0, 10, 0.1);
+  color: var(--rojo-casla);
+}
+
+.chart-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-center-info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  pointer-events: none;
+}
+
+.center-total {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--text-main);
+  line-height: 1;
+}
+
+.center-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.election-stats-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.participation-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.stat-value {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: var(--azul-casla);
+}
+
+.stat-bar-bg {
+  width: 100%;
+  height: 8px;
+  background: var(--bg-main);
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.stat-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--azul-casla), var(--rojo-casla));
+  border-radius: 100px;
+  transition: width 1s ease-out;
+}
+
+.winner-box {
+  background: var(--bg-main);
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.winner-label {
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.winner-name {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: var(--text-main);
+}
+
+.winner-candidate {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.view-board-btn {
+  width: 100%;
+  background: var(--azul-casla);
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.view-board-btn:hover {
+  background: #001d40;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 45, 98, 0.2);
+}
+
+.pending-election-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  text-align: center;
+  gap: 1rem;
+  background: var(--bg-main);
+  border-radius: 12px;
+  color: var(--text-muted);
+  border: 4px dashed var(--border-light);
+}
+
+.pending-election-box p {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+

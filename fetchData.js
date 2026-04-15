@@ -12,6 +12,7 @@ const OUT_JSON = './public/data.json';
 const OUT_CSV_CANDIDATES = './public/candidates.csv';
 const OUT_CSV_HISTORY = './public/history.csv';
 const OUT_CSV_AGRUPACIONES = './public/agrupaciones.csv';
+const OUT_JSON_RESULTS = './public/election_results.json';
 
 // Load aliases
 let aliases = { candidates: {}, lists: {} };
@@ -565,7 +566,73 @@ async function fetchAndParse() {
   ]);
   writeCSV(OUT_CSV_AGRUPACIONES, agrupacionesCSVHeaders, agrupacionesCSVRows);
 
-  console.log('Exito! Generados: data.json, candidates.csv, history.csv, agrupaciones.csv');
+  // Fase 8: Extraer Resultados de Elecciones
+  const resultsData = [];
+  const wsResults = workbook.getWorksheet('RESULTADOS');
+  if (wsResults) {
+    console.log('Processing election results from RESULTADOS...');
+    let currentElection = null;
+    
+    wsResults.eachRow((row, rowNumber) => {
+      const rowValues = row.values;
+      const cells = Array.isArray(rowValues) ? rowValues : [];
+      
+      const mainTitle = cells.find(c => c && c.toString().includes('ELECCIONES'));
+      if (mainTitle) {
+        const titleStr = mainTitle.toString().trim();
+        const yearMatch = titleStr.match(/\d{4}/);
+        currentElection = {
+          title: titleStr,
+          year: yearMatch ? yearMatch[0] : null,
+          results: [],
+          total: 0,
+          habilitados: 0
+        };
+        resultsData.push(currentElection);
+        return;
+      }
+      
+      if (!currentElection) return;
+      
+      const rowStr = cells.join(' ').toUpperCase();
+      
+      if (rowStr.includes('TOTAL') && !rowStr.includes('VOTOS')) {
+         const val = cells.find((c, i) => i > 4 && (typeof c === 'number' || (typeof c === 'object' && c.result)));
+         currentElection.total = typeof val === 'object' ? val.result : val;
+         return;
+      }
+      if (rowStr.includes('HABILITADOS')) {
+         const val = cells.find((c, i) => i > 4 && (typeof c === 'number' || (typeof c === 'object' && c.result)));
+         currentElection.habilitados = typeof val === 'object' ? val.result : val;
+         return;
+      }
+      
+      if (rowStr.includes('AGRUPACION') || rowStr.includes('CANDIDATOS')) return;
+      
+      const agrupTitle = cells[4] || cells[5]; 
+      if (agrupTitle && (typeof agrupTitle === 'string')) {
+         const name = agrupTitle.trim();
+         if (name === 'VOTOS EN BLANCO/NULOS' || name.length > 3) {
+            const votos = cells[8] || cells[9];
+            const perc = cells[9] || cells[10];
+            
+            if (votos || perc) {
+               currentElection.results.push({
+                  agrupacion: name === 'VOTOS EN BLANCO/NULOS' ? name : normalizeListName(name),
+                  presidente: (cells[5] || cells[6])?.toString().trim(),
+                  votos: typeof votos === 'object' ? votos.result : (typeof votos === 'number' ? votos : 0),
+                  porcentaje: typeof perc === 'object' ? perc.result : (typeof perc === 'number' ? perc : 0)
+               });
+            }
+         }
+      }
+    });
+  }
+  
+  const finalResults = resultsData.filter(e => e.results.length > 0 || e.year === '2026');
+  fs.writeFileSync(OUT_JSON_RESULTS, JSON.stringify(finalResults, null, 2));
+
+  console.log('Exito! Generados: data.json, candidates.csv, history.csv, agrupaciones.csv, election_results.json');
 }
 
 fetchAndParse().catch(err => { console.error('Error:', err); });

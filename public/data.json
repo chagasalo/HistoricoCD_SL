@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-14T14:13:22.404Z",
+  "updatedAt": "2026-04-15T17:35:01.819Z",
   "candidates": [
     {
       "name": "COSTANTINO, SERGIO",
@@ -23680,14 +23680,6 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
         }
       ],
       "biography": null,
@@ -28537,15 +28529,23 @@
       }
     },
     {
-      "name": "GARAVAGLIA, CARLOS",
-      "id": "CARLOS GARAVAGLIA",
+      "name": "GARAVAGLIA, CARLOS ANTONIO",
+      "id": "ANTONIO CARLOS GARAVAGLIA",
       "history": [
         {
           "year": "2013",
           "list": "San Lorenzo Siglo XXI",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "23"
+        },
+        {
+          "year": "2010",
+          "list": "Vamos San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -29431,7 +29431,7 @@
         {
           "year": "2013",
           "list": "San Lorenzo Siglo XXI",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "48"
         }
@@ -30069,6 +30069,22 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 3"
+        },
+        {
+          "year": "2004",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2001",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -30954,7 +30970,7 @@
         {
           "year": "2007",
           "list": "Unidos por San Lorenzo",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "22"
         },
@@ -39266,7 +39282,7 @@
       }
     },
     {
-      "name": "PÖMBO, OSVALDO ANGEL",
+      "name": "POMBO, OSVALDO ANGEL",
       "id": "ANGEL OSVALDO POMBO",
       "history": [
         {
@@ -45618,33 +45634,6 @@
       }
     },
     {
-      "name": "GARAVAGLIA, CARLOS ANTONIO",
-      "id": "ANTONIO CARLOS GARAVAGLIA",
-      "history": [
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2010",
-          "list": "Vamos San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "GARCIA CASERTA, JOSE",
       "id": "CASERTA GARCIA JOSE",
       "history": [
@@ -48790,33 +48779,6 @@
           "year": "2010",
           "list": "Nuevo San Lorenzo",
           "elected": false,
-          "category": "Fiscalizadora",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "SOÑORA, JOEL",
-      "id": "JOEL SONORA",
-      "history": [
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Fiscalizadora",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2001",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
           "category": "Fiscalizadora",
           "position": null,
           "originalPos": null
