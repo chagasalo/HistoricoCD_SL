@@ -1,77 +1,15 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Search, Users, ShieldCheck, Shield, CheckCircle2, ArrowRightLeft, ChevronLeft, ChevronRight, BarChart3, RotateCw, Twitter, Github, Vote } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
 import './App.css';
 
-const stringToColor = (str) => {
-  let hash = 0;
-  for (let i = 0; i < str.length; i++) {
-    hash = str.charCodeAt(i) + ((hash << 5) - hash);
-  }
-  const h = Math.abs(hash) % 360;
-  return `hsl(${h}, 70%, 50%)`;
-};
-
-const KNOWN_COLORS = {
-  // Principales
-  'SL Siglo XXI':       '#002D62',
-  'Cruzada x SL':       '#A8000A',
-  'Boedo en Accion':    '#007ACC',
-  'Volver a SL':        '#D97706',
-  'Por San Lorenzo':    '#059669',
-  'MAS SL':             '#7C3AED',
-  'Prog. Azulgrana':    '#2563EB',
-  'Nuevo SL':           '#0891B2',
-  // Resto
-  'FPA':                '#B45309',
-  'Frente SL':          '#0F766E',
-  'Grandeza Azulgrana': '#1D4ED8',
-  'MBM':                '#6D28D9',
-  'N. Generacion':      '#047857',
-  'Orden y Progreso':   '#B45309',
-  'Primero SL':         '#9333EA',
-  'Renovacion SL':      '#0369A1',
-  'Rev. Azulgrana':     '#1E40AF',
-  'SL Querido':         '#065F46',
-  'SL en Marcha':       '#4338CA',
-  'Siempre SL':         '#0E7490',
-  'Unidos x SL':        '#15803D',
-  'Vamos SL':           '#B45309',
-  'X Amor a SL':        '#6B21A8',
-  // Neutral - no confundir con electos (rojo)
-  'TRANSITORIA':        '#64748B',
-};
-
-
-const getListColor = (listName) => {
-  return KNOWN_COLORS[listName] || stringToColor(listName);
-};
-
-const getCargoRank = (pos) => {
-  if (!pos) return 999;
-  const p = pos.toLowerCase().trim();
-  
-  // Direct match for major CD roles
-  if (p === 'presidente') return 0;
-  if (p.includes('vice-presidente') || p.includes('vicepresidente') || p === 'vice presidente') return 1;
-  if (p.includes('secretario')) return 2;
-  if (p.includes('tesorero')) return 3;
-  
-  // Handle numeric positions (used in Asamblea and Fiscal Commission)
-  const numMatch = p.match(/^(\d+)$/);
-  if (numMatch) {
-    return 100 + parseInt(numMatch[1]); // Offset to keep them below Vocales (10-27) or separate?
-  }
-
-  // Handle "Vocal X"
-  if (p.includes('vocal')) {
-    const match = p.match(/\d+/);
-    return 10 + (match ? parseInt(match[0]) : 99);
-  }
-  
-  return 500;
-};
+// Components
+import Header from './components/Header';
+import StatsGrid from './components/StatsGrid';
+import TabNavigation from './components/TabNavigation';
+import CandidateExplorer from './components/CandidateExplorer';
+import TransitionView from './components/TransitionView';
+import ElectionResultsView from './components/ElectionResultsView';
+import GovernanceBoardView from './components/GovernanceBoardView';
+import Footer from './components/Footer';
 
 export default function App() {
   const [data, setData] = useState([]);
@@ -106,7 +44,7 @@ export default function App() {
       }
     };
 
-    handleHashChange(); // Initial check
+    handleHashChange(); 
     window.addEventListener('hashchange', handleHashChange);
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
@@ -119,7 +57,6 @@ export default function App() {
     fetch('/data.json')
       .then(res => res.json())
       .then(json => {
-        // Robustez: soporte para formato nuevo (objeto) y viejo (array)
         if (Array.isArray(json)) {
           setData(json);
         } else if (json && json.candidates) {
@@ -151,9 +88,6 @@ export default function App() {
       .catch(err => console.error('Failed to load election results:', err));
   }, []);
 
-
-
-  // Whenever filters change, reset pagination
   useEffect(() => {
      setCurrentPage(1);
   }, [searchTerm, selectedList, selectedYear, selectedCategory, sortMode, onlyElected]);
@@ -166,16 +100,14 @@ export default function App() {
     const lists = new Set();
     const years = new Set();
     let electedCount = 0;
-    const transMap = new Map(); // to track total lists per candidate for 'Mapa de Pases'
+    const transMap = new Map(); 
     
-    // boardMap structure: { [category]: { [year]: { [list]: count } } }
     const boardMap = {
       'Comisión Directiva': new Map(),
       'Asamblea': new Map(),
       'Fiscalizadora': new Map()
     };
     
-    // boardMembersMap structure: { [category]: { [year]: [{ name, list }] } }
     const boardMembersMap = {
       'Comisión Directiva': new Map(),
       'Asamblea': new Map(),
@@ -239,7 +171,7 @@ export default function App() {
         prevList = h.list;
         prevYear = h.year;
       });
-      // Build per-list election count
+
       const listCountMap = new Map();
       sortedHistory.forEach(h => listCountMap.set(h.list, (listCountMap.get(h.list) || 0) + 1));
 
@@ -247,10 +179,9 @@ export default function App() {
          const entry = transMap.get(c.name);
          entry.totalLists = userLists.size;
          entry.listCounts = Object.fromEntries(listCountMap);
-         // Sort moves: most recent first
          entry.moves.sort((a, b) => b.toYear.localeCompare(a.toYear));
       }
-    }); // end data.forEach
+    }); 
 
     const filtered = data.filter(c => {
       const matchesSearch = c.name.toLowerCase().includes(searchTerm.toLowerCase());
@@ -258,15 +189,15 @@ export default function App() {
         if (selectedYear && h.year !== selectedYear) return false;
         if (selectedList && h.list !== selectedList) return false;
         if (onlyElected && !h.elected) return false;
-        if (selectedCategory && h.category !== selectedCategory) return false;
+        const hCat = h.category || 'Comisión Directiva';
+        if (selectedCategory && hCat !== selectedCategory) return false;
         return true;
       });
       return matchesSearch && hasHistoryMatch;
     });
 
-    // Custom Sorting: CD Elected > CD Part > Fiscal Elected > Fiscal Part > Asamblea Elected > Asamblea Part
     const getCatStats = (history, cat) => {
-      const entries = history.filter(h => h.category === cat);
+      const entries = history.filter(h => (h.category || 'Comisión Directiva') === cat);
       return {
         total: entries.length,
         elected: entries.filter(h => h.elected).length
@@ -274,11 +205,8 @@ export default function App() {
     };
 
     const sorted = [...filtered].sort((a, b) => {
-      if (sortMode === 'alpha') {
-        return a.name.localeCompare(b.name);
-      }
+      if (sortMode === 'alpha') return a.name.localeCompare(b.name);
       
-      // Default / 'mostLists' (Political Importance)
       const statsA = {
         cd: getCatStats(a.history, 'Comisión Directiva'),
         f: getCatStats(a.history, 'Fiscalizadora'),
@@ -290,50 +218,36 @@ export default function App() {
         as: getCatStats(b.history, 'Asamblea')
       };
 
-      // 1. CD Elected
       if (statsB.cd.elected !== statsA.cd.elected) return statsB.cd.elected - statsA.cd.elected;
-      // 2. CD Total
       if (statsB.cd.total !== statsA.cd.total) return statsB.cd.total - statsA.cd.total;
-      // 3. Fiscal Elected
       if (statsB.f.elected !== statsA.f.elected) return statsB.f.elected - statsA.f.elected;
-      // 4. Fiscal Total
       if (statsB.f.total !== statsA.f.total) return statsB.f.total - statsA.f.total;
-      // 5. Asamblea Elected
       if (statsB.as.elected !== statsA.as.elected) return statsB.as.elected - statsA.as.elected;
-      // 6. Asamblea Total
       if (statsB.as.total !== statsA.as.total) return statsB.as.total - statsA.as.total;
       
       return a.name.localeCompare(b.name);
     });
 
     const sortedYears = Array.from(years).filter(y => y).sort((a, b) => b.localeCompare(a));
-
     const finalAvailableLists = selectedYear 
         ? Array.from(listsByYear.get(selectedYear) || []).sort()
         : Array.from(lists).sort();
-
     const finalAvailableYears = selectedList
         ? Array.from(yearsByList.get(selectedList) || []).sort((a, b) => b.localeCompare(a))
         : sortedYears;
 
-    // Transitions sorting
     let trArray = Array.from(transMap.values());
-    
     const compareElectedCounts = (a, b) => {
         const electedA = a.history.filter(h => h.elected).length;
         const electedB = b.history.filter(h => h.elected).length;
         if (electedB !== electedA) return electedB - electedA;
-        
-        // Tie-breaker: Importance of categories (CD > Fiscal > Asamblea)
         const sA = {
           cd: getCatStats(a.history, 'Comisión Directiva'),
-          f: getCatStats(a.history, 'Fiscalizadora'),
-          as: getCatStats(a.history, 'Asamblea')
+          f: getCatStats(a.history, 'Fiscalizadora')
         };
         const sB = {
           cd: getCatStats(b.history, 'Comisión Directiva'),
-          f: getCatStats(b.history, 'Fiscalizadora'),
-          as: getCatStats(b.history, 'Asamblea')
+          f: getCatStats(b.history, 'Fiscalizadora')
         };
         if (sB.cd.elected !== sA.cd.elected) return sB.cd.elected - sA.cd.elected;
         if (sB.cd.total !== sA.cd.total) return sB.cd.total - sA.cd.total;
@@ -341,25 +255,18 @@ export default function App() {
         return a.name.localeCompare(b.name);
     };
 
-    if (sortModePases === 'importance') {
-        trArray.sort(compareElectedCounts);
-    } else if (sortModePases === 'mostLists') {
-        trArray.sort((a, b) => b.totalLists - a.totalLists || a.name.localeCompare(b.name));
-    } else {
-        trArray.sort((a, b) => a.name.localeCompare(b.name));
-    }
+    if (sortModePases === 'importance') trArray.sort(compareElectedCounts);
+    else if (sortModePases === 'mostLists') trArray.sort((a, b) => b.totalLists - a.totalLists || a.name.localeCompare(b.name));
+    else trArray.sort((a, b) => a.name.localeCompare(b.name));
 
-    // BoardConfigs (Conformaciones) aggregation format
     const currentCatMap = boardMap[selectedBoardCategory] || new Map();
     const currentMembersMap = boardMembersMap[selectedBoardCategory] || new Map();
-
     const aggregatedBoards = Array.from(currentCatMap.entries())
-        .sort((a, b) => b[0].localeCompare(a[0])) // Descending years
+        .sort((a, b) => b[0].localeCompare(a[0])) 
         .map(([year, listCounts]) => {
             const listsDetails = Array.from(listCounts.entries())
-                .sort((a, b) => b[1] - a[1]) // Descending by member count
+                .sort((a, b) => b[1] - a[1]) 
                 .map(([listName, count]) => ({ listName, count }));
-                
             return {
                 year,
                 totalMembers: listsDetails.reduce((sum, item) => sum + item.count, 0),
@@ -367,14 +274,13 @@ export default function App() {
                 members: (currentMembersMap.get(year) || []).sort((a, b) => a.name.localeCompare(b.name))
             };
         });
+
     return {
       filteredCandidates: sorted,
       uniqueLists: finalAvailableLists,
       uniqueYears: finalAvailableYears,
       globalListsCount: lists.size,
-      globalElectedCount: new Set(
-          data.filter(c => c.history.some(h => h.elected)).map(c => c.name)
-      ).size,
+      globalElectedCount: new Set(data.filter(c => c.history.some(h => h.elected)).map(c => c.name)).size,
       sortedTransitions: trArray,
       boardConfigs: aggregatedBoards
     };
@@ -388,629 +294,63 @@ export default function App() {
     return <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', color: '#fff'}}>Cargando...</div>;
   }
 
-  // Pagination Logic
   const totalPages = Math.max(1, Math.ceil(filteredCandidates.length / candidatesPerPage));
   const currentCandidates = filteredCandidates.slice((currentPage - 1) * candidatesPerPage, currentPage * candidatesPerPage);
-
   const totalPasesPages = Math.max(1, Math.ceil(sortedTransitions.length / pasesPerPage));
   const currentPases = sortedTransitions.slice((pasesPage - 1) * pasesPerPage, pasesPage * pasesPerPage);
 
-  // Grouping function for candidate card: returns [{ category, lists: [{ list, items }] }]
-  const getCategorizedGroups = (history) => {
-      const catMap = new Map();
-      const sorted = [...history].sort((a,b) => (b.year || '').localeCompare(a.year || ''));
-      
-      sorted.forEach(h => {
-          const cat = h.category || 'Comisión Directiva';
-          if (!catMap.has(cat)) catMap.set(cat, new Map());
-          const listMap = catMap.get(cat);
-          if (!listMap.has(h.list)) listMap.set(h.list, []);
-          listMap.get(h.list).push(h);
-      });
-      
-      return Array.from(catMap.entries()).map(([category, listMap]) => ({
-          category,
-          lists: Array.from(listMap.entries()).map(([listName, items]) => ({
-              list: listName,
-              items
-          }))
-      })).sort((a, b) => {
-          // Sort categories: CD first, then others
-          if (a.category === 'Comisión Directiva') return -1;
-          if (b.category === 'Comisión Directiva') return 1;
-          return a.category.localeCompare(b.category);
-      });
-  };
-
   return (
     <div className="app-container">
-      <header className="header">
-        <div className="header-actions">
-           <a 
-             href="https://x.com/mariano_casla99" 
-             target="_blank" 
-             rel="noopener noreferrer" 
-             className="action-button twitter-button"
-             title="Data por @mariano_casla99"
-           >
-             <Twitter size={18} />
-             <span>@mariano_casla99</span>
-           </a>
-           {lastUpdated && (
-             <div className="last-updated-tag">
-               <RotateCw size={14} />
-               <span>Sincronizado: {lastUpdated}</span>
-             </div>
-           )}
-        </div>
+      <Header lastUpdated={lastUpdated} />
 
-        <h1 className="header-title">
-          MAPA DE CANDIDATOS
-          <small className="header-title-org">CLUB ATLETICO SAN LORENZO DE ALMAGRO</small>
-        </h1>
-        <p className="header-subtitle">
-          Análisis e histórico de participaciones políticas en el club
-        </p>
+      <StatsGrid 
+        totalCandidates={data.length} 
+        globalListsCount={globalListsCount} 
+        globalElectedCount={globalElectedCount} 
+      />
 
-
-      </header>
-
-      <section className="stats-grid">
-        <div className="stat-card">
-          <div className="stat-icon" style={{backgroundColor: 'rgba(0, 45, 98, 0.4)'}}><Users size={28} /></div>
-          <div className="stat-info">
-            <h3>Candidatos Únicos</h3>
-            <p>{data.length}</p>
-          </div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-icon" style={{backgroundColor: 'rgba(168, 0, 10, 0.4)'}}><Shield size={28} /></div>
-          <div className="stat-info">
-            <h3>Agrupaciones</h3>
-            <p>{globalListsCount}</p>
-          </div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-icon" style={{backgroundColor: 'rgba(16, 185, 129, 0.2)', color: '#10B981'}}>
-            <ShieldCheck size={28} />
-          </div>
-          <div className="stat-info">
-            <h3>Personas Electas</h3>
-            <p>{globalElectedCount}</p>
-          </div>
-        </div>
-      </section>
-
-      <div className="tabs">
-        <button className={`tab-button ${activeTab === 'candidates' ? 'active' : ''}`} onClick={() => setActiveTab('candidates')}>
-          Explorador de Candidatos
-        </button>
-        <button className={`tab-button ${activeTab === 'transitions' ? 'active' : ''}`} onClick={() => setActiveTab('transitions')}>
-          Mapa de Pases Históricos
-        </button>
-        <button className={`tab-button ${activeTab === 'elecciones' ? 'active' : ''}`} onClick={() => setActiveTab('elecciones')}>
-          Resultados Históricos
-        </button>
-        <button className={`tab-button ${activeTab === 'conformaciones' ? 'active' : ''}`} onClick={() => setActiveTab('conformaciones')}>
-          Conformación de Órganos de Gob.
-        </button>
-      </div>
+      <TabNavigation activeTab={activeTab} setActiveTab={setActiveTab} />
 
       {activeTab === 'candidates' && (
-        <>
-          <section className="search-section">
-            <div className="filters-main-layout">
-              <div className="search-input-group">
-                <div className="search-input-wrapper">
-                  <Search className="search-icon" size={24} />
-                  <input 
-                    type="text" 
-                    className="search-input" 
-                    placeholder="Buscar por nombre de candidato..." 
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                  />
-                </div>
-              </div>
-
-              <div className="filters-grid">
-                <div className="filter-control">
-                  <span className="filter-label">Año Electoral</span>
-                  <select 
-                    className="dropdown-filter"
-                    value={selectedYear}
-                    onChange={(e) => { setSelectedYear(e.target.value); setCurrentPage(1); }}
-                  >
-                    <option value="">Todos los Años</option>
-                    {uniqueYears.map(y => <option key={y} value={y}>{y}</option>)}
-                  </select>
-                </div>
-                
-                <div className="filter-control">
-                  <span className="filter-label">Agrupación Política</span>
-                  <select 
-                    className="dropdown-filter"
-                    value={selectedList}
-                    onChange={(e) => { setSelectedList(e.target.value); setCurrentPage(1); }}
-                  >
-                    <option value="">Todas las Agrupaciones</option>
-                    {uniqueLists.map(l => <option key={l} value={l}>{l}</option>)}
-                  </select>
-                </div>
-
-                <div className="filter-control">
-                  <span className="filter-label">Cargo / Órgano</span>
-                  <select 
-                    className="dropdown-filter"
-                    value={selectedCategory}
-                    onChange={(e) => { setSelectedCategory(e.target.value); setCurrentPage(1); }}
-                  >
-                    <option value="">Todos los Cargos</option>
-                    <option value="Comisión Directiva">Comisión Directiva</option>
-                    <option value="Fiscalizadora">Fiscalizadora</option>
-                    <option value="Asamblea">Asamblea</option>
-                  </select>
-                </div>
-
-                <div className="filter-control">
-                  <span className="filter-label">Ordenar por</span>
-                  <select 
-                    className="dropdown-filter"
-                    value={sortMode}
-                    onChange={(e) => { setSortMode(e.target.value); setCurrentPage(1); }}
-                  >
-                    <option value="mostLists">Participación Política</option>
-                    <option value="alpha">Nombre (A-Z)</option>
-                  </select>
-                </div>
-
-                <div className="filter-control checkbox-control">
-                  <label className="filter-checkbox-styled">
-                    <input 
-                      type="checkbox" 
-                      checked={onlyElected}
-                      onChange={(e) => { setOnlyElected(e.target.checked); setCurrentPage(1); }}
-                    />
-                    <div className="checkbox-box">
-                      {onlyElected && <CheckCircle2 size={14} />}
-                    </div>
-                    <span>Solo Electos</span>
-                  </label>
-                </div>
-              </div>
-            </div>
-            
-            <div className="legend-strip">
-                <span className="legend-dot"></span>
-                Años en rojo: El candidato resultó electo
-            </div>
-          </section>
-
-          <section className="candidates-grid">
-            <AnimatePresence mode="popLayout">
-              {currentCandidates.map((c, idx) => {
-                const displayHistory = c.history.filter(h => {
-                  if (selectedYear && h.year !== selectedYear) return false;
-                  if (selectedList && h.list !== selectedList) return false;
-                  if (selectedCategory && (h.category || 'Comisión Directiva') !== selectedCategory) return false;
-                  if (onlyElected && !h.elected) return false;
-                  return true;
-                });
-                const categoryGroups = getCategorizedGroups(displayHistory);
-                const mainList = categoryGroups[0]?.lists[0]?.list || '';
-
-                return (
-                  <motion.div 
-                    key={`${c.name}-${sortMode}-${currentPage}`}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, scale: 0.95 }}
-                    transition={{ duration: 0.2, delay: idx > 20 ? 0 : idx * 0.02 }}
-                    className="candidate-card"
-                    style={{ borderTop: `4px solid ${getListColor(mainList)}` }}
-                  >
-                    <div className="candidate-header">
-                      <h3 className="candidate-name">{c.name}</h3>
-                    </div>
-                    
-                    <div className="candidate-lists-container">
-                        {categoryGroups.map((cat, catIdx) => (
-                           <div key={catIdx} className="category-block">
-                              <h4 className="category-tag">{cat.category}</h4>
-                              {cat.lists.map((g, gIndex) => (
-                                <div key={gIndex} className="candidate-list-row">
-                                    <span className="row-list-name" style={{color: getListColor(g.list)}}>
-                                      {g.list}
-                                    </span>
-                                    <span className="row-years">
-                                      {g.items.map((h, i) => {
-                                        const isPresi = h.position?.toLowerCase().includes('presidente') && !h.position?.toLowerCase().includes('vice');
-                                        const isVice = h.position?.toLowerCase().includes('vice-presidente') || h.position?.toLowerCase().includes('vicepresidente');
-                                        return (
-                                          <span key={i} className={`row-year ${h.elected ? 'elected' : ''}`}>
-                                            {h.year}
-                                            {isPresi && ' 🥇'}
-                                            {isVice && ' 🥈'}
-                                            {h.elected && <CheckCircle2 size={10} />}
-                                          </span>
-                                        );
-                                      })}
-                                    </span>
-                                </div>
-                              ))}
-                           </div>
-                        ))}
-                    </div>
-                  </motion.div>
-                );
-              })}
-            </AnimatePresence>
-          </section>
-          
-          {filteredCandidates.length === 0 && (
-            <div style={{textAlign: 'center', padding: '3rem', color: 'var(--text-muted)'}}>
-              No se encontraron candidatos.
-            </div>
-          )}
-
-          {totalPages > 1 && (
-            <div className="pagination">
-                <button disabled={currentPage === 1} onClick={() => setCurrentPage(p => p - 1)}><ChevronLeft size={20}/></button>
-                <span>Página {currentPage} de {totalPages} ({filteredCandidates.length} res.)</span>
-                <button disabled={currentPage === totalPages} onClick={() => setCurrentPage(p => p + 1)}><ChevronRight size={20}/></button>
-            </div>
-          )}
-        </>
+        <CandidateExplorer 
+          searchTerm={searchTerm} setSearchTerm={setSearchTerm}
+          selectedYear={selectedYear} setSelectedYear={setSelectedYear} uniqueYears={uniqueYears}
+          selectedList={selectedList} setSelectedList={setSelectedList} uniqueLists={uniqueLists}
+          selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory}
+          sortMode={sortMode} setSortMode={setSortMode}
+          onlyElected={onlyElected} setOnlyElected={setOnlyElected}
+          currentCandidates={currentCandidates}
+          currentPage={currentPage} setCurrentPage={setCurrentPage} totalPages={totalPages}
+          filteredCandidatesCount={filteredCandidates.length}
+        />
       )}
 
       {activeTab === 'transitions' && (
-        <section className="transitions-section">
-            <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', flexWrap: 'wrap'}}>
-                <div>
-                   <h2 style={{fontFamily: 'var(--font-heading)'}}>Historial de Pases (Transfuguismo)</h2>
-                   <p style={{color: 'var(--text-muted)'}}>Candidatos que participaron en distintas listas.</p>
-                </div>
-                 <select className="dropdown-filter" value={sortModePases} onChange={e => setSortModePases(e.target.value)}>
-                     <option value="importance">Más veces electo</option>
-                     <option value="mostLists">Agrupaciones Cambiadas</option>
-                     <option value="alpha">Orden Alfabético</option>
-                 </select>
-            </div>
-            
-            <div className="transitions-list">
-                {currentPases.map((t, idx) => (
-                    <motion.div 
-                       key={`${t.name}-${sortModePases}-${pasesPage}`} 
-                       className="transition-card"
-                       initial={{ opacity: 0, x: -10 }}
-                       animate={{ opacity: 1, x: 0 }}
-                    >
-                         <div className="transition-name-row">
-                            <span className="transition-name">{t.name}</span>
-                            <span className="transition-count">{t.totalLists} agrup.</span>
-                         </div>
-                         {t.moves.map((m, mIdx) => (
-                            <div key={mIdx} className="transition-flow">
-                                <div className="t-from">
-                                    <span className="t-year">{m.fromYear}</span>
-                                    <span className="t-list-name" style={{color: getListColor(m.fromList)}}>
-                                      {m.fromList}
-                                      <span className="t-list-elec">{t.listCounts?.[m.fromList] || 1} elec.</span>
-                                    </span>
-                                </div>
-                                <ArrowRightLeft className="t-arrow" size={14} />
-                                <div className="t-to">
-                                    <span className="t-year">{m.toYear}</span>
-                                    <span className="t-list-name" style={{color: getListColor(m.toList)}}>
-                                      {m.toList}
-                                      <span className="t-list-elec">{t.listCounts?.[m.toList] || 1} elec.</span>
-                                    </span>
-                                </div>
-                            </div>
-                         ))}
-                    </motion.div>
-                ))}
-            </div>
-
-            {totalPasesPages > 1 && (
-            <div className="pagination">
-                <button disabled={pasesPage === 1} onClick={() => setPasesPage(p => p - 1)}><ChevronLeft size={20}/></button>
-                <span>Página {pasesPage} de {totalPasesPages}</span>
-                <button disabled={pasesPage === totalPasesPages} onClick={() => setPasesPage(p => p + 1)}><ChevronRight size={20}/></button>
-            </div>
-            )}
-        </section>
+        <TransitionView 
+          sortModePases={sortModePases} setSortModePases={setSortModePases}
+          currentPases={currentPases} totalPasesPages={totalPasesPages}
+          pasesPage={pasesPage} setPasesPage={setPasesPage}
+        />
       )}
 
       {activeTab === 'elecciones' && (
-        <section className="elecciones-section">
-            <div className="elecciones-header">
-                <div>
-                  <h2 style={{fontFamily: 'var(--font-heading)'}}>Histórico de Resultados Electorales</h2>
-                  <p style={{color: 'var(--text-muted)'}}>Desglose de votos y participación por período.</p>
-                </div>
-            </div>
-
-            <div className="results-grid">
-                {electionResults.map((election, idx) => {
-                    const isPending = election.year === '2026';
-                    // Filter out non-party items for the chart if needed (e.g. Padron)
-                    const chartData = election.results
-                        .filter(r => r.votos > 0 && r.agrupacion !== 'Padron de Socios')
-                        .map(r => ({
-                            name: r.agrupacion,
-                            value: r.votos,
-                            color: getListColor(r.agrupacion)
-                        }));
-
-                    const participation = election.habilitados ? ((election.total / election.habilitados) * 100).toFixed(1) : null;
-
-                    return (
-                        <motion.div 
-                          key={election.title} 
-                          className="election-result-card"
-                          initial={{ opacity: 0, y: 20 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ delay: idx * 0.1 }}
-                          onClick={() => {
-                            if (!isPending) {
-                                setSelectedBoardYear(election.year);
-                                setSelectedBoardCategory('Comisión Directiva');
-                                setActiveTab('conformaciones');
-                                window.scrollTo({ top: 0, behavior: 'smooth' });
-                            }
-                          }}
-                        >
-                            <div className="election-card-header">
-                                <h3 className="election-year">{election.year === '2026' ? 'Mayo 2026' : `Diciembre ${election.year}`}</h3>
-                                <span className={`election-type-tag ${election.title.includes('EXTRAORDINARIAS') ? 'extra' : 'ord'}`}>
-                                    {election.title.includes('EXTRAORDINARIAS') ? 'Extraordinaria' : 'Ordinaria'}
-                                </span>
-                            </div>
-
-                            {isPending ? (
-                                <div className="pending-election-box" style={{ padding: '2rem 1rem' }}>
-                                    <Vote size={32} />
-                                    <p style={{ fontSize: '1rem' }}>Elección Pendiente</p>
-                                    <small>Sin resultados oficiales aún</small>
-                                </div>
-                            ) : (
-                                <div className="election-card-content">
-                                    <div className="chart-wrapper">
-                                        <ResponsiveContainer width="100%" height={180}>
-                                            <PieChart>
-                                                <Pie
-                                                  data={chartData}
-                                                  cx="50%"
-                                                  cy="50%"
-                                                  innerRadius={45}
-                                                  outerRadius={65}
-                                                  paddingAngle={5}
-                                                  dataKey="value"
-                                                  animationDuration={1500}
-                                                >
-                                                    {chartData.map((entry, index) => (
-                                                        <Cell key={`cell-${index}`} fill={entry.color} />
-                                                    ))}
-                                                </Pie>
-                                                <Tooltip 
-                                                  contentStyle={{ backgroundColor: '#1e293b', border: 'none', borderRadius: '8px', color: '#fff', fontSize: '12px' }}
-                                                  itemStyle={{ color: '#fff', padding: '2px 0' }}
-                                                />
-                                            </PieChart>
-                                        </ResponsiveContainer>
-                                        <div className="chart-center-info">
-                                            <span className="center-total" style={{ fontSize: '1.2rem' }}>{election.total.toLocaleString()}</span>
-                                            <span className="center-label" style={{ fontSize: '0.6rem' }}>Votos</span>
-                                        </div>
-                                    </div>
-
-                                    <div className="election-stats-summary">
-                                        {participation && (
-                                            <div className="participation-stat">
-                                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                                    <span className="stat-label">Participación</span>
-                                                    <span className="stat-value" style={{ fontSize: '1rem' }}>{participation}%</span>
-                                                </div>
-                                                <div className="stat-bar-bg">
-                                                    <div className="stat-bar-fill" style={{width: `${participation}%`}}></div>
-                                                </div>
-                                            </div>
-                                        )}
-                                        <div className="winner-box" style={{ borderLeft: `4px solid ${getListColor(chartData[0]?.name)}`, padding: '0.75rem' }}>
-                                            <span className="winner-label">Ganador</span>
-                                            <span className="winner-name" style={{ fontSize: '0.9rem' }}>{chartData[0]?.name}</span>
-                                            <span className="winner-candidate" style={{ fontSize: '0.75rem' }}>{election.results.find(r => r.agrupacion === chartData[0]?.name)?.presidente}</span>
-                                        </div>
-                                    </div>
-                                    
-                                    <button 
-                                        className="view-board-btn"
-                                        style={{ padding: '0.75rem', fontSize: '0.8rem', marginTop: '1rem' }}
-                                    >
-                                        Ver Comisión Directiva <ArrowRightLeft size={12} style={{transform: 'rotate(90deg)'}} />
-                                    </button>
-                                </div>
-                            )}
-                        </motion.div>
-                    );
-                })}
-            </div>
-        </section>
+        <ElectionResultsView 
+          electionResults={electionResults}
+          setSelectedBoardYear={setSelectedBoardYear}
+          setSelectedBoardCategory={setSelectedBoardCategory}
+          setActiveTab={setActiveTab}
+        />
       )}
 
       {activeTab === 'conformaciones' && (
-          <section className="board-section">
-              <div style={{marginBottom: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '1rem'}}>
-                 <div>
-                    <div style={{display: 'flex', alignItems: 'center', gap: '1rem'}}>
-                      {selectedBoardYear && (
-                        <button className="back-button" onClick={() => setSelectedBoardYear(null)}>
-                          <ChevronLeft size={20} />
-                          Volver
-                        </button>
-                      )}
-                      <h2 style={{fontFamily: 'var(--font-heading)'}}>
-                        {selectedBoardYear ? `Elecciones ${selectedBoardYear}` : 'Conformación de Órganos de Gob.'}
-                      </h2>
-                    </div>
-                    <p style={{color: 'var(--text-muted)'}}>
-                      {selectedBoardYear 
-                        ? `${selectedBoardCategory} - Integrantes electos` 
-                        : 'Integrantes electos desglosados por agrupación política.'}
-                    </p>
-                 </div>
-                 {!selectedBoardYear && (
-                   <div className="category-selector">
-                      {['Comisión Directiva', 'Asamblea', 'Fiscalizadora'].map(cat => (
-                        <button 
-                          key={cat}
-                          className={`mini-tab ${selectedBoardCategory === cat ? 'active' : ''}`}
-                          onClick={() => setSelectedBoardCategory(cat)}
-                        >
-                          {cat}
-                        </button>
-                      ))}
-                   </div>
-                 )}
-              </div>
-
-              {!selectedBoardYear ? (
-                <div className="board-years-grid">
-                    {boardConfigs.map((bc, idx) => (
-                        <motion.div 
-                           key={bc.year}
-                           className="board-card clickable"
-                           initial={{ opacity: 0, scale: 0.95 }}
-                           animate={{ opacity: 1, scale: 1 }}
-                           transition={{ delay: idx * 0.05 }}
-                           onClick={() => setSelectedBoardYear(bc.year)}
-                        >
-                           <div className="board-card-header">
-                              <h3 className="board-year">Elecciones {bc.year}</h3>
-                              <span className="board-total"><BarChart3 size={16} /> {bc.totalMembers} Electos</span>
-                           </div>
-                           <div className="board-lists">
-                              {bc.lists.map((l, lIdx) => (
-                                 <div key={lIdx} className="board-list-item">
-                                     <div className="board-list-name">
-                                        <span className="color-dot" style={{ backgroundColor: getListColor(l.listName), display: 'inline-block', width: '10px', height: '10px', borderRadius: '50%', marginRight: '8px' }}></span>
-                                        {l.listName}
-                                     </div>
-                                     <div className="board-list-count">{l.count}</div>
-                                 </div>
-                              ))}
-                           </div>
-                           <div className="board-card-footer">
-                              <span>Ver integrantes <ArrowRightLeft size={12} style={{transform: 'rotate(90deg)'}} /></span>
-                           </div>
-                        </motion.div>
-                    ))}
-                </div>
-              ) : (
-                <div className="board-detail-view">
-                   {(() => {
-                     const board = boardConfigs.find(b => b.year === selectedBoardYear);
-                     if (!board) return null;
-                     
-                     // Get counts per list for sorting
-                     const listImportance = {};
-                     board.members.forEach(m => {
-                       listImportance[m.list] = (listImportance[m.list] || 0) + 1;
-                     });
-                     
-                     const sortedMembers = [...board.members].sort((a, b) => {
-                       // 1. Prioridad por tamaño/importancia de la agrupación
-                       if (listImportance[b.list] !== listImportance[a.list]) {
-                         return listImportance[b.list] - listImportance[a.list];
-                       }
-                       
-                       // 2. Mantener miembros de la misma lista juntos (por nombre de lista)
-                       if (a.list !== b.list) {
-                         return a.list.localeCompare(b.list);
-                       }
-                       
-                       // 3. Orden jerárquico dentro de la lista (Lugar en la lista)
-                       const posA = a.history.find(h => h.year === selectedBoardYear && h.category === selectedBoardCategory)?.position;
-                       const posB = b.history.find(h => h.year === selectedBoardYear && h.category === selectedBoardCategory)?.position;
-                       const rankA = getCargoRank(posA);
-                       const rankB = getCargoRank(posB);
-                       
-                       if (rankA !== rankB) return rankA - rankB;
-                       
-                       // 4. Alfabético por nombre si todo lo demás falla
-                       return a.name.localeCompare(b.name);
-                     });
-
-                     return sortedMembers.map((member, idx) => (
-                       <motion.div 
-                          key={member.name}
-                          className="member-item"
-                          initial={{ opacity: 0, y: 10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ delay: idx * 0.01 }}
-                       >
-                           <div className="member-info">
-                             <span className="member-name">{member.name}</span>
-                             <span className="member-list" style={{color: getListColor(member.list)}}>{member.list}</span>
-                             {(() => {
-                               const cargo = member.history.find(h => h.year === selectedBoardYear && h.category === selectedBoardCategory)?.position;
-                               const isPresi = cargo?.toLowerCase().includes('presidente') && !cargo?.toLowerCase().includes('vice');
-                               const isVice = cargo?.toLowerCase().includes('vice-presidente') || cargo?.toLowerCase().includes('vicepresidente');
-                               return cargo ? (
-                                 <div className="member-cargo-row">
-                                   <span className="member-cargo-prefix">Lugar en la lista: </span>
-                                   <span className="member-cargo-val">
-                                     {isPresi && '🥇 '}
-                                     {isVice && '🥈 '}
-                                     {cargo}
-                                   </span>
-                                 </div>
-                               ) : null;
-                             })()}
-                           </div>
-                          
-                          <div className="member-tooltip">
-                            <div className="tooltip-header">Resumen Político</div>
-                            <div className="tooltip-content">
-                              <div className="tooltip-stat">
-                                <span>Participaciones:</span>
-                                <strong>{member.history.length}</strong>
-                              </div>
-                              <div className="tooltip-stat">
-                                <span>Elecciones electo:</span>
-                                <strong style={{color: 'var(--rojo-casla)'}}>{member.history.filter(h => h.elected).length}</strong>
-                              </div>
-                              <div className="tooltip-section-title">Trayectoria:</div>
-                              <div className="tooltip-history-list">
-                                {member.history.map((h, i) => (
-                                  <div key={i} className={`tooltip-history-item ${h.elected ? 'elected' : ''}`}>
-                                    <span>{h.year}</span>
-                                    <span>{h.list}</span>
-                                  </div>
-                                ))}
-                              </div>
-                            </div>
-                          </div>
-                       </motion.div>
-                     ));
-                   })()}
-                </div>
-              )}
-          </section>
+        <GovernanceBoardView 
+          selectedBoardYear={selectedBoardYear} setSelectedBoardYear={setSelectedBoardYear}
+          selectedBoardCategory={selectedBoardCategory} setSelectedBoardCategory={setSelectedBoardCategory}
+          boardConfigs={boardConfigs}
+        />
       )}
 
-      <footer className="footer">
-        <div className="footer-content">
-          <p className="footer-credits">
-            Vibecodeado por: <a href="https://x.com/chagasalo" target="_blank" rel="noopener noreferrer">Gonzalo Suarez (@chagasalo)</a> & Antigravity AI.
-          </p>
-          <a href="https://github.com/chagasalo/HistoricoCD_SL" target="_blank" rel="noopener noreferrer" className="footer-repo-link">
-            <Github size={18} />
-            <span>Ver código en GitHub</span>
-          </a>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

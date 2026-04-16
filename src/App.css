@@ -22,6 +22,7 @@
   letter-spacing: -0.02em;
   display: flex;
   flex-direction: column;
+  align-items: center; /* Added for centering in mobile */
   line-height: 1.1;
 }
 
@@ -1266,5 +1267,91 @@
   font-size: 1.25rem;
   font-weight: 800;
   color: var(--text-main);
+}
+
+/* Mobile Responsiveness Fixes */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .header {
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+  }
+
+  .header-actions {
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .header-title-org {
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+  }
+
+  .header-subtitle {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    border-bottom: none;
+    margin-top: 0.5rem;
+  }
+
+  .tab-button {
+    flex: 1 1 calc(50% - 0.5rem);
+    min-width: 140px;
+    padding: 0.8rem 0.5rem;
+    font-size: 0.85rem;
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    margin-bottom: 0;
+    text-align: center;
+    background: var(--bg-card);
+  }
+
+  .tab-button.active {
+    background: var(--azul-casla);
+    color: white;
+    border-color: var(--azul-casla);
+  }
+
+  .action-button {
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .last-updated-tag {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 1.75rem;
+  }
+
+  .tab-button {
+    flex: 1 1 100%;
+  }
+  
+  .stats-grid {
+    gap: 1rem;
+  }
+  
+  .stat-card {
+    padding: 1.25rem;
+  }
 }
 
