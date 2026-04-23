@@ -3,10 +3,11 @@ export const getCargoRank = (pos) => {
   const p = pos.toLowerCase().trim();
   
   // Direct match for major CD roles
-  if (p === 'presidente') return 0;
-  if (p.includes('vice-presidente') || p.includes('vicepresidente') || p === 'vice presidente') return 1;
-  if (p.includes('secretario')) return 2;
+  if (p.includes('presidente') && !p.includes('vice')) return 0;
+  if (p.includes('vice-presidente') || p.includes('vicepresidente') || p.includes('vice presidente')) return 1;
+  if (p.includes('secretari')) return 2; // matches secretario and secretaria
   if (p.includes('tesorero')) return 3;
+  if (p.includes('miembro')) return 4;
   
   // Handle numeric positions (used in Asamblea and Fiscal Commission)
   const numMatch = p.match(/^(\d+)$/);

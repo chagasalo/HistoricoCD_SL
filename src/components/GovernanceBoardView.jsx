@@ -32,7 +32,7 @@ const GovernanceBoardView = ({
            </div>
            {!selectedBoardYear && (
              <div className="category-selector">
-                {['Comisión Directiva', 'Asamblea', 'Fiscalizadora'].map(cat => (
+                {['Comisión Directiva', 'Asamblea', 'Fiscalizadora', 'Junta Electoral', 'Tribunal de Ética'].map(cat => (
                   <button 
                     key={cat}
                     className={`mini-tab ${selectedBoardCategory === cat ? 'active' : ''}`}
@@ -61,7 +61,7 @@ const GovernanceBoardView = ({
                         <span className="board-total"><BarChart3 size={16} /> {bc.totalMembers} Electos</span>
                      </div>
                      <div className="board-lists">
-                        {bc.lists.map((l, lIdx) => (
+                        {bc.lists.filter(l => l.listName !== "(Sin datos)").map((l, lIdx) => (
                            <div key={lIdx} className="board-list-item">
                                <div className="board-list-name">
                                   <span className="color-dot" style={{ backgroundColor: getListColor(l.listName), display: 'inline-block', width: '10px', height: '10px', borderRadius: '50%', marginRight: '8px' }}></span>
@@ -113,7 +113,9 @@ const GovernanceBoardView = ({
                  >
                      <div className="member-info">
                        <span className="member-name">{member.name}</span>
-                       <span className="member-list" style={{color: getListColor(member.list)}}>{member.list}</span>
+                       {member.list !== "(Sin datos)" && (
+                         <span className="member-list" style={{color: getListColor(member.list)}}>{member.list}</span>
+                       )}
                        {(() => {
                          const cargo = member.history.find(h => h.year === selectedBoardYear && h.category === selectedBoardCategory)?.position;
                          const isPresi = cargo?.toLowerCase().includes('presidente') && !cargo?.toLowerCase().includes('vice');
@@ -147,7 +149,7 @@ const GovernanceBoardView = ({
                           {member.history.map((h, i) => (
                             <div key={i} className={`tooltip-history-item ${h.elected ? 'elected' : ''}`}>
                               <span>{h.year}</span>
-                              <span>{h.list}</span>
+                              <span>{h.list !== "(Sin datos)" ? h.list : ""}</span>
                             </div>
                           ))}
                         </div>

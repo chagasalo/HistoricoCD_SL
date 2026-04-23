@@ -395,5 +395,103 @@
     ],
     "total": 3399,
     "habilitados": 10565
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 1989",
+    "year": "1989",
+    "results": [
+      {
+        "agrupacion": "Nuevo Rumbo Sanlorencista",
+        "presidente": "Fernando Miele",
+        "votos": 4430,
+        "porcentaje": 0.6611940299
+      },
+      {
+        "agrupacion": "Frente de Reconstruccion Sanlorencista",
+        "presidente": "Juan Carlos Guglietti",
+        "votos": 2270,
+        "porcentaje": 0.3388059701
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 6700
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 1986",
+    "year": "1986",
+    "results": [
+      {
+        "agrupacion": "Nuevo Rumbo Sanlorencista",
+        "presidente": "Fernando Miele",
+        "votos": 2804,
+        "porcentaje": 0.5236227824
+      },
+      {
+        "agrupacion": "Movimiento de Reconstruccion Sanlorencista",
+        "presidente": "Rafael Savino",
+        "votos": 2551,
+        "porcentaje": 0.4763772176
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 5355
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 1980",
+    "year": "1980",
+    "results": [
+      {
+        "agrupacion": "Lista Blanca Opositora",
+        "presidente": "Vicente Bonina",
+        "votos": 2302,
+        "porcentaje": 0.3786807041
+      },
+      {
+        "agrupacion": "Nueva Lista Sanlorencista",
+        "presidente": "Carlos Ure",
+        "votos": 2048,
+        "porcentaje": 0.336897516
+      },
+      {
+        "agrupacion": "El Gasometro",
+        "presidente": "Fernando de Baldrich",
+        "votos": 1729,
+        "porcentaje": 0.2844217799
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 6079
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 1974",
+    "year": "1974",
+    "results": [
+      {
+        "agrupacion": "Resurgimiento Sanlorencista",
+        "presidente": "Osvaldo Valiño",
+        "votos": 4128,
+        "porcentaje": 0.6158436521
+      },
+      {
+        "agrupacion": "Frente de Reconstruccion Sanlorencista",
+        "presidente": "Tomas S. Castagnino",
+        "votos": 2575,
+        "porcentaje": 0.3841563479
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 6703
   }
 ]

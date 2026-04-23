@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-15T17:35:01.819Z",
+  "updatedAt": "2026-04-23T15:29:09.158Z",
   "candidates": [
     {
       "name": "COSTANTINO, SERGIO",
@@ -84,7 +84,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Presidente"
@@ -285,7 +285,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vice-Presidente"
@@ -427,7 +427,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 1"
@@ -583,7 +583,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 2"
@@ -761,7 +761,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 3"
@@ -910,7 +910,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 4"
@@ -982,35 +982,32 @@
           "position": "Vocal 4"
         },
         {
-          "year": "2016",
-          "list": "Volver a San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "3"
-        },
-        {
           "year": "2025",
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
+          "position": "Vocal 8"
         },
         {
           "year": "2023",
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
+          "position": "Vocal 10"
         },
         {
           "year": "2019",
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
+          "position": "Vocal 7"
+        },
+        {
+          "year": "2016",
+          "list": "Volver a San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "3"
         },
         {
           "year": "2022",
@@ -1083,7 +1080,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 5"
@@ -1209,7 +1206,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 6"
@@ -1366,7 +1363,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 7"
@@ -1478,7 +1475,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 8"
@@ -1641,7 +1638,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 9"
@@ -1814,7 +1811,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 10"
@@ -1926,7 +1923,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 11"
@@ -2061,7 +2058,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 12"
@@ -2203,7 +2200,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 13"
@@ -2360,7 +2357,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 14"
@@ -2480,7 +2477,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 15"
@@ -2585,7 +2582,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 16"
@@ -2740,7 +2737,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 17"
@@ -2789,8 +2786,8 @@
       }
     },
     {
-      "name": "RIOS, GISELA",
-      "id": "GISELA RIOS",
+      "name": "YUSEF, MARIA LAURA",
+      "id": "LAURA MARIA YUSEF",
       "history": [
         {
           "year": "2026",
@@ -2860,7 +2857,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 18"
@@ -2997,11 +2994,12 @@
           "originalPos": null
         }
       ],
-      "biography": "Abogado. Comenzó su carrera política en 2010 en la lista de \"Nuevo San Lorenzo\" que terminó quinta en esas elecciones. Sorpresivamente fue elegido presidente transitorio en Agosto de 2012 y durando así hasta 2019. Duante sus años como presidente, se logró un torneo local y la Copa Libertadores, Sin embargo, sus últimos años estuvieron envueltos en una ausencia por motivos políticos, ademas de aumentar el pasivo, decisiones equivocadas en lo deportivo.y malas decisiones en las gestiones de la vuelta a Boedo En 2019 fue elegido Ministro de Turismo en Nación por lo que su rol en el club fue cada vez menor. En 2023 renuncia a su vocalía. Intentaría regresar al club en la asamblea transitoria en diciembre de 2025. terminando en segundo lugar",
+      "biography": "Matías Lammens es hijo de Nestor Daniel Lammens, ex vicepresidente de San Lorenzo de 1983 a 1984 y Asambleista opositor entre 1986 y su fallecimiento en 1987. Lammens es egresado del nacional Carlos Pellegrini y años respues se recibió como Abogado en la UBA. En 2005 fundó Ñuke Mapu, distrubuidora de vinos ubicada en el barrio de Boedo. En 2010 con solo 30 años participaría de su primera eleccion, en el espacio \"Nuevo San Lorenzo\" del tesorero de la gestión Savino, Claudio Di Megio. A pesar de esto, Lammens empezó a colaborar económicamente en los deportes federados y participó en una de los varios proyectos de restitución histórica. En 2012 seria elegido presidente de San Lorenzo, respaldado por Marcelo Tinelli, con quien mantenía una relación de amistad por parte de un primo del cabezón. En esos años el club ganó tanto el Torneo Inicial 2013, la tan ansiada Copa Libertadores y la Supercopa Argentina 2015. Ademas de importances avances en la vuelta a Boedo, la construcción del polideportivo Roberto Pando, el reordenamiento económico y la reforma del estatuto social en el 2016. En ese mismo año fue re-elegido por el 88% de los votos. Esta segunda gestión se destacó por un balance deportivo mucho mas discreto, sobretodo a partir del 2017 donde se vió una disminución de la inversión en el futbol profesional, aumento del pasivo, deudas con varias instituciones por ventas de jugadores, contratos millonarios con jugadores que trajeron grandes juicios al club, siendo acusado por socios y actores políticos por abandonar el club en pos de sus ambiciones personales y en 2019 con la peor campaña en la historia de San Lorenzo. Por otro lado, se firmó el boleta de compra-venta, donde si bien San Lorenzo comparía los terrenos de carrefour, solo se haría con una parte, dejando 8000 metros cuadrados a la empresa francesa que hoy imposibilitan la construccion del estadio en Boedo. Actualmente San Lorenzo intenta recuperarlo bajo gestiones con el gobierno de la Ciudad. Tambien esos años se destacaron con logros en los deportes federados, siendo Matías uno de los grandes impulsores de las disciplinas del Futsal Masculino y Futbol Femenino. En 2019 decidió finalmente abandonar la política partidaria y trepar hacia la política nacional, primero como candidato a Jefe de Gobierno de CABA donde no consiguiria ganar, y luego con la victoria de Alberto Fernandez, logró ser nombrado como Ministro de Turismo. A pesar de esto, Lammens siguió manteniendo un puesto en comisión directiva luego de la victoria de Marcelo Tinelli, ahora como vicepresidente 1ero. En 2023 renunciaría como parte de la comisión directiva. En 2025 intentaría regresar a San Lorenzo con su nueva agrupación \"Revolución Azulgrana\", junto a integrantes de Boedo en Acción y de Somos San Lorenzo liderada por Andrés Terzano, este intento de regreso fue duramente criticado por los socios por su poca trasparencia, el tratar de hacerlo a espaldas del los hinchas y sin dar notas o declarar públicamente sus intenciones de regresar. Fue derrotado por la lista de Sergio Costantino. Actualmente es legislador de la Ciudad de Buenos Aires",
       "status": {
         "hasResigned": true,
         "remarks": [
-          "Renuncia / Fin de mandato anticipado"
+          "Renuncia / Fin de mandato anticipado",
+          "Fallecimiento"
         ]
       }
     },
@@ -3051,7 +3049,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -3140,7 +3138,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -3204,13 +3202,6 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 2"
-        },
-        {
-          "year": "2019",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 3"
         },
         {
           "year": "2016",
@@ -3633,38 +3624,6 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "CARUSO, JONATHAN",
-      "id": "CARUSO JONATHAN",
-      "history": [
-        {
-          "year": "2025",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 8"
-        },
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 10"
-        },
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 7"
         }
       ],
       "biography": null,
@@ -4309,6 +4268,14 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
+        },
+        {
+          "year": "2023-2017",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
         }
       ],
       "biography": null,
@@ -4495,7 +4462,7 @@
           "originalPos": null
         }
       ],
-      "biography": "Empezó su carrera Política en el espacio \"Grandeza Azulgrana\" de Fernando Miele, siendo vocal en esa lista. En 2010 participo con su Agrupacion, boedo en Accion, quedando tercero y consiguiendo una vocalia como segunda minoria. Renunciaria en 2012 para generar la acefalía. En las elecciones extraordinarias pasaría a ser oficialista con la agrupacion Siglo XXI de LATI. Durante ese periodo de años colaboro ocasionalmente con el basquet. Siendo encargado del Futbol Senior. Renunció en 2021 y rearmó su espacio para las elecciones canceladas de 2022. Ganó las elecciones de 2023 con su espacio. Durante su gestión, aumentó el pasivo, se rifaron jugadores y se dieron escandalos como el comprobante trucho, el contrato con la indumentaria Atomik y el video de los 25mil dólares. Su gestión terminó en diciembre de 2025 al generarse la acefalía. Al dia de hoy intenta volver por la via legal a la presidencia de San Lorenzo. Fuera del club es empresario gastronómico",
+      "biography": "Es hijo de Luis Angel Moretti, ex dirigente y colaborador del club durante la decada del 80. Es Abogado egresado de la Universidad de Palermo y empresario gastronómico. Empezó su carrera política en el espacio \"De Nuevo San Lorenzo\" del ex presidente del club Almagro Hector Sluga y apoyado por Fernando Miele, siendo vocal en esa lista. En 2010 participo con su Agrupacion, Boedo en Accion, quedando tercero y consiguiendo una vocalia como segunda minoria, posteriormente Renunciaria en 2012 para generar la acefalía. En las elecciones extraordinarias de septiembre de 2012 seria electo vocal oficialista con la agrupacion Siglo XXI de Lammens-Tinelli. Durante ese periodo de tiempo colaboró ocasionalmente con el basquet y siendo encargado del Futbol Senior, la cual era una disciplina nueva dentro de los deportes del club. Renunció en 2021 por discrepancia con los dirigentes por la salida de los hermanos Romero y rearmó su espacio para las elecciones canceladas de 2022 y finalmente en 2023 logró ganar las elecciones con el apoyo electoral y estratégico de personas como Andrés Terzano, Nestor Ortigoza y Fernando Miele. Sus primeros meses como presidente estuvieron caracterizados por intentar solucionar el descalabro económico de la gestión anterior, vendiendo a jugadores como Agustin Giay, Adam Bareiro, Agustin Martegani y Tobias Medina. Sin embargo, en abril de 2024 tuvo su primer punto de quiebre como presidente, al despedir a Ruben Darío Insua como DT. A pesar de que le había renovado el contrato por 2 años. Su segundo gran escándalo se daría en julio, con el incidente del \"comprobante trucho\", donde segun Moretti, empleados de tesorería habrían mandado un comprobante falso de transferencia por el jugador Matías Reali, al no poder transferir el dinero real que puso una financiera de Uruguay. Durante los meses de Agosto y Septiembre, Moretti de forma secreta se reunió con funcionarios importantes del gobierno nacional, con el fin de usar a San Lorenzo como punta de lanza para la incursion de las Sociedades Anónimas Deportivas (SAD) en Argentina. Dicho plan buscaba un acuerdo comercial con el empresario estadounidense Foster Gillet, en el cual San Lorenzo cederia prácticamente todos sus ingresos y los terrenos de Avenida La Plata al empresario, a cambio el club obtendría una suma importante de dinero promiento tambien otras obras en el proceso, dicho acuerdo no se pudo concretar, en parte por los estatutos del club los cuales no permiten ese tipo de inversiones, que tampoco fuera firmado por el sub-secretario Uriel Barros y que el plan no sería viable económicamente para el empresario. En noviembre tuvo su tercer escándalo, donde el club al no tener dinero en caja (a pesar de las ventas ya mencionadas) y con deuda con varios jugadores que amenazaban con la libertad de acción, se tomó la decisión de vender el 20% del jugador Fernández Mercau al Elche (jugador que al año siguiente sería vendido en 10 millones de dólares y el club perdiendo ese futuro ingreso). Y el 50% de los jugadores Santiago Sosa y Agustin Hausch en 1,5 millones de dólares. En el último partido de ese año se dieron incidentes en el Pedro Bidegain. A partir de esta fecha, Moretti empezó a tener un perfil mas bajo, apareciendo muy pocas veces de forma pública. Hasta que a finales de abril se desata el incidente de los 25mil dólares. Donde el ahora ex presidente habría recibido 25mil dólares a cambio de inscribir al hijo de una señora en las divisiones inferiores, dicho incidente actualmente es investigado por la justicia. Por este hecho Moretti tomaría una licencia por 90 dias mientras el club a nivel dirigencial sería reordenado y presidido por Julio Lopardo. En septiembre Moretti levantaría su licencia, la cual no fue aceptada por la comisión directiva y forzaron la acefalía, la cual fue anulada por la justicia, volviendo Moretti a sus funciones, tanto los responsables de la secretaría como tesorería se tomaron licencia con la finalidad de que el presidente renunciase y se lograra normalizar una situación que ya estaba en un punto límite. El 20 de Octubre de 2025, el presidente fue de forma secreta a la sede, y luego de algunas horas, tuvo que escaparse en un patrullero ante unos 200 socios que pedían su renuncia. La agonía terminó el 17 de diciembre cuando en una comisión directiva pedida por la justicia, se forzó la acefalía en la cual Moretti no renunció. Actualmente enfrenta varios procesos judiciales por su paso como presidente de San Lorenzo, tambien intenta legalmente volver a ser presidente, ya que considera que el proceso de acefalía no se dio de forma correcta",
       "status": {
         "hasResigned": true,
         "remarks": [
@@ -4692,7 +4659,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -4714,7 +4681,7 @@
       }
     },
     {
-      "name": "OSCAR, TERZANO ANDRES",
+      "name": "TERZANO, ANDRES OSCAR",
       "id": "ANDRES OSCAR TERZANO",
       "history": [
         {
@@ -4846,7 +4813,7 @@
       }
     },
     {
-      "name": "RIGHI, DANIELA MENDEZ",
+      "name": "MENDEZ RIGHI, DANIELA",
       "id": "DANIELA MENDEZ RIGHI",
       "history": [
         {
@@ -5446,7 +5413,7 @@
       }
     },
     {
-      "name": "LAGO, PABLO GARCIA",
+      "name": "GARCIA LAGO, PABLO",
       "id": "GARCIA LAGO PABLO",
       "history": [
         {
@@ -5620,8 +5587,8 @@
       }
     },
     {
-      "name": "IANELLO, SABINA",
-      "id": "IANELLO SABINA",
+      "name": "IANELLO, SABRINA",
+      "id": "IANELLO SABRINA",
       "history": [
         {
           "year": "2023",
@@ -5629,6 +5596,21 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 13"
+        },
+        {
+          "year": "2019",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "50"
+        },
+        {
+          "year": "2022",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -6177,7 +6159,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -6651,9 +6633,17 @@
         {
           "year": "2023",
           "list": "Orden y Progreso",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "7"
+        },
+        {
+          "year": "2022",
+          "list": "Renovacion San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -7260,7 +7250,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -9769,6 +9759,13 @@
           "position": "42"
         },
         {
+          "year": "1998",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "8"
+        },
+        {
           "year": "2010",
           "list": "Grandeza Azulgrana",
           "elected": false,
@@ -9778,7 +9775,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "12"
         },
@@ -9786,14 +9783,6 @@
           "year": "2022",
           "list": "Boedo en Accion",
           "elected": false,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "1998",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": true,
           "category": "Asamblea",
           "position": null,
           "originalPos": null
@@ -9817,16 +9806,22 @@
           "position": "42"
         },
         {
-          "year": "2007",
-          "list": "Frente San Lorenzo",
+          "year": "2004",
+          "list": "Unidos por San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
+          "position": "Vocal 14"
         },
         {
           "year": "2001",
           "list": "Unidos por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 15"
+        },
+        {
+          "year": "2007",
+          "list": "Frente San Lorenzo",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -10655,10 +10650,26 @@
           "position": "47"
         },
         {
+          "year": "2013",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
           "year": "2022",
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Asamblea",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2007",
+          "list": "Frente San Lorenzo",
+          "elected": true,
+          "category": "Fiscalizadora",
           "position": null,
           "originalPos": null
         }
@@ -10725,7 +10736,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -11014,7 +11025,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "19"
         },
@@ -12559,6 +12570,14 @@
           "elected": false,
           "category": "Asamblea",
           "position": "73"
+        },
+        {
+          "year": "2022",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -13885,8 +13904,7 @@
           "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": null,
-          "originalPos": null
+          "position": "32"
         }
       ],
       "biography": null,
@@ -14054,14 +14072,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "88"
-        },
-        {
-          "year": "2022",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": null,
-          "originalPos": null
         }
       ],
       "biography": null,
@@ -14897,11 +14907,12 @@
           "originalPos": null
         }
       ],
-      "biography": "Histórico presentador y productor del programa Showmatch y empresario. Colaboro en San Lorenzo desde 1995 hasta 2022. En 2008 trajo el famoso \"Grupo Empresario\", en el cual San Lorenzo se hacia cargo de los contratos de los jugadores y apenas recibia una compensacion en caso de venta, trayendo un gran perjuicio al club. Políticamente asumiria una vocalía en el gobierno transitorio de 2012 y se afianzaria como Vice-Presidente hasta el año 2019. Donde ganaria las elecciones. Decidio renunciar en Marzo de 2022 por razones personales. Durante su gestión, se hizo cargo del futbol, voley y del baquet. Este ultimo a pesar de grandes logros, terminó dejando una deuda de mas de 500mil dolares",
+      "biography": "Marcelo Tinelli es conductor, empresario y periodista deportivo. Comenzó trabajando en distintas radios y programas de television deportivos como relator y panelista hasta ser conductor del programa Videomatch. En pocos años logró que su programa sea el mas visto durante toda la decada de los 90 y los 2000, siendo considerado una de las personas mas importantes e influyentes de la Argentina. En San Lorenzo comenzó a colaborar con el gobierno de Fernando Miele aunque de forma ocasional, En 1998 compró el club Badajoz de España que estaba en la Segunda División, su gestión fue considerada un fracaso, dejando al club en una situación critica financiera y vendiendo al club en el 2001. Recién en 2007 se involucraría de forma mas seria en el club, acercando sponsors y aportando económicamente. En 2008 junto con el empresario Gustavo Ranucci formaron el famoso \"Grupo Inversor\". En el cual San Lorenzo se hacia cargo de los contratos de los jugadores y apenas recibia una compensacion en caso de venta, mientras que el grupo inversor que quedaría con la mayoría del dinero, trayendo un gran perjuicio económico al club en el proceso. A final de 2009 Tinelli se alejaría de San Lorenzo y retirando el grupo inversor. Durante los años siguientes siempre coqueteó con la intención de participar de forma activa en la política del club, hasta que en 2012 asumiría como vocal en la lista de la asamblea extraordinaria, y en 2012 fue elegido vice-presidente de San Lorenzo hasta el 2019. Durante esos años se hizo cargo en gran parte del Futbol Profesional y durante sus años finales, tomó la decisión de apoyar al basquet, usando a su empresa IDEAS SPORTS para pagar los contratos de los jugadores y financiar la disciplina, lo cual tuvo grandes logros aunque dejando grandes deudas al final de su mandato. Con el fallecimiento de Julio Grondona en 2014, Tinelli intentó ser el presidente en AFA, presentandose contra Luis Segura en  la infame elección del 38-38. En 2019 finalmente con el alejamiento de Matías Lammens hacia la política nacional, Tinelli sería elegido presidente con mas del 80% de los votos. Su gobierno estuvo marcado desde el minuto uno por un pasivo que iba aumentando, contrataciones en dólares impagables para la institucion y por la pandemia. Por estas razones, se tuvo que pedir un prestamo de 4 millones de dólares al fondo de inversión AIS, el cual nunca se pagó y por el cual San Lorenzo enfrenta un pedido de quiebra. En mayo de 2021 se tomó una licencia de sus funciones como presidente y a mediados de 2022 renunció finalmente debido a problemas personales. En ese periodo tambien estuvo al frente de la Superliga Argentina de Futbol (SAF) hasta su desapareción y como presidente de la fundada Liga Profesional de Futbol, organo que reemplazaba las funciones de la SAF. Tambien renunció a mediados de 2022 por razones peronales. Desde ese entonces Marcelo Tinelli ha estado alejado de San Lorenzo y no ha tenido intenciones de volver al club o de estar ligado con el fútbol",
       "status": {
         "hasResigned": true,
         "remarks": [
-          "Renuncia / Fin de mandato anticipado"
+          "Renuncia / Fin de mandato anticipado",
+          "Fallecimiento"
         ]
       }
     },
@@ -15269,6 +15280,79 @@
       }
     },
     {
+      "name": "MASTROSIMONE, MIGUEL MARCELO",
+      "id": "MARCELO MASTROSIMONE MIGUEL",
+      "history": [
+        {
+          "year": "2019",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 3"
+        },
+        {
+          "year": "2010",
+          "list": "Nuevo San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "36"
+        },
+        {
+          "year": "2025",
+          "list": "Revolucion Azulgrana",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2022",
+          "list": "San Lorenzo Querido",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2016",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2013",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2012 (EXTRAORDINARIA)",
+          "list": "San Lorenzo Siglo XXI",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2012 (ASAMBLEA)",
+          "list": "Transitoria",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
       "name": "VUOTTO, MARCELO",
       "id": "MARCELO VUOTTO",
       "history": [
@@ -15468,7 +15552,7 @@
       }
     },
     {
-      "name": "COSTAS, MARIA PAULA FERNANDEZ",
+      "name": "FERNANDEZ COSTAS, MARIA PAULA",
       "id": "COSTAS FERNANDEZ MARIA PAULA",
       "history": [
         {
@@ -16220,6 +16304,14 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
+        },
+        {
+          "year": "2017-2014",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
         }
       ],
       "biography": null,
@@ -16491,7 +16583,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -17715,6 +17807,13 @@
           "position": "15"
         },
         {
+          "year": "1998",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "48"
+        },
+        {
           "year": "2010",
           "list": "Nuevo San Lorenzo",
           "elected": false,
@@ -17745,17 +17844,9 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "47"
-        },
-        {
-          "year": "1998",
-          "list": "Nuevo Rumbo Sanlorencista",
           "elected": true,
           "category": "Asamblea",
-          "position": null,
-          "originalPos": null
+          "position": "47"
         }
       ],
       "biography": null,
@@ -18067,7 +18158,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -18606,8 +18697,7 @@
           "list": "Cruzada por San Lorenzo",
           "elected": false,
           "category": "Asamblea",
-          "position": null,
-          "originalPos": null
+          "position": "32"
         }
       ],
       "biography": null,
@@ -20492,40 +20582,6 @@
       }
     },
     {
-      "name": "IANELLO, SABRINA",
-      "id": "IANELLO SABRINA",
-      "history": [
-        {
-          "year": "2019",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "50"
-        },
-        {
-          "year": "2023",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2022",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "AGUILAR, SANDRA",
       "id": "AGUILAR SANDRA",
       "history": [
@@ -20591,6 +20647,14 @@
           "list": "San Lorenzo Querido",
           "elected": false,
           "category": "Asamblea",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2016",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Fiscalizadora",
           "position": null,
           "originalPos": null
         }
@@ -23585,7 +23649,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -23727,7 +23791,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -23764,6 +23828,14 @@
           "elected": true,
           "category": "Comisión Directiva",
           "position": "Presidente"
+        },
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -23773,8 +23845,8 @@
       }
     },
     {
-      "name": "GALEAZZO, VICENTE",
-      "id": "GALEAZZO VICENTE",
+      "name": "GALEAZZO, VICENTE DOMINGO",
+      "id": "DOMINGO GALEAZZO VICENTE",
       "history": [
         {
           "year": "1998",
@@ -23782,6 +23854,21 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Presidente"
+        },
+        {
+          "year": "2007",
+          "list": "Frente San Lorenzo",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "1"
+        },
+        {
+          "year": "2004",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -24037,6 +24124,14 @@
           "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 10"
+        },
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -24080,6 +24175,14 @@
           "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 1"
+        },
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -24138,7 +24241,7 @@
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": true,
+          "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 10"
         },
@@ -24180,6 +24283,13 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 16"
+        },
+        {
+          "year": "1989",
+          "list": "Frederesa",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 2"
         }
       ],
       "biography": null,
@@ -24313,9 +24423,17 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "1"
+        },
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -24352,13 +24470,13 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "7"
         },
         {
           "year": "2004",
-          "list": "Corazon Azulgrana",
+          "list": "Grandeza Azulgrana",
           "elected": false,
           "category": "Asamblea",
           "position": null,
@@ -24410,7 +24528,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": true,
+          "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 17"
         }
@@ -24422,15 +24540,30 @@
       }
     },
     {
-      "name": "DOMINGUEZ, ANGEL ALBERTO",
-      "id": "ALBERTO ANGEL DOMINGUEZ",
+      "name": "DOMINGUEZ, ANGEL",
+      "id": "ANGEL DOMINGUEZ",
       "history": [
         {
           "year": "1998",
           "list": "San Lorenzo para Todos",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "3"
+        },
+        {
+          "year": "2001",
+          "list": "Unidad Azulgrana",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "3"
+        },
+        {
+          "year": "2004",
+          "list": "Dignidad por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -24501,7 +24634,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "18"
         }
@@ -24546,8 +24679,16 @@
           "originalPos": null
         },
         {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
           "year": "2004",
-          "list": "Corazon Azulgrana",
+          "list": "Grandeza Azulgrana",
           "elected": false,
           "category": "Asamblea",
           "position": null,
@@ -24640,37 +24781,18 @@
           "position": "7"
         },
         {
+          "year": "2001",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "7"
+        },
+        {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
           "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 11"
-        },
-        {
-          "year": "2001",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": true,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "CARRASCO, HORACIO",
-      "id": "CARRASCO HORACIO",
-      "history": [
-        {
-          "year": "1998",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "8"
         }
       ],
       "biography": null,
@@ -24718,7 +24840,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "10"
         }
@@ -24775,7 +24897,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "28"
         }
@@ -24828,13 +24950,27 @@
       }
     },
     {
-      "name": "PENELLO, CARLOS ALBERTO",
-      "id": "ALBERTO CARLOS PENELLO",
+      "name": "PENELLO, CARLOS",
+      "id": "CARLOS PENELLO",
       "history": [
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "11"
+        },
+        {
+          "year": "2004",
+          "list": "De Nuevo San Lorenzo",
           "elected": false,
+          "category": "Asamblea",
+          "position": "8"
+        },
+        {
+          "year": "2001",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
           "category": "Asamblea",
           "position": "11"
         },
@@ -24862,6 +24998,13 @@
           "elected": true,
           "category": "Asamblea",
           "position": "12"
+        },
+        {
+          "year": "1989",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "29"
         }
       ],
       "biography": null,
@@ -24905,13 +25048,6 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 15"
-        },
-        {
-          "year": "1989",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "45"
         }
       ],
       "biography": null,
@@ -24952,7 +25088,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "9"
         }
@@ -24991,6 +25127,13 @@
           "elected": true,
           "category": "Asamblea",
           "position": "17"
+        },
+        {
+          "year": "1989",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "11"
         }
       ],
       "biography": null,
@@ -25031,7 +25174,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "36"
         }
@@ -25043,20 +25186,27 @@
       }
     },
     {
-      "name": "ZEA, ALFREDO",
-      "id": "ALFREDO ZEA",
+      "name": "ZEA, ALFREDO PEDRO",
+      "id": "ALFREDO PEDRO ZEA",
       "history": [
         {
           "year": "1998",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "20"
         },
         {
+          "year": "2010",
+          "list": "Grandeza Azulgrana",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "49"
+        },
+        {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "43"
         }
@@ -25225,6 +25375,13 @@
           "elected": true,
           "category": "Asamblea",
           "position": "28"
+        },
+        {
+          "year": "1989",
+          "list": "Frederesa",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "13"
         }
       ],
       "biography": null,
@@ -25290,7 +25447,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "49"
         }
@@ -25549,7 +25706,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "21"
         }
@@ -25595,7 +25752,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "20"
         }
@@ -25652,24 +25809,6 @@
           "elected": true,
           "category": "Asamblea",
           "position": "47"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BRUZZESE, JUAN CARLOS",
-      "id": "BRUZZESE CARLOS JUAN",
-      "history": [
-        {
-          "year": "1998",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "48"
         }
       ],
       "biography": null,
@@ -25756,7 +25895,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -25888,7 +26027,7 @@
       }
     },
     {
-      "name": "TORRE, JOAQUIN DE LA",
+      "name": "DE LA TORRE, JOAQUIN",
       "id": "DE JOAQUIN LA TORRE",
       "history": [
         {
@@ -26341,7 +26480,7 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "10"
         },
@@ -26555,24 +26694,6 @@
           "elected": true,
           "category": "Asamblea",
           "position": "27"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "GIOIA, CRISTINA SOLEADAD",
-      "id": "CRISTINA GIOIA SOLEADAD",
-      "history": [
-        {
-          "year": "2016",
-          "list": "Cruzada por San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "32"
         }
       ],
       "biography": null,
@@ -27298,22 +27419,6 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 5"
-        },
-        {
-          "year": "2010",
-          "list": "Mas San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2007",
-          "list": "Frente San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
         }
       ],
       "biography": null,
@@ -27617,14 +27722,6 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 14"
-        },
-        {
-          "year": "2007",
-          "list": "Frente San Lorenzo",
-          "elected": true,
-          "category": "Fiscalizadora",
-          "position": null,
-          "originalPos": null
         }
       ],
       "biography": null,
@@ -28573,15 +28670,23 @@
       }
     },
     {
-      "name": "GARCIAZO, MARTIN",
-      "id": "GARCIAZO MARTIN",
+      "name": "GARCILAZO, MARTIN",
+      "id": "GARCILAZO MARTIN",
       "history": [
         {
           "year": "2013",
           "list": "San Lorenzo Siglo XXI",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "25"
+        },
+        {
+          "year": "2010",
+          "list": "Grandeza Azulgrana",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -28855,24 +28960,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "31"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BONANNO, PABLO DAMIAN",
-      "id": "BONANNO DAMIAN PABLO",
-      "history": [
-        {
-          "year": "2013",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "32"
         }
       ],
       "biography": null,
@@ -29675,7 +29762,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "34"
         },
@@ -30066,7 +30153,7 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 3"
         },
@@ -30262,7 +30349,8 @@
           "list": "Unidos por San Lorenzo",
           "elected": true,
           "category": "Asamblea",
-          "position": "25"
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -30523,6 +30611,13 @@
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 15"
+        },
+        {
+          "year": "2001",
+          "list": "Unidos por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 16"
         }
       ],
       "biography": null,
@@ -30812,7 +30907,7 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 1"
         }
@@ -33002,80 +33097,6 @@
       }
     },
     {
-      "name": "MASTROSIMONE, MIGUEL MARCELO",
-      "id": "MARCELO MASTROSIMONE MIGUEL",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "36"
-        },
-        {
-          "year": "2025",
-          "list": "Revolucion Azulgrana",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2022",
-          "list": "San Lorenzo Querido",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2019",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2016",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2012 (EXTRAORDINARIA)",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2012 (ASAMBLEA)",
-          "list": "Transitoria",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "DEYMONNAZ, CESAR AUGUSTO",
       "id": "AUGUSTO CESAR DEYMONNAZ",
       "history": [
@@ -33616,6 +33637,13 @@
           "elected": false,
           "category": "Asamblea",
           "position": "42"
+        },
+        {
+          "year": "2007",
+          "list": "Progreso Azulgrana",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "3"
         }
       ],
       "biography": null,
@@ -34190,32 +34218,6 @@
           "elected": false,
           "category": "Asamblea",
           "position": "49"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "ZEA, ALFREDO PEDRO",
-      "id": "ALFREDO PEDRO ZEA",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Grandeza Azulgrana",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "49"
-        },
-        {
-          "year": "1998",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": true,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
         }
       ],
       "biography": null,
@@ -35580,32 +35582,6 @@
       }
     },
     {
-      "name": "GALEAZZO, VICENTE DOMINGO",
-      "id": "DOMINGO GALEAZZO VICENTE",
-      "history": [
-        {
-          "year": "2007",
-          "list": "Frente San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "1"
-        },
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "RIBAS, ROBERTO",
       "id": "RIBAS ROBERTO",
       "history": [
@@ -35697,24 +35673,6 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "LLENERA, FABIAN MARCELO",
-      "id": "FABIAN LLENERA MARCELO",
-      "history": [
-        {
-          "year": "2007",
-          "list": "Progreso Azulgrana",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "3"
         }
       ],
       "biography": null,
@@ -35916,6 +35874,13 @@
           "elected": true,
           "category": "Asamblea",
           "position": "12"
+        },
+        {
+          "year": "1989",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "45"
         }
       ],
       "biography": null,
@@ -36390,24 +36355,6 @@
       }
     },
     {
-      "name": "MARMESHTEIN MIYAR, GUSTAVO",
-      "id": "GUSTAVO MARMESHTEIN MIYAR",
-      "history": [
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 14"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "PASTORINI, JORGE",
       "id": "JORGE PASTORINI",
       "history": [
@@ -36514,7 +36461,7 @@
         },
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vice-Presidente"
@@ -36575,7 +36522,7 @@
         },
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 1"
@@ -36616,7 +36563,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": true,
+          "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 14"
         }
@@ -36892,39 +36839,6 @@
       }
     },
     {
-      "name": "PENELLO, CARLOS",
-      "id": "CARLOS PENELLO",
-      "history": [
-        {
-          "year": "2004",
-          "list": "De Nuevo San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "8"
-        },
-        {
-          "year": "2001",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "11"
-        },
-        {
-          "year": "1998",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": true,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "PRADO, ANTONIO",
       "id": "ANTONIO PRADO",
       "history": [
@@ -37130,6 +37044,22 @@
           "position": "24"
         },
         {
+          "year": "2010",
+          "list": "Boedo en Accion",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2007",
+          "list": "Unidos por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
           "year": "2022",
           "list": "Siempre San Lorenzo",
           "elected": false,
@@ -37164,7 +37094,7 @@
         },
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 7"
@@ -37220,15 +37150,30 @@
       }
     },
     {
-      "name": "D'ALESSANDRO, CARLOS EDUARDO",
-      "id": "ALESSANDRO CARLOS D EDUARDO",
+      "name": "D'ALESSANDRO, CARLOS",
+      "id": "ALESSANDRO CARLOS D",
       "history": [
         {
           "year": "2001",
           "list": "Unidad Azulgrana",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Presidente"
+        },
+        {
+          "year": "1986",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": "Vocal 4"
+        },
+        {
+          "year": "2004",
+          "list": "Dignidad por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -37249,17 +37194,16 @@
           "position": "Presidente"
         },
         {
-          "year": "2004",
-          "list": "Grandeza Azulgrana",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
           "elected": true,
+          "category": "Comisión Directiva",
+          "position": "Vocal 12"
+        },
+        {
+          "year": "2004",
+          "list": "Grandeza Azulgrana",
+          "elected": false,
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
@@ -37284,7 +37228,7 @@
         },
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Presidente"
@@ -37352,6 +37296,14 @@
           "year": "2004",
           "list": "Unidos por San Lorenzo",
           "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": false,
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
@@ -37436,8 +37388,8 @@
         },
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
-          "elected": false,
+          "list": "Movimiento de Reconstruccion Sanlorencista",
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 3"
         },
@@ -37496,6 +37448,14 @@
         {
           "year": "2004",
           "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
           "elected": true,
           "category": "Comisión Directiva",
           "position": null,
@@ -37624,6 +37584,14 @@
           "position": "Vocal 4"
         },
         {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
           "year": "2004",
           "list": "De Nuevo San Lorenzo",
           "elected": false,
@@ -37676,7 +37644,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": true,
           "category": "Comisión Directiva",
           "position": null,
@@ -37710,8 +37678,8 @@
         },
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
-          "elected": false,
+          "list": "Movimiento de Reconstruccion Sanlorencista",
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 2"
         },
@@ -37803,7 +37771,7 @@
         },
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "4"
@@ -37886,8 +37854,8 @@
         },
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
-          "elected": false,
+          "list": "Movimiento de Reconstruccion Sanlorencista",
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 5"
         },
@@ -38081,50 +38049,6 @@
       }
     },
     {
-      "name": "MIYAR, GUSTAVO",
-      "id": "GUSTAVO MIYAR",
-      "history": [
-        {
-          "year": "2001",
-          "list": "Unidos por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 15"
-        },
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "BRONDO, JOSE",
-      "id": "BRONDO JOSE",
-      "history": [
-        {
-          "year": "2001",
-          "list": "Unidos por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 16"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "CURSI CASTRO, ALBERTO JOSE",
       "id": "ALBERTO CASTRO CURSI JOSE",
       "history": [
@@ -38281,7 +38205,7 @@
         },
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 17"
@@ -38307,40 +38231,6 @@
         {
           "year": "2004",
           "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "DOMINGUEZ, ANGEL",
-      "id": "ANGEL DOMINGUEZ",
-      "history": [
-        {
-          "year": "2001",
-          "list": "Unidad Azulgrana",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "3"
-        },
-        {
-          "year": "2004",
-          "list": "Dignidad por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "1998",
-          "list": "San Lorenzo para Todos",
           "elected": true,
           "category": "Asamblea",
           "position": null,
@@ -38380,13 +38270,13 @@
       }
     },
     {
-      "name": "CALLEGARI, JURIO",
-      "id": "CALLEGARI JURIO",
+      "name": "CALLEGARI, JULIO",
+      "id": "CALLEGARI JULIO",
       "history": [
         {
           "year": "2001",
           "list": "Unidos por San Lorenzo",
-          "elected": true,
+          "elected": false,
           "category": "Asamblea",
           "position": "6"
         }
@@ -38398,33 +38288,15 @@
       }
     },
     {
-      "name": "GALEAZZO, VICENTE DOMINGUEZ",
-      "id": "DOMINGUEZ GALEAZZO VICENTE",
+      "name": "GALEAZZO, VICENTE",
+      "id": "GALEAZZO VICENTE",
       "history": [
         {
           "year": "2001",
           "list": "Unidad Azulgrana",
-          "elected": true,
-          "category": "Asamblea",
-          "position": "6"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "PEREIRA, JUAN",
-      "id": "JUAN PEREIRA",
-      "history": [
-        {
-          "year": "2001",
-          "list": "Nuevo Rumbo Sanlorencista",
           "elected": false,
           "category": "Asamblea",
-          "position": "7"
+          "position": "6"
         }
       ],
       "biography": null,
@@ -38603,6 +38475,31 @@
           "elected": true,
           "category": "Asamblea",
           "position": "22"
+        },
+        {
+          "year": "1989",
+          "list": "Frederesa",
+          "elected": true,
+          "category": "Asamblea",
+          "position": "7"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "ZOPPI, ENZO",
+      "id": "ENZO ZOPPI",
+      "history": [
+        {
+          "year": "2001",
+          "list": "Unidos por San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": "25"
         }
       ],
       "biography": null,
@@ -38660,7 +38557,7 @@
         },
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 15"
@@ -38697,7 +38594,7 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Presidente"
         }
@@ -38733,27 +38630,9 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vice-Presidente"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "MOSQUEIRA, GUIDO OSCAR",
-      "id": "GUIDO MOSQUEIRA OSCAR",
-      "history": [
-        {
-          "year": "1989",
-          "list": "Frederesa",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 2"
         }
       ],
       "biography": null,
@@ -38961,24 +38840,6 @@
       }
     },
     {
-      "name": "MORELLO, SANTOS",
-      "id": "MORELLO SANTOS",
-      "history": [
-        {
-          "year": "1989",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 12"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "GARCIA, CARLOS JOSE",
       "id": "CARLOS GARCIA JOSE",
       "history": [
@@ -38991,7 +38852,7 @@
         },
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 18"
@@ -39013,6 +38874,14 @@
           "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 13"
+        },
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -39136,7 +39005,7 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "1"
         }
@@ -39154,9 +39023,17 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "2"
+        },
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -39172,7 +39049,7 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "2"
         }
@@ -39190,7 +39067,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "3"
         }
@@ -39208,7 +39085,7 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "3"
         }
@@ -39226,7 +39103,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "4"
         },
@@ -39252,7 +39129,7 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "4"
         }
@@ -39270,7 +39147,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "5"
         }
@@ -39288,7 +39165,7 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "5"
         }
@@ -39306,7 +39183,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "6"
         }
@@ -39324,27 +39201,9 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "6"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "PERRONE, RAFAEL CARMELO",
-      "id": "CARMELO PERRONE RAFAEL",
-      "history": [
-        {
-          "year": "1989",
-          "list": "Frederesa",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "7"
         }
       ],
       "biography": null,
@@ -39360,9 +39219,17 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "8"
+        },
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -39378,7 +39245,7 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "8"
         }
@@ -39396,27 +39263,9 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "9"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "LAPADULA, JESUS ANTONIO",
-      "id": "ANTONIO JESUS LAPADULA",
-      "history": [
-        {
-          "year": "1989",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "11"
         }
       ],
       "biography": null,
@@ -39432,7 +39281,7 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "11"
         }
@@ -39450,7 +39299,7 @@
         {
           "year": "1989",
           "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "12"
         }
@@ -39468,25 +39317,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "13"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "DEL GROSSO, PASCUAL NICOLAS",
-      "id": "DEL GROSSO NICOLAS PASCUAL",
-      "history": [
-        {
-          "year": "1989",
-          "list": "Frederesa",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "13"
         }
@@ -39504,7 +39335,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "14"
         }
@@ -39522,7 +39353,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "15"
         }
@@ -39558,7 +39389,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "16"
         }
@@ -39630,7 +39461,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "22"
         }
@@ -39666,9 +39497,17 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "23"
+        },
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -39702,7 +39541,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "24"
         }
@@ -39738,7 +39577,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "25"
         }
@@ -39774,7 +39613,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "26"
         }
@@ -39810,9 +39649,17 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "27"
+        },
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -39858,24 +39705,6 @@
       }
     },
     {
-      "name": "NIETO, CARLOS RAUL",
-      "id": "CARLOS NIETO RAUL",
-      "history": [
-        {
-          "year": "1989",
-          "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
-          "category": "Asamblea",
-          "position": "29"
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "CUCELI, NATALIO MIGUEL",
       "id": "CUCELI MIGUEL NATALIO",
       "history": [
@@ -39900,7 +39729,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "30"
         }
@@ -39936,7 +39765,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "31"
         }
@@ -39972,7 +39801,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "32"
         }
@@ -40008,7 +39837,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "33"
         }
@@ -40062,7 +39891,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "35"
         }
@@ -40116,7 +39945,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "37"
         }
@@ -40152,7 +39981,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "38"
         }
@@ -40188,7 +40017,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "39"
         }
@@ -40224,7 +40053,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "40"
         }
@@ -40260,7 +40089,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "41"
         }
@@ -40412,7 +40241,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "46"
         }
@@ -40466,7 +40295,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "48"
         }
@@ -40520,7 +40349,7 @@
         {
           "year": "1989",
           "list": "Nuevo Rumbo Sanlorencista",
-          "elected": false,
+          "elected": true,
           "category": "Asamblea",
           "position": "50"
         }
@@ -40856,49 +40685,39 @@
       }
     },
     {
-      "name": "D'ALESSANDRO, CARLOS",
-      "id": "ALESSANDRO CARLOS D",
-      "history": [
-        {
-          "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": "Vocal 4"
-        },
-        {
-          "year": "2004",
-          "list": "Dignidad por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2001",
-          "list": "Unidad Azulgrana",
-          "elected": true,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "ALIVERTI BUGALLO, JUAN CARLOS",
       "id": "ALIVERTI BUGALLO CARLOS JUAN",
       "history": [
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 6"
+        },
+        {
+          "year": "2013",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2010",
+          "list": "Mas San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2007",
+          "list": "Frente San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
         }
       ],
       "biography": null,
@@ -40913,8 +40732,8 @@
       "history": [
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
-          "elected": false,
+          "list": "Movimiento de Reconstruccion Sanlorencista",
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 8"
         }
@@ -40926,12 +40745,12 @@
       }
     },
     {
-      "name": "SACAAN, CARLOS",
-      "id": "CARLOS SACAAN",
+      "name": "SACAAN, CARLOS ALBERTO",
+      "id": "ALBERTO CARLOS SACAAN",
       "history": [
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 9"
@@ -40949,7 +40768,7 @@
       "history": [
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 10"
@@ -40967,7 +40786,7 @@
       "history": [
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 11"
@@ -40985,8 +40804,8 @@
       "history": [
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
-          "elected": false,
+          "list": "Movimiento de Reconstruccion Sanlorencista",
+          "elected": true,
           "category": "Comisión Directiva",
           "position": "Vocal 12"
         }
@@ -41003,7 +40822,7 @@
       "history": [
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 13"
@@ -41021,7 +40840,7 @@
       "history": [
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 14"
@@ -41039,7 +40858,7 @@
       "history": [
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Comisión Directiva",
           "position": "Vocal 16"
@@ -41057,7 +40876,7 @@
       "history": [
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "1"
@@ -41075,7 +40894,7 @@
       "history": [
         {
           "year": "1986",
-          "list": "Movimiendo de Reconstruccion Sanlorencista",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
           "elected": false,
           "category": "Asamblea",
           "position": "3"
@@ -41223,7 +41042,7 @@
       "history": [
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -41511,6 +41330,25 @@
       }
     },
     {
+      "name": "BRONDO, JOSE",
+      "id": "BRONDO JOSE",
+      "history": [
+        {
+          "year": "2001",
+          "list": "Unidos por San Lorenzo",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
       "name": "CABRERA, LILIANA",
       "id": "CABRERA LILIANA",
       "history": [
@@ -41708,6 +41546,14 @@
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
+        },
+        {
+          "year": "2024-2030",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
         }
       ],
       "biography": null,
@@ -42224,33 +42070,6 @@
       }
     },
     {
-      "name": "GARCILAZO, MARTIN",
-      "id": "GARCILAZO MARTIN",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Grandeza Azulgrana",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2013",
-          "list": "San Lorenzo Siglo XXI",
-          "elected": true,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "GARCILAZO, PABLO",
       "id": "GARCILAZO PABLO",
       "history": [
@@ -42378,7 +42197,7 @@
       "history": [
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -42451,7 +42270,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -42624,7 +42443,7 @@
       "history": [
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -43031,6 +42850,25 @@
       }
     },
     {
+      "name": "MIYAR, GUSTAVO",
+      "id": "GUSTAVO MIYAR",
+      "history": [
+        {
+          "year": "2004",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
       "name": "MOLINA, GABRIEL",
       "id": "GABRIEL MOLINA",
       "history": [
@@ -43098,7 +42936,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": true,
           "category": "Comisión Directiva",
           "position": null,
@@ -43117,7 +42955,7 @@
       "history": [
         {
           "year": "2026",
-          "list": "Primero San Lorenzo",
+          "list": "Orden y Progreso",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -43505,33 +43343,6 @@
       }
     },
     {
-      "name": "RUIZ, HUGO EDUARDO",
-      "id": "EDUARDO HUGO RUIZ",
-      "history": [
-        {
-          "year": "2010",
-          "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2007",
-          "list": "Unidos por San Lorenzo",
-          "elected": false,
-          "category": "Comisión Directiva",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "RUSSO, JOSE EDUARDO",
       "id": "EDUARDO JOSE RUSSO",
       "history": [
@@ -43832,7 +43643,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -43870,7 +43681,7 @@
       "history": [
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -43941,6 +43752,33 @@
       }
     },
     {
+      "name": "VIDAL, LEANDRO EZEQUIEL",
+      "id": "EZEQUIEL LEANDRO VIDAL",
+      "history": [
+        {
+          "year": "2026",
+          "list": "Nueva Generacion",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2022",
+          "list": "Renovacion San Lorenzo",
+          "elected": false,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
       "name": "VOZZA ALBAMONTE, FRANCISCO",
       "id": "ALBAMONTE FRANCISCO VOZZA",
       "history": [
@@ -43962,7 +43800,7 @@
         },
         {
           "year": "2007",
-          "list": "Proyecto Azulgrana",
+          "list": "Progreso Azulgrana",
           "elected": false,
           "category": "Comisión Directiva",
           "position": null,
@@ -43983,6 +43821,236 @@
           "year": "2001",
           "list": "Unidad Azulgrana",
           "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "1986",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "RIESCO, ROBERTO",
+      "id": "RIESCO ROBERTO",
+      "history": [
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "NAVARRO, ROBERTO",
+      "id": "NAVARRO ROBERTO",
+      "history": [
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "LOPEZ, ELIAS JOSE",
+      "id": "ELIAS JOSE LOPEZ",
+      "history": [
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "DE MIGUEL, PEDRO",
+      "id": "DE MIGUEL PEDRO",
+      "history": [
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2013",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2007",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2004",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2001",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
+          "category": "Fiscalizadora",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "RODRIGUEZ, OSCAR",
+      "id": "OSCAR RODRIGUEZ",
+      "history": [
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "SABATELLI, HECTOR FRANCISCO",
+      "id": "FRANCISCO HECTOR SABATELLI",
+      "history": [
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "COMI, JORGE",
+      "id": "COMI JORGE",
+      "history": [
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "LANTARON, ALFREDO",
+      "id": "ALFREDO LANTARON",
+      "history": [
+        {
+          "year": "1986",
+          "list": "Nuevo Rumbo Sanlorencista",
+          "elected": true,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "SACAAN, CARLOS",
+      "id": "CARLOS SACAAN",
+      "history": [
+        {
+          "year": "1986",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
+          "elected": false,
+          "category": "Comisión Directiva",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "COLONIO, HECTOR",
+      "id": "COLONIO HECTOR",
+      "history": [
+        {
+          "year": "1986",
+          "list": "Movimiento de Reconstruccion Sanlorencista",
+          "elected": false,
           "category": "Comisión Directiva",
           "position": null,
           "originalPos": null
@@ -44466,6 +44534,25 @@
           "year": "2022",
           "list": "Siempre San Lorenzo",
           "elected": false,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "CALLEGARI, JURIO",
+      "id": "CALLEGARI JURIO",
+      "history": [
+        {
+          "year": "2001",
+          "list": "Unidos por San Lorenzo",
+          "elected": true,
           "category": "Asamblea",
           "position": null,
           "originalPos": null
@@ -45577,6 +45664,25 @@
       }
     },
     {
+      "name": "GALEAZZO, VICENTE DOMINGUEZ",
+      "id": "DOMINGUEZ GALEAZZO VICENTE",
+      "history": [
+        {
+          "year": "2001",
+          "list": "Unidad Azulgrana",
+          "elected": true,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
       "name": "GALLEGO, DANIEL",
       "id": "DANIEL GALLEGO",
       "history": [
@@ -45851,33 +45957,6 @@
       }
     },
     {
-      "name": "GUZMAN DE BALDASARE, MONICA",
-      "id": "BALDASARE DE GUZMAN MONICA",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Orden y Progreso",
-          "elected": true,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2022",
-          "list": "Renovacion San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "HERMO, WALTER",
       "id": "HERMO WALTER",
       "history": [
@@ -46113,6 +46192,25 @@
           "year": "2022",
           "list": "Volver a San Lorenzo",
           "elected": false,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "LLENERA, FABIAN MARCELO",
+      "id": "FABIAN LLENERA MARCELO",
+      "history": [
+        {
+          "year": "2007",
+          "list": "Progreso Azulgrana",
+          "elected": true,
           "category": "Asamblea",
           "position": null,
           "originalPos": null
@@ -46738,33 +46836,6 @@
       }
     },
     {
-      "name": "ORCIUOLI, TOBIAS",
-      "id": "ORCIUOLI TOBIAS",
-      "history": [
-        {
-          "year": "2023",
-          "list": "Boedo en Accion",
-          "elected": false,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2022",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Asamblea",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "OSHIRO, GUILLERMO",
       "id": "GUILLERMO OSHIRO",
       "history": [
@@ -46906,6 +46977,33 @@
           "list": "San Lorenzo Querido",
           "elected": false,
           "category": "Asamblea",
+          "position": null,
+          "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "PAPACCENA, RUBEN MIGUEL",
+      "id": "MIGUEL PAPACCENA RUBEN",
+      "history": [
+        {
+          "year": "2023",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Asamblea",
+          "position": null,
+          "originalPos": null
+        },
+        {
+          "year": "2022",
+          "list": "Volver a San Lorenzo",
+          "elected": false,
+          "category": "Fiscalizadora",
           "position": null,
           "originalPos": null
         }
@@ -48119,49 +48217,6 @@
       }
     },
     {
-      "name": "DE MIGUEL, PEDRO",
-      "id": "DE MIGUEL PEDRO",
-      "history": [
-        {
-          "year": "2013",
-          "list": "Volver a San Lorenzo",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2007",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Fiscalizadora",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2004",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Fiscalizadora",
-          "position": null,
-          "originalPos": null
-        },
-        {
-          "year": "2001",
-          "list": "Unidos por San Lorenzo",
-          "elected": true,
-          "category": "Fiscalizadora",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "DELMORO, JUAN CARLOS",
       "id": "CARLOS DELMORO JUAN",
       "history": [
@@ -48206,25 +48261,6 @@
         {
           "year": "2019",
           "list": "Frente Pasion Azulgrana",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
-      "name": "ELISSECHE, ANDRES",
-      "id": "ANDRES ELISSECHE",
-      "history": [
-        {
-          "year": "2016",
-          "list": "Volver a San Lorenzo",
           "elected": false,
           "category": "Fiscalizadora",
           "position": null,
@@ -48905,25 +48941,6 @@
       }
     },
     {
-      "name": "VIDAL, LEANDRO EZEQUIEL",
-      "id": "EZEQUIEL LEANDRO VIDAL",
-      "history": [
-        {
-          "year": "2022",
-          "list": "Renovacion San Lorenzo",
-          "elected": false,
-          "category": "Fiscalizadora",
-          "position": null,
-          "originalPos": null
-        }
-      ],
-      "biography": null,
-      "status": {
-        "hasResigned": false,
-        "remarks": []
-      }
-    },
-    {
       "name": "VILLANUEVA, GLADYS",
       "id": "GLADYS VILLANUEVA",
       "history": [
@@ -49045,6 +49062,893 @@
           "category": "Fiscalizadora",
           "position": null,
           "originalPos": null
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "IBAÑEZ, MARTIN",
+      "id": "IBANEZ MARTIN",
+      "history": [
+        {
+          "year": "2026",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Presidente de la Junta Electoral",
+          "originalPos": "Presidente de la Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "GERLERO, GUSTAVO LUIS",
+      "id": "GERLERO GUSTAVO LUIS",
+      "history": [
+        {
+          "year": "2026",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vice Presidente de la Junta Electoral",
+          "originalPos": "Vice Presidente de la Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "LIRA, NESTOR ALEJANDRO GARCIA",
+      "id": "ALEJANDRO GARCIA LIRA NESTOR",
+      "history": [
+        {
+          "year": "2026",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Secretario Vice Presidente Junta Electoral",
+          "originalPos": "Secretario Vice Presidente Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "ROVATTI, MARIANO LUIS",
+      "id": "LUIS MARIANO ROVATTI",
+      "history": [
+        {
+          "year": "2026",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "ARRIGAZI, GABRIEL",
+      "id": "ARRIGAZI GABRIEL",
+      "history": [
+        {
+          "year": "2026",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "GOMEZ, WALTER HORACIO",
+      "id": "GOMEZ HORACIO WALTER",
+      "history": [
+        {
+          "year": "2026",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        },
+        {
+          "year": "2023",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        },
+        {
+          "year": "2022",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        },
+        {
+          "year": "2019",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "GIOSEFFI, GABRIEL PEDRO",
+      "id": "GABRIEL GIOSEFFI PEDRO",
+      "history": [
+        {
+          "year": "2026",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        },
+        {
+          "year": "2023",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vice Presidente de la Junta Electoral",
+          "originalPos": "Vice Presidente de la Junta Electoral"
+        },
+        {
+          "year": "2022",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Secretario Vice Presidente Junta Electoral",
+          "originalPos": "Secretario Vice Presidente Junta Electoral"
+        },
+        {
+          "year": "2019",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Secretario Vice Presidente Junta Electoral",
+          "originalPos": "Secretario Vice Presidente Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "BIETTI, ALEJANDRO",
+      "id": "ALEJANDRO BIETTI",
+      "history": [
+        {
+          "year": "2023",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Presidente de la Junta Electoral",
+          "originalPos": "Presidente de la Junta Electoral"
+        },
+        {
+          "year": "2022",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Presidente de la Junta Electoral",
+          "originalPos": "Presidente de la Junta Electoral"
+        },
+        {
+          "year": "2019",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Presidente de la Junta Electoral",
+          "originalPos": "Presidente de la Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "GONZALEZ, HERNAN MARTIN",
+      "id": "GONZALEZ HERNAN MARTIN",
+      "history": [
+        {
+          "year": "2022",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vice Presidente de la Junta Electoral",
+          "originalPos": "Vice Presidente de la Junta Electoral"
+        },
+        {
+          "year": "2019",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vice Presidente de la Junta Electoral",
+          "originalPos": "Vice Presidente de la Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "MENENDEZ, JUAN MANUEL",
+      "id": "JUAN MANUEL MENENDEZ",
+      "history": [
+        {
+          "year": "2019",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "FISZBEIN, LUCIANO",
+      "id": "FISZBEIN LUCIANO",
+      "history": [
+        {
+          "year": "2023",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        },
+        {
+          "year": "2022",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        },
+        {
+          "year": "2019",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "SGANGA, JOSE FRANCISCO",
+      "id": "FRANCISCO JOSE SGANGA",
+      "history": [
+        {
+          "year": "2023",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Secretario Vice Presidente Junta Electoral",
+          "originalPos": "Secretario Vice Presidente Junta Electoral"
+        },
+        {
+          "year": "2019",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "LUCCHINI, OMAR",
+      "id": "LUCCHINI OMAR",
+      "history": [
+        {
+          "year": "2016",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Presidente de la Junta Electoral",
+          "originalPos": "Presidente de la Junta Electoral"
+        },
+        {
+          "year": "2013",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Presidente de la Junta Electoral",
+          "originalPos": "Presidente de la Junta Electoral"
+        },
+        {
+          "year": "2010",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Presidente de la Junta Electoral",
+          "originalPos": "Presidente de la Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "MANGIALAVORI, DOMINGO",
+      "id": "DOMINGO MANGIALAVORI",
+      "history": [
+        {
+          "year": "2016",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vice Presidente de la Junta Electoral",
+          "originalPos": "Vice Presidente de la Junta Electoral"
+        },
+        {
+          "year": "2013",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vice Presidente de la Junta Electoral",
+          "originalPos": "Vice Presidente de la Junta Electoral"
+        },
+        {
+          "year": "2010",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vice Presidente de la Junta Electoral",
+          "originalPos": "Vice Presidente de la Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "LABANCA, HECTOR",
+      "id": "HECTOR LABANCA",
+      "history": [
+        {
+          "year": "2016",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Secretario Vice Presidente Junta Electoral",
+          "originalPos": "Secretario Vice Presidente Junta Electoral"
+        },
+        {
+          "year": "2013",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Secretario Vice Presidente Junta Electoral",
+          "originalPos": "Secretario Vice Presidente Junta Electoral"
+        },
+        {
+          "year": "2010",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Secretario Vice Presidente Junta Electoral",
+          "originalPos": "Secretario Vice Presidente Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "RODRIGUEZ, DANIEL",
+      "id": "DANIEL RODRIGUEZ",
+      "history": [
+        {
+          "year": "2016",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        },
+        {
+          "year": "2010",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "PADULKA, CARLOS",
+      "id": "CARLOS PADULKA",
+      "history": [
+        {
+          "year": "2016",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "ALE, LUCAS JAVIER",
+      "id": "ALE JAVIER LUCAS",
+      "history": [
+        {
+          "year": "2023",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        },
+        {
+          "year": "2022",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "RODRIGUEZ, EDGARDO",
+      "id": "EDGARDO RODRIGUEZ",
+      "history": [
+        {
+          "year": "2023",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "PRESEDO, NESTOR",
+      "id": "NESTOR PRESEDO",
+      "history": [
+        {
+          "year": "2016",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "OLIVER, JUAN",
+      "id": "JUAN OLIVER",
+      "history": [
+        {
+          "year": "2010",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Junta Electoral",
+          "position": "Vocal Junta Electoral",
+          "originalPos": "Vocal Junta Electoral"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "FIZSBEIN, LUCIANO",
+      "id": "FIZSBEIN LUCIANO",
+      "history": [
+        {
+          "year": "2024-2030",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "ARENA, RUBEN",
+      "id": "ARENA RUBEN",
+      "history": [
+        {
+          "year": "2024-2030",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "CHIZZINI, LEANDRO",
+      "id": "CHIZZINI LEANDRO",
+      "history": [
+        {
+          "year": "2024-2030",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Presidente",
+          "originalPos": "Presidente"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "HENRIQUES, CARINA",
+      "id": "CARINA HENRIQUES",
+      "history": [
+        {
+          "year": "2024-2030",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Secretaria",
+          "originalPos": "Secretaria"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "PICASSO, MATIAS",
+      "id": "MATIAS PICASSO",
+      "history": [
+        {
+          "year": "2024-2030",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "GALTIERI, MARIA",
+      "id": "GALTIERI MARIA",
+      "history": [
+        {
+          "year": "2024-2030",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "GERLERO, GUSTAVO",
+      "id": "GERLERO GUSTAVO",
+      "history": [
+        {
+          "year": "2023-2017",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Presidente",
+          "originalPos": "Presidente"
+        },
+        {
+          "year": "2017-2014",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Presidente",
+          "originalPos": "Presidente"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "PISARENZO, JORGE",
+      "id": "JORGE PISARENZO",
+      "history": [
+        {
+          "year": "2023-2017",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        },
+        {
+          "year": "2017-2014",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "PEREZ, HUGO",
+      "id": "HUGO PEREZ",
+      "history": [
+        {
+          "year": "2023-2017",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        },
+        {
+          "year": "2017-2014",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "MAHIQUES, CARLOS ALBERTO",
+      "id": "ALBERTO CARLOS MAHIQUES",
+      "history": [
+        {
+          "year": "2023-2017",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "GONZALEZ, RAMIRO",
+      "id": "GONZALEZ RAMIRO",
+      "history": [
+        {
+          "year": "2023-2017",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "CURCI CASTRO, ALBERTO JOSE",
+      "id": "ALBERTO CASTRO CURCI JOSE",
+      "history": [
+        {
+          "year": "2023-2017",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "LUCCHINI, OMAR RICARDO",
+      "id": "LUCCHINI OMAR RICARDO",
+      "history": [
+        {
+          "year": "2023-2017",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "NOVELLINO, CARLOS",
+      "id": "CARLOS NOVELLINO",
+      "history": [
+        {
+          "year": "2017-2014",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "RAGGIO, GABRIEL",
+      "id": "GABRIEL RAGGIO",
+      "history": [
+        {
+          "year": "2017-2014",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
+        }
+      ],
+      "biography": null,
+      "status": {
+        "hasResigned": false,
+        "remarks": []
+      }
+    },
+    {
+      "name": "FRAIMAN, JORGE",
+      "id": "FRAIMAN JORGE",
+      "history": [
+        {
+          "year": "2017-2014",
+          "list": "(Sin datos)",
+          "elected": true,
+          "category": "Tribunal de Ética",
+          "position": "Miembro",
+          "originalPos": "Miembro"
         }
       ],
       "biography": null,

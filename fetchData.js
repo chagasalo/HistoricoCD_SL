@@ -456,6 +456,69 @@ async function fetchAndParse() {
     });
   });
 
+  // Fase 5: Juntas Electorales y Tribunal de Etica
+  console.log('Processing JUNTA ELECTORAL and TRIBUNAL DE ETICA...');
+  ['JUNTA ELECTORAL', 'TRIBUNAL DE ETICA'].forEach(sheetName => {
+    const ws = workbook.getWorksheet(sheetName);
+    if (!ws) return;
+    
+    const category = sheetName === 'JUNTA ELECTORAL' ? 'Junta Electoral' : 'Tribunal de Ética';
+    let yearHeaders = {};
+    let startRow = sheetName === 'JUNTA ELECTORAL' ? 3 : 2;
+
+    ws.eachRow((row, rowNumber) => {
+      if (sheetName === 'JUNTA ELECTORAL' && rowNumber === 2) {
+        row.eachCell((cell, colNumber) => {
+          if (colNumber > 1) yearHeaders[colNumber] = cell.value?.toString().trim();
+        });
+        return;
+      }
+      if (sheetName === 'TRIBUNAL DE ETICA' && rowNumber === 1) {
+        row.eachCell((cell, colNumber) => {
+          if (colNumber > 1) yearHeaders[colNumber] = cell.value?.toString().trim();
+        });
+        return;
+      }
+
+      if (rowNumber < startRow) return;
+
+      const candidateNameRaw = row.getCell(1).value?.toString().trim();
+      if (!candidateNameRaw) return;
+      const candidateName = normalizeAlias(candidateNameRaw);
+      const candidateKey = smartNormalize(candidateName);
+
+      if (!dataMap.has(candidateKey)) dataMap.set(candidateKey, { name: candidateName, history: [] });
+      const record = dataMap.get(candidateKey);
+
+      row.eachCell((cell, colNumber) => {
+        if (colNumber === 1) return;
+        
+        const pos = cell.value?.toString().trim();
+        if (pos) {
+          const year = yearHeaders[colNumber];
+          if (!year) return;
+
+          let hist = record.history.find(h => h.year === year && h.category === category);
+          if (!hist) {
+            record.history.push({
+              year: year,
+              list: "(Sin datos)",
+              elected: true,
+              category: category,
+              position: pos,
+              originalPos: pos
+            });
+          } else {
+            hist.position = pos;
+            hist.originalPos = pos;
+            hist.elected = true;
+            if (!hist.list) hist.list = "(Sin datos)";
+          }
+        }
+      });
+    });
+  });
+
   // Fase 6: Deduplicación Avanzada por Slot Collision
   console.log('Running Advanced Slot Collision Deduplication...');
   const candidates = Array.from(dataMap.entries());

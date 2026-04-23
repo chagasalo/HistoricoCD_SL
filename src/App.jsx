@@ -105,13 +105,17 @@ export default function App() {
     const boardMap = {
       'Comisión Directiva': new Map(),
       'Asamblea': new Map(),
-      'Fiscalizadora': new Map()
+      'Fiscalizadora': new Map(),
+      'Junta Electoral': new Map(),
+      'Tribunal de Ética': new Map()
     };
     
     const boardMembersMap = {
       'Comisión Directiva': new Map(),
       'Asamblea': new Map(),
-      'Fiscalizadora': new Map()
+      'Fiscalizadora': new Map(),
+      'Junta Electoral': new Map(),
+      'Tribunal de Ética': new Map()
     };
     
     const listsByYear = new Map();

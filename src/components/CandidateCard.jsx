@@ -35,9 +35,11 @@ const CandidateCard = ({ candidate, sortMode, currentPage, idx, selectedYear, se
                 <h4 className="category-tag">{cat.category}</h4>
                 {cat.lists.map((g, gIndex) => (
                   <div key={gIndex} className="candidate-list-row">
-                      <span className="row-list-name" style={{color: getListColor(g.list)}}>
-                        {g.list}
-                      </span>
+                      {g.list !== "(Sin datos)" && (
+                        <span className="row-list-name" style={{color: getListColor(g.list)}}>
+                          {g.list}
+                        </span>
+                      )}
                       <span className="row-years">
                         {g.items.map((h, i) => {
                           const isPresi = h.position?.toLowerCase().includes('presidente') && !h.position?.toLowerCase().includes('vice');
