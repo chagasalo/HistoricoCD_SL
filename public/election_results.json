@@ -440,7 +440,8 @@
         "presidente": "VOTOS EN BLANCO/NULOS"
       }
     ],
-    "total": 5355
+    "total": 5355,
+    "habilitados": 14071
   },
   {
     "title": "ELECCIONES ORDINARIAS - DICIEMBRE 1980",
@@ -493,5 +494,244 @@
       }
     ],
     "total": 6703
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - DICIEMBRE 1971",
+    "year": "1971",
+    "results": [
+      {
+        "agrupacion": "Resurgimiento Sanlorencista",
+        "presidente": "Osvaldo Valiño",
+        "votos": 3053,
+        "porcentaje": 0.363409118
+      },
+      {
+        "agrupacion": "Fraccion Tradicional",
+        "votos": 2850,
+        "porcentaje": 0.3392453279
+      },
+      {
+        "agrupacion": "Orden y Progreso",
+        "votos": 1428,
+        "porcentaje": 0.1699797643
+      },
+      {
+        "agrupacion": "Circulo Azulgrana",
+        "votos": 1070,
+        "porcentaje": 0
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 8401
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - FEBRERO 1963",
+    "year": "1963",
+    "results": [
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Ricardo Sovira",
+        "votos": 4858,
+        "porcentaje": 0.5057255882
+      },
+      {
+        "agrupacion": "Unidad de la Mayoria",
+        "votos": 4728,
+        "porcentaje": 0.4921923798
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS",
+        "votos": 20,
+        "porcentaje": 0.002082032063
+      }
+    ],
+    "total": 9606
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - FEBRERO 1960",
+    "year": "1960",
+    "results": [
+      {
+        "agrupacion": "Fraccion Tradicional",
+        "presidente": "Alfredo Bove",
+        "votos": 4803,
+        "porcentaje": 0.473108747
+      },
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Ernesto Castiglione",
+        "votos": 2948,
+        "porcentaje": 0.2903861308
+      },
+      {
+        "agrupacion": "Unidad",
+        "presidente": "Jose Spera",
+        "votos": 2314,
+        "porcentaje": 0.2279353822
+      },
+      {
+        "agrupacion": "El Gasometro",
+        "presidente": "Jose Fama",
+        "votos": 87,
+        "porcentaje": 0.008569739953
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 10152
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - FEBRERO 1957",
+    "year": "1957",
+    "results": [
+      {
+        "agrupacion": "Fraccion Tradicional",
+        "presidente": "Cesar Tagliani",
+        "votos": 4046,
+        "porcentaje": 0.5192505133
+      },
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Ernesto Castiglione",
+        "votos": 3746,
+        "porcentaje": 0.4807494867
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 7792
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - 1954",
+    "year": "1954",
+    "results": [
+      {
+        "agrupacion": "Fraccion Tradicional",
+        "presidente": "Luis Traverso",
+        "votos": 7581,
+        "porcentaje": 0.6181002854
+      },
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Enrique Pinto",
+        "votos": 4684,
+        "porcentaje": 0.3818997146
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 12265
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - 1951",
+    "year": "1951",
+    "results": [
+      {
+        "agrupacion": "Fraccion Tradicional",
+        "presidente": "Luis Traverso",
+        "votos": 3795,
+        "porcentaje": 0.4901201085
+      },
+      {
+        "agrupacion": "Union Sanlorencista",
+        "presidente": "Tomas Erenchun",
+        "votos": 3729,
+        "porcentaje": 0.4815962805
+      },
+      {
+        "agrupacion": "El Gasometro",
+        "votos": 219,
+        "porcentaje": 0.028283611
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 7743
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - 1949",
+    "year": "1949",
+    "results": [
+      {
+        "agrupacion": "Union Sanlorencista",
+        "presidente": "Emilio Bernat",
+        "votos": 4626,
+        "porcentaje": 0.609486166
+      },
+      {
+        "agrupacion": "Todo por San Lorenzo",
+        "presidente": "Natalio Garagusso",
+        "votos": 2964,
+        "porcentaje": 0.390513834
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 7590
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - MARZO 1947",
+    "year": "1947",
+    "results": [
+      {
+        "agrupacion": "Fraccion Tradicional",
+        "presidente": "Luis Nardelli",
+        "votos": 2216,
+        "porcentaje": 0.3882270498
+      },
+      {
+        "agrupacion": "Circulo Azulgrana",
+        "presidente": "Domingo Peluffo",
+        "votos": 1817,
+        "porcentaje": 0.3183251577
+      },
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Luis Novellino",
+        "votos": 1675,
+        "porcentaje": 0.2934477926
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 5708
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - FEBRERO 1945",
+    "year": "1945",
+    "results": [
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Enrique Pinto",
+        "votos": 2128,
+        "porcentaje": 0.5545999479
+      },
+      {
+        "agrupacion": "Fraccion Tradicional",
+        "votos": 1709,
+        "porcentaje": 0.4454000521
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 3837
   }
 ]

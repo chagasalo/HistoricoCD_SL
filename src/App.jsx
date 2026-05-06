@@ -9,6 +9,7 @@ import CandidateExplorer from './components/CandidateExplorer';
 import TransitionView from './components/TransitionView';
 import ElectionResultsView from './components/ElectionResultsView';
 import GovernanceBoardView from './components/GovernanceBoardView';
+import BiographyModal from './components/BiographyModal';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -21,6 +22,15 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [lastUpdated, setLastUpdated] = useState('');
   const [electionResults, setElectionResults] = useState([]);
+
+  // Biography Modal State
+  const [selectedBioCandidate, setSelectedBioCandidate] = useState(null);
+  const [isBioModalOpen, setIsBioModalOpen] = useState(false);
+
+  const openBio = (candidate) => {
+    setSelectedBioCandidate(candidate);
+    setIsBioModalOpen(true);
+  };
 
   // Sorting and Pagination State
   const [sortMode, setSortMode] = useState('mostLists'); 
@@ -326,6 +336,7 @@ export default function App() {
           currentCandidates={currentCandidates}
           currentPage={currentPage} setCurrentPage={setCurrentPage} totalPages={totalPages}
           filteredCandidatesCount={filteredCandidates.length}
+          onOpenBio={openBio}
         />
       )}
 
@@ -354,6 +365,11 @@ export default function App() {
         />
       )}
 
+      <BiographyModal 
+        isOpen={isBioModalOpen} 
+        onClose={() => setIsBioModalOpen(false)} 
+        candidate={selectedBioCandidate} 
+      />
       <Footer />
     </div>
   );

@@ -1355,3 +1355,183 @@
   }
 }
 
+/* Biography Modal Styles (Revised to match site aesthetics) */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 59, 113, 0.4); /* Blueish overlay */
+  backdrop-filter: blur(4px);
+  z-index: 2000;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2001;
+  padding: 20px;
+  pointer-events: none;
+}
+
+.biography-modal {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-top: 6px solid var(--azul-casla); /* Matching the card border style */
+  border-radius: 12px;
+  width: 100%;
+  max-width: 700px;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 30px 60px -12px rgba(0, 59, 113, 0.25);
+  pointer-events: auto;
+  overflow: hidden;
+  color: var(--text-main);
+}
+
+.modal-header {
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #fff, var(--bg-main));
+  border-bottom: 1px solid var(--border-light);
+}
+
+.header-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-title-wrapper h2 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: var(--azul-casla);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.header-icon {
+  color: var(--rojo-casla);
+}
+
+.close-modal-btn {
+  background: var(--bg-main);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--azul-casla);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.close-modal-btn:hover {
+  background: var(--rojo-casla);
+  color: #fff;
+  border-color: var(--rojo-casla);
+  transform: rotate(90deg);
+}
+
+.modal-body {
+  padding: 2rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.candidate-name-modal {
+  font-size: 1.4rem;
+  color: var(--azul-casla);
+  margin-bottom: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--rojo-casla);
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.bio-scroll-area {
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+.bio-paragraph {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.modal-footer {
+  padding: 1rem 2rem;
+  background: var(--bg-main);
+  border-top: 1px solid var(--border-light);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-close-btn {
+  padding: 0.8rem 2rem;
+  background: var(--azul-casla);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.footer-close-btn:hover {
+  background: var(--rojo-casla);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(227, 6, 19, 0.2);
+}
+
+/* Updated Bio Toggle Button for Card */
+.bio-toggle-btn {
+  background: var(--bg-main);
+  border: 1px solid var(--border-light);
+  color: var(--azul-casla);
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bio-toggle-btn:hover {
+  background: var(--azul-casla);
+  color: #fff;
+  border-color: var(--azul-casla);
+  transform: scale(1.1);
+}
+
+@media (max-width: 640px) {
+  .biography-modal {
+    max-height: 90vh;
+    border-radius: 12px;
+    width: 95%;
+  }
+  
+  .modal-header, .modal-body, .modal-footer {
+    padding: 1rem;
+  }
+}

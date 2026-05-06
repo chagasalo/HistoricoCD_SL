@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, BookOpen } from 'lucide-react';
 import { getListColor } from '../utils/colors';
 import { getCategorizedGroups } from '../utils/helpers';
 
-const CandidateCard = ({ candidate, sortMode, currentPage, idx, selectedYear, selectedList, selectedCategory, onlyElected }) => {
+const CandidateCard = ({ candidate, sortMode, currentPage, idx, selectedYear, selectedList, selectedCategory, onlyElected, onOpenBio }) => {
   const displayHistory = candidate.history.filter(h => {
     if (selectedYear && h.year !== selectedYear) return false;
     if (selectedList && h.list !== selectedList) return false;
@@ -27,6 +27,15 @@ const CandidateCard = ({ candidate, sortMode, currentPage, idx, selectedYear, se
     >
       <div className="candidate-header">
         <h3 className="candidate-name">{candidate.name}</h3>
+        {candidate.biography && (
+          <button 
+            className="bio-toggle-btn"
+            onClick={() => onOpenBio(candidate)}
+            title="Ver Biografía"
+          >
+            <BookOpen size={16} />
+          </button>
+        )}
       </div>
       
       <div className="candidate-lists-container">

@@ -12,7 +12,8 @@ const CandidateExplorer = ({
   onlyElected, setOnlyElected,
   currentCandidates,
   currentPage, setCurrentPage, totalPages,
-  filteredCandidatesCount
+  filteredCandidatesCount,
+  onOpenBio
 }) => {
   return (
     <>
@@ -117,6 +118,7 @@ const CandidateExplorer = ({
               selectedList={selectedList}
               selectedCategory={selectedCategory}
               onlyElected={onlyElected}
+              onOpenBio={onOpenBio}
             />
           ))}
         </AnimatePresence>
