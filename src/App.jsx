@@ -9,7 +9,7 @@ import CandidateExplorer from './components/CandidateExplorer';
 import TransitionView from './components/TransitionView';
 import ElectionResultsView from './components/ElectionResultsView';
 import GovernanceBoardView from './components/GovernanceBoardView';
-import BiographyModal from './components/BiographyModal';
+import CandidateProfile from './components/CandidateProfile';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -23,13 +23,12 @@ export default function App() {
   const [lastUpdated, setLastUpdated] = useState('');
   const [electionResults, setElectionResults] = useState([]);
 
-  // Biography Modal State
-  const [selectedBioCandidate, setSelectedBioCandidate] = useState(null);
-  const [isBioModalOpen, setIsBioModalOpen] = useState(false);
+  // Profile View State
+  const [selectedProfileCandidate, setSelectedProfileCandidate] = useState(null);
 
-  const openBio = (candidate) => {
-    setSelectedBioCandidate(candidate);
-    setIsBioModalOpen(true);
+  const openProfile = (candidate) => {
+    setSelectedProfileCandidate(candidate);
+    setActiveTab('profile');
   };
 
   // Sorting and Pagination State
@@ -49,19 +48,37 @@ export default function App() {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '');
+      
+      if (hash.startsWith('profile/')) {
+        const candidateName = decodeURIComponent(hash.split('profile/')[1]);
+        const found = data.find(c => c.name === candidateName);
+        if (found) {
+          setSelectedProfileCandidate(found);
+          setActiveTab('profile');
+          return;
+        }
+      }
+
       if (['candidates', 'transitions', 'conformaciones', 'elecciones'].includes(hash)) {
         setActiveTab(hash);
+        setSelectedProfileCandidate(null);
       }
     };
 
-    handleHashChange(); 
+    if (data.length > 0) {
+      handleHashChange();
+    }
     window.addEventListener('hashchange', handleHashChange);
     return () => window.removeEventListener('hashchange', handleHashChange);
-  }, []);
+  }, [data]);
 
   useEffect(() => {
-    window.location.hash = activeTab;
-  }, [activeTab]);
+    if (activeTab === 'profile' && selectedProfileCandidate) {
+      window.location.hash = `profile/${encodeURIComponent(selectedProfileCandidate.name)}`;
+    } else {
+      window.location.hash = activeTab;
+    }
+  }, [activeTab, selectedProfileCandidate]);
 
   useEffect(() => {
     fetch('/data.json')
@@ -317,13 +334,16 @@ export default function App() {
     <div className="app-container">
       <Header lastUpdated={lastUpdated} />
 
-      <StatsGrid 
-        totalCandidates={data.length} 
-        globalListsCount={globalListsCount} 
-        globalElectedCount={globalElectedCount} 
-      />
-
-      <TabNavigation activeTab={activeTab} setActiveTab={setActiveTab} />
+      {activeTab !== 'profile' && (
+        <>
+          <StatsGrid 
+            totalCandidates={data.length} 
+            globalListsCount={globalListsCount} 
+            globalElectedCount={globalElectedCount} 
+          />
+          <TabNavigation activeTab={activeTab} setActiveTab={setActiveTab} />
+        </>
+      )}
 
       {activeTab === 'candidates' && (
         <CandidateExplorer 
@@ -336,7 +356,7 @@ export default function App() {
           currentCandidates={currentCandidates}
           currentPage={currentPage} setCurrentPage={setCurrentPage} totalPages={totalPages}
           filteredCandidatesCount={filteredCandidates.length}
-          onOpenBio={openBio}
+          onOpenBio={openProfile}
         />
       )}
 
@@ -365,11 +385,16 @@ export default function App() {
         />
       )}
 
-      <BiographyModal 
-        isOpen={isBioModalOpen} 
-        onClose={() => setIsBioModalOpen(false)} 
-        candidate={selectedBioCandidate} 
-      />
+      {activeTab === 'profile' && selectedProfileCandidate && (
+        <CandidateProfile 
+          candidate={selectedProfileCandidate} 
+          onClose={() => {
+            setSelectedProfileCandidate(null);
+            setActiveTab('candidates');
+          }} 
+        />
+      )}
+
       <Footer />
     </div>
   );

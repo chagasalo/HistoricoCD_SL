@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { CheckCircle2, BookOpen } from 'lucide-react';
+import { CheckCircle2, BookOpen, ChevronRight } from 'lucide-react';
 import { getListColor } from '../utils/colors';
 import { getCategorizedGroups } from '../utils/helpers';
 
@@ -25,17 +25,18 @@ const CandidateCard = ({ candidate, sortMode, currentPage, idx, selectedYear, se
       className="candidate-card"
       style={{ borderTop: `4px solid ${getListColor(mainList)}` }}
     >
-      <div className="candidate-header">
+      <div className="candidate-header" onClick={() => onOpenBio(candidate)} style={{ cursor: 'pointer' }}>
         <h3 className="candidate-name">{candidate.name}</h3>
-        {candidate.biography && (
-          <button 
-            className="bio-toggle-btn"
-            onClick={() => onOpenBio(candidate)}
-            title="Ver Biografía"
-          >
-            <BookOpen size={16} />
-          </button>
-        )}
+        <button 
+          className="bio-toggle-btn profile-trigger-btn"
+          onClick={(e) => {
+            e.stopPropagation();
+            onOpenBio(candidate);
+          }}
+          title="Ver Perfil Completo"
+        >
+          <ChevronRight size={18} />
+        </button>
       </div>
       
       <div className="candidate-lists-container">
