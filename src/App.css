@@ -15,7 +15,7 @@
 }
 
 .header-title {
-  font-size: 3.5rem;
+  font-size: 2.2rem;
   font-weight: 900;
   color: var(--azul-casla);
   margin-bottom: 0.5rem;
@@ -28,7 +28,7 @@
 
 .header-title-org {
   display: block;
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--rojo-casla);
   margin-top: 0.25rem;
@@ -38,9 +38,9 @@
 
 .header-subtitle {
   color: var(--text-muted);
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: 500;
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -149,16 +149,16 @@
 
 .stat-info h3 {
   color: var(--text-muted);
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   font-weight: 700;
   margin-bottom: 0.25rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
 }
 
 .stat-info p {
   color: var(--azul-casla);
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   font-weight: 900;
   font-family: var(--font-heading);
   line-height: 1;
@@ -177,10 +177,10 @@
   background: transparent;
   border: none;
   color: var(--text-muted);
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-family: var(--font-heading);
   font-weight: 700;
-  padding: 1rem 0.5rem;
+  padding: 0.8rem 0.5rem;
   cursor: pointer;
   border-bottom: 4px solid transparent;
   transition: all 0.2s ease;
@@ -230,7 +230,7 @@
 }
 
 .filter-label {
-  font-size: 0.72rem;
+  font-size: 0.6rem;
   font-weight: 800;
   text-transform: uppercase;
   color: var(--text-muted);
@@ -242,10 +242,10 @@
   background: var(--bg-main);
   border: 1px solid var(--border-light);
   color: var(--text-main);
-  padding: 0.75rem 1rem;
+  padding: 0.6rem 0.8rem;
   border-radius: 10px;
   font-family: var(--font-body);
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: 600;
   outline: none;
   cursor: pointer;
@@ -281,10 +281,10 @@
   background: var(--bg-main);
   border: 2px solid var(--border-light);
   border-radius: 100px; /* True pill shape */
-  padding: 1.2rem 1.2rem 1.2rem 4rem;
+  padding: 0.8rem 1rem 0.8rem 3.5rem;
   color: var(--text-main);
   font-family: var(--font-body);
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   font-weight: 600;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
@@ -345,7 +345,7 @@
 }
 
 .filter-checkbox-styled span {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 700;
   color: var(--text-main);
 }
@@ -359,9 +359,10 @@
   align-items: center;
   gap: 0.6rem;
   color: var(--text-muted);
-  font-size: 0.8rem;
+  font-size: 0.65rem;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .legend-dot {
@@ -420,15 +421,21 @@
 .candidate-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start; /* Better for long names */
+  gap: 0.5rem;
 }
 
 .candidate-name {
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 900;
   font-family: var(--font-heading);
   color: var(--azul-casla);
   line-height: 1.2;
+  flex: 1;
+  padding-right: 2.2rem; /* Avoid overlap with profile button */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .candidate-lists-container {
@@ -445,14 +452,14 @@
 }
 
 .category-tag {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-muted);
   font-weight: 800;
   border-bottom: 1px solid var(--border-light);
-  padding-bottom: 0.15rem;
-  margin-bottom: 0.15rem;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 
 /* New inline row: pill + years on same line */
@@ -465,28 +472,32 @@
 }
 
 .row-list-name {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   font-weight: 900;
   font-family: var(--font-heading);
-  white-space: nowrap;
-  flex-shrink: 0;
+  white-space: normal; /* Allow wrap for very long list names */
+  max-width: 60%;
 }
 
 .row-years {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem 0.35rem;
+  gap: 0.2rem 0.3rem;
   align-items: center;
   flex: 1;
 }
 
 .row-year {
-  font-size: 0.72rem;
+  font-size: 0.6rem;
   font-weight: 700;
   color: var(--text-muted);
   display: inline-flex;
   align-items: center;
-  gap: 0.2rem;
+  gap: 0.15rem;
+  background: rgba(0, 0, 0, 0.03);
+  padding: 1px 4px;
+  border-radius: 4px;
+  white-space: nowrap;
 }
 
 .row-year.elected {
@@ -533,7 +544,7 @@
 .transition-name {
   font-weight: 900;
   font-family: var(--font-heading);
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   color: var(--azul-casla);
 }
 
@@ -549,12 +560,19 @@
 /* Compact arrow flow layout */
 .transition-flow {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.4rem;
+  flex-direction: column; /* Better for long names */
+  align-items: stretch;
+  gap: 0.6rem;
   background: var(--bg-main);
-  padding: 0.6rem 0.8rem;
+  padding: 0.8rem;
   border-radius: 6px;
+}
+
+.t-arrow {
+  display: flex;
+  justify-content: center;
+  color: var(--text-muted);
+  opacity: 0.5;
 }
 
 .t-from, .t-to {
@@ -569,8 +587,8 @@
 }
 
 .t-to {
-  align-items: flex-end;
-  text-align: right;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .t-year {
@@ -962,8 +980,8 @@
 }
 
 .mini-tab {
-  padding: 0.5rem 1rem;
-  font-size: 0.85rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.7rem;
   font-weight: 800;
   border: none;
   background: transparent;
@@ -1000,7 +1018,7 @@
 }
 
 .footer-credits {
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--text-muted);
 }
@@ -1022,9 +1040,9 @@
   gap: 0.5rem;
   color: var(--text-muted);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  padding: 0.6rem 1.2rem;
+  padding: 0.5rem 1rem;
   border-radius: 100px;
   background: var(--bg-main);
   border: 1px solid var(--border-light);
@@ -1096,7 +1114,7 @@
 
 .election-year {
   font-family: var(--font-heading);
-  font-size: 1.25rem;
+  font-size: 0.95rem;
   font-weight: 900;
   color: var(--azul-casla);
 }
@@ -1140,7 +1158,7 @@
 
 .center-total {
   font-family: var(--font-heading);
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-weight: 900;
   color: var(--text-main);
   line-height: 1;
@@ -1173,7 +1191,7 @@
 }
 
 .stat-value {
-  font-size: 1.25rem;
+  font-size: 0.95rem;
   font-weight: 900;
   color: var(--azul-casla);
 }
@@ -1211,13 +1229,13 @@
 
 .winner-name {
   font-family: var(--font-heading);
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 900;
   color: var(--text-main);
 }
 
 .winner-candidate {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: var(--text-muted);
   font-weight: 600;
 }
@@ -1227,11 +1245,11 @@
   background: var(--azul-casla);
   color: white;
   border: none;
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 8px;
   font-family: var(--font-heading);
   font-weight: 800;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   cursor: pointer;
   transition: all 0.2s;
   display: flex;
@@ -1287,16 +1305,16 @@
   }
 
   .header-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .header-title-org {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     letter-spacing: 0.05em;
   }
 
   .header-subtitle {
-    font-size: 1rem;
+    font-size: 0.75rem;
     padding: 0 1rem;
   }
 
@@ -1310,9 +1328,9 @@
 
   .tab-button {
     flex: 1 1 calc(50% - 0.5rem);
-    min-width: 140px;
-    padding: 0.8rem 0.5rem;
-    font-size: 0.85rem;
+    min-width: 120px;
+    padding: 0.6rem 0.4rem;
+    font-size: 0.75rem;
     border: 1px solid var(--border-light);
     border-radius: 8px;
     margin-bottom: 0;
@@ -1606,10 +1624,10 @@
 }
 
 .profile-name {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 900;
   color: #fff;
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 1rem 0;
   letter-spacing: -0.02em;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
@@ -1623,11 +1641,11 @@
 .badge-item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   background: rgba(255, 255, 255, 0.15);
-  padding: 8px 18px;
+  padding: 6px 14px;
   border-radius: 30px;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: 700;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -1682,7 +1700,7 @@
 
 .stats-mini-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 12px;
 }
 
@@ -1702,7 +1720,7 @@
 }
 
 .stat-val {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 900;
   color: var(--azul-casla);
 }
@@ -1738,8 +1756,9 @@
 
 .pase-flow {
   display: flex;
-  align-items: center;
-  gap: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
 }
 
 .list-sm {
@@ -1766,15 +1785,15 @@
 }
 
 .section-title h2 {
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   margin: 0;
   font-weight: 900;
   text-transform: uppercase;
 }
 
 .profile-bio-text {
-  font-size: 1.15rem;
-  line-height: 1.9;
+  font-size: 0.9rem;
+  line-height: 1.7;
   color: var(--text-muted);
   text-align: justify;
 }
@@ -1841,7 +1860,7 @@
 }
 
 .timeline-year {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 900;
   color: var(--azul-casla);
 }
@@ -1858,13 +1877,13 @@
 }
 
 .timeline-list {
-  font-size: 1.2rem;
+  font-size: 0.95rem;
   margin: 0 0 8px 0;
   font-weight: 900;
 }
 
 .timeline-pos {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
   margin: 0;
   font-weight: 500;
@@ -1893,7 +1912,7 @@
   }
   
   .profile-name {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
   }
   
   .profile-header-main {

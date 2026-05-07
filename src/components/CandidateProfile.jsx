@@ -9,7 +9,8 @@ import {
   Users, 
   Calendar,
   ArrowRightLeft,
-  ChevronRight
+  ChevronRight,
+  ArrowDown
 } from 'lucide-react';
 import { getListColor } from '../utils/colors';
 
@@ -100,7 +101,7 @@ const CandidateProfile = ({ candidate, onClose }) => {
                     <span className="year-mini">{t.to.year}</span>
                     <div className="pase-flow">
                       <span className="list-sm" style={{color: getListColor(t.from.list)}}>{t.from.list}</span>
-                      <ChevronRight size={12} />
+                      <ArrowDown size={10} className="text-muted-foreground opacity-50" />
                       <span className="list-sm" style={{color: getListColor(t.to.list)}}>{t.to.list}</span>
                     </div>
                   </div>

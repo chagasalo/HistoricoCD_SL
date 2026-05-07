@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRightLeft, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowRightLeft, ChevronLeft, ChevronRight, ArrowDown } from 'lucide-react';
 import { getListColor } from '../utils/colors';
 
 const TransitionView = ({ sortModePases, setSortModePases, currentPases, totalPasesPages, pasesPage, setPasesPage }) => {
@@ -39,7 +39,7 @@ const TransitionView = ({ sortModePases, setSortModePases, currentPases, totalPa
                                   <span className="t-list-elec">{t.listCounts?.[m.fromList] || 1} elec.</span>
                                 </span>
                             </div>
-                            <ArrowRightLeft className="t-arrow" size={14} />
+                            <ArrowDown className="t-arrow" size={14} />
                             <div className="t-to">
                                 <span className="t-year">{m.toYear}</span>
                                 <span className="t-list-name" style={{color: getListColor(m.toList)}}>
