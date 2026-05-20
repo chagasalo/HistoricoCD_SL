@@ -10,6 +10,7 @@ import TransitionView from './components/TransitionView';
 import ElectionResultsView from './components/ElectionResultsView';
 import GovernanceBoardView from './components/GovernanceBoardView';
 import CandidateProfile from './components/CandidateProfile';
+import AgrupacionesView from './components/AgrupacionesView';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -22,6 +23,8 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [lastUpdated, setLastUpdated] = useState('');
   const [electionResults, setElectionResults] = useState([]);
+  const [agrupaciones, setAgrupaciones] = useState({});
+  const [highlightedAgrupacion, setHighlightedAgrupacion] = useState(null);
 
   // Profile View State
   const [selectedProfileCandidate, setSelectedProfileCandidate] = useState(null);
@@ -59,9 +62,20 @@ export default function App() {
         }
       }
 
-      if (['candidates', 'transitions', 'conformaciones', 'elecciones'].includes(hash)) {
+      if (hash.startsWith('agrupaciones/')) {
+        const listName = decodeURIComponent(hash.split('agrupaciones/')[1]);
+        setHighlightedAgrupacion(listName);
+        setActiveTab('agrupaciones');
+        setSelectedProfileCandidate(null);
+        return;
+      }
+
+      if (['candidates', 'agrupaciones', 'transitions', 'conformaciones', 'elecciones'].includes(hash)) {
         setActiveTab(hash);
         setSelectedProfileCandidate(null);
+        if (hash !== 'agrupaciones') {
+          setHighlightedAgrupacion(null);
+        }
       }
     };
 
@@ -75,10 +89,12 @@ export default function App() {
   useEffect(() => {
     if (activeTab === 'profile' && selectedProfileCandidate) {
       window.location.hash = `profile/${encodeURIComponent(selectedProfileCandidate.name)}`;
+    } else if (activeTab === 'agrupaciones' && highlightedAgrupacion) {
+      window.location.hash = `agrupaciones/${encodeURIComponent(highlightedAgrupacion)}`;
     } else {
       window.location.hash = activeTab;
     }
-  }, [activeTab, selectedProfileCandidate]);
+  }, [activeTab, selectedProfileCandidate, highlightedAgrupacion]);
 
   useEffect(() => {
     fetch('/data.json')
@@ -88,6 +104,9 @@ export default function App() {
           setData(json);
         } else if (json && json.candidates) {
           setData(json.candidates);
+          if (json.agrupaciones) {
+            setAgrupaciones(json.agrupaciones);
+          }
           if (json.updatedAt) {
             const date = new Date(json.updatedAt);
             const formatted = date.toLocaleString('es-AR', {
@@ -357,6 +376,24 @@ export default function App() {
           currentPage={currentPage} setCurrentPage={setCurrentPage} totalPages={totalPages}
           filteredCandidatesCount={filteredCandidates.length}
           onOpenBio={openProfile}
+        />
+      )}
+
+      {activeTab === 'agrupaciones' && (
+        <AgrupacionesView 
+          agrupaciones={agrupaciones}
+          candidates={data}
+          highlightedAgrupacion={highlightedAgrupacion}
+          setHighlightedAgrupacion={setHighlightedAgrupacion}
+          onSelectAgrupacionFilter={(listName) => {
+            setSearchTerm('');
+            setSelectedYear('');
+            setSelectedCategory('');
+            setOnlyElected(false);
+            setSelectedList(listName);
+            setActiveTab('candidates');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
         />
       )}
 

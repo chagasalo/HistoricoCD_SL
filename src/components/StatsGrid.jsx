@@ -11,7 +11,19 @@ const StatsGrid = ({ totalCandidates, globalListsCount, globalElectedCount }) =>
           <p>{totalCandidates}</p>
         </div>
       </div>
-      <div className="stat-card">
+      <div 
+        className="stat-card clickable"
+        onClick={() => window.location.hash = '#agrupaciones'}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            window.location.hash = '#agrupaciones';
+          }
+        }}
+        role="button"
+        tabIndex={0}
+        aria-label={`Ver listado de ${globalListsCount} agrupaciones`}
+      >
         <div className="stat-icon" style={{backgroundColor: 'rgba(168, 0, 10, 0.4)'}}><Shield size={28} /></div>
         <div className="stat-info">
           <h3>Agrupaciones</h3>

@@ -46,9 +46,17 @@ const CandidateCard = ({ candidate, sortMode, currentPage, idx, selectedYear, se
                 {cat.lists.map((g, gIndex) => (
                   <div key={gIndex} className="candidate-list-row">
                       {g.list !== "(Sin datos)" && (
-                        <span className="row-list-name" style={{color: getListColor(g.list)}}>
+                        <button 
+                          className="list-link-badge row-list-name" 
+                          style={{ color: getListColor(g.list) }}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            window.location.hash = `#agrupaciones/${encodeURIComponent(g.list)}`;
+                          }}
+                          title={`Ver reseña histórica de ${g.list}`}
+                        >
                           {g.list}
-                        </span>
+                        </button>
                       )}
                       <span className="row-years">
                         {g.items.map((h, i) => {

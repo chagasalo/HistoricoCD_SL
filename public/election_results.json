@@ -96,7 +96,7 @@
         "porcentaje": 0.08098240956
       },
       {
-        "agrupacion": "Frente Pasion Azulgrana",
+        "agrupacion": "Frente Pasión Azulgrana",
         "presidente": "Ricardo Saponare",
         "votos": 970,
         "porcentaje": 0.0643876535
@@ -733,5 +733,201 @@
       }
     ],
     "total": 3837
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - FEBRERO 1943",
+    "year": "1943",
+    "results": [
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Enrique Pinto",
+        "votos": 2692,
+        "porcentaje": 0.5908691835
+      },
+      {
+        "agrupacion": "Fraccion Tradicional",
+        "votos": 1746,
+        "porcentaje": 0.3832309043
+      },
+      {
+        "agrupacion": "Socios Libres E Independientes",
+        "votos": 118,
+        "porcentaje": 0.0258999122
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 4556
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - FEBRERO 1941",
+    "year": "1941",
+    "results": [
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Enrique Pinto",
+        "votos": 3321,
+        "porcentaje": 0.5176929072
+      },
+      {
+        "agrupacion": "Fraccion Tradicional",
+        "votos": 2343,
+        "porcentaje": 0.3652377241
+      },
+      {
+        "agrupacion": "Lista Popular",
+        "votos": 751,
+        "porcentaje": 0.1170693687
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 6415
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - FEBRERO 1939",
+    "year": "1939",
+    "results": [
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Enrique Pinto",
+        "votos": 2279,
+        "porcentaje": 0.835716905
+      },
+      {
+        "agrupacion": "Lista Popular",
+        "votos": 436,
+        "porcentaje": 0.1598826549
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS",
+        "votos": 12,
+        "porcentaje": 0.004400440044
+      }
+    ],
+    "total": 2727
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - FEBRERO 1937",
+    "year": "1937",
+    "results": [
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Juan Carlos Scala",
+        "votos": 2627,
+        "porcentaje": 0.7724198765
+      },
+      {
+        "agrupacion": "Lista Popular",
+        "votos": 774,
+        "porcentaje": 0.2275801235
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 3401
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - FEBRERO 1935",
+    "year": "1935",
+    "results": [
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Juan Lazzari",
+        "votos": 2091,
+        "porcentaje": 0.5436817473
+      },
+      {
+        "agrupacion": "Lista Popular",
+        "votos": 1412,
+        "porcentaje": 0.3671346854
+      },
+      {
+        "agrupacion": "Orden y Progreso",
+        "votos": 343,
+        "porcentaje": 0.08918356734
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 3846
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - FEBRERO 1933",
+    "year": "1933",
+    "results": [
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Publio Tomas Molina",
+        "votos": 1827,
+        "porcentaje": 0.6229116945
+      },
+      {
+        "agrupacion": "Lista Popular",
+        "presidente": "Jose Grecco",
+        "votos": 1106,
+        "porcentaje": 0.3770883055
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 2933
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - FEBRERO 1931",
+    "year": "1931",
+    "results": [
+      {
+        "agrupacion": "Orden y Progreso",
+        "presidente": "Eduardo Larrandart",
+        "votos": 2047,
+        "porcentaje": 0.5917895345
+      },
+      {
+        "agrupacion": "Lista Popular",
+        "presidente": "Jose Grecco",
+        "votos": 1412,
+        "porcentaje": 0.4082104655
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 3459
+  },
+  {
+    "title": "ELECCIONES ORDINARIAS - ENERO 1929",
+    "year": "1929",
+    "results": [
+      {
+        "agrupacion": "Pedro Bidegain",
+        "presidente": "Pedro Bidegain",
+        "votos": 597,
+        "porcentaje": 0.5532900834
+      },
+      {
+        "agrupacion": "Eduardo Larrandart",
+        "presidente": "Eduardo Larrandart",
+        "votos": 482,
+        "porcentaje": 0.4467099166
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS"
+      }
+    ],
+    "total": 1079
   }
 ]

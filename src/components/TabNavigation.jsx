@@ -3,6 +3,7 @@ import React from 'react';
 const TabNavigation = ({ activeTab, setActiveTab }) => {
   const tabs = [
     { id: 'candidates', label: 'Explorador de Candidatos' },
+    { id: 'agrupaciones', label: 'Agrupaciones Políticas' },
     { id: 'transitions', label: 'Mapa de Pases Históricos' },
     { id: 'elecciones', label: 'Resultados Históricos' },
     { id: 'conformaciones', label: 'Conformación de Órganos de Gob.' },

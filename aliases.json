@@ -115,15 +115,18 @@
   },
   "lists": {
     "MBM": "Movete Boedo Movete",
-    "N. GENERACION": "Nueva Generacion",
-    "NUEVA GENERACIÓN": "Nueva Generacion",
-    "RENOVACION SAN LORENZO": "Renovacion Sanlorencista",
-    "Renovacion SL": "Renovacion Sanlorencista",
+    "N. GENERACION": "Nueva Generación",
+    "NUEVA GENERACIÓN": "Nueva Generación",
+    "RENOVACION SAN LORENZO": "Renovación Sanlorencista",
+    "Renovacion SL": "Renovación Sanlorencista",
     "Nuevo Rumbo San Lorencista": "Nuevo Rumbo Sanlorencista",
-    "Renovacion San Lorencista": "Renovacion Sanlorencista",
+    "Renovacion San Lorencista": "Renovación Sanlorencista",
+    "Renovacion Sanlorencista": "Renovación Sanlorencista",
+    "Renovación Sanlorencista": "Renovación Sanlorencista",
     "SL Siglo XXI": "San Lorenzo Siglo XXI",
     "Volver a SL": "Volver a San Lorenzo",
     "Cruzada x SL": "Cruzada por San Lorenzo",
-    "FPA": "Frente Pasion Azulgrana"
+    "FPA": "Frente Pasión Azulgrana",
+    "Frente Pasion Azulgrana": "Frente Pasión Azulgrana"
   }
 }

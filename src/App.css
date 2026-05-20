@@ -132,6 +132,20 @@
   border-color: var(--border-active);
 }
 
+.stat-card.clickable {
+  cursor: pointer;
+}
+
+.stat-card.clickable:hover {
+  border-color: var(--azul-casla);
+  box-shadow: 0 12px 20px -3px rgba(0, 45, 98, 0.15);
+}
+
+.stat-card.clickable:focus-visible {
+  outline: 2px solid var(--azul-casla);
+  outline-offset: 4px;
+}
+
 .stat-icon {
   background: var(--bg-main);
   padding: 1.2rem;
@@ -472,8 +486,8 @@
 }
 
 .row-list-name {
-  font-size: 0.65rem;
-  font-weight: 900;
+  font-size: 0.58rem;
+  font-weight: 700;
   font-family: var(--font-heading);
   white-space: normal; /* Allow wrap for very long list names */
   max-width: 60%;
@@ -856,10 +870,6 @@
   font-weight: 800;
   color: var(--rojo-casla);
   font-family: var(--font-heading);
-}
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 /* Tooltip */
@@ -1931,5 +1941,202 @@
   
   .timeline-content-card {
     padding: 1rem;
+  }
+}
+
+/* ==========================================
+   AGRUPACIONES POLÍTICAS STYLES
+   ========================================== */
+
+/* Badge Links */
+.list-link-badge {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.list-link-badge:hover {
+  text-decoration: underline;
+  transform: translateY(-1px);
+  filter: brightness(1.2);
+}
+
+.list-link-badge:active {
+  transform: translateY(0);
+}
+
+/* Agrupaciones Layout */
+.agrupaciones-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.agrupaciones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .agrupaciones-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Glassmorphic card styling */
+.agrupacion-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 280px;
+  box-shadow: 0 4px 20px rgba(0, 59, 113, 0.03);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.agrupacion-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 59, 113, 0.08);
+  border-color: var(--border-active);
+}
+
+.agrupacion-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.agrupacion-card-title {
+  font-size: 1.1rem;
+  font-weight: 900;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--text-main);
+  line-height: 1.2;
+}
+
+.highlight-tag {
+  background: gold;
+  color: #000;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  animation: pulse-badge 1.5s infinite;
+}
+
+@keyframes pulse-badge {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.agrupacion-card-content {
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+}
+
+.agrupacion-desc {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 500;
+  white-space: pre-wrap;
+}
+
+/* Footer layout inside grouping card */
+.agrupacion-card-footer-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-top: 1px solid var(--border-light);
+  padding-top: 1rem;
+  margin-top: auto;
+}
+
+.agrupacion-stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.agrupacion-stat-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(0, 59, 113, 0.04);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.agrupacion-stat-badge.elected {
+  background: rgba(227, 6, 19, 0.06);
+  color: var(--rojo-casla);
+}
+
+/* Redirection Button */
+.ver-candidatos-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-light);
+  background: transparent;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.ver-candidatos-btn:hover {
+  background: var(--hover-bg);
+  color: var(--hover-text);
+  border-color: var(--hover-text);
+}
+
+/* Pulsating Focus Highlight */
+.highlighted-glow {
+  animation: pulse-glow 2s infinite alternate;
+  border-color: gold !important;
+  z-index: 10;
+}
+
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 4px 20px rgba(0, 59, 113, 0.03), 0 0 0px rgba(255, 215, 0, 0);
+  }
+  100% {
+    box-shadow: 0 12px 30px rgba(0, 59, 113, 0.1), 0 0 15px rgba(255, 215, 0, 0.6);
   }
 }

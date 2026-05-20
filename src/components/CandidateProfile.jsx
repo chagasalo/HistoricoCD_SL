@@ -100,9 +100,27 @@ const CandidateProfile = ({ candidate, onClose }) => {
                   <div key={i} className="pase-mini-item">
                     <span className="year-mini">{t.to.year}</span>
                     <div className="pase-flow">
-                      <span className="list-sm" style={{color: getListColor(t.from.list)}}>{t.from.list}</span>
+                      <button
+                        className="list-link-badge list-sm"
+                        style={{ color: getListColor(t.from.list) }}
+                        onClick={() => {
+                          window.location.hash = `#agrupaciones/${encodeURIComponent(t.from.list)}`;
+                        }}
+                        title={`Ver reseña histórica de ${t.from.list}`}
+                      >
+                        {t.from.list}
+                      </button>
                       <ArrowDown size={10} className="text-muted-foreground opacity-50" />
-                      <span className="list-sm" style={{color: getListColor(t.to.list)}}>{t.to.list}</span>
+                      <button
+                        className="list-link-badge list-sm"
+                        style={{ color: getListColor(t.to.list) }}
+                        onClick={() => {
+                          window.location.hash = `#agrupaciones/${encodeURIComponent(t.to.list)}`;
+                        }}
+                        title={`Ver reseña histórica de ${t.to.list}`}
+                      >
+                        {t.to.list}
+                      </button>
                     </div>
                   </div>
                 ))}
@@ -145,7 +163,18 @@ const CandidateProfile = ({ candidate, onClose }) => {
                       {h.elected && <span className="elected-label">ELECTO</span>}
                     </div>
                     <div className="timeline-info">
-                      <h4 className="timeline-list" style={{color: getListColor(h.list)}}>{h.list}</h4>
+                      <h4 className="timeline-list">
+                        <button
+                          className="list-link-badge"
+                          style={{ color: getListColor(h.list), fontSize: 'inherit', fontWeight: 'inherit', padding: 0 }}
+                          onClick={() => {
+                            window.location.hash = `#agrupaciones/${encodeURIComponent(h.list)}`;
+                          }}
+                          title={`Ver reseña histórica de ${h.list}`}
+                        >
+                          {h.list}
+                        </button>
+                      </h4>
                       <p className="timeline-pos">{h.position || 'Candidato'}</p>
                       {h.category && <span className="timeline-cat">{h.category}</span>}
                     </div>

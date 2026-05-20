@@ -27,25 +27,36 @@ let aliases = { candidates: {}, lists: {} };
 try {
   const aliasData = fs.readFileSync('./aliases.json', 'utf8');
   const parsed = JSON.parse(aliasData);
-  if (parsed.candidates || parsed.lists) {
-    aliases = {
-      candidates: parsed.candidates || {},
-      lists: parsed.lists || {}
-    };
-  } else {
-    // Backward compatibility for flat file
-    aliases = { candidates: parsed, lists: {} };
+  
+  const rawCandidates = parsed.candidates || (parsed.lists ? {} : parsed);
+  const rawLists = parsed.lists || {};
+  
+  // Normalize candidate keys
+  const normCandidates = {};
+  for (const k of Object.keys(rawCandidates)) {
+    const normKey = k.toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/,/g, '').replace(/\s+/g, ' ').trim();
+    normCandidates[normKey] = rawCandidates[k];
   }
+  
+  // Normalize list keys
+  const normLists = {};
+  for (const k of Object.keys(rawLists)) {
+    const normKey = k.toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/,/g, '').replace(/\s+/g, ' ').trim();
+    normLists[normKey] = rawLists[k];
+  }
+
+  aliases = {
+    candidates: normCandidates,
+    lists: normLists
+  };
 } catch (e) {
   console.warn('No se encontró aliases.json o no es válido, se asumirá vacío.');
 }
 
 function normalizeAlias(name) {
   if (!name) return '';
-  const norm = name.toUpperCase().replace(/\s+/g, ' ').trim();
-  // Check both with and without comma for robustness in alias map
-  const cleanNorm = norm.replace(/,/g, '');
-  return aliases.candidates[norm] || aliases.candidates[cleanNorm] || norm;
+  const norm = name.toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/,/g, '').replace(/\s+/g, ' ').trim();
+  return aliases.candidates[norm] || name.toString().trim();
 }
 
 function formatNameAsSurnameFirst(rawName) {
@@ -93,10 +104,9 @@ function normalizeListName(list) {
   let name = list.toString().trim();
   
   // 1. Check aliases.json first
-  const norm = name.toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  const cleanNorm = norm.replace(/,/g, '').trim();
-  if (aliases.lists?.[norm] || aliases.lists?.[cleanNorm]) {
-    return aliases.lists[norm] || aliases.lists[cleanNorm];
+  const norm = name.toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/,/g, '').replace(/\s+/g, ' ').trim();
+  if (aliases.lists?.[norm]) {
+    return aliases.lists[norm];
   }
 
   const lowerName = name.toLowerCase();
@@ -606,10 +616,29 @@ async function fetchAndParse() {
         };
      });
 
-  console.log(`Parsed ${data.length} consolidated candidates. Generando archivos...`);
+   console.log(`Parsed ${data.length} consolidated candidates. Generando archivos...`);
+
+   // Filter out groupings that do not have any candidates in the processed data
+   const activeGroups = new Set();
+   data.forEach(c => {
+      c.history.forEach(h => {
+         if (h.list) activeGroups.add(h.list);
+      });
+   });
+
+   for (const name of agrupacionesData.keys()) {
+      if (!activeGroups.has(name)) {
+         console.log(`⚠️ Filtrando agrupación sin candidatos: "${name}"`);
+         agrupacionesData.delete(name);
+      }
+   }
 
   // Escribir JSON App
-  fs.writeFileSync(OUT_JSON, JSON.stringify({ updatedAt: new Date().toISOString(), candidates: data }, null, 2));
+  fs.writeFileSync(OUT_JSON, JSON.stringify({ 
+     updatedAt: new Date().toISOString(), 
+     candidates: data,
+     agrupaciones: Object.fromEntries(agrupacionesData)
+  }, null, 2));
 
   // CSV de Candidatos
   const candidatesCSVHeaders = ["ID_Candidato", "Nombre", "Biografia", "Tiene_Renuncia", "Observaciones"];
