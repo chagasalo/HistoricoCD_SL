@@ -126,6 +126,7 @@ function normalizeListName(list) {
   if (clean.includes('cruzada')) return 'Cruzada por San Lorenzo';
   if (clean.includes('vamos san lorenzo')) return 'Vamos San Lorenzo';
   if (clean.includes('grandeza azulgrana')) return 'Grandeza Azulgrana';
+  if (clean.includes('orden y progreso sanlorencista')) return 'Orden y Progreso Sanlorencista';
   if (clean.includes('orden y progreso')) return 'Orden y Progreso';
   if (clean.includes('somos san lorenzo')) return 'Somos San Lorenzo';
   if (clean.includes('pasion azulgrana') || lowerName.includes('fpa')) return 'Frente Pasion Azulgrana';

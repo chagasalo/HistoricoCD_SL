@@ -16,9 +16,9 @@ const ElectionResultsView = ({ electionResults, setSelectedBoardYear, setSelecte
 
         <div className="results-grid">
             {electionResults.map((election, idx) => {
-                const isPending = election.year === '2026';
+                const isPending = election.year === '2026' && election.results.length === 0;
                 const chartData = election.results
-                    .filter(r => r.votos > 0 && r.agrupacion !== 'Padron de Socios')
+                    .filter(r => r.votos > 0 && r.agrupacion !== 'Padron de Socios' && r.agrupacion !== 'Abstenciones')
                     .map(r => ({
                         name: r.agrupacion,
                         value: r.votos,
@@ -83,7 +83,7 @@ const ElectionResultsView = ({ electionResults, setSelectedBoardYear, setSelecte
                                     </ResponsiveContainer>
                                     <div className="chart-center-info">
                                         <span className="center-total" style={{ fontSize: '1.2rem' }}>{election.total.toLocaleString()}</span>
-                                        <span className="center-label" style={{ fontSize: '0.6rem' }}>Votos</span>
+                                        <span className="center-label" style={{ fontSize: '0.6rem' }}>{election.total === 90 ? 'Votos CD' : 'Votos'}</span>
                                     </div>
                                 </div>
 

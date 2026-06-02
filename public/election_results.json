@@ -4,10 +4,46 @@
     "year": "2026",
     "results": [
       {
+        "agrupacion": "Primero San Lorenzo",
+        "presidente": "Marcelo Culotta",
+        "votos": 4110,
+        "porcentaje": 0.2982150631
+      },
+      {
+        "agrupacion": "San Lorenzo en Marcha",
+        "presidente": "Sergio Costantino",
+        "votos": 3284,
+        "porcentaje": 0.2382818169
+      },
+      {
+        "agrupacion": "Volver a San Lorenzo",
+        "presidente": "Cesar Francis",
+        "votos": 3249,
+        "porcentaje": 0.2357422725
+      },
+      {
+        "agrupacion": "Movete Boedo Movete",
+        "presidente": "Manuel Agote",
+        "votos": 2511,
+        "porcentaje": 0.1821941663
+      },
+      {
+        "agrupacion": "Nueva Generación",
+        "presidente": "Nicolas Papasso",
+        "votos": 595,
+        "porcentaje": 0.04317225366
+      },
+      {
+        "agrupacion": "VOTOS EN BLANCO/NULOS",
+        "presidente": "VOTOS EN BLANCO/NULOS",
+        "votos": 33,
+        "porcentaje": 0.002394427514
+      },
+      {
         "agrupacion": "Padron de Socios",
         "presidente": "PADRON DE SOCIOS",
-        "votos": 43867,
-        "porcentaje": 0
+        "votos": 42146,
+        "porcentaje": 0.3270061216
       },
       {
         "agrupacion": "X Amor a San Lorenzo",
