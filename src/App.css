@@ -486,7 +486,7 @@
 }
 
 .row-list-name {
-  font-size: 0.58rem;
+  font-size: 0.45rem;
   font-weight: 700;
   font-family: var(--font-heading);
   white-space: normal; /* Allow wrap for very long list names */
@@ -2140,3 +2140,40 @@
     box-shadow: 0 12px 30px rgba(0, 59, 113, 0.1), 0 0 15px rgba(255, 215, 0, 0.6);
   }
 }
+
+/* Period Pills */
+.period-pills-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin: 0.5rem 0 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.period-pill {
+  background: var(--bg-main);
+  border: 1px solid var(--border-light);
+  color: var(--text-muted);
+  padding: 0.5rem 1.2rem;
+  border-radius: 100px;
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.period-pill:hover {
+  background: white;
+  border-color: var(--border-active);
+  color: var(--azul-casla);
+}
+
+.period-pill.active {
+  background: var(--azul-casla);
+  color: white;
+  border-color: var(--azul-casla);
+  box-shadow: 0 4px 10px rgba(0, 45, 98, 0.2);
+}
+

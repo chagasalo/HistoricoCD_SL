@@ -584,11 +584,29 @@ async function fetchAndParse() {
      });
   });
 
+  // Resolve chain redirects (path compression)
+  const getRootKey = (key) => {
+     let current = key;
+     const path = [];
+     while (redirects.has(current)) {
+        path.push(current);
+        current = redirects.get(current);
+        if (path.includes(current)) {
+           // Break cycles if any
+           break;
+        }
+     }
+     path.forEach(k => redirects.set(k, current));
+     return current;
+  };
+
   // Apply redirects
   redirects.forEach((newKey, oldKey) => {
-     if (oldKey === newKey) return;
+     const resolvedNewKey = getRootKey(oldKey);
+     if (oldKey === resolvedNewKey) return;
+     
      const oldRec = dataMap.get(oldKey);
-     const newRec = dataMap.get(newKey);
+     const newRec = dataMap.get(resolvedNewKey);
      if (!oldRec || !newRec) return;
 
      // Merge history
@@ -639,7 +657,7 @@ async function fetchAndParse() {
      updatedAt: new Date().toISOString(), 
      candidates: data,
      agrupaciones: Object.fromEntries(agrupacionesData)
-  }, null, 2));
+  }));
 
   // CSV de Candidatos
   const candidatesCSVHeaders = ["ID_Candidato", "Nombre", "Biografia", "Tiene_Renuncia", "Observaciones"];
@@ -678,7 +696,7 @@ async function fetchAndParse() {
       const rowValues = row.values;
       const cells = Array.isArray(rowValues) ? rowValues : [];
       
-      const mainTitle = cells.find(c => c && c.toString().includes('ELECCIONES'));
+      const mainTitle = cells.find(c => c && (c.toString().includes('ELECCIONES') || c.toString().includes('ASAMBLEA EXTRAORDINARIA')));
       if (mainTitle) {
         const titleStr = mainTitle.toString().trim();
         const yearMatch = titleStr.match(/\d{4}/);
@@ -702,7 +720,7 @@ async function fetchAndParse() {
          currentElection.total = typeof val === 'object' ? val.result : val;
          return;
       }
-      if (rowStr.includes('HABILITADOS')) {
+      if (rowStr.includes('HABILITADOS') || rowStr.includes('PADRON DE SOCIOS')) {
          const val = cells.find((c, i) => i > 4 && (typeof c === 'number' || (typeof c === 'object' && c.result)));
          currentElection.habilitados = typeof val === 'object' ? val.result : val;
          return;
@@ -730,8 +748,8 @@ async function fetchAndParse() {
     });
   }
   
-  const finalResults = resultsData.filter(e => e.results.length > 0 || e.year === '2026');
-  fs.writeFileSync(OUT_JSON_RESULTS, JSON.stringify(finalResults, null, 2));
+  const finalResults = resultsData.filter(e => (e.results.length > 0 || e.year === '2026') && e.title.toUpperCase().includes('ELECCIONES'));
+  fs.writeFileSync(OUT_JSON_RESULTS, JSON.stringify(finalResults));
 
   console.log('Exito! Generados: data.json, candidates.csv, history.csv, agrupaciones.csv, election_results.json');
 }

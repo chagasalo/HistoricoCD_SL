@@ -1,5 +1,5 @@
 ID_Candidato,Nombre,Año,Agrupacion,Categoria,Cargo,Electo
-COSTANTINO SERGIO,"Costantino, Sergio",2026,San Lorenzo en Marcha,Comisión Directiva,Presidente,NO
+COSTANTINO SERGIO,"Costantino, Sergio",2026,San Lorenzo en Marcha,Comisión Directiva,Presidente,SI
 COSTANTINO SERGIO,"Costantino, Sergio",2025,X Amor a San Lorenzo,Comisión Directiva,Presidente,SI
 COSTANTINO SERGIO,"Costantino, Sergio",2023,X Amor a San Lorenzo,Comisión Directiva,Presidente,SI
 COSTANTINO SERGIO,"Costantino, Sergio",2019,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 2,SI
@@ -9,7 +9,7 @@ COSTANTINO SERGIO,"Costantino, Sergio",2012 (Extraordinaria),San Lorenzo Siglo X
 COSTANTINO SERGIO,"Costantino, Sergio",2010,Vamos San Lorenzo,Comisión Directiva,Sub-Intendente,SI
 COSTANTINO SERGIO,"Costantino, Sergio",2022,San Lorenzo Querido,Comisión Directiva,,NO
 COSTANTINO SERGIO,"Costantino, Sergio",2012 (EXTRAORDINARIA),San Lorenzo Siglo XXI,Comisión Directiva,,NO
-CULOTTA MARCELO,"Culotta, Marcelo",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Presidente,NO
+CULOTTA MARCELO,"Culotta, Marcelo",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Presidente,SI
 CULOTTA MARCELO,"Culotta, Marcelo",2023,Orden y Progreso Sanlorencista,Comisión Directiva,Presidente,SI
 CULOTTA MARCELO,"Culotta, Marcelo",2016,Cruzada por San Lorenzo,Comisión Directiva,Vice-Presidente 2º,SI
 CULOTTA MARCELO,"Culotta, Marcelo",2013,Cruzada por San Lorenzo,Comisión Directiva,Vice-Presidente 2º,SI
@@ -18,7 +18,7 @@ CULOTTA MARCELO,"Culotta, Marcelo",2010,Cruzada por San Lorenzo,Comisión Direct
 CULOTTA MARCELO,"Culotta, Marcelo",2012 (EXTRAORDINARIA),Cruzada por San Lorenzo,Comisión Directiva,,NO
 AGOTE MANUEL,"Agote, Manuel",2026,Movete Boedo Movete,Comisión Directiva,Presidente,NO
 AGOTE MANUEL,"Agote, Manuel",2025,Movete Boedo Movete,Comisión Directiva,Presidente,NO
-CESAR FRANCIS,"Francis, Cesar",2026,Volver a San Lorenzo,Comisión Directiva,Presidente,NO
+CESAR FRANCIS,"Francis, Cesar",2026,Volver a San Lorenzo,Comisión Directiva,Presidente,SI
 CESAR FRANCIS,"Francis, Cesar",2025,Volver a San Lorenzo,Comisión Directiva,Presidente,NO
 CESAR FRANCIS,"Francis, Cesar",2023,Volver a San Lorenzo,Comisión Directiva,Presidente,NO
 CESAR FRANCIS,"Francis, Cesar",2019,Volver a San Lorenzo,Comisión Directiva,Presidente,SI
@@ -27,13 +27,13 @@ CESAR FRANCIS,"Francis, Cesar",2013,Volver a San Lorenzo,Comisión Directiva,Pre
 CESAR FRANCIS,"Francis, Cesar",2022,Volver a San Lorenzo,Comisión Directiva,,NO
 NICOLAS PAPASSO,"Papasso, Nicolas",2026,Nueva Generación,Comisión Directiva,Presidente,NO
 NICOLAS PAPASSO,"Papasso, Nicolas",2022,Renovación Sanlorencista,Comisión Directiva,,NO
-CIPRIANO POMMIES,"Pommies, Cipriano",2026,San Lorenzo en Marcha,Comisión Directiva,Vice,NO
+CIPRIANO POMMIES,"Pommies, Cipriano",2026,San Lorenzo en Marcha,Comisión Directiva,Vice,SI
 CIPRIANO POMMIES,"Pommies, Cipriano",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 11,SI
 CIPRIANO POMMIES,"Pommies, Cipriano",2022,Siempre San Lorenzo,Comisión Directiva,,NO
-CAMPOS JUAN MANUEL,"Campos, Juan Manuel",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vice-Presidente,NO
+CAMPOS JUAN MANUEL,"Campos, Juan Manuel",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vice-Presidente,SI
 BITTA DELLA LEONARDO,"Della Bitta, Leonardo",2026,Movete Boedo Movete,Comisión Directiva,Vice-Presidente,NO
 BITTA DELLA LEONARDO,"Della Bitta, Leonardo",2025,Movete Boedo Movete,Comisión Directiva,Vocal 1,NO
-DANIEL DE FLORIAN,"De Florian, Daniel",2026,Volver a San Lorenzo,Comisión Directiva,Vice-Presidente,NO
+DANIEL DE FLORIAN,"De Florian, Daniel",2026,Volver a San Lorenzo,Comisión Directiva,Vice-Presidente,SI
 DANIEL DE FLORIAN,"De Florian, Daniel",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 9,NO
 ANGEL GRAS,"Gras, Angel",2026,Nueva Generación,Comisión Directiva,Vice-Presidente,NO
 ANGEL GRAS,"Gras, Angel",2022,Renovación Sanlorencista,Asamblea,,NO
@@ -42,9 +42,9 @@ EZEQUIEL SABOR,"Sabor, Ezequiel",2025,X Amor a San Lorenzo,Comisión Directiva,V
 EZEQUIEL SABOR,"Sabor, Ezequiel",2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 4,NO
 EZEQUIEL SABOR,"Sabor, Ezequiel",2012 (ASAMBLEA),Transitoria,Comisión Directiva,,SI
 EZEQUIEL SABOR,"Sabor, Ezequiel",2010,Nuevo San Lorenzo,Fiscalizadora,,NO
-BAUTISTA CASTAGNA JUAN,"Castagna, Juan Bautista",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 1,NO
+BAUTISTA CASTAGNA JUAN,"Castagna, Juan Bautista",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 1,SI
 BAUTISTA CASTAGNA JUAN,"Castagna, Juan Bautista",2023,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 3,NO
-LUCIA ROJAS,"Rojas, Lucia",2026,Movete Boedo Movete,Comisión Directiva,Vocal 1,NO
+LUCIA ROJAS,"Rojas, Lucia",2026,Movete Boedo Movete,Comisión Directiva,Vocal 1,SI
 LUCIA ROJAS,"Rojas, Lucia",2025,Movete Boedo Movete,Comisión Directiva,Vocal 3,NO
 LUCIA ROJAS,"Rojas, Lucia",2019,San Lorenzo Siglo XXI,Asamblea,43,SI
 FERRERA JORGE OMAR,"Ferrera, Jorge Omar",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 1,NO
@@ -56,7 +56,7 @@ MATIAS NOVAL,"Noval, Matias",2026,Nueva Generación,Comisión Directiva,Vocal 1,
 MATIAS NOVAL,"Noval, Matias",2022,Renovación Sanlorencista,Comisión Directiva,,NO
 DIEGO MEJUTO,"Mejuto, Diego",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 2,NO
 DIEGO MEJUTO,"Mejuto, Diego",2022,Siempre San Lorenzo,Comisión Directiva,,NO
-ARIEL DEAN,"Dean, Ariel",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 2,NO
+ARIEL DEAN,"Dean, Ariel",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 2,SI
 ARIEL DEAN,"Dean, Ariel",2023,Orden y Progreso Sanlorencista,Fiscalizadora,1,SI
 WALTER WEIMANN,"Weimann, Walter",2026,Movete Boedo Movete,Comisión Directiva,Vocal 2,NO
 WALTER WEIMANN,"Weimann, Walter",2025,Movete Boedo Movete,Comisión Directiva,Vocal 5,NO
@@ -72,7 +72,7 @@ CARTA MOGLIETTA VALERIA,"Carta Moglietta, Valeria",2026,San Lorenzo en Marcha,Co
 CARTA MOGLIETTA VALERIA,"Carta Moglietta, Valeria",2025,X Amor a San Lorenzo,Comisión Directiva,Vice-Presidente,SI
 CARTA MOGLIETTA VALERIA,"Carta Moglietta, Valeria",2023,Boedo en Accion,Asamblea,15,SI
 CARTA MOGLIETTA VALERIA,"Carta Moglietta, Valeria",2022,Boedo en Accion,Asamblea,,NO
-ANA BOZZANO,"Bozzano, Ana",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 3,NO
+ANA BOZZANO,"Bozzano, Ana",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 3,SI
 ALFREDO ALONSO,"Alonso, Alfredo",2026,Movete Boedo Movete,Comisión Directiva,Vocal 3,NO
 ALFREDO ALONSO,"Alonso, Alfredo",2025,Movete Boedo Movete,Comisión Directiva,Vocal 7,NO
 AGUSTINA NORDENSTROM,"Nordenstrom, Agustina",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 3,NO
@@ -85,7 +85,7 @@ ARIEL MARTIN SAIZ,"Saiz, Martin Ariel",2026,San Lorenzo en Marcha,Comisión Dire
 ARIEL MARTIN SAIZ,"Saiz, Martin Ariel",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 2,SI
 ARIEL MARTIN SAIZ,"Saiz, Martin Ariel",2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 7,NO
 ARIEL MARTIN SAIZ,"Saiz, Martin Ariel",2022,Siempre San Lorenzo,Fiscalizadora,,NO
-ETMAN HERNAN WALTER,"Etman, Hernan Walter",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 4,NO
+ETMAN HERNAN WALTER,"Etman, Hernan Walter",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 4,SI
 ETMAN HERNAN WALTER,"Etman, Hernan Walter",2023,Orden y Progreso,Asamblea,1,SI
 ETMAN HERNAN WALTER,"Etman, Hernan Walter",2012 (Extraordinaria),San Lorenzo Siglo XXI,Comisión Directiva,Vice-Presidente 2º,NO
 ETMAN HERNAN WALTER,"Etman, Hernan Walter",2012 (EXTRAORDINARIA),San Lorenzo Siglo XXI,Comisión Directiva,,SI
@@ -102,7 +102,7 @@ ANCAROLA GONZALO,"Ancarola, Gonzalo",2026,Nueva Generación,Comisión Directiva,
 BOUZAS RODRIGO,"Bouzas, Rodrigo",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 5,NO
 BOUZAS RODRIGO,"Bouzas, Rodrigo",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 8,SI
 BOUZAS RODRIGO,"Bouzas, Rodrigo",2023,X Amor a San Lorenzo,Asamblea,51,NO
-CAMPOS GONZALO,"Campos, Gonzalo",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 5,NO
+CAMPOS GONZALO,"Campos, Gonzalo",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 5,SI
 FLORENCIA RESTUCCI,"Restucci, Florencia",2026,Movete Boedo Movete,Comisión Directiva,Vocal 5,NO
 FLORENCIA RESTUCCI,"Restucci, Florencia",2025,Movete Boedo Movete,Comisión Directiva,Vocal 6,NO
 BLANCO FERNANDO MUINO,"Blanco Muiño, Fernando",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 5,NO
@@ -112,7 +112,7 @@ BLANCO FERNANDO MUINO,"Blanco Muiño, Fernando",2022,Volver a San Lorenzo,Comisi
 ALESSANDRIA CLAUDIA,"Alessandria, Claudia",2026,Nueva Generación,Comisión Directiva,Vocal 5,NO
 ARIEL SCHALE,"Schale, Ariel",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 6,NO
 ARIEL SCHALE,"Schale, Ariel",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 7,SI
-CRISCOLO PEDRO,"Críscolo, Pedro",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 6,NO
+CRISCOLO PEDRO,"Críscolo, Pedro",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 6,SI
 CRISCOLO PEDRO,"Críscolo, Pedro",2022,Volver a San Lorenzo,Asamblea,,NO
 FERNANDO FISCHER,"Fischer, Fernando",2026,Movete Boedo Movete,Comisión Directiva,Vocal 6,NO
 FERNANDO FISCHER,"Fischer, Fernando",2025,Movete Boedo Movete,Comisión Directiva,Vocal 15,NO
@@ -127,7 +127,7 @@ CAPRIA JOSE,"Capria, Jose",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 5
 CAPRIA JOSE,"Capria, Jose",2010,Nuevo San Lorenzo,Comisión Directiva,Secretario,NO
 CAPRIA JOSE,"Capria, Jose",2007,Unidos por San Lorenzo,Comisión Directiva,Secretario,SI
 CAPRIA JOSE,"Capria, Jose",2004,Unidos por San Lorenzo,Comisión Directiva,Sub-Intendente,SI
-ALEJANDRO MOREIRA OSCAR,"Moreira, Alejandro Oscar",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 7,NO
+ALEJANDRO MOREIRA OSCAR,"Moreira, Alejandro Oscar",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 7,SI
 FRANCO ZUCCOLO,"Zuccolo, Franco",2026,Movete Boedo Movete,Comisión Directiva,Vocal 7,NO
 CHAVARRIA FACUNDO,"Chavarria, Facundo",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 7,NO
 CARLOS PERASSI,"Perassi, Carlos",2026,Nueva Generación,Comisión Directiva,Vocal 7,NO
@@ -135,7 +135,7 @@ KARINA LEFEVRE,"LEFEVRE, KARINA",2026,San Lorenzo en Marcha,Comisión Directiva,
 KARINA LEFEVRE,"LEFEVRE, KARINA",2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 3,NO
 KARINA LEFEVRE,"LEFEVRE, KARINA",2019,San Lorenzo Siglo XXI,Comisión Directiva,Vocal 9,SI
 KARINA LEFEVRE,"LEFEVRE, KARINA",2022,San Lorenzo Querido,Comisión Directiva,,NO
-CLAUDIA COSTA DA DIAZ,"Da Costa Diaz, Claudia",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 8,NO
+CLAUDIA COSTA DA DIAZ,"Da Costa Diaz, Claudia",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 8,SI
 CLAUDIA COSTA DA DIAZ,"Da Costa Diaz, Claudia",2019,Cruzada por San Lorenzo,Comisión Directiva,Vocal 6,NO
 CLAUDIA COSTA DA DIAZ,"Da Costa Diaz, Claudia",2022,Siempre San Lorenzo,Asamblea,,NO
 AREVALO DEL SABRINA VALLE,"Arevalo del Valle, Sabrina",2026,Movete Boedo Movete,Comisión Directiva,Vocal 8,NO
@@ -150,7 +150,7 @@ ARMANDO MUZOGLU,"Muzoglu, Armando",2025,X Amor a San Lorenzo,Comisión Directiva
 ARMANDO MUZOGLU,"Muzoglu, Armando",2023,X Amor a San Lorenzo,Comisión Directiva,Vocal 10,NO
 ARMANDO MUZOGLU,"Muzoglu, Armando",2019,San Lorenzo Siglo XXI,Asamblea,80,NO
 ARMANDO MUZOGLU,"Muzoglu, Armando",2022,San Lorenzo Querido,Asamblea,,NO
-DANIEL ROTELLA,"Rotella, Daniel",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 9,NO
+DANIEL ROTELLA,"Rotella, Daniel",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 9,SI
 DANIEL ROTELLA,"Rotella, Daniel",2023,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 4,NO
 DANIEL ROTELLA,"Rotella, Daniel",2007,Frente San Lorenzo,Comisión Directiva,Pro-Tesorero,NO
 DANIEL ROTELLA,"Rotella, Daniel",2001,Unidad Azulgrana,Comisión Directiva,Vocal 7,NO
@@ -167,7 +167,7 @@ AGOSTINO DANIEL,"Agostino, Daniel",2010,Boedo en Accion,Comisión Directiva,Secr
 ENRIQUE RONZONI,"Ronzoni, Enrique",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 10,NO
 ENRIQUE RONZONI,"Ronzoni, Enrique",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 3,SI
 ENRIQUE RONZONI,"Ronzoni, Enrique",2022,Renovación Sanlorencista,Comisión Directiva,,NO
-FERREIRA MAXIMILIANO,"Ferreira, Maximiliano",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 10,NO
+FERREIRA MAXIMILIANO,"Ferreira, Maximiliano",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 10,SI
 FERRO NICOLAS,"Ferro, Nicolas",2026,Movete Boedo Movete,Comisión Directiva,Vocal 10,NO
 ERTOLA PATRICIO,"Ertola, Patricio",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 10,NO
 ERTOLA PATRICIO,"Ertola, Patricio",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 11,NO
@@ -176,7 +176,7 @@ ERTOLA PATRICIO,"Ertola, Patricio",2022,Volver a San Lorenzo,Comisión Directiva
 EZEQUIEL LEANDRO VIDAL,"Vidal, Leandro Ezequiel",2026,Nueva Generación,Comisión Directiva,Vocal 10,NO
 EZEQUIEL LEANDRO VIDAL,"Vidal, Leandro Ezequiel",2022,Renovación Sanlorencista,Fiscalizadora,,NO
 GARAY GERMAN,"Garay, German",2026,San Lorenzo en Marcha,Comisión Directiva,Vocal 11,NO
-MAIDANA NOEMI SILVANA,"Maidana, Silvana Noemi",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 11,NO
+MAIDANA NOEMI SILVANA,"Maidana, Silvana Noemi",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 11,SI
 PABLO RODRIGUEZ,"Rodriguez, Pablo",2026,Movete Boedo Movete,Comisión Directiva,Vocal 11,NO
 BARROS LEONARDO,"Barros, Leonardo",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 11,NO
 BARROS LEONARDO,"Barros, Leonardo",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 3,NO
@@ -188,7 +188,7 @@ FRAIMAN NICOLAS SERGIO,"Fraiman, Sergio Nicolas",2001,Unidad Azulgrana,Comisión
 FRAIMAN NICOLAS SERGIO,"Fraiman, Sergio Nicolas",2012 (EXTRAORDINARIA),Por San Lorenzo,Comisión Directiva,,SI
 FRAIMAN NICOLAS SERGIO,"Fraiman, Sergio Nicolas",2016,San Lorenzo Siglo XXI,Fiscalizadora,,SI
 FRAIMAN NICOLAS SERGIO,"Fraiman, Sergio Nicolas",2013,San Lorenzo Siglo XXI,Fiscalizadora,,SI
-LUCAS RAJOY,"Rajoy, Lucas",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 12,NO
+LUCAS RAJOY,"Rajoy, Lucas",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 12,SI
 LORENZO NATALICCHIO,"Natalicchio, Lorenzo",2026,Movete Boedo Movete,Comisión Directiva,Vocal 12,NO
 DARIO DORSI RUBEN,"Dorsi, Ruben Dario",2026,Volver a San Lorenzo,Comisión Directiva,Vocal 12,NO
 DARIO DORSI RUBEN,"Dorsi, Ruben Dario",2025,Volver a San Lorenzo,Comisión Directiva,Vocal 10,NO
@@ -200,7 +200,7 @@ HERMIDA SANCHEZ VANESA,"Sanchez Hermida, Vanesa",2026,San Lorenzo en Marcha,Comi
 HERMIDA SANCHEZ VANESA,"Sanchez Hermida, Vanesa",2025,X Amor a San Lorenzo,Comisión Directiva,Vocal 6,SI
 HERMIDA SANCHEZ VANESA,"Sanchez Hermida, Vanesa",2023,Boedo en Accion,Asamblea,45,SI
 HERMIDA SANCHEZ VANESA,"Sanchez Hermida, Vanesa",2022,Boedo en Accion,Asamblea,,NO
-GUILLERMO MANGONE,"Mangone, Guillermo",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 13,NO
+GUILLERMO MANGONE,"Mangone, Guillermo",2026,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 13,SI
 GUILLERMO MANGONE,"Mangone, Guillermo",2025,Revolucion Azulgrana,Comisión Directiva,Vocal 1,NO
 GUILLERMO MANGONE,"Mangone, Guillermo",2023,Orden y Progreso Sanlorencista,Comisión Directiva,Vocal 1,NO
 GUILLERMO MANGONE,"Mangone, Guillermo",2004,Grandeza Azulgrana,Comisión Directiva,Vocal 11,NO

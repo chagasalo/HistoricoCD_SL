@@ -10,6 +10,7 @@ const CandidateExplorer = ({
   selectedCategory, setSelectedCategory,
   sortMode, setSortMode,
   onlyElected, setOnlyElected,
+  selectedPeriod, setSelectedPeriod,
   currentCandidates,
   currentPage, setCurrentPage, totalPages,
   filteredCandidatesCount,
@@ -18,14 +19,34 @@ const CandidateExplorer = ({
   return (
     <>
       <section className="search-section">
+        <div className="period-pills-container" role="group" aria-label="Período de tiempo">
+          {[
+            { id: 'all', label: 'Todos' },
+            { id: '1996-2026', label: '1996 - 2026 (Reciente)' },
+            { id: '1966-1995', label: '1966 - 1995 (Medio)' },
+            { id: '1940-1965', label: '1940 - 1965 (Histórico)' }
+          ].map(p => (
+            <button
+              key={p.id}
+              className={`period-pill ${selectedPeriod === p.id ? 'active' : ''}`}
+              onClick={() => setSelectedPeriod(p.id)}
+              aria-pressed={selectedPeriod === p.id}
+            >
+              {p.label}
+            </button>
+          ))}
+        </div>
         <div className="filters-main-layout">
           <div className="search-input-group">
             <div className="search-input-wrapper">
-              <Search className="search-icon" size={24} />
+              <Search className="search-icon" size={24} aria-hidden="true" />
               <input 
                 type="text" 
                 className="search-input" 
-                placeholder="Buscar por nombre de candidato..." 
+                placeholder="Buscar por nombre de candidato… p. ej. Marcelo Moretti" 
+                name="search"
+                autoComplete="off"
+                aria-label="Buscar por nombre de candidato"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
@@ -91,7 +112,7 @@ const CandidateExplorer = ({
                   onChange={(e) => { setOnlyElected(e.target.checked); setCurrentPage(1); }}
                 />
                 <div className="checkbox-box">
-                  {onlyElected && <CheckCircle2 size={14} />}
+                  {onlyElected && <CheckCircle2 size={14} aria-hidden="true" />}
                 </div>
                 <span>Solo Electos</span>
               </label>
@@ -132,9 +153,9 @@ const CandidateExplorer = ({
 
       {totalPages > 1 && (
         <div className="pagination">
-            <button disabled={currentPage === 1} onClick={() => setCurrentPage(p => p - 1)}><ChevronLeft size={20}/></button>
+            <button disabled={currentPage === 1} onClick={() => setCurrentPage(p => p - 1)} aria-label="Página anterior"><ChevronLeft size={20} aria-hidden="true" /></button>
             <span>Página {currentPage} de {totalPages} ({filteredCandidatesCount} res.)</span>
-            <button disabled={currentPage === totalPages} onClick={() => setCurrentPage(p => p + 1)}><ChevronRight size={20}/></button>
+            <button disabled={currentPage === totalPages} onClick={() => setCurrentPage(p => p + 1)} aria-label="Página siguiente"><ChevronRight size={20} aria-hidden="true" /></button>
         </div>
       )}
     </>

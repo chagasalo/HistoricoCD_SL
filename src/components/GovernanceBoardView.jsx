@@ -16,7 +16,7 @@ const GovernanceBoardView = ({
               <div style={{display: 'flex', alignItems: 'center', gap: '1rem'}}>
                 {selectedBoardYear && (
                   <button className="back-button" onClick={() => setSelectedBoardYear(null)}>
-                    <ChevronLeft size={20} />
+                    <ChevronLeft size={20} aria-hidden="true" />
                     Volver
                   </button>
                 )}
@@ -58,7 +58,7 @@ const GovernanceBoardView = ({
                   >
                      <div className="board-card-header">
                         <h3 className="board-year">Elecciones {bc.year}</h3>
-                        <span className="board-total"><BarChart3 size={16} /> {bc.totalMembers} Electos</span>
+                        <span className="board-total"><BarChart3 size={16} aria-hidden="true" /> {bc.totalMembers} Electos</span>
                      </div>
                      <div className="board-lists">
                         {bc.lists.filter(l => l.listName !== "(Sin datos)").map((l, lIdx) => (
@@ -72,7 +72,7 @@ const GovernanceBoardView = ({
                         ))}
                      </div>
                      <div className="board-card-footer">
-                        <span>Ver integrantes <ArrowRightLeft size={12} style={{transform: 'rotate(90deg)'}} /></span>
+                        <span>Ver integrantes <ArrowRightLeft size={12} style={{transform: 'rotate(90deg)'}} aria-hidden="true" /></span>
                      </div>
                   </motion.div>
               ))}

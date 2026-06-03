@@ -10,10 +10,12 @@ const TabNavigation = ({ activeTab, setActiveTab }) => {
   ];
 
   return (
-    <div className="tabs">
+    <div className="tabs" role="tablist" aria-label="Navegación principal">
       {tabs.map((tab) => (
         <button
           key={tab.id}
+          role="tab"
+          aria-selected={activeTab === tab.id}
           className={`tab-button ${activeTab === tab.id ? 'active' : ''}`}
           onClick={() => setActiveTab(tab.id)}
         >

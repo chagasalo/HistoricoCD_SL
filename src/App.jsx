@@ -13,10 +13,17 @@ import CandidateProfile from './components/CandidateProfile';
 import AgrupacionesView from './components/AgrupacionesView';
 import Footer from './components/Footer';
 
+export const PERIODS = [
+  { id: '1996-2026', label: '1996 - 2026', min: 1996, max: 2026 },
+  { id: '1966-1995', label: '1966 - 1995', min: 1966, max: 1995 },
+  { id: '1940-1965', label: '1940 - 1965', min: 1940, max: 1965 }
+];
+
 export default function App() {
   const [data, setData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedList, setSelectedList] = useState('');
+  const [selectedPeriod, setSelectedPeriod] = useState('1996-2026');
   const [selectedYear, setSelectedYear] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
   const [activeTab, setActiveTab] = useState('candidates'); 
@@ -142,10 +149,14 @@ export default function App() {
      setPasesPage(1);
   }, [sortModePases]);
 
-  const { filteredCandidates, uniqueLists, uniqueYears, globalListsCount, globalElectedCount, sortedTransitions, boardConfigs } = useMemo(() => {
+  useEffect(() => {
+    setSelectedYear('');
+    setCurrentPage(1);
+  }, [selectedPeriod]);
+
+  const processedStaticData = useMemo(() => {
     const lists = new Set();
     const years = new Set();
-    let electedCount = 0;
     const transMap = new Map(); 
     
     const boardMap = {
@@ -185,8 +196,6 @@ export default function App() {
         yearsByList.get(h.list).add(h.year);
         
         if (h.elected) {
-            electedCount++;
-            
             const catKey = h.category || 'Comisión Directiva';
             const catMap = boardMap[catKey];
             if (catMap) {
@@ -231,11 +240,107 @@ export default function App() {
          entry.listCounts = Object.fromEntries(listCountMap);
          entry.moves.sort((a, b) => b.toYear.localeCompare(a.toYear));
       }
-    }); 
+    });
 
+    const globalElectedCount = new Set(data.filter(c => c.history.some(h => h.elected)).map(c => c.name)).size;
+    const sortedYears = Array.from(years).filter(y => y).sort((a, b) => b.localeCompare(a));
+
+    return {
+      lists,
+      years,
+      transMap,
+      boardMap,
+      boardMembersMap,
+      listsByYear,
+      yearsByList,
+      globalElectedCount,
+      sortedYears
+    };
+  }, [data]);
+
+  const uniqueLists = useMemo(() => {
+    return selectedYear 
+        ? Array.from(processedStaticData.listsByYear.get(selectedYear) || []).sort()
+        : Array.from(processedStaticData.lists).sort();
+  }, [processedStaticData, selectedYear]);
+
+  const uniqueYears = useMemo(() => {
+    const years = selectedList
+        ? Array.from(processedStaticData.yearsByList.get(selectedList) || []).sort((a, b) => b.localeCompare(a))
+        : processedStaticData.sortedYears;
+    if (selectedPeriod === 'all') {
+      return years;
+    }
+    const period = PERIODS.find(p => p.id === selectedPeriod);
+    return years.filter(y => {
+      const yr = parseInt(y.match(/\d{4}/)?.[0]);
+      return yr >= period.min && yr <= period.max;
+    });
+  }, [processedStaticData, selectedList, selectedPeriod]);
+
+  const globalListsCount = processedStaticData.lists.size;
+  const globalElectedCount = processedStaticData.globalElectedCount;
+
+  const sortedTransitions = useMemo(() => {
+    let trArray = Array.from(processedStaticData.transMap.values());
+    const getCatStats = (history, cat) => {
+      const entries = history.filter(h => (h.category || 'Comisión Directiva') === cat);
+      return {
+        total: entries.length,
+        elected: entries.filter(h => h.elected).length
+      };
+    };
+    const compareElectedCounts = (a, b) => {
+        const electedA = a.history.filter(h => h.elected).length;
+        const electedB = b.history.filter(h => h.elected).length;
+        if (electedB !== electedA) return electedB - electedA;
+        const sA = {
+          cd: getCatStats(a.history, 'Comisión Directiva'),
+          f: getCatStats(a.history, 'Fiscalizadora')
+        };
+        const sB = {
+          cd: getCatStats(b.history, 'Comisión Directiva'),
+          f: getCatStats(b.history, 'Fiscalizadora')
+        };
+        if (sB.cd.elected !== sA.cd.elected) return sB.cd.elected - sA.cd.elected;
+        if (sB.cd.total !== sA.cd.total) return sB.cd.total - sA.cd.total;
+        if (sB.f.elected !== sA.f.elected) return sB.f.elected - sA.f.elected;
+        return a.name.localeCompare(b.name);
+    };
+
+    if (sortModePases === 'importance') trArray.sort(compareElectedCounts);
+    else if (sortModePases === 'mostLists') trArray.sort((a, b) => b.totalLists - a.totalLists || a.name.localeCompare(b.name));
+    else trArray.sort((a, b) => a.name.localeCompare(b.name));
+    return trArray;
+  }, [processedStaticData, sortModePases]);
+
+  const boardConfigs = useMemo(() => {
+    const currentCatMap = processedStaticData.boardMap[selectedBoardCategory] || new Map();
+    const currentMembersMap = processedStaticData.boardMembersMap[selectedBoardCategory] || new Map();
+    return Array.from(currentCatMap.entries())
+        .sort((a, b) => b[0].localeCompare(a[0])) 
+        .map(([year, listCounts]) => {
+            const listsDetails = Array.from(listCounts.entries())
+                .sort((a, b) => b[1] - a[1]) 
+                .map(([listName, count]) => ({ listName, count }));
+            return {
+                year,
+                totalMembers: listsDetails.reduce((sum, item) => sum + item.count, 0),
+                lists: listsDetails,
+                members: (currentMembersMap.get(year) || []).sort((a, b) => a.name.localeCompare(b.name))
+            };
+        });
+  }, [processedStaticData, selectedBoardCategory]);
+
+  const filteredCandidates = useMemo(() => {
+    const period = selectedPeriod !== 'all' ? PERIODS.find(p => p.id === selectedPeriod) : null;
     const filtered = data.filter(c => {
       const matchesSearch = c.name.toLowerCase().includes(searchTerm.toLowerCase());
       const hasHistoryMatch = c.history.some(h => {
+        if (period) {
+          const hYear = parseInt(h.year.match(/\d{4}/)?.[0]);
+          if (isNaN(hYear) || hYear < period.min || hYear > period.max) return false;
+        }
         if (selectedYear && h.year !== selectedYear) return false;
         if (selectedList && h.list !== selectedList) return false;
         if (onlyElected && !h.elected) return false;
@@ -254,7 +359,7 @@ export default function App() {
       };
     };
 
-    const sorted = [...filtered].sort((a, b) => {
+    return [...filtered].sort((a, b) => {
       if (sortMode === 'alpha') return a.name.localeCompare(b.name);
       
       const statsA = {
@@ -277,71 +382,14 @@ export default function App() {
       
       return a.name.localeCompare(b.name);
     });
-
-    const sortedYears = Array.from(years).filter(y => y).sort((a, b) => b.localeCompare(a));
-    const finalAvailableLists = selectedYear 
-        ? Array.from(listsByYear.get(selectedYear) || []).sort()
-        : Array.from(lists).sort();
-    const finalAvailableYears = selectedList
-        ? Array.from(yearsByList.get(selectedList) || []).sort((a, b) => b.localeCompare(a))
-        : sortedYears;
-
-    let trArray = Array.from(transMap.values());
-    const compareElectedCounts = (a, b) => {
-        const electedA = a.history.filter(h => h.elected).length;
-        const electedB = b.history.filter(h => h.elected).length;
-        if (electedB !== electedA) return electedB - electedA;
-        const sA = {
-          cd: getCatStats(a.history, 'Comisión Directiva'),
-          f: getCatStats(a.history, 'Fiscalizadora')
-        };
-        const sB = {
-          cd: getCatStats(b.history, 'Comisión Directiva'),
-          f: getCatStats(b.history, 'Fiscalizadora')
-        };
-        if (sB.cd.elected !== sA.cd.elected) return sB.cd.elected - sA.cd.elected;
-        if (sB.cd.total !== sA.cd.total) return sB.cd.total - sA.cd.total;
-        if (sB.f.elected !== sA.f.elected) return sB.f.elected - sA.f.elected;
-        return a.name.localeCompare(b.name);
-    };
-
-    if (sortModePases === 'importance') trArray.sort(compareElectedCounts);
-    else if (sortModePases === 'mostLists') trArray.sort((a, b) => b.totalLists - a.totalLists || a.name.localeCompare(b.name));
-    else trArray.sort((a, b) => a.name.localeCompare(b.name));
-
-    const currentCatMap = boardMap[selectedBoardCategory] || new Map();
-    const currentMembersMap = boardMembersMap[selectedBoardCategory] || new Map();
-    const aggregatedBoards = Array.from(currentCatMap.entries())
-        .sort((a, b) => b[0].localeCompare(a[0])) 
-        .map(([year, listCounts]) => {
-            const listsDetails = Array.from(listCounts.entries())
-                .sort((a, b) => b[1] - a[1]) 
-                .map(([listName, count]) => ({ listName, count }));
-            return {
-                year,
-                totalMembers: listsDetails.reduce((sum, item) => sum + item.count, 0),
-                lists: listsDetails,
-                members: (currentMembersMap.get(year) || []).sort((a, b) => a.name.localeCompare(b.name))
-            };
-        });
-
-    return {
-      filteredCandidates: sorted,
-      uniqueLists: finalAvailableLists,
-      uniqueYears: finalAvailableYears,
-      globalListsCount: lists.size,
-      globalElectedCount: new Set(data.filter(c => c.history.some(h => h.elected)).map(c => c.name)).size,
-      sortedTransitions: trArray,
-      boardConfigs: aggregatedBoards
-    };
-  }, [data, searchTerm, selectedList, selectedYear, selectedCategory, sortMode, sortModePases, onlyElected, selectedBoardCategory]);
+  }, [data, searchTerm, selectedList, selectedYear, selectedCategory, sortMode, onlyElected, selectedPeriod]);
 
   useEffect(() => {
     setSelectedBoardYear(null);
   }, [selectedBoardCategory]);
 
   if (loading) {
-    return <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', color: '#fff'}}>Cargando...</div>;
+    return <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', color: '#fff'}} aria-live="polite">Cargando…</div>;
   }
 
   const totalPages = Math.max(1, Math.ceil(filteredCandidates.length / candidatesPerPage));
@@ -372,6 +420,7 @@ export default function App() {
           selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory}
           sortMode={sortMode} setSortMode={setSortMode}
           onlyElected={onlyElected} setOnlyElected={setOnlyElected}
+          selectedPeriod={selectedPeriod} setSelectedPeriod={setSelectedPeriod}
           currentCandidates={currentCandidates}
           currentPage={currentPage} setCurrentPage={setCurrentPage} totalPages={totalPages}
           filteredCandidatesCount={filteredCandidates.length}

@@ -34,8 +34,9 @@ const CandidateCard = ({ candidate, sortMode, currentPage, idx, selectedYear, se
             onOpenBio(candidate);
           }}
           title="Ver Perfil Completo"
+          aria-label="Ver Perfil Completo"
         >
-          <ChevronRight size={18} />
+          <ChevronRight size={18} aria-hidden="true" />
         </button>
       </div>
       
@@ -54,6 +55,7 @@ const CandidateCard = ({ candidate, sortMode, currentPage, idx, selectedYear, se
                             window.location.hash = `#agrupaciones/${encodeURIComponent(g.list)}`;
                           }}
                           title={`Ver reseña histórica de ${g.list}`}
+                          aria-label={`Ver reseña histórica de ${g.list}`}
                         >
                           {g.list}
                         </button>
@@ -67,7 +69,7 @@ const CandidateCard = ({ candidate, sortMode, currentPage, idx, selectedYear, se
                               {h.year}
                               {isPresi && ' 🥇'}
                               {isVice && ' 🥈'}
-                              {h.elected && <CheckCircle2 size={10} />}
+                              {h.elected && <CheckCircle2 size={10} aria-hidden="true" />}
                             </span>
                           );
                         })}
