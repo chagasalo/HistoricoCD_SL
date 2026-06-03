@@ -610,7 +610,7 @@ async function fetchAndParse() {
      if (!oldRec || !newRec) return;
 
      // Merge history
-     oldRec.history.forEach(h => {
+         oldRec.history.forEach(h => {
         if (!newRec.history.some(nh => nh.year === h.year && nh.category === h.category)) {
            newRec.history.push(h);
         }
@@ -637,6 +637,27 @@ async function fetchAndParse() {
 
    console.log(`Parsed ${data.length} consolidated candidates. Generando archivos...`);
 
+   // Crear directorio public/bios si no existe
+   const BIOS_DIR = './public/bios';
+   if (!fs.existsSync(BIOS_DIR)) {
+      fs.mkdirSync(BIOS_DIR, { recursive: true });
+   }
+
+   // Escribir biografías individuales
+   data.forEach(c => {
+      if (c.biography) {
+         fs.writeFileSync(`${BIOS_DIR}/${c.id}.json`, JSON.stringify({ biography: c.biography }));
+      }
+   });
+
+   // Generar candidates sin biography para el JSON de la App
+   const dataWithoutBios = data.map(c => ({
+      name: c.name,
+      id: c.id,
+      history: c.history,
+      status: c.status
+   }));
+
    // Filter out groupings that do not have any candidates in the processed data
    const activeGroups = new Set();
    data.forEach(c => {
@@ -652,10 +673,10 @@ async function fetchAndParse() {
       }
    }
 
-  // Escribir JSON App
+  // Escribir JSON App sin biografías
   fs.writeFileSync(OUT_JSON, JSON.stringify({ 
      updatedAt: new Date().toISOString(), 
-     candidates: data,
+     candidates: dataWithoutBios,
      agrupaciones: Object.fromEntries(agrupacionesData)
   }));
 

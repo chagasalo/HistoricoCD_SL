@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, lazy, Suspense } from 'react';
 import './App.css';
 
 // Components
@@ -6,12 +6,13 @@ import Header from './components/Header';
 import StatsGrid from './components/StatsGrid';
 import TabNavigation from './components/TabNavigation';
 import CandidateExplorer from './components/CandidateExplorer';
-import TransitionView from './components/TransitionView';
-import ElectionResultsView from './components/ElectionResultsView';
-import GovernanceBoardView from './components/GovernanceBoardView';
-import CandidateProfile from './components/CandidateProfile';
-import AgrupacionesView from './components/AgrupacionesView';
 import Footer from './components/Footer';
+
+const TransitionView = lazy(() => import('./components/TransitionView'));
+const ElectionResultsView = lazy(() => import('./components/ElectionResultsView'));
+const GovernanceBoardView = lazy(() => import('./components/GovernanceBoardView'));
+const CandidateProfile = lazy(() => import('./components/CandidateProfile'));
+const AgrupacionesView = lazy(() => import('./components/AgrupacionesView'));
 
 export const PERIODS = [
   { id: '1996-2026', label: '1996 - 2026', min: 1996, max: 2026 },
@@ -428,58 +429,60 @@ export default function App() {
         />
       )}
 
-      {activeTab === 'agrupaciones' && (
-        <AgrupacionesView 
-          agrupaciones={agrupaciones}
-          candidates={data}
-          highlightedAgrupacion={highlightedAgrupacion}
-          setHighlightedAgrupacion={setHighlightedAgrupacion}
-          onSelectAgrupacionFilter={(listName) => {
-            setSearchTerm('');
-            setSelectedYear('');
-            setSelectedCategory('');
-            setOnlyElected(false);
-            setSelectedList(listName);
-            setActiveTab('candidates');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }}
-        />
-      )}
+      <Suspense fallback={<div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '200px', color: '#fff'}}>Cargando sección…</div>}>
+        {activeTab === 'agrupaciones' && (
+          <AgrupacionesView 
+            agrupaciones={agrupaciones}
+            candidates={data}
+            highlightedAgrupacion={highlightedAgrupacion}
+            setHighlightedAgrupacion={setHighlightedAgrupacion}
+            onSelectAgrupacionFilter={(listName) => {
+              setSearchTerm('');
+              setSelectedYear('');
+              setSelectedCategory('');
+              setOnlyElected(false);
+              setSelectedList(listName);
+              setActiveTab('candidates');
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+          />
+        )}
 
-      {activeTab === 'transitions' && (
-        <TransitionView 
-          sortModePases={sortModePases} setSortModePases={setSortModePases}
-          currentPases={currentPases} totalPasesPages={totalPasesPages}
-          pasesPage={pasesPage} setPasesPage={setPasesPage}
-        />
-      )}
+        {activeTab === 'transitions' && (
+          <TransitionView 
+            sortModePases={sortModePases} setSortModePases={setSortModePases}
+            currentPases={currentPases} totalPasesPages={totalPasesPages}
+            pasesPage={pasesPage} setPasesPage={setPasesPage}
+          />
+        )}
 
-      {activeTab === 'elecciones' && (
-        <ElectionResultsView 
-          electionResults={electionResults}
-          setSelectedBoardYear={setSelectedBoardYear}
-          setSelectedBoardCategory={setSelectedBoardCategory}
-          setActiveTab={setActiveTab}
-        />
-      )}
+        {activeTab === 'elecciones' && (
+          <ElectionResultsView 
+            electionResults={electionResults}
+            setSelectedBoardYear={setSelectedBoardYear}
+            setSelectedBoardCategory={setSelectedBoardCategory}
+            setActiveTab={setActiveTab}
+          />
+        )}
 
-      {activeTab === 'conformaciones' && (
-        <GovernanceBoardView 
-          selectedBoardYear={selectedBoardYear} setSelectedBoardYear={setSelectedBoardYear}
-          selectedBoardCategory={selectedBoardCategory} setSelectedBoardCategory={setSelectedBoardCategory}
-          boardConfigs={boardConfigs}
-        />
-      )}
+        {activeTab === 'conformaciones' && (
+          <GovernanceBoardView 
+            selectedBoardYear={selectedBoardYear} setSelectedBoardYear={setSelectedBoardYear}
+            selectedBoardCategory={selectedBoardCategory} setSelectedBoardCategory={setSelectedBoardCategory}
+            boardConfigs={boardConfigs}
+          />
+        )}
 
-      {activeTab === 'profile' && selectedProfileCandidate && (
-        <CandidateProfile 
-          candidate={selectedProfileCandidate} 
-          onClose={() => {
-            setSelectedProfileCandidate(null);
-            setActiveTab('candidates');
-          }} 
-        />
-      )}
+        {activeTab === 'profile' && selectedProfileCandidate && (
+          <CandidateProfile 
+            candidate={selectedProfileCandidate} 
+            onClose={() => {
+              setSelectedProfileCandidate(null);
+              setActiveTab('candidates');
+            }} 
+          />
+        )}
+      </Suspense>
 
       <Footer />
     </div>

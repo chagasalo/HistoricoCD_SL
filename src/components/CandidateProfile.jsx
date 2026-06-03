@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
   ArrowLeft,
@@ -15,8 +15,29 @@ import {
 import { getListColor } from '../utils/colors';
 
 const CandidateProfile = ({ candidate, onClose }) => {
+  const [biography, setBiography] = useState(candidate?.biography || '');
+  const [loadingBio, setLoadingBio] = useState(false);
+
   useEffect(() => {
     window.scrollTo(0, 0);
+    
+    if (candidate && !candidate.biography && candidate.id) {
+      setLoadingBio(true);
+      fetch(`/bios/${candidate.id}.json`)
+        .then(res => res.json())
+        .then(data => {
+          setBiography(data.biography || '');
+          setLoadingBio(false);
+        })
+        .catch(err => {
+          console.error('Error loading biography:', err);
+          setBiography('');
+          setLoadingBio(false);
+        });
+    } else {
+      setBiography(candidate?.biography || '');
+      setLoadingBio(false);
+    }
   }, [candidate]);
 
   if (!candidate) return null;
@@ -131,14 +152,26 @@ const CandidateProfile = ({ candidate, onClose }) => {
 
         {/* Main Content */}
         <div className="profile-main-content">
-          {candidate.biography && (
+          {loadingBio && (
+            <section className="profile-main-section">
+              <div className="section-title">
+                <BookOpen size={20} />
+                <h2>Biografía Profesional</h2>
+              </div>
+              <div className="profile-bio-text" style={{ color: 'var(--text-muted)' }}>
+                Cargando biografía profesional…
+              </div>
+            </section>
+          )}
+
+          {!loadingBio && biography && (
             <section className="profile-main-section">
               <div className="section-title">
                 <BookOpen size={20} />
                 <h2>Biografía Profesional</h2>
               </div>
               <div className="profile-bio-text">
-                {candidate.biography.split('\n').map((p, i) => (
+                {biography.split('\n').map((p, i) => (
                   <p key={i}>{p}</p>
                 ))}
               </div>
